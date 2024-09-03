@@ -1,2 +1,2 @@
-# bachsofttrick.github.io
-https://bachsofttrick.github.io
+Portfolio and blog site
+Built using NextJS
