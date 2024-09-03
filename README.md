@@ -1,2 +1,2 @@
-Portfolio and blog site
+# Portfolio and blog site
 Built using NextJS
