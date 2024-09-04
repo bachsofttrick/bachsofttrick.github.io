@@ -4,8 +4,7 @@ import path from 'path'
 type Metadata = {
   title: string
   publishedAt: string
-  summary: string
-  image?: string
+  hidden: string
 }
 
 function parseFrontmatter(fileContent: string) {
@@ -77,7 +76,7 @@ export function formatDate(date: string, includeRelative = false) {
   }
 
   let fullDate = targetDate.toLocaleString('en-us', {
-    month: 'long',
+    month: 'short',
     day: 'numeric',
     year: 'numeric',
   })
