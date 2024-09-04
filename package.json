@@ -3,7 +3,7 @@
   "homepage": "https://bachsofttrick.github.io/",
   "scripts": {
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --nojekyll",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
