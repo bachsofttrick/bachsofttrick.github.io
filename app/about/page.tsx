@@ -1,4 +1,6 @@
-import { BlogPosts } from 'app/components/posts'
+import { getAboutPosts } from 'app/blog/utils'
+import { notFound } from 'next/navigation'
+import { CustomMDX } from 'app/components/mdx'
 
 export const metadata = {
   title: 'About Me',
@@ -6,15 +8,28 @@ export const metadata = {
 }
 
 export default function Page() {
+  let post = getAboutPosts();
+  if (!post) {
+    notFound()
+  }
+
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">About Me</h1>
-      <p className="mb-12">
-        {`Dedicated software engineering student with a strong background in Linux systems and 
-        a passion for open source technologies. Doing some hobby works with whatever interests me.
-        Leveraging my skills in server infrastructure and collaborative 
-        development to support the global open source ecosystem.`}
-      </p>
+      <section>
+        <section className='w-1/4'>
+          <img className="float-left mr-4" src="/images/about/portrait.jpg"/>
+        </section>
+        <section>
+          <article className="prose">
+            <CustomMDX source={post[0].content} />
+          </article>
+        </section>
+      </section>
+      <section>
+        <article className="prose">
+          <CustomMDX source={post[1].content} />
+        </article>
+      </section>
     </section>
   )
 }

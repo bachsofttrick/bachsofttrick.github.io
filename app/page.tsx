@@ -7,10 +7,8 @@ export default function Page() {
         Brian Phan
       </h1>
       <p className="mb-12">
-        {`Dedicated software engineering student with a strong background in Linux systems and 
-        a passion for open source technologies. Doing some hobby works with whatever interests me.
-        Leveraging my skills in server infrastructure and collaborative 
-        development to support the global open source ecosystem.`}
+        {`”Do the difficult things while they are easy and do the great things while they are small."
+        Lao Tzu`}
       </p>
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
