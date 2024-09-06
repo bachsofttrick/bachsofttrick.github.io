@@ -33,6 +33,11 @@ export function BlogPosts({ getFirst = 0 }) {
                 {post.metadata.title}
               </p>
             </div>
+            <div>
+            <p className="text-neutral-500 tracking-tight">
+                {post.content.slice(0, 200)} [. . .]
+              </p>
+            </div>
           </Link>
         ))}
     </div>
