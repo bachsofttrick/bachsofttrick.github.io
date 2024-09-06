@@ -17,10 +17,12 @@ export default function Page() {
             Captain Jean-Luc Picard`}
           </p>
           <p className="mb-12">
-            {`Dedicated software engineering student with a strong background in Linux systems and 
-            a passion for open source technologies. Doing some hobby works with whatever interests me.
-            Leveraging my skills in server infrastructure and collaborative 
-            development to support the global open source ecosystem.`}
+            {`Experienced software engineer with a robust background in Linux systems and web technologies.
+            Proven expertise in maintaining and developing complex systems, including inventory systems
+            and applications for large-scale use. Leveraging skills in server infrastructure,
+            containerization, virtualization to contribute to impactful projects and the global technological 
+            advancement. Exploring projects that align with personal interests and passions. Committed to continuous
+            learning and development.`}
           </p>
         </section>
       </section>
