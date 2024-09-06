@@ -1,4 +1,5 @@
-function ArrowIcon() {
+function ArrowIcon({ noArrow }) {
+  if (noArrow) return
   return (
     <svg
       width="12"
@@ -15,43 +16,41 @@ function ArrowIcon() {
   )
 }
 
+function FooterPart({ href = '', title, noArrow = false }) {
+  if (!href) return (
+    <li>
+      <ArrowIcon noArrow={noArrow} />
+      <p className={(noArrow ? "" : "ml-2") + " h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"}>{title}</p>
+    </li>
+  )
+
+  return (
+    <li>
+      <a
+        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+        rel="noopener noreferrer"
+        target="_blank"
+        href={href}
+      >
+        <ArrowIcon noArrow={noArrow} />
+        <p className={(noArrow ? "" : "ml-2") + " h-7"}>{title}</p>
+      </a>
+    </li>
+  )
+}
+
 export default function Footer() {
   return (
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/bachsofttrick"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/bachsofttrick/bachsofttrick.github.io"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://linkedin.com/in/bach-phan-58530b1b0"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">linkedin</p>
-          </a>
-        </li>
+        <FooterPart title={"Corvallis, Oregon"} noArrow />
+        <FooterPart title={"Phone: 541-360-9231"} noArrow />
+      </ul>
+      <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+        <FooterPart href={"https://github.com/bachsofttrick"} title={"github"} />
+        <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io"} title={"view source"} />
+        <FooterPart href={"https://linkedin.com/in/bach-phan-58530b1b0"} title={"linkedin"} />
+        <FooterPart href={"mailto:xuanbach1307@gmail.com"} title={"email"} />
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         {new Date().getFullYear()}

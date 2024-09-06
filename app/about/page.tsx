@@ -15,21 +15,9 @@ export default function Page() {
 
   return (
     <section>
-      <section>
-        <section className='w-1/4'>
-          <img className="float-left mr-4" src="/images/about/portrait.jpg"/>
-        </section>
-        <section>
-          <article className="prose">
-            <CustomMDX source={post[0].content} />
-          </article>
-        </section>
-      </section>
-      <section>
-        <article className="prose">
-          <CustomMDX source={post[1].content} />
-        </article>
-      </section>
+      <article className="prose">
+        <CustomMDX source={post[0].content} />
+      </article>
     </section>
   )
 }

@@ -53,7 +53,8 @@ export function getBlogPosts() {
 }
 
 export function getAboutPosts() {
-  return getMDXData(path.join(process.cwd(), 'app', 'about'))
+  let posts = getMDXData(path.join(process.cwd(), 'app', 'about'))
+  return posts
 }
 
 export function formatDate(date: string, includeRelative = false) {
