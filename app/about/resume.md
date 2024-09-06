@@ -4,7 +4,7 @@ publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
-**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 -- 10/2024  
+**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - Now
 *Web Assistant*  
 Corvallis, Oregon, USA
 
@@ -15,12 +15,15 @@ Corvallis, Oregon, USA
 -   Technology migration: From Umbraco 8 to Drupal 10 to improve
     stability, performance
 
-**ICC INNOVATIVE CONSULTING** 11/2020 -- 11/2022  
+**ICC INNOVATIVE CONSULTING** 11/2020 - 11/2022  
 *Full Stack Developer*  
 Ho Chi Minh City, Vietnam
 -   Maintained DMS (distribution management system), a business
     management solution for Business-to-business sales, used by 12
     companies (P&G included). Specialized in promotion/deal calculation functions
+
+-   Made improvements to the shipper activity generation algorithm that
+    sped up its runtime by 96x
 
 -   Programmed a social security app offering relief packages during
     COVID-19 and its delivery tracking system (An Sinh), utilized by
@@ -28,10 +31,10 @@ Ho Chi Minh City, Vietnam
 
 -   Assisted in the development of an eCommerce platform
 
--   All projects are deployed with Docker onto a Kubernetes cluster
+-   All projects are deployed with Docker onto a Kubernetes cluster with Jenkins CI/CD
 
 **ENGINEERING AND PRODUCTION APPLICATION SINGLE MEMBER CO., LTD
-(TECAPRO)** 6/2018 -- 8/2018  
+(TECAPRO)** 6/2018 - 8/2018  
 *Internship*  
 Ho Chi Minh City, Vietnam
 
