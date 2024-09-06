@@ -16,7 +16,7 @@ Corvallis, Oregon, USA
     stability, performance
 
 **ICC INNOVATIVE CONSULTING** 11/2020 -- 11/2022  
-*Full Stack Developer*
+*Full Stack Developer*  
 Ho Chi Minh City, Vietnam
 -   Maintained DMS (distribution management system), a business
     management solution for Business-to-business sales, used by 12
