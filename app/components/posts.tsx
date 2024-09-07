@@ -7,7 +7,7 @@ import Pagination from '@mui/material/Pagination';
 
 export function BlogPosts({
   allBlogs,
-  itemPerPage = 5,
+  itemPerPage = 4,
   addSummary = false,
   pagination = false,
 }) {
