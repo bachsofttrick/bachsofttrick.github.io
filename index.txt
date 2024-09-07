@@ -1,6 +1,1014 @@
-2:I[3965,["965","static/chunks/965-3711c59bff5920bd.js","931","static/chunks/app/page-920ddbf44a0c234a.js"],""]
-3:I[735,[],""]
-4:I[2082,[],""]
-0:["RjKLfEs1NElU7ra0ZPLvx",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"Brian Phan"}],["$","section",null,{"className":"flex flex-col md:flex-row mb-12","children":[["$","section",null,{"className":"mr-4 mb-4","style":{"flex":1},"children":["$","img",null,{"src":"/images/about/portrait.jpg"}]}],["$","section",null,{"style":{"flex":2},"children":[["$","p",null,{"className":"mb-4 italic","children":"”It is possible to commit no mistakes and still lose. That is not a weakness. That is life.\"\n            Captain Jean-Luc Picard"}],["$","p",null,{"className":"mb-12","children":"Experienced software engineer with a robust background in Linux systems and web technologies.\n            Proven expertise in maintaining and developing complex systems, including inventory systems\n            and applications for large-scale use. Leveraging skills in server infrastructure,\n            containerization, virtualization to contribute to impactful projects and the global technological \n            advancement. Exploring projects that align with personal interests and passions. Committed to continuous\n            learning and development."}]]}]]}],["$","h1",null,{"className":"mb-4 text-l font-semibold tracking-tighter","children":"Recent blog posts"}],["$","div",null,{"children":[["$","$L2","240906",{"className":"flex flex-col space-y-1 mb-4","href":"/blog/240906","children":[["$","div",null,{"className":"w-full flex flex-col md:flex-row space-x-0 md:space-x-2","children":[["$","p",null,{"className":"text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums","children":"Sep 6, 2024"}],["$","p",null,{"className":"text-neutral-900 dark:text-neutral-100 tracking-tight","children":"A different mindset"}]]}],["$","div",null,{"children":null}]]}],["$","$L2","240902-3",{"className":"flex flex-col space-y-1 mb-4","href":"/blog/240902-3","children":[["$","div",null,{"className":"w-full flex flex-col md:flex-row space-x-0 md:space-x-2","children":[["$","p",null,{"className":"text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums","children":"Sep 2, 2024"}],["$","p",null,{"className":"text-neutral-900 dark:text-neutral-100 tracking-tight","children":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework"}]]}],["$","div",null,{"children":null}]]}],["$","$L2","240902-2",{"className":"flex flex-col space-y-1 mb-4","href":"/blog/240902-2","children":[["$","div",null,{"className":"w-full flex flex-col md:flex-row space-x-0 md:space-x-2","children":[["$","p",null,{"className":"text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums","children":"Sep 2, 2024"}],["$","p",null,{"className":"text-neutral-900 dark:text-neutral-100 tracking-tight","children":"Windows S Mode"}]]}],["$","div",null,{"children":null}]]}]]}]]}]],null],null]},[["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$L2","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$L2","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$L2","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[],"styles":null}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/bach-phan-58530b1b0","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2024}]]}]]}]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0ad7fa2f6a96bead.css","precedence":"next","crossOrigin":"$undefined"}]],"$L5"]]]]
-5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Brian Phan"}],["$","meta","3",{"name":"description","content":"This is my portfolio."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
+2:I[4761,["965","static/chunks/965-c10ae88274b23fb6.js","823","static/chunks/823-1ba692356e389a66.js","931","static/chunks/app/page-f6c99b3dfa7e94aa.js"],"BlogPosts"]
+d:I[3965,["965","static/chunks/965-c10ae88274b23fb6.js","185","static/chunks/app/layout-c29730d0e7fcf91b.js"],""]
+e:I[735,[],""]
+f:I[2082,[],""]
+3:Tbb3,I just got a new second job at my college, Oregon State U. You wouldn't believe
+just how hard it was to get a job here. I not only had to compete with international
+students, but also native students here for just a job, not just tech-related jobs.
+Out of two dozens job I had applied, about seven are rejection letters, others I didn't
+receive any replies. My first job was working at the Memorial Union as a food worker.
+While I enjoyed the work, I still preferred working with machines more than humans so
+always looking forward to dish room duty, ironically. But currently, I am working as a
+Web Content Assistant for the Outdoor School of OSU Extension Service. I am thankful for
+the opportunity working manual labor job, though. It gives me more appreciation for the
+people working these types of job, and how much they have to put up with.
+
+Now, why did I title this post **A different mindset**? Well, my job consists of moving
+contents from the old web page, made in Umbraco, to the new site, made in Drupal. But I
+am not allowed to touch any codes. Like, I am told to make the new contents closest to the
+old ones' look under new guidelines of the new site. Knowing this made me realize what my
+employer meant when they said I was overqualified for the job. So now I can't think of the
+web in terms of codes, inner structures and workings of the site. Only its contents matter.
+Doesn't matter if they won't match design in the end, as long as they are brought over under
+new design patterns. I do my job, afterward recap all I have done back to the project manager. We will have
+weekly meeting every Wednesday, same as my previous job. In fact, I was the one who brought
+up the weekly meeting idea, a thing I usually did in my developer routine.
+
+It took some time getting used to this role. It's an odd feeling. Like, I used to be the one behind
+how the web looked. I was both frontend and backend. The old job's page, I was the one to make
+changes directly, with the full power of programming. And now, making web with *Legos*,
+buttons and clicks. You want to add button, there's a button for that. You want three columns, *button*.
+I wasn't even allowed to touch *HTML mode* to align three buttons to be on the same row. I had to get creative with this limitation, and added an extra three-column row so they are aligned. I can only do this job similar
+to how most people running a website would do when they aren't as proficient in programming as I am.
+
+I could understand the reasoning behind this limited power. The design is decided by a higher power.
+So it's wise not to mess with it too much. But hey, a tech job is a tech job. After so many rejections,
+I'm just happy to take whatever counts as computer job. And who knows? Doing this job well, I might be
+considered to be put on the Salesforce team, or become one of the developers. That is, if they still have
+a slot. Working here means a foot in the door of tech employment here. One for my resume.
+
+*Life is good so far.*4:Tc07,After not working for a while as a full stack developer, I got a new
+job. Now I\'m about to be a web developer, again. This time, I will,
+along with a team, manage a website running a content management system
+(CMS), Drupal. Since I have never dealt with CMS, or PHP, before, this
+is a new venture for me. In preparation for this new job, I have watched
+tutorials, reinstalled Docker and many containers, done some works.
+Let\'s say I\'m excited to come back to programming. I guess having a
+job does push you to be more motivated.
+
+During my preparation, my brain just wondered somewhere. I typed in
+Google \".net vs javascript\" and stumbled upon a post in
+[Reddit](https://www.blogger.com/). I discovered there is such a thing
+as NET Minimal API, similar to the one I deployed on my server as a
+music, file server over HTTP on ExpressJS a while ago. This got me
+thinking a bit so I searched \"NET Minimal API\" on Google and there was
+a tutorial for minimal API with .NET by
+[Microsoft](https://www.blogger.com/). I was surprised.
+
+When I was still working as a Full Stack Developer for my old place, I
+**hated** their .NET Core codebase. Because at the time, I didn\'t
+understand what MVC was for, and many more intricacies in the underlying
+structure of their codebase. I often argued with their senior developer
+about the necessity of such baggage like interface, dependency
+injection. To this day, I still can\'t see the reason. Maybe because
+I\'m ignorant to them, or I don\'t have the view of the bigger picture,
+as most my web applications are quite small, a simple ExpressJS with a
+couple of APIs should do it. That\'s why I was ecstatic when we move on
+to other backend frameworks. My favorite at the time was NestJS. It was
+built upon ExpressJS, so right up my alley. And since a new codebase
+meant moving on from legacy baggages, no more problems from .NET Core
+haunting me. Another thing I hated was I couldn\'t program the .NET
+server on Linux, I could only use Windows with Visual Studio, a behemoth
+IDE that ate up all of 12GB ram whenever I wanted to debug the program.
+I could never find ways to debug on VS Code, better yet, create a new
+.NET Web API project. Now with the discovery of .NET\'s command line,
+maybe those could be done on Linux.
+
+But that got me to reflect on myself. What if I had figured this out
+sooner, would I still hate .NET as much as I did before. Maybe I would
+have enjoyed the framework, because the language C\# syntax is much
+better than Java. I had difficulty working with LINQ before slowly it
+becoming my favorite thing when dealing with array of objects. It has
+two ways of doing things: query-like SQL or method (callback). I used
+the method way back then. My greatest achievement on LINQ was using that
+and my then-newfound knowledge of garbage collection to create about 10
+million records for a table on MySQL daily. That job used to belong to a
+MySQL stored procedure, which runs for hours. My new way took 5 minutes
+to run. I always wondered whether the result was correct every time it
+ran but no one seemed to complain.5:Tb0b,To be honest, with all the claims from Microsoft that S Mode is supposed
+to represent performance and security, it is still Windows. Still heavy,
+sweating Windows that eats up 3 GB of RAM for lunch while offering less
+speed than Ubuntu or Fedora, two of which only eat up half as much RAM.
+But I can't deny the security aspect. Since you are only allowed to
+install applications from Microsoft Store, malware is less likely to
+enter your system. But the store is pretty lacking in terms of
+applications that you want to use in your everyday task. The part you'll
+probably hate is that you're forced to use Edge as the web browser, and
+you can't switch to a different search engine except Bing. Luckily, I
+got around it using Alt+Home key shortcut with Google as the homepage.
+If your laptop doesn't come preinstalled with Microsoft 365, you have to
+use any number of subpar office suites on the store to compensate.
+
+You can switch out of S Mode by asking Settings for it. I tend to do
+that later, so I can rip any remaining bundlewares off my laptop,
+especially McAfee. For now, using S Mode is like a dare for me, to me
+how far I can stand it. It's quite good so far. I got Office
+preinstalled, Edge is alright, lighter than Firefox, can install
+extensions from either Edge or Chrome. When I need to connect to a Linux
+box, there is a ssh client called PuTTY that somebody ported to the
+store. No Visual Studio Code, so I settle for Code Writer on the store
+and use that Linux box to compile code for me. But my patience is
+running low.
+
+#### First time running Windows without using a Microsoft account
+
+Note: I tried this trick on Windows S Mode. This trick DOES NOT WORK ON
+S MODE, because Terminal, or Command Prompt doesn't work on S Mode.
+
+Press Shift+F10 while in the Out-Of-Box-Experience, the interface anyone
+who first starts their laptop would see. Type in *oobe\\bypassnro* and
+restart the computer. Then when the setup asks for an Internet
+connection, click on *I don't have Internet* option.
+
+For S Mode: you can enter no\@thankyou.com as the username and a random
+password, which causes the login to fail, allowing local account setup.
+
+#### Some tricks in Registry Editor to improve performance
+
+Disable Widgets, so that even with update, it will NEVER be turned on:  
+*HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\*  
+Create Dsh key. Go inside, create AllowNewsAndInterests DWORD Value,
+leave it at 0
+
+Disable Diagnostic Data (Telemetry):  
+*HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\*  
+Create DataCollection Key. Go inside, create AllowTelemetry DWORD Value,
+leave it at 0
+
+Disable Web Search in Start Menu, Search bar:  
+*HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\*  
+Create Explorer key. Go inside, create DisableSearchBoxSuggestions DWORD
+Value and type 16:T1d75,I keep delaying this post because it's something that has already been
+done, and I don't want to repeat myself. But Jeff Geerling, a Youtuber I
+follow, posted a [video](https://www.youtube.com/watch?v=5NJ6V8i1Xd8)
+about deploying your own VPN to access your server from a remote
+location, and I feel like I must write my own experience on the matter.
+
+#### The differences in my approach
+
+According to Mr. Geerling, he had a public IP (though not static) and
+pointed his domain to this IP to connect to his network using Wireguard
+installed by PiVPN. I do not have such luxury, as my public IP is
+10.x.x.x through PPPoE to my ISP, Viettel, so using his way was out of
+the question. I am stuck in a situation known as CGNAT. What's more, he
+exposed ALL his network out, which, to each of their own, is quite
+dangerous as the VPN can be used as an attack vector to your own
+network. I did a similar thing while creating my own VOIP service using
+Asterisk, but it only lasted a day, and I quickly closed it due to the
+danger behind it. PiVPN, the tool he used, is quite fascinating and I
+will look into it in the future. But back when I built my VPN, it was on
+a virtual server, and I built it manually. I didn't know any automated
+tool like his, I just followed some guides from DigitalOcean to set up
+Wireguard, along with fail2ban, ssh. In fact, the reason I chose
+Wireguard was that it was easier to set up. OpenVPN has a lot of moving
+parts needed to run, while Wireguard only requires a pair of keys.
+Granted, there are
+[scripts](https://github.com/angristan/openvpn-install) that help
+install OpenVPN, but the performance is OpenVPN's Achilles's heel. I
+only have 1 vCPU, so performance is kind of a big deal. Lastly, his
+video mentioned "a little extra security on public Wifi" and "bypass
+content restriction". While my VPN can't bypass any content restriction,
+it can provide encryption for my traffic on public Wifi, in addition to
+providing its own DNS server to speed up DNS query.
+
+#### CGNAT (carrier-grade network address translation)
+
+A blog [post](https://www.draytek.co.uk/information/blog/what-is-cgnat)
+on Draytek explains this well, but to quote from a
+[reddit](https://www.reddit.com/r/HomeNetworking/comments/hi2sde/i_just_learned_my_internet_connection_is_cgnat_is/)
+comment as a short version: "CGNAT means your ISP doesn\'t have enough
+public IPv4 addresses to assign one to each user. So they are
+essentially doing to you what your home router does to the Internet by
+giving you a NAT\'ed IP address. Yes, that means you can\'t run your own
+servers or forward traffic at home". My situation may not technically be
+CGNAT, could be simply double NAT from my end and my ISP's, because my
+"public" IP is not in the CGNAT address block, which is usually from
+100.64.0.0 to 100.127.255.255, is 10.x.x.x. I first noticed this
+phenomenon in 2014, when I installed fiber. Though back then I didn't
+know how to bridge the ISP router to my TP-Link router, I knew of double
+NAT and opened similar port on both routers to torrent. However, I
+checked on [https://canyouseeme.org/](https://canyouseeme.org/) and they couldn't see the open
+port. The torrent could still download, but it couldn't upload. It was
+strange, because before that, I could see the open port when I was still
+on ADSL (also double NAT). It was my biggest achievement back in 8^th^
+grade, to open port and torrent, or host my own radio using Windows
+Media Encoder. The second biggest was getting 3D games to run on my
+Pentium 4 computer.
+
+#### Setting up virtual server
+
+There are a lot of options when choosing a virtual server provider. I
+chose Viettel IDC because it was the closest to home, and I also use
+their fiber service. I bought 1 vCore with 1GB RAM, 20GB SSD, 300 Mbps
+unlimited bandwidth. I chose Ubuntu Server as the base OS, because I'm
+used to Debian-based OS. I guess the way to choose your preferences
+works the same in other providers, whether AWS, GCP, Linode\...
+
+Some steps I performed before setting up WIreguard:
+
+\- Install ssh to have remote access, instead of using console from
+browser. Change ssh port, only allow access with key
+
+\- Configure firewall using
+[ufw](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-20-04):
+Deny all incoming, allow ssh port, Wireguard port
+
+\- Install
+[fail2ban](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server)
+to limit amount of login attempts
+
+#### Setting up Wireguard
+
+I followed this
+[guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04)
+on how to set up Wireguard Server. First, I generated 2 pairs of keys,
+one for the server, one for the client using the commands:
+
+*wg genkey \| sudo tee /etc/wireguard/private.key*
+
+*sudo cat /etc/wireguard/private.key \| wg pubkey \| sudo tee
+/etc/wireguard/public.key*
+
+Following that, I had to choose a subnet. Since 192.168.0.x, 1.x are all
+too common, I chose anything from 2.x and up. After that, I went to
+*/etc/wireguard/*. I created a config file for my VPN, *wg0.conf*
+
+*\[Interface\]*
+
+*Address = 192.168.13.1/24*
+
+*PostUp = ufw allow 51820/udp*
+
+*PostUp = ufw route allow in on wg0*
+
+*PreDown = ufw delete allow 51820/udp*
+
+*PreDown = ufw route delete allow in on wg0*
+
+*ListenPort = 51820*
+
+*PrivateKey = \<server private key here\>*
+
+*\[Peer\]*
+
+*PublicKey = \<client public key here\>*
+
+*AllowedIPs = 192.168.13.2/32*
+
+*\[Interface\]* is configurations for your own VPN interface, whether
+it's a server or a client. *PostUp* and *PreDown* are commands to run
+<ins>after</ins> turning on the VPN server and <ins>before</ins>
+shutting down server, respectively. I set up a bunch of commands that
+open port, allow traffic running inside VPN and vice versa when turning
+off server. *\[Peer\]* are configurations for clients that will connect
+to the server. Each *\[Peer\]* adds another client to the server.
+*AllowedIPs* is where you type in the client's VPN IP address. If the
+client also acts as a router to another subnet, for instance,
+192.168.0.x, you can add *192.168.0.0/24* and you can access that subnet
+from the VPN.
+
+On my home server, not the virtual one. I also created a config file in
+*/etc/wireguard/wg0.conf*:
+
+*\[Interface\]*
+
+*PrivateKey = \<client private key here\>*
+
+*Address = 192.168.13.2/24*
+
+*DNS = 8.8.8.8*
+
+*\[Peer\]*
+
+*PublicKey = \<server public key here\>*
+
+*AllowedIPs = 192.168.13.0/24*
+
+*Endpoint = \<server real IP\>:51820*
+
+*PersistentKeepalive = 25*
+
+*\[Peer\]* here means something different. For a client to connect to a
+server, it only needs 1 peer. For *Endpoint*, you need to pinpoint the
+virtual server's IP address. *PersistentKeepalive* is necessary to keep
+the connection up, as we are running essentially a tunnel from the
+virtual server to the real one. If the client isn't a server, that part
+won't be needed.
+
+On both servers, I typed in *wg-quick up wg0*. I pinged from each side
+with the other's IP address and it worked.
+
+![](/images/240902-1/wireguard_8070_8878.png)
+
+References:
+
+\- [Jeef Geerling - Build your own private WireGuard VPN with
+PiVPN](https://www.jeffgeerling.com/blog/2023/build-your-own-private-wireguard-vpn-pivpn)
+
+\- [Information about icanhazip.com, you can use ident.me
+instead](https://blog.apnic.net/2021/06/17/how-a-small-free-ip-tool-survived/)
+
+\- [ELI5: How does NAT (Network Address Translation)
+work](https://www.reddit.com/r/explainlikeimfive/comments/1wqc30/eli5_how_does_nat_network_address_translation_work/)7:T1880,It's very nice to have something powerful in a compact form, like a
+gaming laptop, when your job requires a heavy workload. But when your
+job requires you constantly in a meeting, only doing spreadsheets on a
+day-to-day basis, or if you are a student, sitting at lectures on end,
+then a gaming laptop may not be for you because its battery life is
+horrible. I mean, 3-4 hours is nice, only if you do not run any heavy
+workload, or else it will drop to 1-1.5 hours. That's why I'm searching
+for this *elusive* 8-hour battery laptop. I asked about it in a local
+electronic retail store. They said it doesn't exist, only about 6 hours
+or so. Not planning to give up, I scoured the Internet to find something
+like that.
+
+#### Low-powered solutions
+
+I came up with some solutions:
+
+\- A laptop with a low-powered x86 CPU: like Atom (N3350, N4000, N5000,
+N4020, N5100, N6000), or m-series (m3)
+
+\- A laptop with an ARM CPU: from MediaTek (MT8183, ...) or Qualcomm
+(7c, 7c gen 2, SQx family)
+
+Another consideration is the operating system (OS) running on the
+laptop. It's more important on ARM laptops because MediaTek CPUs are
+only on ChromeOS, while Qualcomm ones are available on either ChromeOS
+or Windows. But using an ARM laptop is quite limited, especially on
+Windows, as you are constricted by the number of applications written
+for the architecture. It's quite small. While battery life on ARM
+laptops is vastly superior to that of x86 laptops, it doesn't matter if
+there isn't any app for them. So, I leaned towards x86 ones. And today,
+I got a chance to try out a Chromebook.
+
+This article is written using that same Chromebook, on Microsoft 365,
+because I'm more used to Office than Google Docs.
+
+#### What is Chromebook?
+
+Chromebook, simply put, is a laptop with ChromeOS as the default OS.
+Unlike most OSes, it only works when connected to the Internet, even
+though Google is trying to rectify that by allowing Android apps and
+Linux apps to be installed. The focus of the entire OS is the web
+browser, Chrome, which powers the OS as well. With the web browser, you
+can, of course, browse the web. You can also install and run web apps. A
+Chromebook utilizes its own cloud solution for most tasks, like office
+with Google Docs, file storage with Google Drive (there is an internal
+storage with a file manager). ChromeOS was built loosely on Gentoo
+Linux. I said *loosely*, because there isn't much Linux inside ChromeOS.
+Most commands are removed by Google. As the purpose of this OS is for
+web browsing only, it's very light, and can run on some of the weakest
+hardware, say Celeron or Pentium, or cheap ARM cores. Although compared
+to Linux, not lighter by much. But much lighter than Windows by 3 GB of
+RAM.
+
+![](/images/231011/top.png)
+
+![](/images/231011/System_rest.png)
+
+#### My thought on Chromebook
+
+The one I borrowed was a [HP
+Chromebook](https://www.notebookcheck.net/HP-Chromebook-13-G1-Core-m3.215846.0.html)
+running [Intel Core
+m3-6y30](https://ark.intel.com/content/www/us/en/ark/products/88198/intel-core-m36y30-processor-4m-cache-up-to-2-20-ghz.html)
+and 4 GB of RAM. It came out in 2016-2017 so it is quite old already. So
+my experience will revolve around this one.
+
+\- Keyboard lacking some keys for text editing: Home, End, Page Up /
+Down, no Function keys. Start (Super on Linux) key is gone, replaced
+with Search key which replaces the Caps Lock for no reason. Why not just
+replace the Start key and leave the Caps Lock alone? Those missing keys
+have been replaced by shortcuts found by pressing **Ctrl+Alt+/** on the
+keyboard to show off the shortcut list
+
+\- Ran surprisingly fast on only 4GB of RAM. Could be because this
+machine has the Android portion disabled by the organization I borrowed
+from
+
+\- It's quite warm on the underside when working hard because there's no
+cooling fan (these low-powered chips don't usually have fans), but most
+of the time it's cool
+
+\- Battery lasted about 6-7 hours, much longer than my gaming laptop. If
+running a heavy webpage, I think it could run for 2-3 hours
+
+\- Lightweight. You can carry it with you like a tablet. But the same
+can be said for Windows laptops of the same specs. But they probably run
+much hotter due to being a heavier OS *compared to ChromeOS*
+
+![](/images/231011//IMG_20230922_115538_030.jpg)
+
+![](/images/231011/IMG_20230922_115555_363.jpg)
+
+\- File manager is very basic. It's like they took the codebase of
+Google Drive and used it as basis for the file manager
+
+![](/images/231011/filemanager.png)
+
+\- There's a terminal but it's hidden. You can access it using
+**Ctrl+Alt+T**, just like in Linux (which is funny, ChromeOS is loosely
+based on Gentoo Linux). But it's quite limited in command. Type
+**help\_advanced** to show off all commands available on ChromeOS
+
+**-** Settings: When you pull the scrollbar, the menu heading doesn't
+follow you, which is quite useless as the function of a heading should
+be. To be fair, Windows's Settings flaw is when you return to the
+previous page, it doesn't *automatically scroll you to the previous
+checkpoint*. **WHY IS IT so hard for them to design a decent Settings
+app??? They made it work ON ANDROID**
+
+**-** My Chromebook is old, so its GPU doesn't support the newest
+codecs. Playing Youtube videos, if I leave it to run as is, the browser
+defaults to VP9 and eats up 45% CPU. So I installed h264ify to switch
+codec to H264 and pull the CPU usage down.
+
+![](/images/231011/system_h264.png)
+
+\- AUE: This is the biggest downside of using ChomeOS. There is an
+expiry date, just like MacOS. When it hits the date, it won't receive
+any more updates from Google, even the browser, as the browser is
+**coupled with the OS. Yes, very WISE DECISION.** May have been
+deliberate for planned obsolescence. There was news regarding
+[separating the two
+apart](https://chromeunboxed.com/chromeos-116-transition-lacros-chrome-browser-seamless/),
+but it remains to be seen what Google is planning. Does it allow to
+update the browser indefinitely, or just a few versions apart from the
+OS? As for my Chromebook, the update is no more, as it is expired. Still
+usable, if you don't have any concern regarding security
+
+I will be on the lookout for any Windows laptop running this CPU or
+similar and compare their performance and battery life.8:T9d3,For the longest time, I was scared of using UEFI on my PC. With the
+exception of my laptops, which force me to use UEFI though I disabled
+Secure Boot because it's a pain to deal with, I have been using CSM mode
+(compatibility mode) that simulates BIOS. Lately with a new hard drive
+to test various Linux OSes on, I've decided to reinstall Windows 10
+inside the PC on UEFI mode, so on the new Linux hard drive I can install
+multiple OSes without having their bootloaders stepping on each other
+like in the BIOS age.
+
+#### Howto
+
+I learned this from [this
+article](https://askubuntu.com/questions/509423/which-commands-to-convert-a-ubuntu-bios-install-to-efi-uefi-without-boot-repair)
+in StackExchange. These steps apply too, I guess, Ubuntu, Fedora, Arch,
+or anything using GRUB as bootloader. Tldr, we *chroot* into the root
+directory *of the OS you want to convert*, run some commands and GRUB is
+restored.
+
+First, I checked to see whether the machine is on UEFI mode using this
+command:
+
+*\[ -d /sys/firmware/efi \] && echo UEFI \|\| echo BIOS*
+
+Proceed if it says UEFI, otherwise go into the BIOS menu and change it.
+
+Afterward, I mapped some partitions into the root directory of the OS
+that is on the way to be converted (supposed that *sda1* is the OS
+partition, *sda2* is the EFI system partition, */mnt* is where you want
+to chroot to, could be anywhere else):
+
+*sudo mount /dev/sda1 /mnt*
+
+*sudo mount /dev/sda2 /mnt/boot/efi*
+
+*sudo mount \--bind /dev /mnt/dev*
+
+*sudo mount \--bind /proc /mnt/proc*
+
+*sudo mount \--bind /sys /mnt/sys*
+
+*sudo* mount *\--bind /run /mnt/run*
+
+Later on, I loaded a module called *efivarfs* (UEFI Runtime Variables
+Support) using *sudo modprobe efivarfs*. Then I went in using *sudo
+chroot /mnt*.
+
+Now, depend on the OS, say Ubuntu or Fedora, you use their respective
+package manager. For my case, that was apt. So:
+
+*apt update && apt list grub\**
+
+Check for package *grub-efi* and *grub-efi-amd64*
+(*grub-efi-amd64-signed* if Secure Boot was enabled, I didn't try it).
+And then I went:
+
+*grub-install \--target=x86\_64-efi \--efi-directory=/boot/efi
+\--bootloader-id=ubuntu \--recheck \--no-floppy \--debug*
+
+Alternatively, [this
+article](https://superuser.com/questions/376470/how-to-reinstall-grub2-efi)
+suggests reinstalling *grub-efi*. This is how I recover GRUB on Fedora,
+since *grub-install* didn't work.
+
+References:
+
+\- [What exactly is the problem with
+UEFI](https://www.reddit.com/r/linuxquestions/comments/63azo4/eli5_what_exactly_is_the_problem_with_uefi_and/)9:T167b,When I tried out a bunch of distros, Fedora was among the ones what
+weren't like the rest. Another was EndeavourOS, based on Arch Linux. A
+few things I learned while using Fedora Workstation, which was using
+GNOME as its desktop environment (DE).
+
+#### Choice of desktop environment
+
+Of all the distros I tried, they all shared similar desktop
+environments. Some can have multiple distros, each made with a different
+DE:
+
+\- GNOME: probably the most mature of all. It's fast, plenty of
+animation, its design is quite professional. Except the concept is
+different. It's thinking desktop in term of workspaces, so each
+application gets their own desktop. There's no minimize button, no
+maximize except double-clicking to do so. The Windows key (or Super key)
+becomes a central key for most actions on the desktop. You use this to
+switch back and forth between workspaces. GNOME takes 2^nd^ place in
+terms of memory consumption, close to KDE.
+
+\- KDE: probably the one I liked the least. While quite polished like
+GNOME and Windows-like, it's a bit buggy, a bit too many customizations
+in Settings so quite cumbersome to use. It's also a bit laggy and heavy,
+heavier than GNOME. For Fedora cold boot, KDE desktop takes 1.5 GB RAM,
+while GNOME about 1.2 GB RAM. Small different but KDE is not as fast as
+GNOME.
+
+\- Xfce: Lightweight, fast, comparable to LXQt so they both share the
+same spot. I happen to like LXQt more due to being a Lubuntu user
+instead of Xubuntu. The latter
+
+\- MATE: If you enjoy the look of old GNOME from back in '09, then use
+MATE. Like Xfce and LXQt, quite light on the resource.
+
+\- Cinnamon: Linux Mint's own implementation of GNOME, Windows-like,
+light, fast. One of my favorite next to LXQt.
+
+Note that this is my opinion on these DEs as their original forms,
+instead of the customized looks that can be made by other distros. See
+[Xero Linux](https://xerolinux.xyz/) for KDE or
+[EndeavourOS](https://endeavouros.com/) for Xfce,
+[ZorinOS](https://zorin.com/) for GNOME, Xfce.
+
+#### Display Protocol
+
+As of the time of writing, there exists two protocols: X11 and Wayland.
+[Wayland](https://dudemanguy.github.io/blog/posts/2022-06-10-wayland-xorg/wayland-xorg.html)
+is still in development and supposed to supersede X11, which has existed
+since [1987](https://en.wikipedia.org/wiki/X_Window_System). I tried
+Wayland out in GNOME on Fedora and here are a few things I found:
+
+\- Firefox finally utilized Nvidia GPU for video decoding through
+[nvidia-vaapi-driver](https://github.com/elFarto/nvidia-vaapi-driver). I
+tried numerous times on Lubuntu, which uses X11, and it didn't work. I
+can finally watch 4K content on YouTube, though Iwill probably disable
+AV1 playback on Firefox because my GPU doesn't support AV1 codec.
+
+\- There's no fractional scaling on GNOME, AFAIK. There's only integer
+scaling (200%, \...)
+
+\- No custom resolution. I used that on Nvidia because they never
+support my resolution 1600x900, which is supported on Windows. It's only
+available on X11.
+
+\- Performance on [Cemu](http://cemu.info/) is noticeably slower on
+Wayland than on X11. This is achieved using the Vulkan backend with GTX
+1060 and Ryzen 5 1600. It's also
+[darker](https://www.reddit.com/r/linux_gaming/comments/142s10n/is_nvida_making_cemu_darker_on_wayland/).
+The advice on Reddit was to avoid Wayland for this application due to a
+missing function in Vulkan.
+
+#### Package Management
+
+Fedora includes GNOME software center for installing and updating apps
+as well as the OS. This is way easier, more intuitive, and has more apps
+than using Discover, its equivalent on my Lubuntu or KDE-based distros.
+
+If you are a hardcore and want to use the terminal then **dnf** is the
+equivalent of apt:
+
+\- At every first run when you open the terminal, dnf caches the
+repository's package list. It's quite annoying, slow (because I haven't
+figured out how to change mirror but I digress). But anytime you need to
+remove a package, you don't have to *autoremove* all of its dependencies
+like in Ubuntu, it will do it for you.
+
+#### Codec
+
+Unlike other distros, Fedora doesn't include the popular video codecs
+out-of-the-box: H264, H265 for instace. That puts a damper on the first
+impression of anybody using Fedora. You won't be able to play any videos
+using these codecs on the Video app (Totem) or Firefox without first
+installing OpenH264, and you can forget about watching H265. Lucky
+YouTube uses VP9, which is open-source so you can still watch it on
+Firefox. Installing my usual app for watching video with Nvidia Hardware
+Decoding, Celluloid, which uses
+[mpv](https://www.reddit.com/r/Fedora/comments/xe0p52/psa_mpv_is_now_available_on_fedora_37/)
+and
+[ffmpeg](https://discussion.fedoraproject.org/t/cant-install-codecs/73797/5)
+as backend, didn't play H264 using hardware decoding because the codec I
+installed didn't support it, and of course no H265. VLC, however,
+worked. It decoded H264, H265 normally. But that was because they used
+their own ffmpeg to do it. Using Celluloid on Flatpak, which is a
+container format for storing applications, I was able to play videos
+using hardware decoding. Celluloid on Flatpak packages its own
+dependencies, which means its own mpv and ffmpeg with support for
+hardware decoding.
+
+#### Fixing UEFI bootloader
+
+Reinstall packages related to GRUB instead of running *grub-install
+--target=x86\_64-efi* like in Ubuntu/Debian
+
+#### Microsoft Core Fonts (Arial, Times New Roman)
+
+This one depends on preferences, but I installed these fonts so that I
+can use the docs files exported from LibreOffice Writer on Microsoft
+Word. For Ubuntu/Debian, you can install the *ttf-mscorefonts-installer*
+package. For Fedora, follow [this
+guide](https://mscorefonts2.sourceforge.net/) to install
+*msttcore-fonts*.a:T2a91,I have just bought a couple of SSDs for cheap on Facebook. They were
+taken from , I guess prebuilt computers that their owners want their
+preinstalled disk drives replaced. So I plan to try out a couple of
+operating systems (OS) bare metal instead of using virtual machines, so
+that I can see how it feels.
+
+#### Windows 11
+
+This is the first one I tried out. First off, I couldn't flash its ISO
+file onto the USB on Linux. I guess Windows ISO are built different. So
+I used [Rufus](https://rufus.ie/en/) from Windows to flash it. The
+program supports bypassing Windows 11's lousy requirements, which are
+TPM (Trusted Platform Module), Secure Boot, 4GB RAM minimum. While it's
+amazing that they include those in Rufus, I didn't really need it as
+Windows 11 ISO I got was from undisclosed sources, they've already
+scrubbed off those requirements. While installing, when you get to the
+adding user screen, MAKE SURE not to connect to the Internet, if you
+wish not to login your Microsoft account and create a local account.
+After all installation steps, I started using Windows 11 and here is
+what I found:
+
+\- Normal cold boot of Windows 11 took about 15 seconds, compared to
+Windows 10's 7 seconds. So it's slower, not a good start.
+
+\- By default, the Start Menu is situated in the middle of the Taskbar.
+That aggravated me, because for the last 30 years, Start Menu has always
+been on the left of the screen. That was the standard. And now they
+decided to move it for poorly justified reasons.
+
+\- Taskbar's right click menu misses a lot of the options found in
+Windows 10, especially Task Manager. Normally I hold Ctrl + Shift + Esc
+to open it, but it reminds people that it exists when they right-click
+on the Taskbar.
+
+\- Settings seems to have improved a lot after Windows 10, which has a
+lacking Settings app. However, it's still no substitution for Control
+Panel. I found myself still using it on Windows 10 and 11.
+
+\- Right click menu is limited because menu was shorten with only few
+selections, copy, paste had turned into icons. I presumed this is for
+touchscreen, but dang it I was on a desktop. I had to
+[hack](https://www.theverge.com/23707964/windows-11-regedit-registry-menu-how-to)
+it to restore the previous menu.
+
+In short, I went back to Windows 10 after a day. But it's no use.
+Windows 11 will eventually become the OS I **have** to use when Windows
+10 is deprecated, much like Windows 7 before.
+
+That was Windows 11 version 21H2. Things changed when I tried to give
+Windows 11 one more shot with 22H2. While right click menu is still
+limited, they speed up the cold boot time to about Windows 10's time.
+Taskbar's right click menu finally got its Task Manager option back, and
+it's been redesigned to reflect the design of Windows 11. Using Windows
+11 felt a bit faster than Windows 10, especially the effects. I
+discovered that the Microsoft Store allows you to download apps without
+login into Microsoft account and I found Windows Subsystem for Linux and
+Android. The Android one was amazing. While YouTube didn't work, I was
+able to install
+[SmartTubeNext](https://github.com/yuliskov/SmartTubeNext) and played
+some videos on it, fully hardware-accelerated. This is different than
+any emulator I have tried, which never had hardware acceleration. The
+Linux one is fine. I just don't see the appeal, beside using this when
+installing bare-metal or using VirtualBox is not an option. Keep in mind
+that each subsystem **eats up about 2 GB of RAM**, so be mindful when
+using them on anything less than **8 GB of RAM**.
+
+![](/images/230823-1/win11-taskmgr.png)
+
+#### Linux Mint
+
+I recently turned to Linux as a daily driver, after multiple incidents
+of Windows 10 on my laptop threatening me that it would update itself to
+Windows 11, and the button to skip it was a rather small one on the left
+of the screen, and you will definitely miss it, **as** Microsoft
+designed it so. I explored a couple of options in the Ubuntu ecosystem
+before settling for Lubuntu:
+
+\- Ubuntu was a bit heavy, I wanted something leaner. Besides, when I
+tried to install it, I am stucked at partitioning. For whatever choice I
+picked, it wouldn't let me continue.
+
+\- Xubuntu, though as light as Lubuntu with its Xfce desktop environment
+instead of LxQt, is rather metallic in color and quite bright.
+
+Using Lubuntu for a while, I decided to look into Linux Mint. Based on
+Ubuntu, but without **Snap**, which is already a plus, it's regarded
+highly within the Linux community for its simplicity, ease of use. Linux
+Mint has a few flavors to choose:
+
+\- Cinnamon, the team's own take on GNOME
+
+\- MATE (read ma-te), continuation of GNOME 2
+
+\- Xfce
+
+I chose Cinnamon, as that's the default of the OS. Here are my thought:
+
+\- The design of the desktop is quite nice, due to it looking like
+Windows 10 but better.
+
+\- Their Settings app works more like the Control Panel, where it's just
+a collection of tools. It takes a bit getting used to, cause I'm used to
+Lubuntu.
+
+\- Most of the apps you use are available from the start, like Firefox,
+office with LibreOffice, watch movies with Celluloid (mpv with
+interface). However, if you wish to install more, there's a software
+manager that you can run to install more. It works like an app store for
+your PC.
+
+\- Unlike Windows 10 and 11, I can choose whether to let it auto update
+or not, and update what packages. There's an app that takes care of
+that, if not I can use **apt**.
+
+With Ubuntu 24.04 slowly turning to force Snap as its app management to
+all users, kinda like Windows, people including me are considering
+moving shops to Linux Mint because at least they have yet to sell like
+corporate sellout.
+
+![](/images/230823-1/cinnamon.png)
+
+#### Elementary OS
+
+This is another OS that is based on Ubuntu. Seems to be a running theme
+for my choice of Oses. I guess because Ubuntu itself is popular and
+beginner-friendly. Whenever Linux is mentioned to anybody, their first
+thoughts are Ubuntu and Debian. I began my journey to download the ISO
+file.
+
+![](/images/230823-1/elementary.jpg)
+
+The first thing that caught my eye is that they asked you to pay for the
+OS. I was planning to skip this OS when I tried typing zero into the
+price and it allowed me to download again. Usually in other OSes, they
+ask you before you download if you'd like to donate them some money.
+This one essentially tricked you into thinking that you have to buy it.
+Well, maybe there's a reason for that. I installed the OS and ran it. It
+looked very good. There have been works done to make Elementary OS look
+like a beautiful piece of art. Quite like macOS except I liked this way
+more. That is Pantheon desktop environment, by the way. Like Linux Mint,
+they use software manager called AppCenter to manage all packages. But I
+had to give this OS a pass. Because when I tried installing NVIDIA
+driver on and restarted my PC, the desktop environment stopped showing,
+leaving the terminal behind. So there were some bugs or compatibility
+problems with Pantheon. Maybe if I had an AMD GPU or using Intel CPU, I
+could use it a bit longer. Shame!
+
+#### Pop OS
+
+Well, another derivative of Ubuntu developed by System76, a manufacture
+of desktops and laptops specifically for Linux. So unlike other Linux
+distributions (or distros), this OS is not community-driven but
+maintained by a company, so there is a degree of responsibility to
+ensure their OS work perfectly on their products, and by association our
+own PCs. They use their own desktop environment, which is COSMIC, a
+customized GNOME. Well, not really heavily customized. I could point out
+a few similarities between them. Downloading ISO was simple enough.
+There was even a specialized version for Nvidia GPU, like in my desktop.
+Still, I tried the normal version and worked the way up. Unlike that
+buggy Elementary OS, it actually ran after installing the GPU driver.
+The distro was quite good even if I didn't spend as much time on it. I
+guess the experience is the same if you've used any other distros with
+GNOME desktop.
+
+![](/images/230823-1/Pop-OS-22.04-Desktop-beta.webp)
+
+#### Debian
+
+The daddy of all distros based on it. This distro is recommended only
+for server because of its stability, reliability. Part of it is because
+the packages on this one are old, not as up-to-date in order to be
+stable. Unlike on my server which is running Debian 12 (bookworm), I've
+decided to try the testing branch. And guess what, it was a bad idea.
+The kernel update version 6.4 from the testing branch broke the OS. I
+had to boot from an older one (5.10) to salvage it. I pulled the kernel
+6.1 from Debian 12 to run on my desktop and it worked. I installed KDE
+Plasma desktop environment, ran it in Wayland mode. (Wayland here is a
+window system protocol, like its predecessor, X11. Its job is to render
+windows and any elements onscreen). And it **ran** like a turtle, CPU
+spiked to 400% on a Ryzen 5 1600 6-core. It wasn't until I installed the
+Nvidia GPU driver that it got better. However, I didn't really like
+KDE's look. It's a bit rugged, square, even though I could say the same
+thing about Lubuntu's LXQt. But I did not like it. I know about GNOME
+and KDE are vastly customizable, and I would get to those one day, for
+now it's just my first impression on the desktop environment. I later
+tried KDE on Fedora and also didn't like it, either. If you're
+acquainted with using Ubuntu, then Debian shouldn't be any different,
+since Ubuntu derived from Debian.
+
+#### Fedora
+
+There are so many things to say about this one that it deserves its own
+article.
+
+#### EndeavourOS
+
+This one is based on Arch Linux. Despite what everyone said about how
+hard it is to use it, there's even a meme "I use Arch, btw" meaning it's
+a tough cookie to crack, I had fun with it. It's easy to use, its
+package repository is packed with applications that have newest
+versions. Firefox is in it instead of in a container format like Snap on
+Ubuntu or exists only as *firefox-esr* like Debian. It's not insane in
+avoiding proprietary components at all cost like Fedora, to the
+detriment of the usability of the OS. And it's a new kid in town, not
+surrounded with dramas like
+[*Manjaro*](https://www.youtube.com/watch?v=oVlD17OjFAc). It's only
+crime is that its package manager,
+*p[acman](https://wiki.archlinux.org/title/Pacman/Rosetta)*, works a
+little different than the rest.
+
+![](/images/230823-1/Screenshot_endeavourOS.png)
+
+#### Zorin OS
+
+Much like Linux Mint, it is based on Ubuntu and looks like Windows. It
+comes with 2 flavors: Core in GNOME, Lite in Xfce.
+
+![](/images/230823-1/Zorin-OS-16.1-Core.png)
+#### Xero Linux
+
+Based on Arch Linux like EndeavourOS before it and also a new kid in
+town. But while by default EndeavourOS uses Xfce, this one uses KDE
+Plasma as its beautifully crafted desktop environment, with a GNOME
+dashboard and a wobbly effect whenever I move the window.
+
+![](/images/230823-1/xerolinux.webp)b:Tc3e,After multiple times compiling drivers on multiple environments,
+specifically OpenWrt, I'd decided to see if I could compile the driver
+of my wifi adapter, [rtl8821cu](https://github.com/brektrou/rtl8821CU), for my
+Raspberry Pi 3 from my laptop. Raspberry Pi ran on DietPi, which is
+based on Debian.
+
+#### Compile on Raspberry Pi
+
+First, I installed *raspberrypi-kernel-header*, which is a package
+containing the kernel source of Raspberry Pi. Afterwards, I ran this
+command to compile the driver, it worked:
+
+*make -j4*
+
+I tried out this trick I learned from r8152 source compiling, but it
+failed:
+
+*make -C \<kernel source\> M=\$(pwd) -j\$(nproc)*
+
+It didn't work when I added cross compiling parameters, either:
+
+*make ARCH=arm64 CROSS\_COMPILE= -C \<kernel source\> M=\$(pwd)
+-j\$(nproc)*
+
+#### Compile on x86
+
+I downloaded the [Raspberry Pi Kernel Source
+Code](https://github.com/raspberrypi/linux) from Github and
+installed the package gcc-aarch64-linux-gnu. I used the following line
+but that didn't work:
+
+*make -C \<kernel source\> M=\$(pwd) -j\$(nproc)*
+
+So is the next one:
+
+*make ARCH=arm64 CROSS\_COMPILE= -C \<kernel source\> M=\$(pwd)
+-j\$(nproc)*
+
+After reading *Makefile* in the *rtl8821cu* folder and found a line at
+the *modules* part:
+
+*\$(MAKE) ARCH=\$(ARCH) CROSS\_COMPILE=\$(CROSS\_COMPILE) -C \$(KSRC)
+M=\$(shell pwd) modules*
+
+I rechecked my command line. While **ARCH, CROSS\_COMPILE** I filled in
+correctly, I should be filling in **KSRC=\<kernel source\>** instead of
+**-C \<kernel source\>**. It worked afterwards:
+
+*make ARCH=arm64 CROSS\_COMPILE=aarch64-linux-gnu-
+KSRC=\~/Documents/Programming/linux-rpi-6.1.y/ -j\$(nproc)*
+
+![make1](/images/230722/make1.jpg)
+
+However, the output told me to go to the kernel source and run *make
+oldconfig && make prepare*. So I did:
+
+*make ARCH=arm64 CROSS\_COMPILE=aarch64-linux-gnu- oldconfig && make
+ARCH=arm64 CROSS\_COMPILE=aarch64-linux-gnu- prepare*
+
+It asked a ton of questions though.
+
+![](/images/230722/make%20oldconfig.jpg)
+
+About to finish, it came out with this error.
+
+![](/images/230722/make2.jpg)
+
+I looked into line 2501 of Makefile of the driver, it was the *module*
+part, so not the place yet. Line 1929 of Makefile of the kernel source
+showed more promise.
+
+![](/images/230722/make3.jpg)
+
+I looked into *Makefile.modfinal*. It's like the file and the error are
+both looking for *module.lds* but it's not available in the kernel
+source. Temporarily, I copied *module.lds.S* to *module.lds.* It did
+compile, but it didn't work on Raspberry Pi, likely because of kernel
+6.1.21 currently on Pi, compared to kernel source 6.1.35.
+
+#### What happened if you missed ARCH and CROSS\_COMPILE?
+
+Missing **ARCH** came out with this error.
+
+![missing arch](/images/230722/missing%20arch.jpg)
+
+Missing **CROSS\_COMPILE** came out with this error.
+
+![missing cross compile](/images/230722/missing%20cross%20compile.jpg)
+**Conclusion**
+
+So I guess for now I just compile the driver against the source on the
+device then. Until I get the hang of cross-compiling.
+
+References:
+
+\- [Missing module.lds](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1906131)c:Tcbb,I have recently become a permanent resident of the Linux land. I live in
+Lubuntu town. That's a funny way to say that I use Lubuntu as my daily
+driver on my laptop. On my laptop, which is an Intel i7 9750H + GTX 1060
+combo, it's been kind to me and given me my preferred screen resolution,
+which was 1600x900 out of the box. That wasn't the case for my desktop,
+which is an AMD Ryzen 5 1600 + GTX 1060 combo, as it gave me its default
+resolution of 1920x1080. There's nothing wrong with it, other than the
+letters appear like tiny dots on screen. When I opened the Monitor
+Settings, it didn't give me 1600x900, instead there were 1920x0180,
+1680x1050, 1600x1200. Nvidia Settings certainly didn't help, it didn't
+have 1600x900, either. So I had my work cut out for me.
+
+![](/images/230721/nvidia.jpg)
+
+#### Finding answers in vain
+
+I first tried out [this
+method](https://itslinuxfoss.com/set-custom-resolution-using-xrandr/)
+to set a custom resolution. However, it returned this error and wouldn't
+allow me to add that resolution:
+
+*X Error of failed request: BadMatch (invalid parameter attributes)*
+
+*Major opcode of failed request: 140 (RANDR)*
+
+*Minor opcode of failed request: 18 (RRAddOutputMode)*
+
+I searched everywhere for a solution to no avail. That means, while
+there are answers, none satisfies what I'm looking for.. So I tried the
+next method, setting it on Nvidia's side using Nvidia Settings.
+According to [this
+post](https://bbs.archlinux.org/viewtopic.php?id=255287),
+*you want to do this by setting your ViewPortIn to your desired
+resolution, and your Panning to the desired resolution as well. Do NOT
+touch ViewPortOut*.
+
+![](/images/230721/lxqt-config-monitor.jpg)
+
+I applied it and saved the settings to X File. However it won't write
+the X File **xorg.conf** down to */etc/X11/* so I have to issue a
+command [*sudo chmod u+x
+/usr/share/screen-resolution-extra/nvidia-polkit*](https://forums.developer.nvidia.com/t/cant-save-to-x-configuration-file-on-nvidia-settings/185069)
+to make it work. After I'd done that, I logged out and back in.
+Interestingly, the login screen showed that the custom resolution
+worked, but as soon as I logged in*,* the screen *turned back to
+1920x1080* and Nvidia reported my screen resolution as Auto.
+
+#### Stumbled upon the solution
+
+At that point, I was stump. Like what do I do now? I kept trying back
+and forth between two ways for hours. Nothing works. Until something
+amazing happened. I read somewhere that after saving the settings on the
+Nvidia's side, I should change the monitor settings from the OS side, so
+I switched it to 1680x1050, logged out, logged back in. And voila. It
+finally clicked. I can't believe it. So I guess that's how it's done.
+
+According to the [official
+guide](https://forums.developer.nvidia.com/t/persist-nvidia-x-server-settings/158102/5),
+the desktop environment, in this case LXQt, may have overridden any
+configuration from nvidia-settings, hence why Lubuntu switched to
+1920x1080 after its login screen was 1600x900. The way I pulled it off
+seems like a hack, because it is. I'm supposed to either change
+resolution from the monitor settings within Lubuntu or disable any
+feature for managing displays. But hey, as long as it works.
+
+![](/images/230721/it_work.png)0:["X4oQ1knzbEa8ykEPzIlFL",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"Brian Phan"}],["$","section",null,{"className":"flex flex-col md:flex-row mb-12","children":[["$","section",null,{"className":"mr-4 mb-4","style":{"flex":1},"children":["$","img",null,{"src":"/images/about/portrait.jpg"}]}],["$","section",null,{"style":{"flex":2},"children":[["$","p",null,{"className":"mb-4 italic","children":"”It is possible to commit no mistakes and still lose. That is not a weakness. That is life.\"\n            Captain Jean-Luc Picard"}],["$","p",null,{"className":"mb-12","children":"Experienced software engineer with a robust background in Linux systems and web technologies.\n            Proven expertise in maintaining and developing complex systems, including inventory systems\n            and applications for large-scale use. Leveraging skills in server infrastructure,\n            containerization, virtualization to contribute to impactful projects and the global technological \n            advancement. Exploring projects that align with personal interests and passions. Committed to continuous\n            learning and development."}]]}]]}],["$","h1",null,{"className":"mb-4 text-l font-semibold tracking-tighter","children":"Recent blog posts"}],["$","$L2",null,{"allBlogs":[{"metadata":{"title":"A different mindset","publishedAt":"2024-09-06"},"slug":"240906","content":"$3"},{"metadata":{"title":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework","publishedAt":"2024-09-02T03:00"},"slug":"240902-3","content":"$4"},{"metadata":{"title":"Windows S Mode","publishedAt":"2024-09-02T02:00"},"slug":"240902-2","content":"$5"},{"metadata":{"title":"Remote Server behind CGNAT using Wireguard","publishedAt":"2024-09-02T01:00"},"slug":"240902-1","content":"$6"},{"metadata":{"title":"My thought on Chromebook","publishedAt":"2023-10-11"},"slug":"231011","content":"$7"},{"metadata":{"title":"Convert BIOS to UEFI for Linux (or how to recover GRUB)","publishedAt":"2023-08-23T03:00"},"slug":"230823-3","content":"$8"},{"metadata":{"title":"Fedora: What I learned","publishedAt":"2023-08-23T02:00"},"slug":"230823-2","content":"$9"},{"metadata":{"title":"Trying Windows 11 and other OSes","publishedAt":"2023-08-23T01:00"},"slug":"230823-1","content":"$a"},{"metadata":{"title":"Cross compiling driver for Raspberry Pi","publishedAt":"2023-07-22"},"slug":"230722","content":"$b"},{"metadata":{"title":"Custom resolution for GTX 1060 on Lubuntu","publishedAt":"2023-07-21"},"slug":"230721","content":"$c"}],"itemPerPage":3}]]}]],null],null]},[["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$Ld","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$Ld","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$Ld","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$Le",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lf",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[],"styles":null}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/bach-phan-58530b1b0","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2024}]]}]]}]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0ad7fa2f6a96bead.css","precedence":"next","crossOrigin":"$undefined"}]],"$L10"]]]]
+10:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Brian Phan"}],["$","meta","3",{"name":"description","content":"This is my portfolio."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
 1:null
