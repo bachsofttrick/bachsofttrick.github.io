@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
 
-export function BlogPosts({ getFirst = 0 }) {
+export function BlogPosts({ getFirst = 0, enableSummary = false }) {
   let allBlogs = getBlogPosts()
     .filter((post) => !post.metadata.hidden)
     .sort((a, b) => {
@@ -34,9 +34,13 @@ export function BlogPosts({ getFirst = 0 }) {
               </p>
             </div>
             <div>
-            <p className="text-neutral-500 tracking-tight">
-                {post.content.slice(0, 200)} [. . .]
-              </p>
+            {
+              (!enableSummary) ?? (
+                <p className="text-neutral-500 tracking-tight">
+                  {post.content.slice(0, 200)} [. . .]
+                </p>
+              )
+            }
             </div>
           </Link>
         ))}

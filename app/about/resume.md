@@ -4,7 +4,7 @@ publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
-**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - Now
+**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - Now  
 *Web Assistant*  
 Corvallis, Oregon, USA
 
