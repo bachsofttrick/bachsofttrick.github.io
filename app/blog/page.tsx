@@ -1,4 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
+import { getSortedBlogPosts } from 'app/blog/utils'
 
 export const metadata = {
   title: 'Blog',
@@ -6,10 +7,12 @@ export const metadata = {
 }
 
 export default function Page() {
+  let allBlogs = getSortedBlogPosts()
+
   return (
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">My Blog</h1>
-      <BlogPosts addSummary />
+      <BlogPosts allBlogs={allBlogs} addSummary pagination/>
     </section>
   )
 }

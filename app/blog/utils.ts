@@ -52,6 +52,19 @@ export function getBlogPosts() {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
 }
 
+export function getSortedBlogPosts() {
+  return getBlogPosts()
+  .filter((post) => !post.metadata.hidden)
+  .sort((a, b) => {
+    if (
+      new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
+    ) {
+      return -1
+    }
+    return 1
+  })
+}
+
 export function getAboutPosts() {
   let posts = getMDXData(path.join(process.cwd(), 'app', 'about'))
   return posts
