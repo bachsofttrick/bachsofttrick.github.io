@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <section>
       <article className="prose">
-        <CustomMDX source={post[0].content} />
+        <CustomMDX source={post[0].content} type='resume' />
       </article>
     </section>
   )

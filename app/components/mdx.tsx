@@ -67,12 +67,23 @@ function slugify(str) {
     .replace(/\-\-+/g, '-') // Replace multiple - with single -
 }
 
-function createHeading(level) {
+function createHeading(level, type = '') {
+  let className;
+  switch (type) {
+    case 'resume':
+      className = 'flex justify-center'
+      break;
+    default:
+      break;
+  }
+
   const Heading = ({ children }) => {
     let slug = slugify(children)
     return React.createElement(
       `h${level}`,
-      { id: slug },
+      { id: slug,
+        className
+      },
       [
         React.createElement('a', {
           href: `#${slug}`,
@@ -103,6 +114,13 @@ let components = {
 }
 
 export function CustomMDX(props) {
+  switch (props.type) {
+    case 'resume':
+      components.h4 = createHeading(4, props.type)
+      break;
+    default:
+      break;
+  }
   return (
     <MDXRemote
       {...props}
