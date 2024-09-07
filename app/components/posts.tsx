@@ -1,29 +1,28 @@
+"use client";
+
 import Link from 'next/link'
-import { formatDate, getBlogPosts } from 'app/blog/utils'
-
-let allBlogs = getBlogPosts()
-  .filter((post) => !post.metadata.hidden)
-  .sort((a, b) => {
-    if (
-      new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
-    ) {
-      return -1
-    }
-    return 1
-  })
-
-let totalPages = Math.floor(allBlogs.length / 3) + (allBlogs.length % 3 ? 1 : 0)
+import {useState} from 'react'
+import { formatDate } from 'app/blog/utils'
+import Pagination from '@mui/material/Pagination';
 
 export function BlogPosts({
-  getFirst = 0,
+  allBlogs,
+  itemPerPage = 5,
   addSummary = false,
   pagination = false,
-  page = 1,
-  onClick = () => {}
 }) {
+  let totalPages = Math.floor(allBlogs.length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
+
+  const [page, setPage] = useState(1);
+  const handlePageChange = (event, page) => {
+    setPage(page);
+  };
+
   let returnBlogs = allBlogs
-  if (getFirst > 0) {
-    returnBlogs = allBlogs.slice(0, 3)
+  if (pagination) {
+    returnBlogs = allBlogs.slice(page * itemPerPage - itemPerPage, page * itemPerPage)
+  } else {
+    returnBlogs = allBlogs.slice(0, itemPerPage)
   }
 
   return (
@@ -54,13 +53,12 @@ export function BlogPosts({
             </div>
           </Link>
         ))}
-      {/* <select>
-      {Array.from({ length: totalPages }, (_, i) => (
-        <option key={i + 1} value={i + 1}>
-          {i + 1}
-        </option>
-      ))}
-      </select> */}
+        {
+          pagination ? (
+            <Pagination className='flex justify-center' count={totalPages} page={page} onChange={handlePageChange}></Pagination>
+          ) : null
+        }
+      
     </div>
   )
 }

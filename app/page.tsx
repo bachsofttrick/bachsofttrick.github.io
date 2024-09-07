@@ -1,6 +1,9 @@
 import { BlogPosts } from 'app/components/posts'
+import { getSortedBlogPosts } from 'app/blog/utils'
 
 export default function Page() {
+  let allBlogs = getSortedBlogPosts()
+
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
@@ -30,7 +33,7 @@ export default function Page() {
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
       </h1>
-      <BlogPosts getFirst={3} />
+      <BlogPosts allBlogs={allBlogs} itemPerPage={3} />
     </section>
   )
 }
