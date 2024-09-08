@@ -9,7 +9,7 @@ export const metadata = {
 
 export default function Page() {
   let post = getAboutPosts();
-  if (!post) {
+  if (!post[0]) {
     notFound()
   }
 
