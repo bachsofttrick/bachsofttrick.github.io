@@ -46,7 +46,7 @@ function CustomLink(props) {
 function CenteredImage(props) {
   return (
     <p className='flex justify-center'>
-      <img {...props} className="rounded-lg" />
+      <img {...props} />
     </p>
   )
 }
