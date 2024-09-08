@@ -33,7 +33,7 @@ export default function Page() {
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
       </h1>
-      <BlogPosts allBlogs={allBlogs} />
+      <BlogPosts allBlogs={allBlogs} itemPerPage={3} />
     </section>
   )
 }
