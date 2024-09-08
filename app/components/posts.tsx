@@ -4,19 +4,16 @@ import Link from 'next/link'
 import {useState} from 'react'
 import { formatDate } from 'app/blog/utils'
 import Pagination from '@mui/material/Pagination';
+import PaginationItem from '@mui/material/PaginationItem';
 
 export function BlogPosts({
+  page = 1,
   allBlogs,
   itemPerPage = 4,
   addSummary = false,
   pagination = false,
 }) {
   let totalPages = Math.floor(allBlogs.length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
-
-  const [page, setPage] = useState(1);
-  const handlePageChange = (event, page) => {
-    setPage(page);
-  };
 
   let returnBlogs = allBlogs
   if (pagination) {
@@ -55,7 +52,13 @@ export function BlogPosts({
         ))}
         {
           pagination ? (
-            <Pagination className='flex justify-center' count={totalPages} page={page} onChange={handlePageChange}></Pagination>
+            <Pagination className='flex justify-center' count={totalPages} page={page} renderItem={(item) => {
+              return (item.page && typeof item.page === "number" && item.page <= totalPages) ? (
+              <a href={"/blog/page/" + item.page}>
+                <PaginationItem {...item} />
+              </a>  
+              ) : <PaginationItem {...item} />
+            }}/>
           ) : null
         }
       
