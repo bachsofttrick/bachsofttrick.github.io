@@ -15,9 +15,9 @@ export default function Page() {
           <img src="/images/about/portrait.jpg"/>
         </section>
         <section  style={{flex: 2}}>
-          <p className="mb-4 italic">
-            {`”It is possible to commit no mistakes and still lose. That is not a weakness. That is life."
-            Captain Jean-Luc Picard`}
+          <p className="mb-4">
+            <span className='italic'>{`”It is possible to commit no mistakes and still lose. That is not a weakness. That is life."`}</span>
+            {` Captain Jean-Luc Picard`}
           </p>
           <p className="mb-12">
             {`Experienced software engineer with a robust background in Linux systems and web technologies.
