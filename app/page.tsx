@@ -1,9 +1,9 @@
 import { BlogPosts } from 'app/components/posts'
 import { getSortedBlogPosts } from 'app/blog/utils'
 
-export default function Page() {
-  let allBlogs = getSortedBlogPosts()
+let allBlogs = getSortedBlogPosts()
 
+export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
