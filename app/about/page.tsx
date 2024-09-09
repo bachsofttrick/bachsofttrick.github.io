@@ -1,6 +1,7 @@
 import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
-import { CustomMDX } from 'app/components/mdx'
+import Link from 'next/link'
+import { CustomMDX, slugify } from 'app/components/mdx'
 
 export const metadata = {
   title: 'About Me',
@@ -13,39 +14,24 @@ export default function Page() {
     notFound()
   }
 
-  const navItems = [
-    {
-      name: 'Work Experience',
-      route: 'work-experience'
-    },
-    {
-      name: 'Projects',
-      route: 'projects'
-    },
-    {
-      name: 'Skills',
-      route: 'skills'
-    },
-    {
-      name: 'Education',
-      route: 'education'
-    },
-    {
-      name: 'References',
-      route: 'references'
-    },
-    
-  ]
+  const navItems = ['Work Experience','Projects','Skills','Education','References',]
 
   return (
     <section>
       <nav>
         <ul className='flex flex-col md:flex-row justify-center items-center'>
-          <li className='md:me-8 font-bold'>Jump to:</li>
+          <li className='md:me-8 mb-2 font-bold'>Jump to:</li>
           {
-            navItems.map((item) => (
-              <li key={item.route}><a href={'#'+item.route} className='md:me-8'>{item.name}</a></li>
-            ))
+            navItems.map((item) => {
+              const route = slugify(item)
+              return <Link
+                  key={route}
+                  href={'#'+route}
+                  className="hover:text-neutral-800 dark:hover:text-neutral-200 md:me-8 mb-2"
+                >
+                  {item}
+                </Link>
+            })
           }
         </ul>
       </nav>
