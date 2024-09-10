@@ -18,9 +18,8 @@ export default function Page() {
 
   return (
     <section>
-      <nav>
-        <ul className='flex flex-col md:flex-row justify-center items-center'>
-          <li className='md:me-8 mb-2 font-bold'>Jump to:</li>
+      <nav className='flex flex-col md:flex-row justify-center items-center'>
+          <span className='md:me-8 mb-2 font-bold'>Jump to:</span>
           {
             navItems.map((item) => {
               const route = slugify(item)
@@ -33,7 +32,6 @@ export default function Page() {
                 </Link>
             })
           }
-        </ul>
       </nav>
       <article className="prose">
         <CustomMDX source={post[0].content} type='resume' />
