@@ -4,6 +4,7 @@ import Link from 'next/link'
 import {useState} from 'react'
 import { formatDate } from 'app/blog/utils'
 import Pagination from '@mui/material/Pagination';
+import PaginationItem from '@mui/material/PaginationItem';
 
 export function BlogPosts({
   allBlogs,
@@ -55,7 +56,14 @@ export function BlogPosts({
         ))}
         {
           pagination ? (
-            <Pagination className='flex justify-center' count={totalPages} page={page} onChange={handlePageChange}></Pagination>
+            <Pagination
+              className='flex justify-center'
+              count={totalPages}
+              page={page}
+              onChange={handlePageChange}
+              renderItem={(item) =>
+                <PaginationItem style={{'color': 'inherit'}} {...item} />}
+            />
           ) : null
         }
       
