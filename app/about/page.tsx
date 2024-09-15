@@ -18,6 +18,7 @@ export default function Page() {
 
   return (
     <section>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">About Me</h1>
       <nav className='flex flex-col md:flex-row justify-center items-center'>
           <span className='md:me-8 mb-2 font-bold'>Jump to:</span>
           {
