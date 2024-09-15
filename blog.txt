@@ -1,7 +1,7 @@
 2:I[349,["951","static/chunks/951-68001eacaacb5ddd.js","711","static/chunks/711-f762956335f995a0.js","404","static/chunks/app/blog/page-35aa0727ed51bacf.js"],"BlogPosts",1]
-17:I[5505,[],""]
-18:I[8694,[],""]
-19:I[7951,["951","static/chunks/951-68001eacaacb5ddd.js","185","static/chunks/app/layout-98acf9c598e03798.js"],""]
+19:I[5505,[],""]
+1a:I[8694,[],""]
+1b:I[7951,["951","static/chunks/951-68001eacaacb5ddd.js","185","static/chunks/app/layout-98acf9c598e03798.js"],""]
 3:Tbac,I just got a new second job at my college, Oregon State U. You wouldn't believe
 just how hard it was to get a job here. I not only had to compete with international
 students, but also native students here for just a job, not just tech-related jobs.
@@ -2628,6 +2628,368 @@ Projects](https://globalmedia.mit.edu/2020/04/21/the-rise-and-fall-and-rise-agai
 Unlimited?](https://unlimitedlteadvanced.com/4g-lte/is-unlimited-data-really-unlimited/)
 
 \- [It's a battle for internet
-freedom](https://timesofindia.indiatimes.com/blogs/toi-edit-page/its-a-battle-for-internet-freedom/)0:["xdDkhuCoyw1Hh4afGGOVl",[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"font-semibold text-2xl mb-8 tracking-tighter","children":"My Blog"}],["$","$L2",null,{"allBlogs":[{"metadata":{"title":"The more things change, ...","publishedAt":"2024-09-07"},"slug":"240907","content":"... the more they stay the same. Right now, it happens in web technologies. Back in the \nearly days of the Internet, it was static HTML pages, sprinkle a bit of CSS and called it\na day. Then Javascript came along for more interactivity. People wanted more, so came PHP\nfor that dynamic web pages. PHP kickstarted the server-side rendering motive of web for years\nto come. There was also ASPX. When I started working around 2020, it was the time of Javascript\nframeworks. React, Vue, Svelte... you name it. Building Single Page Application was the bee's knee.\nAnd then comes your NextJS, Nuxt, 11ty, Astro... Even PHP-based content management systems (CMS)\nsuch as Wordpress have never left. It seems things a lot of times come full-circle, don't they?\nIt's like trends. Go out of fashion, then give it a decade, and it comes back. The 80s nostalgia\n, big movie franchises, fat vs oil health debacle.\n\n*\"plus ça change, plus c'est la même chose.\"* Jean-Baptiste Alphonse Karr"},{"metadata":{"title":"A different mindset","publishedAt":"2024-09-06"},"slug":"240906","content":"$3"},{"metadata":{"title":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework","publishedAt":"2024-09-02T03:00:00Z"},"slug":"240902-3","content":"$4"},{"metadata":{"title":"Windows S Mode","publishedAt":"2024-09-02T02:00:00Z"},"slug":"240902-2","content":"$5"},{"metadata":{"title":"Remote Server behind CGNAT using Wireguard","publishedAt":"2024-09-02T01:00:00Z"},"slug":"240902-1","content":"$6"},{"metadata":{"title":"My thought on Chromebook","publishedAt":"2023-10-11"},"slug":"231011","content":"$7"},{"metadata":{"title":"Convert BIOS to UEFI for Linux (or how to recover GRUB)","publishedAt":"2023-08-23T03:00:00Z"},"slug":"230823-3","content":"$8"},{"metadata":{"title":"Fedora: What I learned","publishedAt":"2023-08-23T02:00:00Z"},"slug":"230823-2","content":"$9"},{"metadata":{"title":"Trying Windows 11 and other OSes","publishedAt":"2023-08-23T01:00:00Z"},"slug":"230823-1","content":"$a"},{"metadata":{"title":"Cross compiling driver for Raspberry Pi","publishedAt":"2023-07-22"},"slug":"230722","content":"$b"},{"metadata":{"title":"Custom resolution for GTX 1060 on Lubuntu","publishedAt":"2023-07-21"},"slug":"230721","content":"$c"},{"metadata":{"title":"The times I dealt with phones that have multiple models","publishedAt":"2023-07-07"},"slug":"230707","content":"$d"},{"metadata":{"title":"Patching OpenWrt with a new driver","publishedAt":"2023-06-23"},"slug":"230623","content":"$e"},{"metadata":{"title":"Trying a new kernel and compiling network driver from it","publishedAt":"2023-06-14"},"slug":"230614","content":"$f"},{"metadata":{"title":"Getting my blog on Google Search","publishedAt":"2023-06-10"},"slug":"230610","content":"$10"},{"metadata":{"title":"Install Firefox as deb instead of snap on Ubuntu","publishedAt":"2023-06-09"},"slug":"230609","content":"$11"},{"metadata":{"title":"YouTube: The beginning of the end","publishedAt":"2023-05-23"},"slug":"230511","content":"$12"},{"metadata":{"title":"Compile OpenWrt for Orange Pi R1 Plus LTS","publishedAt":"2023-05-23"},"slug":"230523","content":"$13"},{"metadata":{"title":"On the proverb \"If it ain't broke don't fix it\"","publishedAt":"2023-05-06"},"slug":"230506","content":"$14"},{"metadata":{"title":"Auto build driver when updating Linux kernel with dkms","publishedAt":"2023-05-04"},"slug":"230504","content":"$15"},{"metadata":{"title":"Data plan investigation: Zero-rating","publishedAt":"2023-04-27"},"slug":"230427","content":"$16"}],"addSummary":true,"pagination":true}]]}],null],null],null]},[null,["$","$L17",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L18",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8d57283ef073575a.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$L19","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$L19","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$L19","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$L17",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L18",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/bach-phan-58530b1b0","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2024}]]}]]}]}]}]],null],null],[null,"$L1a"]]]]
-1a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Blog | Brian Phan"}],["$","meta","3",{"name":"description","content":"Read my blog."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
+freedom](https://timesofindia.indiatimes.com/blogs/toi-edit-page/its-a-battle-for-internet-freedom/)17:T1dbc,After a blog series about using 4G as house Wifi, I need an short
+article to breathe a bit. So this is gonna be a short one.
+
+#### Background
+
+Last year, I decided to upgrade the network in my house. My home network
+was not much to speak of, just a Viettel modem (H646EW) connected to the
+previously mentioned TP-Link Archer C50. My home server was connected to
+the network through Wifi, because the router is in the kitchen while the
+server was in my room adjacent to it, and wiring is out of the question.
+The router slowly became a bottleneck, as the number of devices
+connected to it increased and my server had to serve media contents
+around the house as well as download contents from the Internet.
+Internet bandwidth was also increased by the ISP to 150 Mbps and my old
+router could not utilized it fully, only averaging 65 Mbps. So I
+replaced the main router with an Asus RT-AC1300UHP. It's a 2.4/5 GHz
+Wifi Router with Gigabit LAN. Its specs include a quad-core Qualcomm
+IPQ4018 ARM processor at 700 MHz, 256 MB RAM, much more powerful than
+the Archer with single-core Mediatek MT7628A MIPS running at 580 MHz
+with only 64 MB RAM.
+
+![](/images/blog/230415/router-wifi-bang-tan-kep-cong-suat-cao-asus-rt-ac1300uhp-mu-mimo.webp)
+
+I replaced the router by connecting LAN1 from H646EW to WAN of the Asus
+router, went in the configuration page of Asus router, changed WAN type
+to DHCP (or in this case Automatic IP). And that was it. Speed test
+using either speedtest.net or fast.com gave me full 150 Mbps
+symmetrical.
+
+![](/images/blog/230415/asus_wan_dhcp.jpg)
+
+One day, as I was browsing through Facebook, I came across this group
+talking about PPPoE and using another router to "dial" it instead of the
+one provided by the ISP. So it got me thinking: "What if I can apply it
+to my network then?"
+
+#### Point-to-Point over Ethernet (PPPoE) and bridge mode
+
+PPPoE is a network protocol for using PPP on Ethernet. Back in the old
+days, PPP is used for dial-up Internet access. Nowadays, PPPoE is used
+for customer authentication, record on DSL network, fiber network. When
+you register for Internet service, your provider will give you a
+username for the PPPoE account, and they pre-configured the account in
+their modem with the password. Then from the modem, you would connect
+another, better router to it, use it as the main point to connect to the
+Internet for all devices in your house. The reason is that ISP modems
+are usually weak, unreliable if left to handle anything to heavy. But by
+using 2 routers, this leads to a situation called "double NAT", where
+traffic coming to and from a client has to route twice before hitting
+the Internet, increasing latency and causing problems to programs that
+need to open port. The first drawback is why you would want to turn your
+modem to bridge mode, so the router has to do most of the heavy lifting,
+the modem's only job is conversion from fiber to Ethernet. The second
+downside is kind of meaningless, as in IPv4, you most likely have an IP
+address given by the ISP, which allows Internet access but the outside
+world can't connect to you because a lot of users around your house also
+have that same address (which is a large problem if you want to do
+anything involving P2P like torrenting, VOIP, online gaming. Fixing this
+is a story for another time).
+
+![](/images/blog/230415/asus_wan_dhcp.jpg)
+
+Bridge mode essentially turns your modem into a bridge, "bridge" the ISP
+end to your router on the other end. It bypasses routing, DHCP of the
+modem, sends traffic directly to the router.
+
+#### Disclaimer
+
+Before performing this, I should warn you. When I performed this, I
+locked myself out of the modem multiple times, lost access to the
+Internet, had to call their technician before resetting the modem fixed
+the issue so that I could try again. So if your Internet is running
+fine, you shouldn't bother doing this. Maybe you can look into DMZ
+setting if available.
+
+Another point is that each modem is different and each ISP is different.
+Some modems may not have bridge mode available. Go through your modem's
+settings first, talk to the ISP technician if needed before trying this.
+
+Additionally, your router must be more powerful than your modem to go
+through this procedure. Because dialing PPPoE is a single-threaded task
+\[1\].
+
+#### How to do it?
+
+First, we need to change the modem to bridge mode. This depends on
+model, so these steps is for my Viettel GPON modem H646EW.
+
+<div class="flex justify-center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CexU8EHlQ-0?si=KBSVzC9e2At7m7se" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+</div>
+
+Login to the configuration page using [https://192.168.1.1/](https://192.168.1.1/). Turn it
+into Advanced Mode. First go to Advanced Setup on the left panel -\> LAN
+settings to disable DHCP and Wifi Setup to disable Wifi on the modem.
+
+Then go to Advanced Setup -\> WAN Connections.
+
+![](/images/blog/230415/vlcsnap-2023-04-15-19h39m19s620.png)
+
+Click Edit on any profile that is PPPoE mode if your ISP doesn't give
+you your credential when registering for Internet service. It contains
+your credential.
+
+![](/images/blog/230415/vlcsnap-2023-04-15-19h39m37s389.png)
+
+Right click on the Password text box and click Inspect Element. Find the
+\<input\> tag that points to the Password box, change type from
+"PASSWORD" to "text". It shall reveal your PPPoE password. Copy PPPoE
+username and password, set status to Deactivated and click Apply.
+
+![](/images/blog/230415/vlcsnap-2023-04-15-19h40m15s589.png)
+
+Back at WAN Connections, we add a new entry, Bridge Mode, then click
+Add.
+
+![](/images/blog/230415/vlcsnap-2023-04-15-19h41m38s057.png)
+
+Set status to Activated. IP choose IPv4/IPv6. At 802.1q, you have 2
+options:
+
+\- Tag VLAN at the modem: VLAN 35 for Viettel
+
+\- Passthrough: pass VLAN Tagging to the router. You can usually find
+this option under IPTV
+
+For demonstration, I chose tagging VLAN at the modem.
+
+![](/images/blog/230415/vlcsnap-2023-04-15-19h41m38s057.png)
+
+After that, look under the modem for its MAC address. Then connect the
+modem LAN1 to WAN of the router. For this instance, it's an Asus
+RT-AC1300UHP. Login to Asus configuration page at [http://192.168.0.1/](http://192.168.0.1/).
+Go to Advanced Settings -\> WAN. Change WAN Connection Type to PPPoE.
+Fill in your PPPoE username and password. At Special Requirement from
+ISP, set No to all and put MAC address the address you found under the
+modem. Then click Apply. The router should now dial directly to ISP to
+get Internet service, instead of going through routing from the modem.
+
+![](/images/blog/230415/asus_wan_pppoe_1.jpg)
+
+![](/images/blog/230415/asus_wan_pppoe_2.jpg)
+
+References:
+
+\- [Facebook wifi technology
+community](https://www.facebook.com/groups/vntik/)
+
+\-
+[RT-AC1300UHP](https://cellphones.com.vn/router-wifi-bang-tan-kep-cong-suat-cao-asus-rt-ac1300uhp-mu-mimo.html)
+
+\- [Wikipedia - Point-to-point over
+Ethernet](https://en.wikipedia.org/wiki/Point-to-Point_Protocol_over_Ethernet)
+
+\- [Why do ISPs still use PPPoATM or PPPoE instead of
+802.1x?](https://www.reddit.com/r/networking/comments/t16fnc/why_do_isps_still_use_pppoatm_or_pppoe_instead_of/)
+
+\- [What\'s Double NAT and why do I want to avoid
+it?](https://www.reddit.com/r/HomeNetworking/comments/8tl0wv/whats_double_nat_and_why_do_i_want_to_avoid_it/)
+
+\- [\[1\] Is PPPOE wan
+single-threaded?](https://forum.mikrotik.com/viewtopic.php?t=156753)18:T2239,So. Here we are. The third part of the long-running series where I try
+to improve my Internet condition. So no point beating around the bushes.
+I plan to transform my 4G connection into Wifi using whatever was
+available to me, because I'm a cheapskate that refuse to spend money,
+but had no problem spending it on a thermometer, then broke it by
+putting it in a freezer. I also enjoy learning how networking works, as
+I always thought that a router is like a magic box. It was when I got an
+Asus router, turned on ssh that I discovered routers are all Linux
+boxes.
+
+#### Prerequisites
+
+To prepare for this job, I dug up my old Raspberry Pi 3. I haven't had
+much use for it since my HP laptop took over the server work from the
+board. It has 4 USB port and a LAN port. My plan was to turn this board
+into a router. Just a router, not one of those combo things that you
+commonly find. The LAN port would be connected to a Wifi access point
+(AP). For the USB port, I plugged a 4G USB Modem with a SIM card placed
+in.
+
+The TP-Link Archer C50 router currrently in use would be turned into AP
+in place of a router. The reason was that the Raspberry Pi has a weak
+Wifi chip, it couldn't transmit very far, not like a dedicated device
+would. Moreover, I didn't need its routing function.
+
+The 4G USB Modem would be a Sony Xperia Z. I borrowed it for this job
+because it wasn't in use and it could install a custom ROM or OS, free
+from restrictions of the original ROM. I used Lineage OS 16, which was
+Android 9 for the phone. Android 9 and later allows you to set your
+phone to USB tethering mode as default anytime it is connected via USB.
+
+A 4GB or higher micro SD card was needed to install a router OS of your
+choice. In this case, OpenWrt.
+
+Location. You need to get as close as possible to a cell tower from your
+house. This would require you to use a phone with the SIM card you want
+to use as the source to find a cell tower that belongs to the SIM
+network. You can check signal strength by going to Settings -\> About
+phone -\> SIM Status or something similar. Keep an eye on the negative
+number and dBm. The higher the number (lower number in negative) the
+better the signal. You can also use speedtest.net or fast.com to make a
+quick speed test.
+
+#### Preparing the router
+
+![](/images/blog/230413/pi_router/OpenWrt_Logo.svg)
+
+The reason I chose OpenWrt for my router OS is that, while it's
+intriguing to DIY by using Raspbian and set everything up using iptables
+for NAT, ufw for firewall, dnsmasq for DNS, DHCP, it's a lot of work to
+set it up separately. Instead, OpenWrt offers a web UI (luci) to help
+you set everything up quickly. I also wanted to try it out on a real
+scenario, as before this I ran it on my virtual machine to get a feel of
+the OS.
+
+Go to the download page of OpenWrt, get the latest version, with target
+as bcm27xx -\> bcm2710 (Raspberry Pi 3 SoC). They offer 2 choice,
+ext4-factory or squashfs-factory. I chose ext4 due to ease of use, as I
+can use GParted to expand the data partition to full. squashfs takes
+more steps, and has to be done in terminal. I might try out squashfs
+version later, because that's the version normally used in modified
+routers. After downloading the gzip file, extract it to get the image
+(img) file. Use either balenaEtcher or dd command to flash it to the SD
+card (sda in this example):
+
+*dd if=openwrt.img of=/dev/sda bs=1M*
+
+After that, put the card in the Pi, plug in the power and boot it
+up.Connect to your Pi using LAN and open the browser, type in
+[http://192.168.1.1/](http://192.168.1.1/) (default IP of the LAN interface) with username
+root, no password to enter OpenWrt management.
+
+![](/images/blog/230413/pi_router/1.jpg)
+
+First, we need to install some additional packages. Go to Network -\>
+Wireless. Press Scan on a wireless interface to connect to an access
+point.
+
+![](/images/blog/230413/pi_router/8.jpg)
+
+![](/images/blog/230413/pi_router/9.jpg)
+
+![](/images/blog/230413/pi_router/10.jpg)
+
+Type in password of that Wifi AP and submit. On the next page, you can
+just press Save, as that page only matters when you create an AP from
+this board. Press Save & Apply. Now go to Network -\> Interfaces. You
+should see another interface added in.
+
+![](/images/blog/230413/pi_router/11.jpg)
+
+Now go to System -\> Software and update lists. You have to do this at
+every restart when you want to install new packages.
+
+![](/images/blog/230413/pi_router/7.jpg)
+
+You need to install these packages to use the 4G USB Modem, in this case
+an Android phone.
+
+#### Preparing the access point
+
+![](/images/blog/230413/config_ac50_dhcp.jpg)
+
+There are 2 ways around this. Either set this router into Access Point
+mode, or you can turn off DHCP Server, which is a function that hands
+out IP address to devices connecting to it. I chose the latter, because
+I never had much luck with the former. Every time I try putting a router
+into AP mode, I end up resetting it at the end due to not being able to
+access its configuration page. But you do you.
+
+After that, use an Ethernet cable, connect Raspberry Pi to any LAN port
+on the TP-Link router, or either LAN / WAN if you choose AP mode.
+
+#### Finding place to put the "combo" device
+
+As I previously mentioned, location is important when it comes to 4G
+connection. In my case, the house is situated near a cell tower, right
+outside the kitchen's window.
+
+![](/images/blog/230413/anten.jpg)
+
+So the obvious answer is to place the router, the access point, the
+modem in the kitchen, right? Well, yeah. I put the combo in a chair at
+first, and also tried to elevate the phone using the Pi as leverage.
+That way the phone could get the best signal. It was a sight to behold.
+
+![](/images/blog/230413/combo.jpg)
+
+2 weeks after that, I got a dock to prop the phone up properly so it
+looked more professional and moved the combo to the top of the fridge,
+closer to the cell tower. By placing it there, I got -89 dBm, as opposed
+to -95 dBm on the chair. It was not much, because this was an old phone,
+but good enough to work.
+
+![](/images/blog/230413/phone_fridge.jpg)
+
+#### Getting the router to connect to the Internet
+
+Plugging the phone to the Raspberry Pi, I had to register the phone as a
+network interface on OpenWrt. Go to Network -\> Interfaces. Click Add
+New Interface. Name the interface. Choose DHCP client as protocol,
+because you will get IP address from the USB-tethered phone. In device,
+choose usb0 and click Create Interface. On the next screen, pick
+Firewall Settings, assign the interface to wan zone then Save. After
+that, click Save & Apply. So instead of cable Internet, I connected to
+the Internet via 4G network.
+
+![](/images/blog/230413/pi_router/3.jpg)
+
+![](/images/blog/230413/pi_router/5.jpg)
+
+If you prefer to use your custom DNS, go to 4G interface, Advanced
+Settings, uncheck Use DNS servers advertised by peer. Then go to Network
+-\> DHCP and DNS. Fill in your desired DNS in DNS forwardings (remember
+to press plus) then Save & Apply.
+
+![](/images/blog/230413/pi_router/12.jpg)
+
+#### Result
+
+So far so good. It worked like a dream. The Internet was a lot better.
+And thanks to the Raspberry Pi having a better CPU than most routers, it
+could withstand more clients connecting to the network and route better.
+On early morning or late night, I could get up to 80 Mbps download.
+Speed is inconsistent throughout the day, ranging from 15 to 50 Mbps.
+But overall, it's more stable than the cable Internet.
+
+#### Improvements
+
+About 3 weeks into the project, I swapped the phone for a 4G USB Modem,
+because doing this heated up the phone considerably and had a negative
+impact to its battery. It's a cheap no-name one because I wasn't gonna
+fully commit to this project. It also improved signal strength, getting
+it up to -76 dBm.
+
+![](/images/blog/230413/IMG_20230410_103017_860.jpg)
+
+![](/images/blog/230413/4g_router/4g_1.2.jpg)
+
+I also slowly phased out the TP-Link + Pi combo in favor of a Xiaomi Mi
+WiFi R3G v1. It's a router with MT7621 SoC with dual-core 880 MHz MIPS
+processor, 256 MB RAM, 128MB ROM. Compared to Raspberry Pi, it's like
+David vs Goliath. But it does feature hardware routing capability, so
+that's neat. It runs OpenWrt with 4G USB Modem support, so I could plug
+the USB Modem in and be done with it. Same performance with 1 less
+device to worry about.
+
+![](/images/blog/230413/IMG_20230411_083037_638.jpg)
+
+References:
+
+\- [OpenWrt Downloads](https://downloads.openwrt.org/)
+
+\- [balenaEtcher](https://www.balena.io/etcher)
+
+\- [LineageOS 16.0 for Xperia
+Z](https://forum.xda-developers.com/t/rom-final-9-0-lineageos-16-0-for-xperia-z.3924175/)
+
+\- [Raspberry Pi 3 Model
+B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
+
+\- [Xiaomi Mi WiFi R3G](https://openwrt.org/toh/xiaomi/mir3g)0:["aNhpefP0v_OQgBffyGflX",[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"font-semibold text-2xl mb-8 tracking-tighter","children":"My Blog"}],["$","$L2",null,{"allBlogs":[{"metadata":{"title":"The more things change, ...","publishedAt":"2024-09-07"},"slug":"240907","content":"... the more they stay the same. Right now, it happens in web technologies. Back in the \nearly days of the Internet, it was static HTML pages, sprinkle a bit of CSS and called it\na day. Then Javascript came along for more interactivity. People wanted more, so came PHP\nfor that dynamic web pages. PHP kickstarted the server-side rendering motive of web for years\nto come. There was also ASPX. When I started working around 2020, it was the time of Javascript\nframeworks. React, Vue, Svelte... you name it. Building Single Page Application was the bee's knee.\nAnd then comes your NextJS, Nuxt, 11ty, Astro... Even PHP-based content management systems (CMS)\nsuch as Wordpress have never left. It seems things a lot of times come full-circle, don't they?\nIt's like trends. Go out of fashion, then give it a decade, and it comes back. The 80s nostalgia\n, big movie franchises, fat vs oil health debacle.\n\n*\"plus ça change, plus c'est la même chose.\"* Jean-Baptiste Alphonse Karr"},{"metadata":{"title":"A different mindset","publishedAt":"2024-09-06"},"slug":"240906","content":"$3"},{"metadata":{"title":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework","publishedAt":"2024-09-02T03:00:00Z"},"slug":"240902-3","content":"$4"},{"metadata":{"title":"Windows S Mode","publishedAt":"2024-09-02T02:00:00Z"},"slug":"240902-2","content":"$5"},{"metadata":{"title":"Remote Server behind CGNAT using Wireguard","publishedAt":"2024-09-02T01:00:00Z"},"slug":"240902-1","content":"$6"},{"metadata":{"title":"My thought on Chromebook","publishedAt":"2023-10-11"},"slug":"231011","content":"$7"},{"metadata":{"title":"Convert BIOS to UEFI for Linux (or how to recover GRUB)","publishedAt":"2023-08-23T03:00:00Z"},"slug":"230823-3","content":"$8"},{"metadata":{"title":"Fedora: What I learned","publishedAt":"2023-08-23T02:00:00Z"},"slug":"230823-2","content":"$9"},{"metadata":{"title":"Trying Windows 11 and other OSes","publishedAt":"2023-08-23T01:00:00Z"},"slug":"230823-1","content":"$a"},{"metadata":{"title":"Cross compiling driver for Raspberry Pi","publishedAt":"2023-07-22"},"slug":"230722","content":"$b"},{"metadata":{"title":"Custom resolution for GTX 1060 on Lubuntu","publishedAt":"2023-07-21"},"slug":"230721","content":"$c"},{"metadata":{"title":"The times I dealt with phones that have multiple models","publishedAt":"2023-07-07"},"slug":"230707","content":"$d"},{"metadata":{"title":"Patching OpenWrt with a new driver","publishedAt":"2023-06-23"},"slug":"230623","content":"$e"},{"metadata":{"title":"Trying a new kernel and compiling network driver from it","publishedAt":"2023-06-14"},"slug":"230614","content":"$f"},{"metadata":{"title":"Getting my blog on Google Search","publishedAt":"2023-06-10"},"slug":"230610","content":"$10"},{"metadata":{"title":"Install Firefox as deb instead of snap on Ubuntu","publishedAt":"2023-06-09"},"slug":"230609","content":"$11"},{"metadata":{"title":"YouTube: The beginning of the end","publishedAt":"2023-05-23"},"slug":"230511","content":"$12"},{"metadata":{"title":"Compile OpenWrt for Orange Pi R1 Plus LTS","publishedAt":"2023-05-23"},"slug":"230523","content":"$13"},{"metadata":{"title":"On the proverb \"If it ain't broke don't fix it\"","publishedAt":"2023-05-06"},"slug":"230506","content":"$14"},{"metadata":{"title":"Auto build driver when updating Linux kernel with dkms","publishedAt":"2023-05-04"},"slug":"230504","content":"$15"},{"metadata":{"title":"Data plan investigation: Zero-rating","publishedAt":"2023-04-27"},"slug":"230427","content":"$16"},{"metadata":{"title":"Enhance network performance by bridging my modem to my router","publishedAt":"2023-04-15"},"slug":"230415","content":"$17"},{"metadata":{"title":"Upgrading Grandparents' Wifi III: Covering the house in new Wifi","publishedAt":"2023-04-13"},"slug":"230413","content":"$18"}],"addSummary":true,"pagination":true}]]}],null],null],null]},[null,["$","$L19",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L1a",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5c2e7a9dbf5cdffa.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$L1b","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$L1b","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$L1b","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$L19",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L1a",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/bach-phan-58530b1b0","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2024}]]}]]}]}]}]],null],null],[null,"$L1c"]]]]
+1c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Blog | Brian Phan"}],["$","meta","3",{"name":"description","content":"Read my blog."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
 1:null
