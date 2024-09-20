@@ -4,7 +4,7 @@ publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
-**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - Now  
+**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024
 *Web Assistant*  
 Corvallis, Oregon, USA
 
@@ -86,7 +86,7 @@ Ho Chi Minh City, Vietnam
 
 #### EDUCATION
 
-**Oregon State University** (expected) 9/2025  
+**Oregon State University** (expected) 6/2026  
 *Master of Engineering, Computer Science*  
 Corvallis, Oregon, USA
 

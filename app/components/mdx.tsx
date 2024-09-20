@@ -26,6 +26,7 @@ function Table({ data }) {
 }
 
 function CustomLink(props) {
+  console.log(props)
   let href = props.href
 
   if (href.startsWith('/')) {
@@ -38,6 +39,17 @@ function CustomLink(props) {
 
   if (href.startsWith('#')) {
     return <a {...props} />
+  }
+
+  // Add youtube video
+  if (href.startsWith('https://www.youtube.com/embed') || href.startsWith('https://youtube.com/embed')) {
+    return (
+      <div className="flex justify-center">
+        <iframe width="560" height="315" src={href} title="YouTube video player" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+        referrerPolicy="strict-origin-when-cross-origin" />
+      </div>
+    )
   }
 
   return <a target="_blank" rel="noopener noreferrer" {...props} />
