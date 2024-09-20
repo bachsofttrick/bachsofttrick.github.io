@@ -26,7 +26,6 @@ function Table({ data }) {
 }
 
 function CustomLink(props) {
-  console.log(props)
   let href = props.href
 
   if (href.startsWith('/')) {
