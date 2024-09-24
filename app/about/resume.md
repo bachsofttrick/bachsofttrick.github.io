@@ -4,7 +4,7 @@ publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
-**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024
+**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024  
 *Web Assistant*  
 Corvallis, Oregon, USA
 
@@ -70,19 +70,17 @@ Ho Chi Minh City, Vietnam
 
 #### SKILLS
 
--   Experience in Linux distributions (Ubuntu, Debian, Fedora,
-    Arch), Git version control, shell scripting, basic networking, and
-    computer diagnostic and repair.
-
--   Strong knowledge of web technologies (REST API), 
-    database (MySQL, MongoDB), containerization (Docker), virtualization 
-    (KVM, VPS), web hosting (PHP).
-
--   Office Skills: Proficient in Microsoft Office Suite (Word, Excel,
-    Outlook), Data Entry
-
--   Professional Skills: Project Management, Documentation,
-    Self-Motivation, Independent Work Ethic, Willingess To Learn.
+- Frontend: React, Vue, HTML, CSS, Javascript
+- Backend: .NET, NodeJS, NestJS, ExpressJS
+- Database: MySQL, MongoDB, SQLite
+- Scripting: Bash, Python
+- Version Control: Git, GitHub, GitLab
+- Container & Orchestration: Docker, Rancher
+- Virtualization: KVM, VPS
+- Other: Linux (Ubuntu, Debian, Fedora, Arch), Computer Networking, 
+Computer Diagnostic and Repair, Office Skills
+- Project Management, Documentation, Self-Motivation, 
+Independent Work Ethic, Willingess To Learn.
 
 #### EDUCATION
 
