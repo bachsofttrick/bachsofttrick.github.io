@@ -11,26 +11,22 @@ Corvallis, Oregon, USA
 -   Maintenance on the portal through which school districts and
     teachers can access the application, reports, resources
     for developing outdoor school programs
-
 -   Technology migration: From Umbraco 8 to Drupal 10 to improve
     stability, performance
 
 **ICC INNOVATIVE CONSULTING** 11/2020 - 11/2022  
 *Full Stack Developer*  
 Ho Chi Minh City, Vietnam
+
 -   Maintained DMS (distribution management system), a business
     management solution for Business-to-business sales, used by 12
     companies (P&G included). Specialized in promotion/deal calculation functions
-
 -   Made improvements to the shipper activity generation algorithm that
     sped up its runtime by 96x
-
 -   Programmed a social security app offering relief packages during
     COVID-19 and its delivery tracking system (An Sinh), utilized by
     about 9 million citizens of the city
-
 -   Assisted in the development of an eCommerce platform
-
 -   All projects are deployed with Docker onto a Kubernetes cluster with Jenkins CI/CD
 
 **ENGINEERING AND PRODUCTION APPLICATION SINGLE MEMBER CO., LTD
@@ -39,7 +35,6 @@ Ho Chi Minh City, Vietnam
 Ho Chi Minh City, Vietnam
 
 -   Studied programming on embedded devices and Linux
-
 -   Embraced software development environment and mindset
 
 #### PROJECTS
