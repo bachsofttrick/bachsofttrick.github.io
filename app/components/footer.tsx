@@ -49,7 +49,7 @@ export default function Footer() {
       <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <FooterPart href={"https://github.com/bachsofttrick"} title={"github"} />
         <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io"} title={"view source"} />
-        <FooterPart href={"https://linkedin.com/in/bach-phan-58530b1b0"} title={"linkedin"} />
+        <FooterPart href={"https://linkedin.com/in/brian-phan-58530b1b0/"} title={"linkedin"} />
         <FooterPart href={"mailto:xuanbach1307@gmail.com"} title={"email"} />
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">

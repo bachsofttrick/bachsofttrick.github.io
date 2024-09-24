@@ -72,7 +72,7 @@ Ho Chi Minh City, Vietnam
 
 - Frontend: React, Vue, HTML, CSS, Javascript
 - Backend: .NET, NodeJS, NestJS, ExpressJS
-- Database: MySQL, MongoDB, SQLite
+- Database: MySQL, MongoDB, SQLite, Redis
 - Scripting: Bash, Python
 - Version Control: Git, GitHub, GitLab
 - Container & Orchestration: Docker, Rancher
