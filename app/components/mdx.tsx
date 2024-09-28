@@ -62,6 +62,29 @@ function CenteredImage(props) {
   )
 }
 
+const tempImgs: string[] = [];
+function Image(props = {
+  src: '', alt: ''
+}) {
+  tempImgs.push(props.src)
+
+  if (props.alt.includes('gallery')) {
+    return; 
+  }
+
+  const result = (
+    <p className='flex justify-center'>
+      {
+        tempImgs.map((src) => <img key={src} src={src} />)
+      }
+    </p>
+  )
+  console.log(tempImgs)
+  // Clear array
+  tempImgs.length = 0
+  return result
+}
+
 function Code({ children, ...props }) {
   let codeHTML = highlight(children)
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
@@ -118,7 +141,7 @@ let components = {
   h4: createHeading(4),
   h5: createHeading(5),
   h6: createHeading(6),
-  img: CenteredImage,
+  img: Image,
   a: CustomLink,
   code: Code,
   Table,
