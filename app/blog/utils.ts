@@ -7,6 +7,12 @@ type Metadata = {
   hidden: string
 }
 
+export type MDXData = {
+  metadata: Metadata
+  slug: string
+  content: string
+}
+
 function parseFrontmatter(fileContent: string) {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
@@ -34,7 +40,7 @@ function readMDXFile(filePath) {
   return parseFrontmatter(rawContent)
 }
 
-function getMDXData(dir) {
+function getMDXData(dir): MDXData[] {
   let mdxFiles = getMDXFiles(dir)
   return mdxFiles.map((file) => {
     let { metadata, content } = readMDXFile(path.join(dir, file))
@@ -48,11 +54,11 @@ function getMDXData(dir) {
   })
 }
 
-export function getBlogPosts() {
+export function getBlogPosts(): MDXData[] {
   return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
 }
 
-export function getSortedBlogPosts() {
+export function getSortedBlogPosts(): MDXData[] {
   return getBlogPosts()
   .filter((post) => !post.metadata.hidden)
   .sort((a, b) => {
@@ -65,7 +71,7 @@ export function getSortedBlogPosts() {
   })
 }
 
-export function getAboutPosts() {
+export function getAboutPosts(): MDXData[] {
   let posts = getMDXData(path.join(process.cwd(), 'app', 'about'))
   return posts
 }
