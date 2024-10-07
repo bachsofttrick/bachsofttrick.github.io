@@ -73,21 +73,25 @@ export function BlogPosts({
                 }
               </Select>
             </FormControl>
-            <FormControl>
-              <InputLabel>Month</InputLabel>
-              <Select
-                value={month as unknown}
-                label="Month"
-                onChange={handleMonthChange}
-                className='mr-4 mb-4'
-              >
-                {
-                  year ? monthList.map((month) => (
-                    <MenuItem key={month} value={month}>{month ? month : 'All'}</MenuItem>
-                  )) : <MenuItem key={0} value={0}>All</MenuItem>
-                }
-              </Select>
-            </FormControl>
+            {
+              year > 0 ? (
+                <FormControl>
+                  <InputLabel>Month</InputLabel>
+                  <Select
+                    value={month as unknown}
+                    label="Month"
+                    onChange={handleMonthChange}
+                    className='mr-4 mb-4'
+                  >
+                    {
+                      monthList.map((month) => (
+                        <MenuItem key={month} value={month}>{month ? month : 'All'}</MenuItem>
+                      ))
+                    }
+                  </Select>
+                </FormControl>
+              ) : null
+            }
           </div>
         ) : null
       }
