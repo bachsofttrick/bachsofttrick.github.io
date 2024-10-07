@@ -20,10 +20,8 @@ export function BlogPosts({
   const handlePageChange = (event, page) => {
     setPage(page);
   }
-
-  const [totalPages, setTotal] = useState(
-    Math.floor((allBlogs).length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
-  )
+  
+  let totalPages = Math.floor((allBlogs).length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
 
   const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
   const yearList = [0, ...Array.from(new Set(allDates.map((date) => date.getFullYear())))] as number[]
@@ -31,24 +29,34 @@ export function BlogPosts({
   const handleYearChange = (event: SelectChangeEvent) => {
     setYear(Number(event.target.value))
     setMonth(0)
+    setPage(1)
   }
+
+  // Generate all months
   const monthList = Array.from({ length: 13 }, (_, index) => index);
+
   const [month, setMonth] = useState(0)
   const handleMonthChange = (event: SelectChangeEvent) => {
     setMonth(Number(event.target.value))
+    setPage(1)
   }
 
-  let returnBlogs = allBlogs
+  let returnBlogs = allBlogs as any[]
+  if (year > 0) {
+    returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() == year)
+    if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 == month)
+    totalPages = Math.floor((returnBlogs).length / itemPerPage) + (returnBlogs.length % itemPerPage ? 1 : 0)
+  }
   if (pagination) {
-    returnBlogs = allBlogs.slice(page * itemPerPage - itemPerPage, page * itemPerPage)
+    returnBlogs = returnBlogs.slice(page * itemPerPage - itemPerPage, page * itemPerPage)
   } else {
-    returnBlogs = allBlogs.slice(0, itemPerPage)
+    returnBlogs = returnBlogs.slice(0, itemPerPage)
   }
 
   return (
     <div>
       {
-        false ? (
+        pagination ? (
           <div>
             <FormControl>
               <InputLabel>Year</InputLabel>
