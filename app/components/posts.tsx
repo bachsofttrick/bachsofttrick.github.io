@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import {useState} from 'react'
-import { formatDate } from 'app/blog/utils'
+import { formatDate, MDXData } from 'app/blog/utils'
 import Pagination from '@mui/material/Pagination';
 import PaginationItem from '@mui/material/PaginationItem';
 import InputLabel from '@mui/material/InputLabel';
@@ -15,6 +15,11 @@ export function BlogPosts({
   itemPerPage = 4,
   addSummary = false,
   pagination = false,
+}: {
+  allBlogs: MDXData[],
+  itemPerPage?: number,
+  addSummary?: boolean,
+  pagination?: boolean
 }) {
   const [page, setPage] = useState(1)
   const handlePageChange = (event, page) => {
@@ -41,7 +46,7 @@ export function BlogPosts({
     setPage(1)
   }
 
-  let returnBlogs = allBlogs as any[]
+  let returnBlogs = allBlogs
   if (year > 0) {
     returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() == year)
     if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 == month)
