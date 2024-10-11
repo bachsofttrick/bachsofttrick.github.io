@@ -1,4 +1,4 @@
-function ArrowIcon({ noArrow }) {
+function ArrowIcon({ noArrow }: { noArrow: boolean }) {
   if (noArrow) return
   return (
     <svg
@@ -16,7 +16,7 @@ function ArrowIcon({ noArrow }) {
   )
 }
 
-function FooterPart({ href = '', title, noArrow = false }) {
+function FooterPart({ href = '', title, noArrow = false }: { href?: string, title: string, noArrow?: boolean}) {
   if (!href) return (
     <li>
       <ArrowIcon noArrow={noArrow} />

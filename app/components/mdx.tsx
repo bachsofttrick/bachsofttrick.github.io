@@ -3,7 +3,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
 
-function Table({ data }) {
+function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   let headers = data.headers.map((header, index) => (
     <th key={index}>{header}</th>
   ))
@@ -25,12 +25,12 @@ function Table({ data }) {
   )
 }
 
-function CustomLink(props) {
+function CustomLink(props: { href: string, children: any }) {
   let href = props.href
 
   if (href.startsWith('/')) {
     return (
-      <Link href={href} {...props}>
+      <Link {...props}>
         {props.children}
       </Link>
     )
@@ -67,7 +67,7 @@ function Code({ children, ...props }) {
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
 
-export function slugify(str) {
+export function slugify(str: string) {
   return str
     .toString()
     .toLowerCase()
@@ -78,7 +78,7 @@ export function slugify(str) {
     .replace(/\-\-+/g, '-') // Replace multiple - with single -
 }
 
-function createHeading(level, type = '') {
+function createHeading(level: number, type = '') {
   let className;
   switch (type) {
     case 'resume':
@@ -124,7 +124,7 @@ let components = {
   Table,
 }
 
-export function CustomMDX(props) {
+export function CustomMDX(props: { type?: string, source: string, components?: any }) {
   switch (props.type) {
     case 'resume':
       components.h4 = createHeading(4, props.type)
