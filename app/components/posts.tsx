@@ -28,6 +28,14 @@ export function BlogPosts({
   
   let totalPages = Math.floor((allBlogs).length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
 
+  // Get unique categories
+  const categories = ['All', ...new Set(allBlogs.map((post) => post.category))]
+  const [category, setCategory] = useState('All')
+  const handleCategoryChange = (event: SelectChangeEvent) => {
+    setCategory(event.target.value)
+    setPage(1)
+  }
+
   const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
   const yearList = [0, ...Array.from(new Set(allDates.map((date) => date.getFullYear())))] as number[]
   const [year, setYear] = useState(0)
@@ -47,6 +55,7 @@ export function BlogPosts({
   }
 
   let returnBlogs = allBlogs
+  if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
   if (year > 0) {
     returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() == year)
     if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 == month)
@@ -63,6 +72,21 @@ export function BlogPosts({
       {
         pagination ? (
           <div>
+            <FormControl>
+              <InputLabel>Category</InputLabel>
+              <Select
+                value={category as string}
+                label="Category"
+                onChange={handleCategoryChange}
+                className='mr-4 mb-4'
+              >
+                {
+                  categories.map((category) => (
+                    <MenuItem key={category} value={category}>{category ? category : 'All'}</MenuItem>
+                  ))
+                }
+              </Select>
+            </FormControl>
             <FormControl>
               <InputLabel>Year</InputLabel>
               <Select
@@ -107,7 +131,10 @@ export function BlogPosts({
             className="flex flex-col space-y-1 mb-4"
             href={`/blog/${post.slug}`}
           >
-            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
+            <p className="text-neutral-600 dark:text-neutral-400 tabular-nums">
+              {post.category}
+            </p>
+            <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2 mt-0">
               <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
                 {formatDate(post.metadata.publishedAt, false)}
               </p>

@@ -10,6 +10,7 @@ type Metadata = {
 export type MDXData = {
   metadata: Metadata
   slug: string
+  category: string
   content: string
 }
 
@@ -41,17 +42,22 @@ function readMDXFile(filePath: string) {
 }
 
 function getMDXData(dir: string): MDXData[] {
-  let mdxFiles = getMDXFiles(dir)
-  return mdxFiles.map((file) => {
-    let { metadata, content } = readMDXFile(path.join(dir, file))
-    let slug = path.basename(file, path.extname(file))
-
-    return {
-      metadata,
-      slug,
-      content,
-    }
+  const categories: string[] = fs.readdirSync(dir)
+  const result: MDXData[] = []
+  categories.forEach((category) => {
+    let mdxFiles = getMDXFiles(path.join(dir,category))
+    result.push(...mdxFiles.map((file) => {
+      let { metadata, content } = readMDXFile(path.join(dir,category,file))
+      let slug = path.basename(file, path.extname(file))
+      return {
+        metadata,
+        slug,
+        category,
+        content,
+      }
+    }))
   })
+  return result
 }
 
 export function getBlogPosts(): MDXData[] {
