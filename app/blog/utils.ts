@@ -41,7 +41,22 @@ function readMDXFile(filePath: string) {
   return parseFrontmatter(rawContent)
 }
 
-function getMDXData(dir: string): MDXData[] {
+function getMDXData(dir: string, enableCate: boolean = true): MDXData[] {
+  // Only get MDX files without folders
+  if (!enableCate) {
+    let mdxFiles = getMDXFiles(dir)
+    return mdxFiles.map((file) => {
+      let { metadata, content } = readMDXFile(path.join(dir, file))
+      let slug = path.basename(file, path.extname(file))
+      return {
+        metadata,
+        slug,
+        category: '',
+        content,
+      }
+    })
+  }
+
   const categories: string[] = fs.readdirSync(dir)
   const result: MDXData[] = []
   categories.forEach((category) => {
@@ -78,7 +93,7 @@ export function getSortedBlogPosts(): MDXData[] {
 }
 
 export function getAboutPosts(): MDXData[] {
-  let posts = getMDXData(path.join(process.cwd(), 'app', 'about'))
+  let posts = getMDXData(path.join(process.cwd(), 'app', 'about'), false)
   return posts
 }
 
