@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
+import './mdx.css'
 
 function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   let headers = data.headers.map((header, index) => (
@@ -54,35 +55,26 @@ function CustomLink(props: { href: string, children: any }) {
   return <a target="_blank" rel="noopener noreferrer" {...props} />
 }
 
-function CenteredImage(props) {
+function Image(props = {
+  src: '', alt: ''
+}) {
+  if (props.alt.includes('gallery')) {
+    const imgs = props.src.split(',')
+    const result = (
+      <p className='image-container'>
+        {
+          imgs.map((src) => <img key={src} src={src} />)
+        }
+      </p>
+    )
+    return result
+  }
+
   return (
     <p className='flex justify-center'>
       <img {...props} />
     </p>
   )
-}
-
-const tempImgs: string[] = [];
-function Image(props = {
-  src: '', alt: ''
-}) {
-  tempImgs.push(props.src)
-
-  if (props.alt.includes('gallery')) {
-    return; 
-  }
-
-  const result = (
-    <p className='flex justify-center'>
-      {
-        tempImgs.map((src) => <img key={src} src={src} />)
-      }
-    </p>
-  )
-  console.log(tempImgs)
-  // Clear array
-  tempImgs.length = 0
-  return result
 }
 
 function Code({ children, ...props }) {

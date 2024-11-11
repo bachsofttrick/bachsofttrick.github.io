@@ -1,0 +1,21 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 10px; /* Space between images */
+}
+
+.image-container img {
+  height: 360px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure proper scaling within container */
+}
+
+@media (max-width: 768px) { /* Breakpoint for mobile devices */
+  .image-container {
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center align images if widths differ */
+  }
+
+  .image-container img {
+    height: auto
+  }
+}
