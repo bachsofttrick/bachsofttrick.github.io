@@ -10,6 +10,10 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
+function SplitWordFromCategoryCount(category: string) {
+  return category !== 'All' ? category.split(' (')[0] : category
+}
+
 export function BlogPosts({
   allBlogs,
   itemPerPage = 4,
@@ -29,7 +33,13 @@ export function BlogPosts({
   let totalPages = Math.floor((allBlogs).length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
 
   // Get unique categories
-  const categories = ['All', ...new Set(allBlogs.map((post) => post.category))]
+  const categories = [...new Set(allBlogs.map((post) => post.category))]
+  for (let i = 0; i < categories.length; i++) {
+    const category = categories[i];
+    const blogWithThisCategory = allBlogs.filter((post) => post.category === category)
+    categories[i] = `${category} (${blogWithThisCategory.length})`
+  }
+  categories.unshift('All')
   const [category, setCategory] = useState('All')
   const handleCategoryChange = (event: SelectChangeEvent) => {
     setCategory(event.target.value)
@@ -37,7 +47,7 @@ export function BlogPosts({
   }
 
   const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
-  const yearList = [0, ...Array.from(new Set(allDates.map((date) => date.getFullYear())))] as number[]
+  const yearList = [0, ...new Set(allDates.map((date) => date.getFullYear()))] as number[]
   const [year, setYear] = useState(0)
   const handleYearChange = (event: SelectChangeEvent) => {
     setYear(Number(event.target.value))
@@ -82,7 +92,7 @@ export function BlogPosts({
               >
                 {
                   categories.map((category) => (
-                    <MenuItem key={category} value={category}>{category ? category : 'All'}</MenuItem>
+                    <MenuItem key={SplitWordFromCategoryCount(category)} value={SplitWordFromCategoryCount(category)}>{category ? category : 'All'}</MenuItem>
                   ))
                 }
               </Select>
