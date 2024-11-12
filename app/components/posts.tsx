@@ -10,8 +10,12 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
-function SplitWordFromCategoryCount(category: string) {
-  return category !== 'All' ? category.split(' (')[0] : category
+function SplitWordFromDuplicateCount(words: string) {
+  return words !== 'All' ? words.split(' (')[0] : words
+}
+
+function SplitNumberFromDuplicateCount(number: string) {
+  return number !== 'All' ? Number(number.split(' (')[0]) : '0'
 }
 
 export function BlogPosts({
@@ -34,6 +38,7 @@ export function BlogPosts({
 
   // Get unique categories
   const categories = [...new Set(allBlogs.map((post) => post.category))]
+  // Count the number of posts in a category
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i];
     const blogWithThisCategory = allBlogs.filter((post) => post.category === category)
@@ -43,14 +48,23 @@ export function BlogPosts({
   const [category, setCategory] = useState('All')
   const handleCategoryChange = (event: SelectChangeEvent) => {
     setCategory(event.target.value)
+    setYear(0)
     setPage(1)
   }
 
+  // Get all years
   const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
-  const yearList = [0, ...new Set(allDates.map((date) => date.getFullYear()))] as number[]
+  const yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
+  // Count the number of posts in a year
+  for (let i = 0; i < yearList.length; i++) {
+    const year = yearList[i];
+    const blogWithThisYear = allBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === Number(year))
+    yearList[i] = `${year} (${blogWithThisYear.length})`
+  }
+  yearList.unshift('All')
   const [year, setYear] = useState(0)
   const handleYearChange = (event: SelectChangeEvent) => {
-    setYear(Number(event.target.value))
+    setYear(event.target.value === 'All' ? 0 : Number(event.target.value))
     setMonth(0)
     setPage(1)
   }
@@ -92,7 +106,7 @@ export function BlogPosts({
               >
                 {
                   categories.map((category) => (
-                    <MenuItem key={SplitWordFromCategoryCount(category)} value={SplitWordFromCategoryCount(category)}>{category ? category : 'All'}</MenuItem>
+                    <MenuItem key={SplitWordFromDuplicateCount(category)} value={SplitWordFromDuplicateCount(category)}>{category ? category : 'All'}</MenuItem>
                   ))
                 }
               </Select>
@@ -107,7 +121,7 @@ export function BlogPosts({
               >
                 {
                   yearList.map((year) => (
-                    <MenuItem key={year} value={year}>{year ? year : 'All'}</MenuItem>
+                    <MenuItem key={SplitNumberFromDuplicateCount(year)} value={SplitNumberFromDuplicateCount(year)}>{year ? year : 'All'}</MenuItem>
                   ))
                 }
               </Select>
@@ -156,7 +170,7 @@ export function BlogPosts({
             {
               (addSummary) ? (
                 <p className="text-neutral-500 tracking-tight">
-                  {post.content.slice(0, 200)} [. . .]
+                  {post.content} [. . .]
                 </p>
               ) : null
             }
