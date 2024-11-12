@@ -19,7 +19,7 @@ function parseFrontmatter(fileContent: string) {
   let match = frontmatterRegex.exec(fileContent)
   let frontMatterBlock = match![1]
   // Shorten blog content for summary
-  let content = fileContent.replace(frontmatterRegex, '').trim().slice(0, 200)
+  let content = fileContent.replace(frontmatterRegex, '').trim()
   let frontMatterLines = frontMatterBlock.trim().split('\n')
   let metadata: Partial<Metadata> = {}
 
