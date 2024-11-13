@@ -133,3 +133,16 @@ export function formatDate(date: string, includeRelative = false) {
 
   return `${fullDate} (${formattedDate})`
 }
+
+export function getYear(date: string) {
+  return new Date(date).getFullYear()
+}
+
+export function getMonth(date: string) {
+  return new Date(date).getMonth() + 1
+}
+
+export function getUniqueValues(arr: any[]) {
+  return [...new Set(arr)];
+}
+

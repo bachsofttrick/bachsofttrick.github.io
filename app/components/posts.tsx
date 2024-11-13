@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import {useState} from 'react'
-import { formatDate, MDXData } from 'app/blog/utils'
+import { formatDate, MDXData, getMonth, getYear, getUniqueValues } from 'app/blog/utils'
 import Pagination from '@mui/material/Pagination';
 import PaginationItem from '@mui/material/PaginationItem';
 import InputLabel from '@mui/material/InputLabel';
@@ -52,48 +52,42 @@ export function BlogPosts({
   }
 
   let returnBlogs = allBlogs
-  // Get unique categories
-  const categories = [...new Set(allBlogs.map((post) => post.category))]
-  // Get all years
-  const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
-  let yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
-  // Generate all months
-  let monthList = Array.from({ length: 13 }, (_, index) => index.toString());
-
-  // Count the number of posts in a category
-  for (let i = 0; i < categories.length; i++) {
-    const category = categories[i];
-    const blogWithThisCategory = returnBlogs.filter((post) => post.category === category)
-    categories[i] = `${category} (${blogWithThisCategory.length})`
-  }
+  // Get unique categories and count the number of posts in a category
+  const categories = [...getUniqueValues(allBlogs.map((post) => post.category))].map(category => {
+    const count = returnBlogs.filter(post => post.category === category).length
+    return `${category} (${count})`
+  })
   categories.unshift('All')
+  
+  // Generate all months
+  let monthList = Array.from({ length: 13 }, (_, index) => index.toString())
+  monthList.pop()
 
   if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
-  // Count the number of posts in a year
-  for (let i = 0; i < yearList.length; i++) {
-    const year = yearList[i];
-    const blogWithThisYear = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === Number(year))
-    if (blogWithThisYear.length <= 0) yearList[i] = ``
-    else yearList[i] = `${year} (${blogWithThisYear.length})`
-  }
-  yearList.unshift('All')
+  // Get all years and count the number of posts in a year
+  let yearList = [...getUniqueValues(allBlogs.map(post => 
+    getYear(post.metadata.publishedAt).toString()
+  ))].map(year => {
+    const count = returnBlogs.filter(post => getYear(post.metadata.publishedAt) === Number(year)).length
+    return count > 0 ? `${year} (${count})` : ``
+  });
   yearList = yearList.filter((year) => year !== ``)
+  yearList.unshift('All')
 
-  let totalPages = Math.floor((returnBlogs).length / itemPerPage) + (returnBlogs.length % itemPerPage ? 1 : 0)
+  let totalPages = Math.ceil(returnBlogs.length / itemPerPage)
 
   if (year > 0) {
-    returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === year)
+    returnBlogs = returnBlogs.filter((post) => getYear(post.metadata.publishedAt) === year)
     // Count the number of posts in a month
-    for (let i = 1; i < monthList.length; i++) {
-      const month = monthList[i];
-      const blogWithThisMonth = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 === Number(month))
-      if (blogWithThisMonth.length <= 0) monthList[i] = ``
-      else monthList[i] = `${month} (${blogWithThisMonth.length})`
-    }
-    monthList = monthList.filter((year) => year !== ``)
+    monthList = monthList.map(month => {
+      const count = returnBlogs.filter(post => getMonth(post.metadata.publishedAt) === Number(month)).length
+      return count > 0 ? `${month} (${count})` : ``
+    });
+    monthList = monthList.filter((month) => month !== ``)
+    monthList.unshift('All')
     
-    if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 === month)
-    totalPages = Math.floor((returnBlogs).length / itemPerPage) + (returnBlogs.length % itemPerPage ? 1 : 0)
+    if (month > 0) returnBlogs = returnBlogs.filter((post) => getMonth(post.metadata.publishedAt) === month)
+    totalPages = Math.ceil(returnBlogs.length / itemPerPage)
   }
   if (pagination) {
     returnBlogs = returnBlogs.slice(page * itemPerPage - itemPerPage, page * itemPerPage)
