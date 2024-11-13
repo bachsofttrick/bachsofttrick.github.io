@@ -33,31 +33,18 @@ export function BlogPosts({
   const handlePageChange = (event, page) => {
     setPage(page);
   }
-
-  // Get unique categories
-  const categories = [...new Set(allBlogs.map((post) => post.category))]
- 
   const [category, setCategory] = useState('All')
   const handleCategoryChange = (event: SelectChangeEvent) => {
     setCategory(event.target.value)
     setYear(0)
     setPage(1)
   }
-
-  // Get all years
-  const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
-  let yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
-  
   const [year, setYear] = useState(0)
   const handleYearChange = (event: SelectChangeEvent) => {
     setYear(event.target.value === 'All' ? 0 : Number(event.target.value))
     setMonth(0)
     setPage(1)
   }
-
-  // Generate all months
-  let monthList = Array.from({ length: 13 }, (_, index) => index.toString());
-  
   const [month, setMonth] = useState(0)
   const handleMonthChange = (event: SelectChangeEvent) => {
     setMonth(Number(event.target.value))
@@ -65,6 +52,14 @@ export function BlogPosts({
   }
 
   let returnBlogs = allBlogs
+  // Get unique categories
+  const categories = [...new Set(allBlogs.map((post) => post.category))]
+  // Get all years
+  const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
+  let yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
+  // Generate all months
+  let monthList = Array.from({ length: 13 }, (_, index) => index.toString());
+
   // Count the number of posts in a category
   for (let i = 0; i < categories.length; i++) {
     const category = categories[i];
