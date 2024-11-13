@@ -33,18 +33,10 @@ export function BlogPosts({
   const handlePageChange = (event, page) => {
     setPage(page);
   }
-  
-  let totalPages = Math.floor((allBlogs).length / itemPerPage) + (allBlogs.length % itemPerPage ? 1 : 0)
 
   // Get unique categories
   const categories = [...new Set(allBlogs.map((post) => post.category))]
-  // Count the number of posts in a category
-  for (let i = 0; i < categories.length; i++) {
-    const category = categories[i];
-    const blogWithThisCategory = allBlogs.filter((post) => post.category === category)
-    categories[i] = `${category} (${blogWithThisCategory.length})`
-  }
-  categories.unshift('All')
+ 
   const [category, setCategory] = useState('All')
   const handleCategoryChange = (event: SelectChangeEvent) => {
     setCategory(event.target.value)
@@ -54,14 +46,8 @@ export function BlogPosts({
 
   // Get all years
   const allDates = allBlogs.map((post) => new Date(post.metadata.publishedAt))
-  const yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
-  // Count the number of posts in a year
-  for (let i = 0; i < yearList.length; i++) {
-    const year = yearList[i];
-    const blogWithThisYear = allBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === Number(year))
-    yearList[i] = `${year} (${blogWithThisYear.length})`
-  }
-  yearList.unshift('All')
+  let yearList = [...new Set(allDates.map((date) => date.getFullYear().toString()))]
+  
   const [year, setYear] = useState(0)
   const handleYearChange = (event: SelectChangeEvent) => {
     setYear(event.target.value === 'All' ? 0 : Number(event.target.value))
@@ -70,8 +56,8 @@ export function BlogPosts({
   }
 
   // Generate all months
-  const monthList = Array.from({ length: 13 }, (_, index) => index);
-
+  let monthList = Array.from({ length: 13 }, (_, index) => index.toString());
+  
   const [month, setMonth] = useState(0)
   const handleMonthChange = (event: SelectChangeEvent) => {
     setMonth(Number(event.target.value))
@@ -79,10 +65,39 @@ export function BlogPosts({
   }
 
   let returnBlogs = allBlogs
+  // Count the number of posts in a category
+  for (let i = 0; i < categories.length; i++) {
+    const category = categories[i];
+    const blogWithThisCategory = returnBlogs.filter((post) => post.category === category)
+    categories[i] = `${category} (${blogWithThisCategory.length})`
+  }
+  categories.unshift('All')
+
   if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
+  // Count the number of posts in a year
+  for (let i = 0; i < yearList.length; i++) {
+    const year = yearList[i];
+    const blogWithThisYear = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === Number(year))
+    if (blogWithThisYear.length <= 0) yearList[i] = ``
+    else yearList[i] = `${year} (${blogWithThisYear.length})`
+  }
+  yearList.unshift('All')
+  yearList = yearList.filter((year) => year !== ``)
+
+  let totalPages = Math.floor((returnBlogs).length / itemPerPage) + (returnBlogs.length % itemPerPage ? 1 : 0)
+
   if (year > 0) {
-    returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() == year)
-    if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 == month)
+    returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getFullYear() === year)
+    // Count the number of posts in a month
+    for (let i = 1; i < monthList.length; i++) {
+      const month = monthList[i];
+      const blogWithThisMonth = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 === Number(month))
+      if (blogWithThisMonth.length <= 0) monthList[i] = ``
+      else monthList[i] = `${month} (${blogWithThisMonth.length})`
+    }
+    monthList = monthList.filter((year) => year !== ``)
+    
+    if (month > 0) returnBlogs = returnBlogs.filter((post) => new Date(post.metadata.publishedAt).getMonth() + 1 === month)
     totalPages = Math.floor((returnBlogs).length / itemPerPage) + (returnBlogs.length % itemPerPage ? 1 : 0)
   }
   if (pagination) {
@@ -96,7 +111,7 @@ export function BlogPosts({
       {
         pagination ? (
           <div>
-            <FormControl>
+            <FormControl sx={{minWidth: '100px'}}>
               <InputLabel>Category</InputLabel>
               <Select
                 value={category as string}
@@ -111,7 +126,7 @@ export function BlogPosts({
                 }
               </Select>
             </FormControl>
-            <FormControl>
+            <FormControl sx={{minWidth: '100px'}}>
               <InputLabel>Year</InputLabel>
               <Select
                 value={year as unknown}
@@ -128,7 +143,7 @@ export function BlogPosts({
             </FormControl>
             {
               year > 0 ? (
-                <FormControl>
+                <FormControl sx={{minWidth: '100px'}}>
                   <InputLabel>Month</InputLabel>
                   <Select
                     value={month as unknown}
@@ -138,7 +153,7 @@ export function BlogPosts({
                   >
                     {
                       monthList.map((month) => (
-                        <MenuItem key={month} value={month}>{month ? month : 'All'}</MenuItem>
+                        <MenuItem key={SplitNumberFromDuplicateCount(month)} value={SplitNumberFromDuplicateCount(month)}>{month !== '0' ? month : 'All'}</MenuItem>
                       ))
                     }
                   </Select>
