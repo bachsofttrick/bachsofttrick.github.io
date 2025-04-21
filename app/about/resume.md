@@ -72,8 +72,9 @@ Ho Chi Minh City, Vietnam
 - Version Control: Git, GitHub, GitLab
 - Container & Orchestration: Docker, Rancher
 - Virtualization: KVM, VPS
-- Other: Linux (Ubuntu, Debian, Fedora, Arch), Computer Networking, 
-Computer Diagnostic and Repair, Office Skills
+- Proficient in Linux (Ubuntu, Debian, Fedora, Arch), Windows
+- Proficient in Computer Networking, Computer Diagnostic and Repair, Office Skills
+- Experience in Electronic Repair
 - Project Management, Documentation, Self-Motivation, 
 Independent Work Ethic, Willingess To Learn.
 
