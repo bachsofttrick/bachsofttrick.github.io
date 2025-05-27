@@ -4,7 +4,7 @@ publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
-**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024  
+**OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - 10/2024  
 *Web Assistant*  
 Corvallis, Oregon, USA
 
@@ -50,6 +50,11 @@ Ho Chi Minh City, Vietnam
 **THIS PAGE**
 
 -   Built using NextJS, hosted on Github Pages, source at the bottom of the page
+
+**REVERSI COMPARISON**
+[Code](https://github.com/bachsofttrick/reversi-ai531/)
+
+- Compare Minimax vs Monte Carlo in multiple Reversi games
 
 **GO APPS** 
 
