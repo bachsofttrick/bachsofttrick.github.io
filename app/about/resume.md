@@ -39,8 +39,14 @@ Ho Chi Minh City, Vietnam
 
 #### PROJECTS
 
+**REVERSI: MINIMAX VS MONTE CARLO**
+[Paper](https://github.com/bachsofttrick/reversi-ai531/blob/master/paper.pdf)
+\- [Code](https://github.com/bachsofttrick/reversi-ai531/)
+
+- Compare performance of two algorithms against several games of Reversi, varying in board size, tree depth, iteration count, using multithreading.
+
 **OBJECT DETECTION AND MONITORING THROUGH UAV** 
-[Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf)
+[Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf)
 \- [Code](https://github.com/bachsofttrick/dronectrl-with-tracking)
 
 -   Use a custom drone for searching, identifying, and following a
@@ -50,11 +56,6 @@ Ho Chi Minh City, Vietnam
 **THIS PAGE**
 
 -   Built using NextJS, hosted on Github Pages, source at the bottom of the page
-
-**REVERSI COMPARISON**
-[Code](https://github.com/bachsofttrick/reversi-ai531/)
-
-- Compare Minimax vs Monte Carlo in multiple Reversi games
 
 **GO APPS** 
 
