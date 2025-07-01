@@ -1,8 +1,37 @@
 2:I[349,["951","static/chunks/951-68001eacaacb5ddd.js","868","static/chunks/868-8014f345f9f53463.js","404","static/chunks/app/blog/page-ed9aa2281a774e63.js"],"BlogPosts",1]
-2a:I[5505,[],""]
-2b:I[8694,[],""]
-2c:I[7951,["951","static/chunks/951-68001eacaacb5ddd.js","185","static/chunks/app/layout-03843bc8a6bc7c81.js"],""]
-3:T792,Yesterday I was at Grocery Outlets. And catching my eyes was sets of vegan cheese. Now I am a cheese enthusiast myself,
+2c:I[5505,[],""]
+2d:I[8694,[],""]
+2e:I[7951,["951","static/chunks/951-68001eacaacb5ddd.js","185","static/chunks/app/layout-03843bc8a6bc7c81.js"],""]
+3:T4ba,Today I'm attempting to cook rice "again" in a pot. The last time I tried this, it was mushy, sticky, impossible to clean
+out of a nonstick pot (by the way, I realized slowly that nonstick pot is a stupid idea. Best setup is nonstick pan/ steel pot).
+This time, I got a brand new idea. Most likely recycling from how rice cooker cooks rice. So a rice cooker cooks rice at a
+constant heat source. For my Aroma rice cooker, it was 300 watts. So I tried cooking the rice at level 3 of my stove in
+the apartment, because in an experiment I did earlier, level 3 was comparable to my rice cooker when both were boiling
+water. After 25 minutes (cause the stove had to heat up a bit), it was done. I tasted some and it was a bit mushy, but
+overall, solid. It was better than my previous attempt with the cooking method of the Internet: boil then steam at low
+burner level.
+
+With maybe less water, this could work. Of course, I could try with either boiling water, or doing a hybrid: boil, then smaller at level 3, so it boils off the water AND the rice absorps some of it. 
+
+The pot is still a pain to clean, though. Maybe soaking it with warm water for a bit is better.
+
+![](/images/blog/250701-2/20250701_112055.jpg)4:T53b,This is an update on my journey towards understanding stainless steel pans.
+
+I got myself a steel pan last week. It was on sale at Ross for 14 bucks. Can you believe it? 14 dollars for 10 inch
+sauce pan. So I can fry, stir fry, make stew, soup. It's like a perfect well-rounded "potpan" I can use for anything.
+This thing reminded me so much of the pot I used when I first got to the US. It was a big electric pot I used for 
+everything as well. I was living in the dorm, so cooking was limited. And I couldn't go downstair to use the kitchen
+because it was too far. So I used a big and a small electric pot for everything. That means the big one was also a pan.
+I fried eggs in that. Because there were only two heat settings, I had to be careful to not burn the eggs. Was a fun
+time, and really pushing my creativity in terms of storage, resource management and making use of what you have.
+
+But I digress. I fried eggs yesterday by trying the old method. It was just medium temperature, adding oil in, and
+frying the eggs. Granted, using this way, I had to baby the eggs to make sure they don't stick and burn. And they get 
+burned easily. But I still managed to make it look good.
+
+I guess I need some more practice, more understanding. Cause the Leidenfrost trick is not working for me.
+
+![](/images/blog/250701-1/20250630_141224.jpg)5:T792,Yesterday I was at Grocery Outlets. And catching my eyes was sets of vegan cheese. Now I am a cheese enthusiast myself,
 but I have been having difficulty eating cheese, or milk, only yogurt. So vegan cheese sounds interesting enough to try.
 Also because I watched a documentary in the past about this kind of cheese.
 
@@ -25,7 +54,7 @@ Coming to the US, I realized there is a market for vegan dairy product like chee
 starch and chemicals, so this is a step in the right direction. It has less chemicals, bit more natural. But too pricey
 and too salty for my taste.
 
-Better luck next time, then.4:T427,This article follows this [article](https://www.windowscentral.com/software-apps/windows-11/an-even-better-microsoft-account-bypass-for-windows-11-has-already-been-discovered).
+Better luck next time, then.6:T427,This article follows this [article](https://www.windowscentral.com/software-apps/windows-11/an-even-better-microsoft-account-bypass-for-windows-11-has-already-been-discovered).
 A lot of time I install Windows 11, not only do I have to get through the TPM requirement, I also have to find a 
 way to get through not logging in to my Microsoft account and set up a local account. Back then, the 'no@thankyou.com' email and whatever password worked. Then when that didn't work, I used
 ```
@@ -42,7 +71,7 @@ And it launched a Windows 10 style new account screen.
 ![](/images/blog/250610/2.png)
 I created a new account and press Next. Everything proceeded as normal.
 
-[https://www.youtube.com/embed/xDLvUqhwHZc?si=KdbQbS657zEIRByC](https://www.youtube.com/embed/xDLvUqhwHZc?si=KdbQbS657zEIRByC)5:T549,This article follows this [article](https://askubuntu.com/questions/740757/switch-between-multiple-java-versions)
+[https://www.youtube.com/embed/xDLvUqhwHZc?si=KdbQbS657zEIRByC](https://www.youtube.com/embed/xDLvUqhwHZc?si=KdbQbS657zEIRByC)7:T549,This article follows this [article](https://askubuntu.com/questions/740757/switch-between-multiple-java-versions)
 at AskUbuntu.
 So basically I have a software for my Theory of Comp class, JFLAP. It runs on Java. But I use Linux for most of
 my work. On my current system, it is running OpenJDK 21. So when I ran this, it went like:
@@ -71,7 +100,7 @@ OR to have more user interaction:
 ```
 sudo update-alternatives --config java
 ```
-Whichever way I choose, it works. No more error.6:Tb4c,I have been building a program that play Reversi using two algorithm: Minimax and Monte Carlo Tree Search (MCTS).
+Whichever way I choose, it works. No more error.8:Tb4c,I have been building a program that play Reversi using two algorithm: Minimax and Monte Carlo Tree Search (MCTS).
 This program pits those algorithms against each other in various Reversi matches, each with different configurations
 such as the Minimax depths, MCTS iterations, board size.
 
@@ -104,7 +133,7 @@ when creating a new object.
 
 This bug **highlights** the difference in OS architecture between Windows and Unix. In **fork** in Unix, the child process 
 is a copy of the parent process (using copy-on-write), while **spawn** in Windows means starting a fresh, clean process.
-If my friend hadn't use Windows to test, we wouldn't have caught the bug, considering its elusiveness.7:Ta4d,Lately, between trying to survive error-correcting class and feed myself without killing my digestion,
+If my friend hadn't use Windows to test, we wouldn't have caught the bug, considering its elusiveness.9:Ta4d,Lately, between trying to survive error-correcting class and feed myself without killing my digestion,
 I didn't have as much time to write blog. Another reason could be lack of things to say. However, a great thing
 is writing blog like this helped me write an interview paper, so there's the plus side of this. The paper
 wasn't like a research paper, so it used a more informal language, similar to the blog posts.
@@ -132,7 +161,7 @@ that they expect everything to come out of an app.
 
 I guess torrenting, finding software in the mysterious corner of the web remain a dark art. On the bright side,
 that means I'll never be out of a job teaching these fools. But with AI replacing everything, and everyone's job,
-what would be the point?8:Tb1e,I have been running Linux as my main OS for two years now. There have been ups and downs, like some softwares plain
+what would be the point?a:Tb1e,I have been running Linux as my main OS for two years now. There have been ups and downs, like some softwares plain
 not working on Linux but have to run on Windows. Games are the biggest offenders. However, thanks to the efforts of Valve
 with [Proton](https://steamcommunity.com/games/221410/announcements/detail/1696055855739350561), 
 the [Wine project](https://www.winehq.org/), [DXVK](https://github.com/doitsujin/dxvk), 
@@ -177,7 +206,7 @@ to builtin gave me this render.
 So how do you fix this? Well apparently, according to this [release of Proton](https://github.com/ValveSoftware/Proton/releases/tag/proton-9.0-4), I was supposed to match the version of DXVK with a right one on VKD3D. So I downloaded DXVK
 2.5.1 with VKD3D-proton 2.13. It worked at last. I'm not sure how does that make any sense. Something new to
 learn then. However, DirectX 12 requires the game to cache shaders to disk, so it takes a while to start the game.
-Your mileage may vary.9:T63e,Rate: 4/5
+Your mileage may vary.b:T63e,Rate: 4/5
 
 It's a really good film. Looks like Dreamwork has cooked it again. After Puss in Boot 2, I thought there
 is no way they can top that. And then they *quietly* released this. While it's not groundbreaking IMO,
@@ -193,7 +222,7 @@ with the missle, becoming their *Superman*. So maybe I'm different.
 About the talking animal, I like to raise awareness to the show I'm currently watching, *Star Trek: The Next Generation*,
 specifically the episode *Darmok* from season 5 episode 2. In this episode, Captain Picard and Captain Darmok must communicate with each other in order to survive a harsh environment as a test. So most of the episode is Picard trying
 to communicate with a species talking in metaphors specific to their culture. That's what I wish for in this movie. For
-the robot to be the one doing the talking, every animal stays quiet.a:T502,I recently got into a new hobby, which is photography. At first, I wasn't sure I would like it.
+the robot to be the one doing the talking, every animal stays quiet.c:T502,I recently got into a new hobby, which is photography. At first, I wasn't sure I would like it.
 Everyone seems to like taking so many photos nowadays, while I'm not too keen on that. I did view
 some guides on the Internet. It taught me a few things about aperture, ISO, shutter speed, though that's
 still quite hard to memorize. There were *Rule of Thirds*, *Leading Lines and Curves*, *Symmetry and Balance*,
@@ -206,7 +235,7 @@ were staggering. They surprised me. They came out good. Maybe a more professiona
 me but hey, I quite like this new venture. So now, I'm expanding my blog to include this category, and many more
 to come if I'm interested.
 
-![gallery](/images/blog/241111/20241109_180801.jpg,/images/blog/241111/20241109_180913_1.jpg,/images/blog/241111/20241109_180933.jpg,/images/blog/241111/20241109_181116.jpg,/images/blog/241111/20241109_181144.jpg,/images/blog/241111/20241109_181230.jpg,/images/blog/241111/20241109_182039.jpg,/images/blog/241111/20241109_182043.jpg,/images/blog/241111/20241109_182508.jpg,/images/blog/241111/20241109_183010.jpg,/images/blog/241111/20241110_160343.jpg)b:Tff1,I always want to have a virtualization lab in my home. But I don't want my server to fully commit to that idea.
+![gallery](/images/blog/241111/20241109_180801.jpg,/images/blog/241111/20241109_180913_1.jpg,/images/blog/241111/20241109_180933.jpg,/images/blog/241111/20241109_181116.jpg,/images/blog/241111/20241109_181144.jpg,/images/blog/241111/20241109_181230.jpg,/images/blog/241111/20241109_182039.jpg,/images/blog/241111/20241109_182043.jpg,/images/blog/241111/20241109_182508.jpg,/images/blog/241111/20241109_183010.jpg,/images/blog/241111/20241110_160343.jpg)d:Tff1,I always want to have a virtualization lab in my home. But I don't want my server to fully commit to that idea.
 Even though Proxmox seems like a decent OS for the job, I still pick Debian for more customization. It's more
 general-purpose compared to dedicated OS. There's only one package that can help me realize the dream, *Cockpit*.
 
@@ -285,7 +314,7 @@ One last thing. Make sure the CPU type is **host-passthrough** for the best perf
 [an OpenStack post](https://wiki.openstack.org/wiki/LibvirtXMLCPUModel), there is a difference between
 host-model and host-passthrough.
 
-![](/images/blog/241019/6.jpg)c:Tc73,One of the most frustrating points of owning Intel laptops, or any laptops, is dealing with
+![](/images/blog/241019/6.jpg)e:Tc73,One of the most frustrating points of owning Intel laptops, or any laptops, is dealing with
 heat issues. It usually stems from overclocking by the CPU. It's because of 
 [Intel Turbo Boost](https://en.wikipedia.org/wiki/Intel_Turbo_Boost). It's a frequency scaler that can
 change a CPU's frequency to go higher than base clock depending on workload. That's why when you 
@@ -335,7 +364,7 @@ SUBSYSTEM=="power_supply",ENV{POWER_SUPPLY_ONLINE}=="0",RUN+="/home/user/noturbo
 
 # Rule for when switching to powersupply
 SUBSYSTEM=="power_supply",ENV{POWER_SUPPLY_ONLINE}=="1",RUN+="/home/user/noturbo"
-```d:T599,A week ago, I started transitioning from using my old laptop as a server to a brand new tower.
+```f:T599,A week ago, I started transitioning from using my old laptop as a server to a brand new tower.
 The old one worked fine, but it looked janky, hackney, unprofessional. Not too mention, it got
 hit by my roomba all the time, disconnecting the hard drive connecting from a dock using a
 USB cable. The new one has 4-core CPU i3-8100 instead of 2-core i3-4130U, and has a higher clock
@@ -352,7 +381,7 @@ sudo hostnamectl set-hostname bach-server
 ```
 without changing the hostname in **/etc/hosts**, resulting in slowness.
 
-So by changing the hostname, and the hostname in */etc/hosts*, everything works out again.e:T7e2,Today I got around to upgrade my old Ryzen PC. I gave it a new SSD to replace the old one,
+So by changing the hostname, and the hostname in */etc/hosts*, everything works out again.10:T7e2,Today I got around to upgrade my old Ryzen PC. I gave it a new SSD to replace the old one,
 because the old one had a smaller capacity. I decided to purchase an NVMe one,
 [Lexar NM620](https://www.lexar.com/product/lexar-nm620-m-2-2280-nvme-ssd/). I chose this one
 because while there was a Western Digital blue one, it was also a QLC SSD, which you **don't**
@@ -379,7 +408,7 @@ But then I remember you have to modify /etc/fstab, GRRUB configurations or else 
 So nevermind. Just wonder if I have to load NVMe driver on Linux before booting as well.
 
 :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^)  
-[Reference](https://youtu.be/HU1QUSrgp4E?si=LaVtDMPm36k67m5h&t=192)f:T5dd,I came across a [Reddit post](https://old.reddit.com/r/linux/comments/1fqa36v/why_is_rm_rfing_a_folder_over_thousands_of_times/) about deleting files taking so long on
+[Reference](https://youtu.be/HU1QUSrgp4E?si=LaVtDMPm36k67m5h&t=192)11:T5dd,I came across a [Reddit post](https://old.reddit.com/r/linux/comments/1fqa36v/why_is_rm_rfing_a_folder_over_thousands_of_times/) about deleting files taking so long on
 Ubuntu file explorer, Nautilus. That got me thinking. This stuff happened on my Linux 
 workstation all the time. Anytime I try deleting a folder with a lot of files,
 this is what happens. I still want to see if it's true so I create a little experiment
@@ -411,7 +440,7 @@ They say this happens because the explorer spends time tracking progress, updati
 So maybe that's it.  
 This also applies for copying, cutting too; network transfer on Samba/SMB and FTP. In fact, on my
 home network, if I want to transfer multiple files fast, I usually use Filezilla instead, because despite
-the inconvenience, it's faster than using a file explorer, and it's multi-connection so multi transfers.10:Tbac,I just got a new second job at my college, Oregon State U. You wouldn't believe
+the inconvenience, it's faster than using a file explorer, and it's multi-connection so multi transfers.12:Tbac,I just got a new second job at my college, Oregon State U. You wouldn't believe
 just how hard it was to get a job here. I not only had to compete with international
 students, but also native students here for just a job, not just tech-related jobs.
 Out of two dozens job I had applied, about seven are rejection letters, others I didn't
@@ -446,7 +475,7 @@ I'm just happy to take whatever counts as computer job. And who knows? Doing thi
 considered to be put on the Salesforce team, or become one of the developers. That is, if they still have
 a slot. Working here means a foot in the door of tech employment here. One for my resume.
 
-*Life is good.*11:Tc07,After not working for a while as a full stack developer, I got a new
+*Life is good.*13:Tc07,After not working for a while as a full stack developer, I got a new
 job. Now I\'m about to be a web developer, again. This time, I will,
 along with a team, manage a website running a content management system
 (CMS), Drupal. Since I have never dealt with CMS, or PHP, before, this
@@ -494,7 +523,7 @@ and my then-newfound knowledge of garbage collection to create about 10
 million records for a table on MySQL daily. That job used to belong to a
 MySQL stored procedure, which runs for hours. My new way took 5 minutes
 to run. I always wondered whether the result was correct every time it
-ran but no one seemed to complain.12:Tb0e,To be honest, with all the claims from Microsoft that S Mode is supposed
+ran but no one seemed to complain.14:Tb0e,To be honest, with all the claims from Microsoft that S Mode is supposed
 to represent performance and security, it is still Windows. Still heavy,
 sweating Windows that eats up 3 GB of RAM for lunch while offering less
 speed than Ubuntu or Fedora, two of which only eat up half as much RAM.
@@ -547,7 +576,7 @@ leave it at 0.
 Disable Web Search in Start Menu, Search bar:  
 *HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\*  
 Create Explorer key. Go inside, create DisableSearchBoxSuggestions DWORD
-Value and type 1.13:T1d68,I keep delaying this post because it's something that has already been
+Value and type 1.15:T1d68,I keep delaying this post because it's something that has already been
 done, and I don't want to repeat myself. But Jeff Geerling, a Youtuber I
 follow, posted a [video](https://www.youtube.com/watch?v=5NJ6V8i1Xd8)
 about deploying your own VPN to access your server from a remote
@@ -718,7 +747,7 @@ PiVPN](https://www.jeffgeerling.com/blog/2023/build-your-own-private-wireguard-v
 instead](https://blog.apnic.net/2021/06/17/how-a-small-free-ip-tool-survived/)
 
 \- [ELI5: How does NAT (Network Address Translation)
-work](https://www.reddit.com/r/explainlikeimfive/comments/1wqc30/eli5_how_does_nat_network_address_translation_work/)14:T189e,It's very nice to have something powerful in a compact form, like a
+work](https://www.reddit.com/r/explainlikeimfive/comments/1wqc30/eli5_how_does_nat_network_address_translation_work/)16:T189e,It's very nice to have something powerful in a compact form, like a
 gaming laptop, when your job requires a heavy workload. But when your
 job requires you constantly in a meeting, only doing spreadsheets on a
 day-to-day basis, or if you are a student, sitting at lectures on end,
@@ -847,7 +876,7 @@ OS? As for my Chromebook, the update is no more, as it is expired. Still
 usable, if you don't have any concern regarding security
 
 I will be on the lookout for any Windows laptop running this CPU or
-similar and compare their performance and battery life.15:T9d3,For the longest time, I was scared of using UEFI on my PC. With the
+similar and compare their performance and battery life.17:T9d3,For the longest time, I was scared of using UEFI on my PC. With the
 exception of my laptops, which force me to use UEFI though I disabled
 Secure Boot because it's a pain to deal with, I have been using CSM mode
 (compatibility mode) that simulates BIOS. Lately with a new hard drive
@@ -913,7 +942,7 @@ since *grub-install* didn't work.
 References:
 
 \- [What exactly is the problem with
-UEFI](https://www.reddit.com/r/linuxquestions/comments/63azo4/eli5_what_exactly_is_the_problem_with_uefi_and/)16:T167b,When I tried out a bunch of distros, Fedora was among the ones what
+UEFI](https://www.reddit.com/r/linuxquestions/comments/63azo4/eli5_what_exactly_is_the_problem_with_uefi_and/)18:T167b,When I tried out a bunch of distros, Fedora was among the ones what
 weren't like the rest. Another was EndeavourOS, based on Arch Linux. A
 few things I learned while using Fedora Workstation, which was using
 GNOME as its desktop environment (DE).
@@ -1033,7 +1062,7 @@ can use the docs files exported from LibreOffice Writer on Microsoft
 Word. For Ubuntu/Debian, you can install the *ttf-mscorefonts-installer*
 package. For Fedora, follow [this
 guide](https://mscorefonts2.sourceforge.net/) to install
-*msttcore-fonts*.17:T2ab4,I have just bought a couple of SSDs for cheap on Facebook. They were
+*msttcore-fonts*.19:T2ab4,I have just bought a couple of SSDs for cheap on Facebook. They were
 taken from , I guess prebuilt computers that their owners want their
 preinstalled disk drives replaced. So I plan to try out a couple of
 operating systems (OS) bare metal instead of using virtual machines, so
@@ -1258,7 +1287,7 @@ town. But while by default EndeavourOS uses Xfce, this one uses KDE
 Plasma as its beautifully crafted desktop environment, with a GNOME
 dashboard and a wobbly effect whenever I move the window.
 
-![](/images/blog/230823-1/xerolinux.webp)18:Tc24,After multiple times compiling drivers on multiple environments,
+![](/images/blog/230823-1/xerolinux.webp)1a:Tc24,After multiple times compiling drivers on multiple environments,
 specifically OpenWrt, I'd decided to see if I could compile the driver
 of my wifi adapter, [rtl8821cu](https://github.com/brektrou/rtl8821CU), for my
 Raspberry Pi 3 from my laptop. Raspberry Pi ran on DietPi, which is
@@ -1353,7 +1382,7 @@ device then. Until I get the hang of cross-compiling.
 
 References:
 
-\- [](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1906131)19:Tcca,I have recently become a permanent resident of the Linux land. I live in
+\- [](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1906131)1b:Tcca,I have recently become a permanent resident of the Linux land. I live in
 Lubuntu town. That's a funny way to say that I use Lubuntu as my daily
 driver on my laptop. On my laptop, which is an Intel i7 9750H + GTX 1060
 combo, it's been kind to me and given me my preferred screen resolution,
@@ -1418,7 +1447,7 @@ seems like a hack, because it is. I'm supposed to either change
 resolution from the monitor settings within Lubuntu or disable any
 feature for managing displays. But hey, as long as it works.
 
-![](/images/blog/230721/it_work.png)1a:T1600,If you have to do research on cell phones like I do, you'll eventually
+![](/images/blog/230721/it_work.png)1c:T1600,If you have to do research on cell phones like I do, you'll eventually
 find that any phone can have multiple models existing in the wild. For
 each market, say Asia, Japan, the US, China\... they released a
 different model. Most of the times, it supported different **frequency
@@ -1521,7 +1550,7 @@ References:
 Specifications](https://www.gsmarena.com/oneplus_one-6327.php)
 
 \- [OnePlus Nord CE 2 Lite 5G
-Specifications](https://www.gsmarena.com/oneplus_nord_ce_2_lite_5g-11344.php)1b:T2881,I wrote a post on compiling OpenWrt from source a few months ago. Since
+Specifications](https://www.gsmarena.com/oneplus_nord_ce_2_lite_5g-11344.php)1d:T2881,I wrote a post on compiling OpenWrt from source a few months ago. Since
 then, I've been playing around with its source, building new images with
 it to test on virtual machines. OpenWrt finally added [support for
 Orange Pi R1 Plus (LTS)](https://github.com/openwrt/openwrt/pull/12818) for
@@ -1882,7 +1911,7 @@ References:
 
 \- [RTL8153 linux driver](https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software)
 
-\- [OpenWrt 23.05 RTL8153 patch](https://github.com/bachsofttrick/openwrt/commits/openwrt-23.05)1c:T1820,In celebration of the release of [Debian
+\- [OpenWrt 23.05 RTL8153 patch](https://github.com/bachsofttrick/openwrt/commits/openwrt-23.05)1e:T1820,In celebration of the release of [Debian
 12](https://www.debian.org/News/2023/20230610), I downloaded and tried
 it out on a VM (virtual machine). Unfortunately, my [network
 driver](https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software)
@@ -2030,7 +2059,7 @@ Then it recognized the USB. By using **iperf3**, I measured performance
 between 2 drivers. While they were able to saturate the 1Gbps bandwidth,
 the in-tree module took 10% more CPU usage compared to the Realtek
 driver. The in-tree module also required a hacky workaround for the
-server to recognize, so I opted for the Realtek one.1d:Tb8c,After writing blogs for over a month, I checked to see if my blog showed
+server to recognize, so I opted for the Realtek one.1f:Tb8c,After writing blogs for over a month, I checked to see if my blog showed
 up on Google Search. And\... Nothing. So what? Why? How? Why doesn't my
 blog exist in Google's eyes? So I asked a friend, he asked if I had put
 my page on the search console. I wondered what that is. Turns out to be
@@ -2102,7 +2131,7 @@ after
 creating)](https://support.google.com/webmasters/thread/74316675/blogger-blog-not-getting-indexed-more-than-10-days-already-passed-after-creating?hl=en)
 
 \- [Search Console - Best practices for XML sitemaps and RSS/Atom
-feeds](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)1e:T8d2,I know that Snap earned a bad reputation among Linux folks due on it
+feeds](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)20:T8d2,I know that Snap earned a bad reputation among Linux folks due on it
 being closed-source by Canonical, which developed the open-source Ubuntu
 Linux. I haven't used Linux for long, but I have to agree with the
 general consensus. Snap on my system, while generally doesn't degrade
@@ -2163,7 +2192,7 @@ Firefox as apt instead. Just accept it.
 
 Repeat the step to back up Firefox profile, this time is for recreating
 the profile. I created a new profile, opened its directory, pasted the
-backup profile there. And that's it.1f:T169d,by The Testing Guy
+backup profile there. And that's it.21:T169d,by The Testing Guy
 
 Last night on Wednesday, May 10, I came across a post on
 [Reddit](https://www.reddit.com/r/youtube/comments/13cfdbi/apparently_ad_blockers_are_not_allowed_on_youtube/)
@@ -2257,7 +2286,7 @@ already living in a cyberpunk dystopia. Various service we use for our
 conveniences like Facebook, Google might as well came out of George
 Orwell's *1984*, or I can do one better, Aldous Huxley's [*Brave New
 World*](https://www.reddit.com/r/books/comments/yq7yt/so_i_read_brave_new_world_how_is_it_a_dystopia/).
-Maybe\... This is the endgame for all of us.20:T1f34,I recently got my hand on a new router to play with. It's an [Orange Pi
+Maybe\... This is the endgame for all of us.22:T1f34,I recently got my hand on a new router to play with. It's an [Orange Pi
 R1 Plus
 LTS](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/orange-pi-R1-Plus-LTS.html),
 an Rockchip RK3328 board with dual-gigabit Ethernet ports. The reason
@@ -2404,7 +2433,7 @@ References:
 code](https://openwrt.org/docs/guide-developer/source-code/start)
 
 \- [OpenWrt Build system
-usage](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem)21:Tc16,This post is supposed to be an update on the 4G-to-Wifi series
+usage](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem)23:Tc16,This post is supposed to be an update on the 4G-to-Wifi series
 *Upgrading Grandparents' Wifi* I did previously. But discussing with my
 family has led me to contemplate that saying. My country has a similar
 one: *cure a healthy pig and make it lame as a result* or *chữa lợn lành
@@ -2463,7 +2492,7 @@ can match the snappiness of a 150 Mbps fiber connection.
 
 I feel like anyone who is an artisan, an engineer, a mechanic, or works
 in the technology sector, may run into something similar to the problem
-I have.22:T19b2,I am a media consumption enthusiast. Let's just say I watch movies a
+I have.24:T19b2,I am a media consumption enthusiast. Let's just say I watch movies a
 lot. Usually, people like me will have a big home theater setup with a
 large TV, a large speaker set, a media player with huge HDD storage. But
 that sounds like too much work, since you have to update the hard drive
@@ -2666,7 +2695,7 @@ References:
 Software](https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-usb-3-0-software)
 
 \-
-[rtl8821CU](https://github.com/brektrou/rtl8821CU/blob/master/dkms-install.sh)23:T3e6e,I have a curious habit. When checking out the best deals from my
+[rtl8821CU](https://github.com/brektrou/rtl8821CU/blob/master/dkms-install.sh)25:T3e6e,I have a curious habit. When checking out the best deals from my
 country's cell companies, I searched Google for illegitimate websites
 instead of going straight to the sources. They have a tendency to hide
 their promotional data plans deep within the Internet, and only show
@@ -3035,7 +3064,7 @@ Projects](https://globalmedia.mit.edu/2020/04/21/the-rise-and-fall-and-rise-agai
 Unlimited?](https://unlimitedlteadvanced.com/4g-lte/is-unlimited-data-really-unlimited/)
 
 \- [It's a battle for internet
-freedom](https://timesofindia.indiatimes.com/blogs/toi-edit-page/its-a-battle-for-internet-freedom/)24:T1ccc,After a blog series about using 4G as house Wifi, I need an short
+freedom](https://timesofindia.indiatimes.com/blogs/toi-edit-page/its-a-battle-for-internet-freedom/)26:T1ccc,After a blog series about using 4G as house Wifi, I need an short
 article to breathe a bit. So this is gonna be a short one.
 
 #### Background
@@ -3194,7 +3223,7 @@ Ethernet](https://en.wikipedia.org/wiki/Point-to-Point_Protocol_over_Ethernet)
 it?](https://www.reddit.com/r/HomeNetworking/comments/8tl0wv/whats_double_nat_and_why_do_i_want_to_avoid_it/)
 
 \- [\[1\] Is PPPOE wan
-single-threaded?](https://forum.mikrotik.com/viewtopic.php?t=156753)25:T2239,So. Here we are. The third part of the long-running series where I try
+single-threaded?](https://forum.mikrotik.com/viewtopic.php?t=156753)27:T2239,So. Here we are. The third part of the long-running series where I try
 to improve my Internet condition. So no point beating around the bushes.
 I plan to transform my 4G connection into Wifi using whatever was
 available to me, because I'm a cheapskate that refuse to spend money,
@@ -3395,7 +3424,7 @@ Z](https://forum.xda-developers.com/t/rom-final-9-0-lineageos-16-0-for-xperia-z.
 \- [Raspberry Pi 3 Model
 B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)
 
-\- [Xiaomi Mi WiFi R3G](https://openwrt.org/toh/xiaomi/mir3g)26:T263d,There seems to be confusions surrounding common devices the Internet
+\- [Xiaomi Mi WiFi R3G](https://openwrt.org/toh/xiaomi/mir3g)28:T263d,There seems to be confusions surrounding common devices the Internet
 service provider (ISP) gives. A lot of terms get thrown around: modem,
 wireless router, 5 GHz, 1200 Mbps\... I want to offer my assistance to
 help alleviate this problem.
@@ -3604,7 +3633,7 @@ Specs](https://www.tradekorea.com/product/detail/P621075/Docsis-3-0-CBC383-CABLE
 modem?](https://www.quora.com/Is-the-ONT-a-modem)
 
 \- [\[2\] Quora - Can I use a media converter + SFP to bypass using a
-modem?](https://www.quora.com/Can-I-use-a-media-converter-SFP-to-bypass-using-a-modem-I-have-500mbps-fiber-optics-FTTH-What-SFP-will-work-best)27:T2597,There is something about the idea of connecting to the World Wide Web
+modem?](https://www.quora.com/Can-I-use-a-media-converter-SFP-to-bypass-using-a-modem-I-have-500mbps-fiber-optics-FTTH-What-SFP-will-work-best)29:T2597,There is something about the idea of connecting to the World Wide Web
 anytime, anywhere, on the go that always entice me. I remember staring
 hours to a tiny screen of a Samsung slide phone when I was 7 because it
 had 2G connection on it, and wasted 700.000 VND. It was a massive amount
@@ -3827,7 +3856,7 @@ Combo]](https://www.youtube.com/watch?v=CUM87vjO9Ao)
 Pi](https://www.jeffgeerling.com/blog/2022/using-4g-lte-wireless-modems-on-raspberry-pi)
 
 \- [\[4\] OpenWRT - Install and Configure LTE modem in QMI
-mode](https://www.youtube.com/watch?v=DRddwfZ_TBY)28:T113a,Have you ever got a feeling that you would never go back once you tried
+mode](https://www.youtube.com/watch?v=DRddwfZ_TBY)2a:T113a,Have you ever got a feeling that you would never go back once you tried
 something that was way better than you expected? That was my feeling
 once I replaced my router to an Asus one and get a taste of my fiber's
 maximum speed of 150 Mbps, as opposed to 90 Mbps limited by TP-Link'
@@ -3906,7 +3935,7 @@ References:
 iTel](https://itel.vn/tin-tuc/tin-tuc-itel/sim-itel-goi-may)
 
 \- [U1500 500GB SIM from
-Vinaphone](https://cellphones.com.vn/sim-4g-vinaphone-u1500-500gb-thang-12-thang.html)29:T136a,Hi, you may not know me. That's fair, this is my first blog after all.
+Vinaphone](https://cellphones.com.vn/sim-4g-vinaphone-u1500-500gb-thang-12-thang.html)2b:T136a,Hi, you may not know me. That's fair, this is my first blog after all.
 You can call me The Testing Guy. For most of my life, computer has been
 a major part of my life and my passion. I eat, sleep computer. I play
 games, do homework, read news, watch Youtube on it like most people. I
@@ -4002,6 +4031,6 @@ Specs](https://www.tradekorea.com/product/detail/P621075/Docsis-3-0-CBC383-CABLE
 TL-WR841N](https://www.tp-link.com/vn/home-networking/wifi-router/tl-wr841n/#specifications)
 
 \- [TP-Link Archer C50
-v4](https://www.tp-link.com/vn/home-networking/wifi-router/archer-c50/v4/)0:["0HIf4H-3fo4Doz56OPa46",[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"font-semibold text-2xl mb-8 tracking-tighter","children":"My Blog"}],["$","$L2",null,{"allBlogs":[{"metadata":{"title":"Purge residual config packages on Debian and Ubuntu","publishedAt":"2025-06-21"},"slug":"250621","category":"Tech","content":"This article follows this [post](https://kitson-consulting.co.uk/blog/apt-dpkg-purge-rc-packages).\n\nI upgraded my Linux system today, from Lubuntu 22.04 to Lubuntu 24.04. So far, the upgrade was smooth, I haven't \nencountered any errors. Except when upgrading version, they replaced many apps with the new version's equivalents.\nSo many old apps were uninstalled and stuck at [residual-config].\nSo a way to solve this is through apt-get tool from Ubuntu and Debian.\n\nTo list packages that have been removed but still have configuration files left behind:\n```\napt list '~c'\n```\nTo remove the configuration files for packages that are no longer installed:\n```\napt purge '~c'\n```"},{"metadata":{"title":"Vegan cheese","publishedAt":"2025-06-20"},"slug":"250620","category":"Cooking","content":"$3"},{"metadata":{"title":"Roku TV Secret menu for channel scan","publishedAt":"2025-06-13"},"slug":"250613","category":"Tech","content":"This article follows this [post](https://www.avsforum.com/threads/special-roku-menu-to-see-antenna-ota-signal-strength.3282481/).\n\nOn the Roku remote when on the main default screen, press the following to reach the \"Tuner Secret Screen\":\n```\nHome, Home, Home, Home, up, right, down, up, left, right\n```"},{"metadata":{"title":"Rant about stainless steel pans","publishedAt":"2025-06-11"},"slug":"250611","category":"Cooking","content":"I have done a lot of cooking for a decade now. And recently, I have been trying effortlessly to make stainless steel\npan (chảo inox) work with my egg, i.e. not making eggs stick on my steel pan.\n\nI keep hearing about the Leidenfrost effect. It is characterized by having water contain itself in a form of bubbles\nwhen the pan is heated to 400 degree Farenheit. But my stove takes a long time to heat up. It takes 5 minutes for the Leidenfrost effect to show up when heating up at medium or medium-low temp. And even then, I'm not sure it was that effect since water formed little bubbles and some fizzled out. Even after applying oil, reducing the temperature to low, adding\nan egg in and it would stick. It was hard to pry it off the surface of the pan.\n\nSo I give up on eggs. They do make nice, crunchy steak, so at least there are some benefits to having a stainless steel\npan."},{"metadata":{"title":"Bypass logging in using Microsoft account in Windows 11","publishedAt":"2025-06-10"},"slug":"250610","category":"Tech","content":"$4"},{"metadata":{"title":"Switch between multiple Java version","publishedAt":"2025-06-09"},"slug":"250609","category":"Tech","content":"$5"},{"metadata":{"title":"Multiprocessing bug in Python","publishedAt":"2025-05-26"},"slug":"250526","category":"Tech","content":"$6"},{"metadata":{"title":"The younger generation is going backward in tech literacy?","publishedAt":"2025-03-21"},"slug":"250321","category":"Tech","content":"$7"},{"metadata":{"title":"Running Windows games on Linux","publishedAt":"2024-12-21"},"slug":"241221","category":"Tech","content":"$8"},{"metadata":{"title":"Review: The Wild Robot","publishedAt":"2024-11-12"},"slug":"241112","category":"Film","content":"$9"},{"metadata":{"title":"Getting into a new hobby: Taking pictures","publishedAt":"2024-11-11"},"slug":"241111","category":"Photography","content":"$a"},{"metadata":{"title":"Install Windows 11 without the hassle of TPM","publishedAt":"2024-10-22"},"slug":"241022","category":"Tech","content":"These are the little tips I collected from reading various articles online, the Rufus source code, [credit to Pete Batard](https://github.com/pbatard/rufus), and installing Windows 11 more times than I could count.\n- Bypass Windows 11 minimum requirement:  \n*HKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\Setup\\\\*  \nCreate LabConfig key. Go inside, create BypassTPMCheck, BypassSecureBootCheck, BypassRAMCheck, BypassCPUCheck\nDWORD Value, set it to 1.\n- Get local account during initial setup (only for Windows 11 Pro):  \nMake sure to disconnect the machine from Internet (hopefully there is no Wifi onboard or this won't work).\nPress Shift + F10, type in Command Prompt *regedit*.  \n*HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\OOBE\\\\*  \nCreate BypassNRO DWORD Value, set it to 1.\n- Limit the amount of preinstalled apps when installing Windows 11:  \nDuring setup on USB, select region as *English (World)*, **DO NOT SELECT English (United States)**."},{"metadata":{"title":"Virtualization on my server without reinstalling OS","publishedAt":"2024-10-19"},"slug":"241019","category":"Tech","content":"$b"},{"metadata":{"title":"Disable Intel Turbo Boost to cool my laptop","publishedAt":"2024-10-18"},"slug":"241018","category":"Tech","content":"$c"},{"metadata":{"title":"Sudo and SMB run slower after changing server name","publishedAt":"2024-10-07"},"slug":"241007","category":"Tech","content":"$d"},{"metadata":{"title":"Rant about cloning Windows disk from SATA to NVMe","publishedAt":"2024-10-05"},"slug":"241005","category":"Tech","content":"$e"},{"metadata":{"title":"Why does it take so long to delete in Lubuntu file explorer (PCManQt)?","publishedAt":"2024-09-29"},"slug":"240929","category":"Tech","content":"$f"},{"metadata":{"title":"How to clear \"Recent Connections\" auto-connect-profiles list in Blueman","publishedAt":"2024-09-26"},"slug":"240926","category":"Tech","content":"This is one of those shorter posts on my blog. Sometimes, you don't feel like \ntalking a whole lot. You'll be seeing many more of these.\n\nAnyway, this post today applies for Blueman, Bluetooth manager on my Linux OS, \nLubuntu. I couldn't find how to remove an option from Recent Connections. That \ngreyed out option kept me up at night, annoying me. I tried uninstalling Blueman, \nthen reinstalled it. THe greyed out option was still there. So a quick bit of \nsearch led me to this [Github Issue](https://github.com/blueman-project/blueman/issues/1450).\n\nThe issue said I had to run this command and it would clear all recent connection from the menu.\n```\ngsettings reset org.blueman.plugins.recentconns recent-connections\n```\nIt did work. And now I'm writing this here to immortalize it."},{"metadata":{"title":"The more things change, ...","publishedAt":"2024-09-07"},"slug":"240907","category":"Tech","content":"... the more they stay the same. Right now, it happens in web technologies. Back in the \nearly days of the Internet, it was static HTML pages, sprinkle a bit of CSS and called it\na day. Then Javascript came along for more interactivity. People wanted more, so came PHP\nfor that dynamic web pages. PHP kickstarted the server-side rendering motive of web for years\nto come. There was also ASPX. When I started working around 2020, it was the time of Javascript\nframeworks. React, Vue, Svelte... you name it. Building Single Page Application was the bee's knee.\nAnd then comes your NextJS, Nuxt, 11ty, Astro... Even PHP-based content management systems (CMS)\nsuch as Wordpress have never left. It seems things a lot of times come full-circle, don't they?\nIt's like trends. Go out of fashion, then give it a decade, and it comes back. The 80s nostalgia\n, big movie franchises, fat vs oil health debacle.\n\n*\"plus ça change, plus c'est la même chose.\"* Jean-Baptiste Alphonse Karr"},{"metadata":{"title":"A different mindset","publishedAt":"2024-09-06"},"slug":"240906","category":"Tech","content":"$10"},{"metadata":{"title":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework","publishedAt":"2024-09-02T03:00:00Z"},"slug":"240902-3","category":"Tech","content":"$11"},{"metadata":{"title":"Windows S Mode","publishedAt":"2024-09-02T02:00:00Z"},"slug":"240902-2","category":"Tech","content":"$12"},{"metadata":{"title":"Remote Server behind CGNAT using Wireguard","publishedAt":"2024-09-02T01:00:00Z"},"slug":"240902-1","category":"Tech","content":"$13"},{"metadata":{"title":"My thought on Chromebook","publishedAt":"2023-10-11"},"slug":"231011","category":"Tech","content":"$14"},{"metadata":{"title":"Convert BIOS to UEFI for Linux (or how to recover GRUB)","publishedAt":"2023-08-23T03:00:00Z"},"slug":"230823-3","category":"Tech","content":"$15"},{"metadata":{"title":"Fedora: What I learned","publishedAt":"2023-08-23T02:00:00Z"},"slug":"230823-2","category":"Tech","content":"$16"},{"metadata":{"title":"Trying Windows 11 and other OSes","publishedAt":"2023-08-23T01:00:00Z"},"slug":"230823-1","category":"Tech","content":"$17"},{"metadata":{"title":"Cross compiling driver for Raspberry Pi","publishedAt":"2023-07-22"},"slug":"230722","category":"Tech","content":"$18"},{"metadata":{"title":"Custom resolution for GTX 1060 on Lubuntu","publishedAt":"2023-07-21"},"slug":"230721","category":"Tech","content":"$19"},{"metadata":{"title":"The times I dealt with phones that have multiple models","publishedAt":"2023-07-07"},"slug":"230707","category":"Tech","content":"$1a"},{"metadata":{"title":"Patching OpenWrt with a new driver","publishedAt":"2023-06-23"},"slug":"230623","category":"Tech","content":"$1b"},{"metadata":{"title":"Trying a new kernel and compiling network driver from it","publishedAt":"2023-06-14"},"slug":"230614","category":"Tech","content":"$1c"},{"metadata":{"title":"Getting my blog on Google Search","publishedAt":"2023-06-10"},"slug":"230610","category":"Tech","content":"$1d"},{"metadata":{"title":"Install Firefox as deb instead of snap on Ubuntu","publishedAt":"2023-06-09"},"slug":"230609","category":"Tech","content":"$1e"},{"metadata":{"title":"YouTube: The beginning of the end","publishedAt":"2023-05-23"},"slug":"230511","category":"Tech","content":"$1f"},{"metadata":{"title":"Compile OpenWrt for Orange Pi R1 Plus LTS","publishedAt":"2023-05-23"},"slug":"230523","category":"Tech","content":"$20"},{"metadata":{"title":"On the proverb \"If it ain't broke don't fix it\"","publishedAt":"2023-05-06"},"slug":"230506","category":"Tech","content":"$21"},{"metadata":{"title":"Auto build driver when updating Linux kernel with dkms","publishedAt":"2023-05-04"},"slug":"230504","category":"Tech","content":"$22"},{"metadata":{"title":"Data plan investigation: Zero-rating","publishedAt":"2023-04-27"},"slug":"230427","category":"Tech","content":"$23"},{"metadata":{"title":"Enhance network performance by bridging my modem to my router","publishedAt":"2023-04-15"},"slug":"230415","category":"Tech","content":"$24"},{"metadata":{"title":"Upgrading Grandparents' Wifi III: Covering the house in new Wifi","publishedAt":"2023-04-13"},"slug":"230413","category":"Tech","content":"$25"},{"metadata":{"title":"Modems, routers and converters","publishedAt":"2023-04-04"},"slug":"230404","category":"Tech","content":"$26"},{"metadata":{"title":"The 4G Router rabbit hole","publishedAt":"2023-03-31"},"slug":"230331","category":"Tech","content":"$27"},{"metadata":{"title":"Upgrading Grandparents' Wifi II: The slow and the frustrated","publishedAt":"2023-03-30T02:00:00Z"},"slug":"230330-2","category":"Tech","content":"$28"},{"metadata":{"title":"Upgrading Grandparents' Wifi I","publishedAt":"2023-03-30T01:00:00Z"},"slug":"230330-1","category":"Tech","content":"$29"}],"addSummary":true,"pagination":true}]]}],null],null],null]},[null,["$","$L2a",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/05cf33d66fb96bc6.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$L2c","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$L2c","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$L2c","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$L2a",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/brian-phan-58530b1b0/","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2025}]]}]]}]}]}]],null],null],[null,"$L2d"]]]]
-2d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Blog | Brian Phan"}],["$","meta","3",{"name":"description","content":"Read my blog."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
+v4](https://www.tp-link.com/vn/home-networking/wifi-router/archer-c50/v4/)0:["DWtnvAgGNu7-TTHsw5rNL",[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["__PAGE__",{},[["$L1",["$","section",null,{"children":[["$","h1",null,{"className":"font-semibold text-2xl mb-8 tracking-tighter","children":"My Blog"}],["$","$L2",null,{"allBlogs":[{"metadata":{"title":"Cooking rice with pot","publishedAt":"2025-07-01T02:00:00Z"},"slug":"250701-2","category":"Cooking","content":"$3"},{"metadata":{"title":"Update on stainless steel pan and egg","publishedAt":"2025-07-01T01:00:00Z"},"slug":"250701-1","category":"Cooking","content":"$4"},{"metadata":{"title":"Purge residual config packages on Debian and Ubuntu","publishedAt":"2025-06-21"},"slug":"250621","category":"Tech","content":"This article follows this [post](https://kitson-consulting.co.uk/blog/apt-dpkg-purge-rc-packages).\n\nI upgraded my Linux system today, from Lubuntu 22.04 to Lubuntu 24.04. So far, the upgrade was smooth, I haven't \nencountered any errors. Except when upgrading version, they replaced many apps with the new version's equivalents.\nSo many old apps were uninstalled and stuck at [residual-config].\nSo a way to solve this is through apt-get tool from Ubuntu and Debian.\n\nTo list packages that have been removed but still have configuration files left behind:\n```\napt list '~c'\n```\nTo remove the configuration files for packages that are no longer installed:\n```\napt purge '~c'\n```"},{"metadata":{"title":"Vegan cheese","publishedAt":"2025-06-20"},"slug":"250620","category":"Cooking","content":"$5"},{"metadata":{"title":"Roku TV Secret menu for channel scan","publishedAt":"2025-06-13"},"slug":"250613","category":"Tech","content":"This article follows this [post](https://www.avsforum.com/threads/special-roku-menu-to-see-antenna-ota-signal-strength.3282481/).\n\nOn the Roku remote when on the main default screen, press the following to reach the \"Tuner Secret Screen\":\n```\nHome, Home, Home, Home, up, right, down, up, left, right\n```"},{"metadata":{"title":"Rant about stainless steel pans","publishedAt":"2025-06-11"},"slug":"250611","category":"Cooking","content":"I have done a lot of cooking for a decade now. And recently, I have been trying effortlessly to make stainless steel\npan (chảo inox) work with my egg, i.e. not making eggs stick on my steel pan.\n\nI keep hearing about the Leidenfrost effect. It is characterized by having water contain itself in a form of bubbles\nwhen the pan is heated to 400 degree Farenheit. But my stove takes a long time to heat up. It takes 5 minutes for the Leidenfrost effect to show up when heating up at medium or medium-low temp. And even then, I'm not sure it was that effect since water formed little bubbles and some fizzled out. Even after applying oil, reducing the temperature to low, adding\nan egg in and it would stick. It was hard to pry it off the surface of the pan.\n\nSo I give up on eggs. They do make nice, crunchy steak, so at least there are some benefits to having a stainless steel\npan."},{"metadata":{"title":"Bypass logging in using Microsoft account in Windows 11","publishedAt":"2025-06-10"},"slug":"250610","category":"Tech","content":"$6"},{"metadata":{"title":"Switch between multiple Java version","publishedAt":"2025-06-09"},"slug":"250609","category":"Tech","content":"$7"},{"metadata":{"title":"Multiprocessing bug in Python","publishedAt":"2025-05-26"},"slug":"250526","category":"Tech","content":"$8"},{"metadata":{"title":"The younger generation is going backward in tech literacy?","publishedAt":"2025-03-21"},"slug":"250321","category":"Tech","content":"$9"},{"metadata":{"title":"Running Windows games on Linux","publishedAt":"2024-12-21"},"slug":"241221","category":"Tech","content":"$a"},{"metadata":{"title":"Review: The Wild Robot","publishedAt":"2024-11-12"},"slug":"241112","category":"Film","content":"$b"},{"metadata":{"title":"Getting into a new hobby: Taking pictures","publishedAt":"2024-11-11"},"slug":"241111","category":"Photography","content":"$c"},{"metadata":{"title":"Install Windows 11 without the hassle of TPM","publishedAt":"2024-10-22"},"slug":"241022","category":"Tech","content":"These are the little tips I collected from reading various articles online, the Rufus source code, [credit to Pete Batard](https://github.com/pbatard/rufus), and installing Windows 11 more times than I could count.\n- Bypass Windows 11 minimum requirement:  \n*HKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\Setup\\\\*  \nCreate LabConfig key. Go inside, create BypassTPMCheck, BypassSecureBootCheck, BypassRAMCheck, BypassCPUCheck\nDWORD Value, set it to 1.\n- Get local account during initial setup (only for Windows 11 Pro):  \nMake sure to disconnect the machine from Internet (hopefully there is no Wifi onboard or this won't work).\nPress Shift + F10, type in Command Prompt *regedit*.  \n*HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\OOBE\\\\*  \nCreate BypassNRO DWORD Value, set it to 1.\n- Limit the amount of preinstalled apps when installing Windows 11:  \nDuring setup on USB, select region as *English (World)*, **DO NOT SELECT English (United States)**."},{"metadata":{"title":"Virtualization on my server without reinstalling OS","publishedAt":"2024-10-19"},"slug":"241019","category":"Tech","content":"$d"},{"metadata":{"title":"Disable Intel Turbo Boost to cool my laptop","publishedAt":"2024-10-18"},"slug":"241018","category":"Tech","content":"$e"},{"metadata":{"title":"Sudo and SMB run slower after changing server name","publishedAt":"2024-10-07"},"slug":"241007","category":"Tech","content":"$f"},{"metadata":{"title":"Rant about cloning Windows disk from SATA to NVMe","publishedAt":"2024-10-05"},"slug":"241005","category":"Tech","content":"$10"},{"metadata":{"title":"Why does it take so long to delete in Lubuntu file explorer (PCManQt)?","publishedAt":"2024-09-29"},"slug":"240929","category":"Tech","content":"$11"},{"metadata":{"title":"How to clear \"Recent Connections\" auto-connect-profiles list in Blueman","publishedAt":"2024-09-26"},"slug":"240926","category":"Tech","content":"This is one of those shorter posts on my blog. Sometimes, you don't feel like \ntalking a whole lot. You'll be seeing many more of these.\n\nAnyway, this post today applies for Blueman, Bluetooth manager on my Linux OS, \nLubuntu. I couldn't find how to remove an option from Recent Connections. That \ngreyed out option kept me up at night, annoying me. I tried uninstalling Blueman, \nthen reinstalled it. THe greyed out option was still there. So a quick bit of \nsearch led me to this [Github Issue](https://github.com/blueman-project/blueman/issues/1450).\n\nThe issue said I had to run this command and it would clear all recent connection from the menu.\n```\ngsettings reset org.blueman.plugins.recentconns recent-connections\n```\nIt did work. And now I'm writing this here to immortalize it."},{"metadata":{"title":"The more things change, ...","publishedAt":"2024-09-07"},"slug":"240907","category":"Tech","content":"... the more they stay the same. Right now, it happens in web technologies. Back in the \nearly days of the Internet, it was static HTML pages, sprinkle a bit of CSS and called it\na day. Then Javascript came along for more interactivity. People wanted more, so came PHP\nfor that dynamic web pages. PHP kickstarted the server-side rendering motive of web for years\nto come. There was also ASPX. When I started working around 2020, it was the time of Javascript\nframeworks. React, Vue, Svelte... you name it. Building Single Page Application was the bee's knee.\nAnd then comes your NextJS, Nuxt, 11ty, Astro... Even PHP-based content management systems (CMS)\nsuch as Wordpress have never left. It seems things a lot of times come full-circle, don't they?\nIt's like trends. Go out of fashion, then give it a decade, and it comes back. The 80s nostalgia\n, big movie franchises, fat vs oil health debacle.\n\n*\"plus ça change, plus c'est la même chose.\"* Jean-Baptiste Alphonse Karr"},{"metadata":{"title":"A different mindset","publishedAt":"2024-09-06"},"slug":"240906","category":"Tech","content":"$12"},{"metadata":{"title":"\"Perhaps I treated you too harshly\". Reflection on .NET as a back end framework","publishedAt":"2024-09-02T03:00:00Z"},"slug":"240902-3","category":"Tech","content":"$13"},{"metadata":{"title":"Windows S Mode","publishedAt":"2024-09-02T02:00:00Z"},"slug":"240902-2","category":"Tech","content":"$14"},{"metadata":{"title":"Remote Server behind CGNAT using Wireguard","publishedAt":"2024-09-02T01:00:00Z"},"slug":"240902-1","category":"Tech","content":"$15"},{"metadata":{"title":"My thought on Chromebook","publishedAt":"2023-10-11"},"slug":"231011","category":"Tech","content":"$16"},{"metadata":{"title":"Convert BIOS to UEFI for Linux (or how to recover GRUB)","publishedAt":"2023-08-23T03:00:00Z"},"slug":"230823-3","category":"Tech","content":"$17"},{"metadata":{"title":"Fedora: What I learned","publishedAt":"2023-08-23T02:00:00Z"},"slug":"230823-2","category":"Tech","content":"$18"},{"metadata":{"title":"Trying Windows 11 and other OSes","publishedAt":"2023-08-23T01:00:00Z"},"slug":"230823-1","category":"Tech","content":"$19"},{"metadata":{"title":"Cross compiling driver for Raspberry Pi","publishedAt":"2023-07-22"},"slug":"230722","category":"Tech","content":"$1a"},{"metadata":{"title":"Custom resolution for GTX 1060 on Lubuntu","publishedAt":"2023-07-21"},"slug":"230721","category":"Tech","content":"$1b"},{"metadata":{"title":"The times I dealt with phones that have multiple models","publishedAt":"2023-07-07"},"slug":"230707","category":"Tech","content":"$1c"},{"metadata":{"title":"Patching OpenWrt with a new driver","publishedAt":"2023-06-23"},"slug":"230623","category":"Tech","content":"$1d"},{"metadata":{"title":"Trying a new kernel and compiling network driver from it","publishedAt":"2023-06-14"},"slug":"230614","category":"Tech","content":"$1e"},{"metadata":{"title":"Getting my blog on Google Search","publishedAt":"2023-06-10"},"slug":"230610","category":"Tech","content":"$1f"},{"metadata":{"title":"Install Firefox as deb instead of snap on Ubuntu","publishedAt":"2023-06-09"},"slug":"230609","category":"Tech","content":"$20"},{"metadata":{"title":"YouTube: The beginning of the end","publishedAt":"2023-05-23"},"slug":"230511","category":"Tech","content":"$21"},{"metadata":{"title":"Compile OpenWrt for Orange Pi R1 Plus LTS","publishedAt":"2023-05-23"},"slug":"230523","category":"Tech","content":"$22"},{"metadata":{"title":"On the proverb \"If it ain't broke don't fix it\"","publishedAt":"2023-05-06"},"slug":"230506","category":"Tech","content":"$23"},{"metadata":{"title":"Auto build driver when updating Linux kernel with dkms","publishedAt":"2023-05-04"},"slug":"230504","category":"Tech","content":"$24"},{"metadata":{"title":"Data plan investigation: Zero-rating","publishedAt":"2023-04-27"},"slug":"230427","category":"Tech","content":"$25"},{"metadata":{"title":"Enhance network performance by bridging my modem to my router","publishedAt":"2023-04-15"},"slug":"230415","category":"Tech","content":"$26"},{"metadata":{"title":"Upgrading Grandparents' Wifi III: Covering the house in new Wifi","publishedAt":"2023-04-13"},"slug":"230413","category":"Tech","content":"$27"},{"metadata":{"title":"Modems, routers and converters","publishedAt":"2023-04-04"},"slug":"230404","category":"Tech","content":"$28"},{"metadata":{"title":"The 4G Router rabbit hole","publishedAt":"2023-03-31"},"slug":"230331","category":"Tech","content":"$29"},{"metadata":{"title":"Upgrading Grandparents' Wifi II: The slow and the frustrated","publishedAt":"2023-03-30T02:00:00Z"},"slug":"230330-2","category":"Tech","content":"$2a"},{"metadata":{"title":"Upgrading Grandparents' Wifi I","publishedAt":"2023-03-30T01:00:00Z"},"slug":"230330-1","category":"Tech","content":"$2b"}],"addSummary":true,"pagination":true}]]}],null],null],null]},[null,["$","$L2c",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2d",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/818d829ce0ecc2f8.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","className":"text-black bg-white dark:text-white dark:bg-black __variable_ac79ff __variable_8a4d12","children":["$","body",null,{"className":"antialiased max-w-4xl mx-4 mt-8 lg:mx-auto","children":["$","main",null,{"className":"flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0","children":[["$","aside",null,{"className":"-ml-[8px] mb-16 tracking-tight","children":["$","div",null,{"className":"lg:sticky lg:top-20","children":["$","nav",null,{"className":"flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative","id":"nav","children":["$","div",null,{"className":"flex flex-row space-x-0 pr-10","children":[["$","$L2e","/",{"href":"/","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"home"}],["$","$L2e","/about",{"href":"/about","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"about"}],["$","$L2e","/blog",{"href":"/blog","className":"transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1","children":"blog"}]]}]}]}]}],["$","$L2c",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2d",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","section",null,{"children":[["$","h1",null,{"className":"mb-8 text-2xl font-semibold tracking-tighter","children":"404 - Page Not Found"}],["$","p",null,{"className":"mb-4","children":"The page you are looking for does not exist."}]]}],"notFoundStyles":[]}],["$","footer",null,{"className":"mb-16","children":[["$","ul",null,{"className":"font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Corvallis, Oregon, USA"}]]}],["$","li",null,{"children":["$undefined",["$","p",null,{"className":" h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","children":"Phone: 541-360-9231"}]]}]]}],["$","ul",null,{"className":"font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300","children":[["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"github"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://github.com/bachsofttrick/bachsofttrick.github.io","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"view source"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"https://linkedin.com/in/brian-phan-58530b1b0/","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"linkedin"}]]}]}],["$","li",null,{"children":["$","a",null,{"className":"flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100","rel":"noopener noreferrer","target":"_blank","href":"mailto:xuanbach1307@gmail.com","children":[["$","svg",null,{"width":"12","height":"12","viewBox":"0 0 12 12","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":["$","path",null,{"d":"M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z","fill":"currentColor"}]}],["$","p",null,{"className":"ml-2 h-7","children":"email"}]]}]}]]}],["$","p",null,{"className":"mt-8 text-neutral-600 dark:text-neutral-300","children":2025}]]}]]}]}]}]],null],null],[null,"$L2f"]]]]
+2f:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Blog | Brian Phan"}],["$","meta","3",{"name":"description","content":"Read my blog."}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","6",{"property":"og:title","content":"My Portfolio"}],["$","meta","7",{"property":"og:description","content":"This is my portfolio."}],["$","meta","8",{"property":"og:url","content":"https://bachsofttrick.github.io"}],["$","meta","9",{"property":"og:site_name","content":"My Portfolio"}],["$","meta","10",{"property":"og:locale","content":"en_US"}],["$","meta","11",{"property":"og:type","content":"website"}],["$","meta","12",{"name":"twitter:card","content":"summary"}],["$","meta","13",{"name":"twitter:title","content":"My Portfolio"}],["$","meta","14",{"name":"twitter:description","content":"This is my portfolio."}],["$","meta","15",{"name":"next-size-adjust"}]]
 1:null
