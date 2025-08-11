@@ -18,14 +18,12 @@ Corvallis, Oregon, USA
 *Full Stack Developer*  
 Ho Chi Minh City, Vietnam
 
--   Maintained DMS (distribution management system), a business
-    management solution for Business-to-business sales, used by 12
-    companies (P&G included). Specialized in promotion/deal calculation functions.
--   Made improvements to the shipper activity generation algorithm that
+-   Maintained a distribution management system for Business-to-business sales.
+    Specialized in promotion/deal calculation.
+-   Made improvements to the activity generation algorithm that
     sped up its runtime by 96x.
 -   Programmed a social security app offering relief packages during
-    COVID-19 and its delivery tracking system (An Sinh), utilized by
-    about 9 million citizens of the city.
+    COVID-19 (An Sinh), utilized by about 9 million citizens in HCMC.
 -   Assisted in the development of an eCommerce platform.
 -   All projects are deployed with Docker onto a Kubernetes cluster with Jenkins CI/CD.
 
@@ -37,7 +35,7 @@ Ho Chi Minh City, Vietnam
 -   Studied programming on embedded devices and Linux.
 -   Embraced software development environment and mindset.
 
-#### OTHER WORK EXPERIENCE
+#### OTHER W.EXPERIENCE
 
 **OSU CARLSON COLLEGE OF VETERINARY MEDICINE** 7/2025 – 8/2025  
 *Summer Veterinary Experience Chaperone*  
