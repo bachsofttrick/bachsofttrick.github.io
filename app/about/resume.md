@@ -57,9 +57,9 @@ Ho Chi Minh City, Vietnam
 
 **COURSE PROJECTS**
 
-- [Algorithm Analysis](https://github.com/bachsofttrick/algolysis-cs325)
+- [Algorithm Analysis (CS325)](https://github.com/bachsofttrick/algolysis-cs325)
 
-- [DBMS](https://github.com/bachsofttrick/dbms-cs540)
+- [Database Management System (CS540)](https://github.com/bachsofttrick/dbms-cs540)
 
 **GO APPS** 
 
