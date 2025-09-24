@@ -1,6 +1,5 @@
 ---
 title: 'Resume'
-publishedAt: '2023-09-04'
 ---
 #### WORK EXPERIENCE
 
@@ -35,22 +34,6 @@ Ho Chi Minh City, Vietnam
 -   Studied programming on embedded devices and Linux.
 -   Embraced software development environment and mindset.
 
-#### OTHER W.EXPERIENCE
-
-**OSU CARLSON COLLEGE OF VETERINARY MEDICINE** 7/2025 – 8/2025  
-*Summer Veterinary Experience Chaperone*  
-Corvallis, United States
-
--   Led and supervised a group of academically driven high school students during OSU's Summer Veterinary Experience, ensuring their safety, engagement, and successful participation in a smooth, incident-free program.
--   Promoted a supportive, inclusive environment by building rapport with students from diverse backgrounds, contributing to a positive group and increased interest in veterinary careers.
-
-**ORANGE MEDIA NETWORK** 11/2024 – 12/2024  
-*Radio DJ*  
-Corvallis, United States
-
--   Operated radio broadcasting equipment and followed station protocols for live DJ shows.
--   Developed a deep understanding of the DJ system and studio setup.
-
 #### PROJECTS
 
 **REVERSI: MINIMAX VS MONTE CARLO**
@@ -71,22 +54,24 @@ Corvallis, United States
 
 -   Built using NextJS, hosted on Github Pages, source at the bottom of the page.
 
+
+**COURSE PROJECTS**
+
+- [Algorithm Analysis](https://github.com/bachsofttrick/algolysis-cs325)
+
+- [DBMS](https://github.com/bachsofttrick/dbms-cs540)
+
 **GO APPS** 
 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)
 
 - [Get schedule for Star Trek TNG on Pluto TV](https://github.com/bachsofttrick/tng-schedule)
 
-**MISCELLANEOUS**
-
-- [Algorithm Analysis](https://github.com/bachsofttrick/algolysis-cs325)
-
-- [DBMS](https://github.com/bachsofttrick/dbms-cs540)
 
 #### SKILLS
 
-- Frontend: React, Vue, HTML, CSS, Javascript
-- Backend: .NET, NodeJS, NestJS, ExpressJS
+- Frontend: React, Vue, HTML, CSS, Javascript, PHP
+- Backend: .NET, NodeJS, NestJS, ExpressJS, PHP
 - Database: MySQL, MongoDB, SQLite, Redis
 - Scripting: Bash, Python
 - Version Control: Git, GitHub, GitLab
@@ -98,6 +83,22 @@ Corvallis, United States
 - Project Management, Documentation, Self-Motivation, 
 Independent Work Ethic, Willingess To Learn.
 
+#### OTHER W.EXPERIENCE
+
+**OSU CARLSON COLLEGE OF VETERINARY MEDICINE** 7/2025 – 8/2025  
+*Summer Veterinary Experience Chaperone*  
+Corvallis, United States
+
+-   Led and supervised a group of academically driven high school students during OSU's Summer Veterinary Experience, ensuring their safety, engagement, and successful participation in a smooth, incident-free program.
+-   Promoted a supportive, inclusive environment by building rapport with students from diverse backgrounds, contributing to a positive group and increased interest in veterinary careers.
+
+**ORANGE MEDIA NETWORK** 11/2024 – 12/2024  
+*Radio DJ*  
+Corvallis, United States
+
+-   Operated radio broadcasting equipment and followed station protocols for live DJ shows.
+-   Developed a deep understanding of the DJ system and studio setup.
+
 #### EDUCATION
 
 **Oregon State University** (expected) 6/2027  
@@ -107,11 +108,3 @@ Corvallis, Oregon, USA
 **Ho Chi Minh University of Technology**  
 *Bachelor of Engineering, Electrical Engineering and Telecommunications*  
 Ho Chi Minh, Viet Nam
-
-#### REFERENCES
-
--   **Hoang Nguyen**: Senior Software Engineer / Development Team
-    Leader - [hoang.nguyen142536@gmail.com](mailto:hoang.nguyen142536@gmail.com) - (+84)93-416-2993
-
--   **Hai Hoang Ho**: Senior Software Engineer - [hhhai0304@gmail.com](mailto:hhhai0304@gmail.com) -
-    (+84)86-860-3494

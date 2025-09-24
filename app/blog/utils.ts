@@ -98,6 +98,16 @@ export function getAboutPosts(): MDXData[] {
   return posts
 }
 
+export function extractProjectsFromAbout(input: string): string {
+  const match = input.match(/#### PROJECTS\n([\s\S]*?)(?=\n####|$)/);
+
+  if (match) {
+    return match[0];
+  }
+  
+  return '';
+}
+
 export function formatDate(date: string, includeRelative = false) {
   let currentDate = new Date()
   if (!date.includes('T')) {

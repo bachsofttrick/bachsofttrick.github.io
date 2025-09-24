@@ -9,12 +9,12 @@ export const metadata = {
 }
 
 export default function Page() {
-  let post = getAboutPosts();
+  const post = getAboutPosts();
   if (!post[0]) {
     notFound()
   }
 
-  const navItems = ['Work Experience', 'Other W.Experience','Projects','Skills','Education','References',]
+  const navItems = ['Work Experience','Projects','Skills','Other W.Experience','Education']
 
   return (
     <section>
