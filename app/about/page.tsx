@@ -14,7 +14,7 @@ export default function Page() {
     notFound()
   }
 
-  const navItems = ['Work Experience','Projects','Skills','Other W.Experience','Education']
+  const navItems = ['Work Experience','Projects','Skills','Education','Other W.Experience']
 
   return (
     <section>

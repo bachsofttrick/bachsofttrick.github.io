@@ -88,6 +88,16 @@ A Reverse Proxy built using ExpressJS and express-http-proxy for debugging micro
 - Project Management, Documentation, Self-Motivation, 
 Independent Work Ethic, Willingess To Learn.
 
+#### EDUCATION
+
+**Oregon State University** (expected) 6/2027  
+*Master of Engineering, Computer Science*  
+Corvallis, Oregon, USA
+
+**Ho Chi Minh University of Technology**  
+*Bachelor of Engineering, Electrical Engineering and Telecommunications*  
+Ho Chi Minh, Viet Nam
+
 #### OTHER W.EXPERIENCE
 
 **OSU CARLSON COLLEGE OF VETERINARY MEDICINE** 7/2025 – 8/2025  
@@ -101,13 +111,3 @@ Corvallis, United States
 Corvallis, United States
 - Operated radio broadcasting equipment and followed station protocols for live DJ shows.
 - Developed a deep understanding of the DJ system and studio setup.
-
-#### EDUCATION
-
-**Oregon State University** (expected) 6/2027  
-*Master of Engineering, Computer Science*  
-Corvallis, Oregon, USA
-
-**Ho Chi Minh University of Technology**  
-*Bachelor of Engineering, Electrical Engineering and Telecommunications*  
-Ho Chi Minh, Viet Nam
