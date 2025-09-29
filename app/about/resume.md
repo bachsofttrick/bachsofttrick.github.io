@@ -48,7 +48,8 @@ Ho Chi Minh City, Vietnam
 **[OBJECT DETECTION AND MONITORING THROUGH UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
-Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
+Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs)
+[3](https://youtu.be/8aDXLjs9KnM) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
 - Use a custom drone for searching, identifying, and following a
 designated object while transmitting images to any RTSP-compatible
