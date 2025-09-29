@@ -42,7 +42,7 @@ Ho Chi Minh City, Vietnam
 - Built using NextJS, hosted on Github Pages.
 
 **[REVERSI: MINIMAX VS MONTE CARLO](https://github.com/bachsofttrick/reversi-ai531/)**\
-[Paper](https://github.com/bachsofttrick/reversi-ai531/blob/master/paper.pdf)
+[Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
 - Compare performance of two algorithms against several games of Reversi, varying in board size, tree depth, iteration count, using multithreading.
 
 **[OBJECT DETECTION AND MONITORING THROUGH UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
