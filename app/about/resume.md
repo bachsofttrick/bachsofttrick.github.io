@@ -93,7 +93,7 @@ Independent Work Ethic, Willingess To Learn.
 
 #### EDUCATION
 
-**Oregon State University** (expected) 6/2027  
+**Oregon State University** 6/2027  
 *Master of Engineering, Computer Science*  
 Corvallis, Oregon, USA
 
