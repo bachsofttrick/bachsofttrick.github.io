@@ -87,7 +87,7 @@ A Reverse Proxy built using ExpressJS and express-http-proxy for debugging micro
 
 #### EDUCATION
 
-**Oregon State University** 6/2027  
+**Oregon State University** 6/2026  
 *Master of Engineering, Computer Science*  
 Corvallis, Oregon, USA
 
