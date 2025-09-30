@@ -7,7 +7,7 @@ title: 'Resume'
 *Software Developer*  
 Corvallis, Oregon, USA
 - Managed and maintained the OregonFlora codebase and infrastructure to 
-ensure reliability and long-term usability.
+ensure reliability and long-term usability for researchers.
 
 **OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - 10/2024  
 *Web Assistant*  
@@ -21,20 +21,19 @@ stability, performance.
 **ICC INNOVATIVE CONSULTING** 11/2020 - 11/2022  
 *Software Developer*  
 Ho Chi Minh City, Vietnam
-- Maintained a distribution management system for Business-to-business sales.
-Specialized in promotion/deal calculation.
-- Made improvements to the activity generation algorithm that
-sped up its runtime by 96x.
-- Programmed a social security app offering relief packages during
-COVID-19 (An Sinh), utilized by about 9 million citizens in HCMC.
-- Assisted in the development of an eCommerce platform.
+- Maintained and optimized a B2B distribution management system,
+focusing on promotions and deal calculation accuracy.
+- Enhanced the activity generation algorithm, achieving a 96x speedup in runtime efficiency.
+- Developed and deployed An Sinh, a large-scale social security relief application
+supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
 
 **ENGINEERING AND PRODUCTION APPLICATION SINGLE MEMBER CO., LTD
 (TECAPRO)** 6/2018 - 8/2018  
 *Internship*  
 Ho Chi Minh City, Vietnam
-- Studied programming on embedded devices and Linux.
-- Embraced software development environment and mindset.
+- Explored embedded programming and Linux systems, building a foundation in low-level development.
+- Gained hands-on experience with professional software development workflows,
+tools, and best practices.
 
 #### PROJECTS
 
@@ -43,16 +42,15 @@ Ho Chi Minh City, Vietnam
 
 **[REVERSI: MINIMAX VS MONTE CARLO](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
-- Compare performance of two algorithms against several games of Reversi, varying in board size, tree depth, iteration count, using multithreading.
+- Designed and compared performance of two AI algorithms against several games of Reversi, varying in configurations using multithreading.
 
 **[OBJECT DETECTION AND MONITORING THROUGH UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- Use a custom drone for searching, identifying, and following a
-designated object while transmitting images to any RTSP-compatible
-device.
+- Engineered a custom drone for searching, identifying, and following a designated subject
+while transmitting live video feeds to any RTSP-compatible device.
 
 **GO APPS** 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)\
@@ -70,26 +68,22 @@ Built using NodeJS and Google Calendar API.
 A Reverse Proxy built using ExpressJS and express-http-proxy for debugging microservice projects. Nodemon is for developing this app with hot reload.
 
 **COURSE PROJECTS**
-- [Computer Architecture and Assembly Language (CS271)](https://github.com/bachsofttrick/comp-arch-cs271)
+- [Assembly Language](https://github.com/bachsofttrick/comp-arch-cs271)
 
-- [Algorithm Analysis (CS325)](https://github.com/bachsofttrick/algolysis-cs325)
+- [Algorithm Analysis](https://github.com/bachsofttrick/algolysis-cs325)
 
-- [Database Management System (CS540)](https://github.com/bachsofttrick/dbms-cs540)
+- [Database Management System](https://github.com/bachsofttrick/dbms-cs540)
 
-- [Parallel Programming (CS575)](https://github.com/bachsofttrick/parallel-cs575)
+- [Parallel Programming](https://github.com/bachsofttrick/parallel-cs575)
 
 #### SKILLS
-- Frontend: React, Vue, HTML, CSS, Javascript, PHP
-- Backend: .NET, NodeJS, NestJS, ExpressJS, PHP
+- Language: C#, Python, HTML, CSS, Javascript, PHP, Bash
+- Frontend: React, Vue
+- Backend: .NET, NodeJS, NestJS, ExpressJS, Laravel
 - Database: MySQL, MongoDB, SQLite, Redis
-- Scripting: Bash, Python
-- Version Control: Git, GitHub, GitLab
-- Container & Orchestration: Docker, Rancher
+- Tools: Git, Docker, Rancher
 - Virtualization: KVM, VPS
-- Proficient in Linux (Ubuntu, Debian, Fedora, Arch), Windows
-- Proficient in Computer Networking, Diagnostic and Repair, Office Skills
-- Project Management, Documentation, Self-Motivation, 
-Independent Work Ethic, Willingess To Learn.
+- Systems: Linux, Windows
 
 #### EDUCATION
 
@@ -112,5 +106,7 @@ Corvallis, United States
 **ORANGE MEDIA NETWORK** 11/2024 – 12/2024  
 *Radio DJ*  
 Corvallis, United States
-- Operated radio broadcasting equipment and followed station protocols for live DJ shows.
-- Developed a deep understanding of the DJ system and studio setup.
+- Operated professional radio broadcasting equipment and
+adhered to FCC and station protocols during live shows.
+- Mastered the DJ system and studio setup, ensuring smooth operations, excellent
+audio quality, and audience engagement.

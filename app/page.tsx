@@ -8,13 +8,9 @@ const allBlogs = getSortedBlogPosts()
 const bulletPoints = [
   'Full stack web developer with experience in designing, deploying,\
     and maintaining web applications.',
-  'Skilled in C#, JavaScript, React, MySQL, Docker with a strong background in \
-    Linux systems and Agile development.',
-  'Experienced in managing deadlines, collaborating with cross-functional teams,\
-    and delivering solutions that improve functionality and user experience.',
-  'Adept at documentation, content management, and supporting site updates.',
-  'Committed to building efficient, user-friendly tools and contributing to \
-    the growth of mission-driven projects.',
+  'Skilled in .NET, JavaScript, React, MySQL, Docker and Linux systems',
+  'Proven ability to deliver reliable solutions on schedule by collaborating\
+  across teams and optimizing for performance and user experience.'
 ]
 
 const post = getAboutPosts();
