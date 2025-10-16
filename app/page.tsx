@@ -6,7 +6,7 @@ import { CustomMDX } from 'app/components/mdx'
 
 const allBlogs = getSortedBlogPosts()
 const bulletPoints = [
-  'Full stack web developer with experience in designing, deploying,\
+  'Full stack software developer with experience in designing, deploying,\
     and maintaining web applications.',
   'Skilled in .NET, JavaScript, React, MySQL, Docker and Linux systems',
   'Proven ability to deliver reliable solutions on schedule by collaborating\
