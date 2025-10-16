@@ -2,8 +2,9 @@
 Built using NextJS
 
 Todo:
-- [x] Create scaling images (230331, 230330-2)
-- [x] Create a gallery out of md images (230331, 230330-2)
-- [ ] Add simple search engine to blog posts
+- [ ] Add 2 Youtube videos in front of Project page, split between the screen on desktop,
+not show up on phone 
+- [ ] Add simple search engine to blog posts.
+Wonder if static page can have a search engine
 - [x] Add year/month filter to blog posts
   - [ ] Count posts in month, year

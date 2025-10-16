@@ -98,6 +98,11 @@ export function getAboutPosts(): MDXData[] {
   return posts
 }
 
+export function getAboutProjectPosts(): MDXData[] {
+  let posts = getMDXData(path.join(process.cwd(), 'app', 'about-projects'), false)
+  return posts
+}
+
 export function extractProjectsFromAbout(input: string): string {
   const match = input.match(/#### PROJECTS\n([\s\S]*?)(?=\n####|$)/);
 

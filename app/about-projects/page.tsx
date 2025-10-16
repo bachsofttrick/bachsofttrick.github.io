@@ -1,25 +1,25 @@
-import { getAboutPosts } from 'app/blog/utils'
+import { getAboutProjectPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { CustomMDX, slugify } from 'app/components/mdx'
 
 export const metadata = {
-  title: 'About Me',
-  description: 'About me.',
+  title: 'My Projects',
+  description: 'My Projects.',
 }
 
 export default function Page() {
-  const post = getAboutPosts();
+  const post = getAboutProjectPosts();
   if (!post[0]) {
     notFound()
   }
 
-  const navItems = ['Work Experience','Skills','Education','Other W.Experience']
+  // const navItems = ['Projects']
 
   return (
     <section>
-      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">About Me</h1>
-      <nav className='flex flex-col md:flex-row justify-center items-center'>
+      <h1 className="font-semibold text-2xl mb-8 tracking-tighter">My Projects</h1>
+      {/* <nav className='flex flex-col md:flex-row justify-center items-center'>
           <span className='md:me-8 mb-2 font-bold'>Jump to:</span>
           {
             navItems.map((item) => {
@@ -33,7 +33,7 @@ export default function Page() {
                 </Link>
             })
           }
-      </nav>
+      </nav> */}
       <article className="prose">
         <CustomMDX source={post[0].content} type='resume' />
       </article>

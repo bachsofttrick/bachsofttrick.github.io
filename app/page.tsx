@@ -39,7 +39,7 @@ export default function Page() {
               <li key={index}>{text}</li>
             ))}
           </ul>
-          <u><a href='/about#projects'>Check out my projects here.</a></u>
+          <u><a href='/about-projects'>Check out my projects here.</a></u>
         </section>
       </section>
 
