@@ -36,9 +36,9 @@ Ho Chi Minh City, Vietnam
 tools, and best practices.
 
 #### SKILLS
-- Language: C#, Python, HTML, CSS, Javascript, PHP, Bash
+- Language: C/C++, C#, Python, Go, HTML, CSS, Javascript, Java, PHP, Bash
 - Frontend: React, Vue
-- Backend: .NET, NodeJS, NestJS, ExpressJS, Laravel
+- Backend: .NET, NodeJS, NestJS, ExpressJS, Laravel, Drupal
 - Database: MySQL, MongoDB, SQLite, Redis
 - Tools: Git, Docker, Rancher
 - Virtualization: KVM, VPS
