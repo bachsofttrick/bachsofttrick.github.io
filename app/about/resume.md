@@ -18,7 +18,7 @@ for developing outdoor school programs.
 - Supported migration from Umbraco 8 to Drupal 10, contributing
 to improved platform stability and performance.
 
-**ICC INNOVATIVE CONSULTING** 11/2020 - 11/2022  
+**ICC INNOVATIVE CONSULTING** 9/2020 - 11/2022  
 *Software Developer*  
 Ho Chi Minh City, Vietnam
 - Maintained and optimized a B2B distribution management system,
