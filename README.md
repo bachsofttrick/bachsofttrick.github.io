@@ -7,6 +7,5 @@ not show up on phone
 - [ ] Add full-text search engine to blog posts:\
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
-Wonder if static page can have a search engine
 - [x] Add year/month filter to blog posts
   - [ ] Count posts in month, year
