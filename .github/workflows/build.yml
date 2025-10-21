@@ -6,8 +6,14 @@ name: Build page
 on:
   push:
     branches: ["main"]
+    paths:
+      - "app/**"
+      - "package.json"
   pull_request:
     branches: ["main"]
+    paths:
+      - "app/**"
+      - "package.json"
 
 jobs:
   build:
