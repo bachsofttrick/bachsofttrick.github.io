@@ -1,5 +1,5 @@
 import { BlogPosts } from 'app/components/posts'
-import { getSortedBlogPosts, extractProjectsFromAbout } from 'app/blog/utils'
+import { getSortedBlogPosts } from 'app/blog/utils'
 import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
