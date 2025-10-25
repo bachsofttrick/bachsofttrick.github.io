@@ -4,7 +4,8 @@ import path from 'path'
 type Metadata = {
   title: string
   publishedAt: string
-  hidden: string
+  hidden: boolean
+  order: number
 }
 
 export type MDXData = {
@@ -27,7 +28,10 @@ function parseFrontmatter(fileContent: string) {
     let [key, ...valueArr] = line.split(': ')
     let value = valueArr.join(': ').trim()
     value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value
+    const toKey = key.trim() as keyof Metadata
+    if (toKey === 'hidden') metadata[toKey] = value === 'true'
+    else if (toKey === 'order') metadata[toKey] = Number(value)
+    else metadata[toKey] = value
   })
 
   return { metadata: metadata as Metadata, content }
@@ -84,12 +88,14 @@ export function getSortedBlogPosts(): MDXData[] {
   return getBlogPosts()
   .filter((post) => !post.metadata.hidden)
   .sort((a, b) => {
-    if (
-      new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
-    ) {
-      return -1
-    }
-    return 1
+    const dateA = new Date(a.metadata.publishedAt)
+    const dateB = new Date(b.metadata.publishedAt)
+
+    if (dateA > dateB) return -1
+    if (dateA < dateB) return 1
+
+    // If dates are equal, sort by order descending
+    return (b.metadata.order as number) - (a.metadata.order as number)
   })
 }
 
