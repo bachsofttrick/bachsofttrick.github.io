@@ -54,8 +54,7 @@ export function BlogPosts({
   let returnBlogs = allBlogs
   // Get unique categories and count the number of posts in a category
   const categories = [...getUniqueValues(allBlogs.map((post) => post.category))].map(category => {
-    const count = returnBlogs.filter(post => post.category === category).length
-    return `${category} (${count})`
+    return `${category}`
   })
   categories.unshift('All')
   
@@ -68,8 +67,7 @@ export function BlogPosts({
   let yearList = [...getUniqueValues(allBlogs.map(post => 
     getYear(post.metadata.publishedAt).toString()
   ))].map(year => {
-    const count = returnBlogs.filter(post => getYear(post.metadata.publishedAt) === Number(year)).length
-    return count > 0 ? `${year} (${count})` : ``
+    return `${year}`
   });
   yearList = yearList.filter((year) => year !== ``)
   yearList.unshift('All')
@@ -78,10 +76,8 @@ export function BlogPosts({
 
   if (year > 0) {
     returnBlogs = returnBlogs.filter((post) => getYear(post.metadata.publishedAt) === year)
-    // Count the number of posts in a month
     monthList = monthList.map(month => {
-      const count = returnBlogs.filter(post => getMonth(post.metadata.publishedAt) === Number(month)).length
-      return count > 0 ? `${month} (${count})` : ``
+      return `${month}`
     });
     monthList = monthList.filter((month) => month !== ``)
     monthList.unshift('All')
@@ -89,6 +85,10 @@ export function BlogPosts({
     if (month > 0) returnBlogs = returnBlogs.filter((post) => getMonth(post.metadata.publishedAt) === month)
     totalPages = Math.ceil(returnBlogs.length / itemPerPage)
   }
+
+  // Count the number of posts
+  const count = returnBlogs.length;
+
   if (pagination) {
     returnBlogs = returnBlogs.slice(page * itemPerPage - itemPerPage, page * itemPerPage)
   } else {
@@ -183,17 +183,19 @@ export function BlogPosts({
         ))}
         {
           pagination ? (
-            <Pagination
-              className='flex justify-center'
-              count={totalPages}
-              page={page}
-              onChange={handlePageChange}
-              renderItem={(item) =>
-                <PaginationItem style={{'color': 'inherit'}} {...item} />}
-            />
+            <div>
+              <Pagination
+                className='flex justify-center'
+                count={totalPages}
+                page={page}
+                onChange={handlePageChange}
+                renderItem={(item) =>
+                  <PaginationItem style={{'color': 'inherit'}} {...item} />}
+              />
+              # = {count}
+            </div>
           ) : null
         }
-      
     </div>
   )
 }
