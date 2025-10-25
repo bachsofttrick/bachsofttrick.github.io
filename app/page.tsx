@@ -17,7 +17,6 @@ const post = getAboutPosts();
   if (!post[0]) {
     notFound()
   }
-const projects = extractProjectsFromAbout(post[0].content);
 
 export default function Page() {
   return (

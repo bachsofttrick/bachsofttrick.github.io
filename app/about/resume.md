@@ -8,6 +8,7 @@ title: 'Resume'
 Corvallis, Oregon
 - Maintained and enhanced a research platform supporting
 thousands of daily users, researchers, and conservationists across Oregon.
+- Improved the uploading process, reducing runtime from 2 hour to 2 minute.
 
 **OSU EXTENSION SERVICE OUTDOOR SCHOOL** 9/2024 - 10/2024  
 *Web Assistant*  
