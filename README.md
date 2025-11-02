@@ -8,3 +8,19 @@ not show up on phone
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
+- Add comment box on blog posts (see if it is possible, since this is static page)
+  - [ ] Add login screen (login, password)
+  - [ ] Add register screen (login, password, name, email)
+  - [ ] Add forgot password screen (email)
+  - [ ] Add login to blog page, blog posts
+  - [ ] Add comment box
+  - [ ] Attach a backend for comment
+```
+{
+  post_id: int primary auto_increment,
+  user_id: int,
+  content: String,
+  parent_id: int, // for replies
+  created_at: Date
+}
+```
