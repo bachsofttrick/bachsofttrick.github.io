@@ -14,6 +14,10 @@ not show up on phone
   - [ ] Add forgot password screen (email)
   - [ ] Add login to blog page, blog posts
   - [ ] Add comment box
+    - [ ] Validate input (e.g., non-empty text)
+    - [ ] Sanitize input (prevent XSS, HTML, SQL injection)
+    - [ ] Spam & Abuse Prevention
+    - [ ] Request size & rate limits (DoS)
   - [ ] Attach a backend for comment
 ```
 {
