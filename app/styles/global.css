@@ -138,11 +138,27 @@ input[type='email'] {
   appearance: none;
 }
 
-table {
+/* Default css for table, temporary disabled */
+/* table {
   display: block;
   max-width: fit-content;
   overflow-x: auto;
   white-space: nowrap;
+} */
+
+/* My own table style */
+table {
+  border-collapse: 'collapse';  /* replaces cellspacing="0" */
+  border: '1px solid';
+  th, td {
+    border: 1px solid;  /* replaces border="1" */
+    padding: 3px;       /* replaces cellpadding="3" */
+  }
+
+  td .text-center {
+    text-align: center;
+  }
+
 }
 
 .title {
