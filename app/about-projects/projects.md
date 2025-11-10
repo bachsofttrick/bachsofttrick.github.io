@@ -16,11 +16,7 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 - Engineered a custom drone for searching, identifying, and following a designated subject
 while transmitting live video feeds to any RTSP-compatible device.
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-[https://youtube.com/embed/x6uBbzRVm_o](https://youtube.com/embed/x6uBbzRVm_o)
-
-[https://youtube.com/embed/x6QGjoSk1t8](https://youtube.com/embed/x6QGjoSk1t8)
-</div>
+<DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
 **OPEN SOURCE COLLABORATION**
 - [OregonFlora](https://oregonflora.org/)\

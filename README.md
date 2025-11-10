@@ -2,13 +2,8 @@
 Built using NextJS
 
 Todo:
-- [x] Add 2 Youtube videos in front of Project page, split between the screen on desktop,
-not show up on phone 
-  - [ ] Implement this feature in Youtube embed component on this page
 - [ ] Implement a script for [resizing image](https://github.com/lovell/sharp), so I don't need a web page
 for [that](https://imageresizer.com/)
-- [ ] [Next mdx remote](https://github.com/hashicorp/next-mdx-remote) doesn't have table support. Either update
-it, find another component, or make one to support table (251109)
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
@@ -36,3 +31,4 @@ it, find another component, or make one to support table (251109)
 Finished features:
 - A gallery out of md images (241111 Photography)
 - Year/month filter with count of total posts
+- Youtube and Double Youtube embed components

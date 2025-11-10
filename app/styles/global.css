@@ -154,10 +154,6 @@ table {
     border: 1px solid;  /* replaces border="1" */
     padding: 3px;       /* replaces cellpadding="3" */
   }
-
-  td .text-center {
-    text-align: center;
-  }
 }
 
 .title {

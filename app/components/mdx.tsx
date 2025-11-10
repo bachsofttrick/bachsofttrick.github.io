@@ -26,6 +26,26 @@ function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   )
 }
 
+function YoutubeEmbed({videoId, link}: {videoId?: string, link?: string}) {
+  const href = videoId ? `https://youtube.com/embed/${videoId}` : link
+  return (
+    <div className="flex justify-center my-4">
+      <iframe width="560" height="315" src={href} title="YouTube video player" allow="accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
+      referrerPolicy="strict-origin-when-cross-origin" />
+    </div>
+  )
+}
+
+function DoubleYtEmbed({vid1, vid2}: {vid1: string, vid2: string}) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <YoutubeEmbed videoId={vid1}></YoutubeEmbed>
+      <YoutubeEmbed videoId={vid2}></YoutubeEmbed>
+    </div>
+  )
+}
+
 function CustomLink(props: { href: string, children: any }) {
   let href = props.href
 
@@ -43,13 +63,7 @@ function CustomLink(props: { href: string, children: any }) {
 
   // Add youtube video
   if (href.startsWith('https://www.youtube.com/embed') || href.startsWith('https://youtube.com/embed')) {
-    return (
-      <div className="flex justify-center">
-        <iframe width="560" height="315" src={href} title="YouTube video player" allow="accelerometer; autoplay;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-        referrerPolicy="strict-origin-when-cross-origin" />
-      </div>
-    )
+    return <YoutubeEmbed link={href}></YoutubeEmbed>
   }
 
   return <a target="_blank" rel="noopener noreferrer" {...props} />
@@ -126,6 +140,7 @@ function createHeading(level: number, type = '') {
   return Heading
 }
 
+// Add more components here
 let components = {
   h1: createHeading(1),
   h2: createHeading(2),
@@ -137,6 +152,8 @@ let components = {
   a: CustomLink,
   code: Code,
   Table,
+  YoutubeEmbed,
+  DoubleYtEmbed,
 }
 
 export function CustomMDX(props: { type?: string, source: string, components?: any }) {
