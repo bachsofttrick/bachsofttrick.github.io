@@ -1,7 +1,7 @@
 # Portfolio and blog site
-Built using NextJS
+Built using NextJS and Markdown.
 
-Todo:
+## Todo
 - [ ] Implement a script for [resizing image](https://github.com/lovell/sharp), so I don't need a web page
 for [that](https://imageresizer.com/)
 - [ ] Update image gallery component to be a separate one like YoutubeEmbed
@@ -29,7 +29,7 @@ for [that](https://imageresizer.com/)
 }
 ```
 
-Finished features:
+## Finished features
 - A gallery out of md images (241111 Photography)
 - Year/month filter with count of total posts
 - Youtube and Double Youtube embed components
