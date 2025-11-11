@@ -160,7 +160,7 @@ export function getYear(date: string) {
 }
 
 export function getMonth(date: string) {
-  return new Date(date).getMonth() + 1
+  return new Date(date).getUTCMonth() + 1
 }
 
 export function getUniqueValues(arr: any[]) {
