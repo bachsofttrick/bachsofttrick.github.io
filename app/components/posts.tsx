@@ -59,7 +59,7 @@ export function BlogPosts({
   categories.unshift('All')
   
   // Generate all months
-  let monthList = Array.from({ length: 13 }, (_, index) => index.toString())
+  let monthList = Array.from({ length: 13 }, (_, index) => (index + 1).toString())
   monthList.pop()
 
   if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
@@ -67,7 +67,8 @@ export function BlogPosts({
   let yearList = [...getUniqueValues(allBlogs.map(post => 
     getYear(post.metadata.publishedAt).toString()
   ))].map(year => {
-    return `${year}`
+    const count = returnBlogs.filter(post => getYear(post.metadata.publishedAt) === Number(year)).length
+    return count > 0 ? `${year}` : ``
   });
   yearList = yearList.filter((year) => year !== ``)
   yearList.unshift('All')
@@ -76,8 +77,10 @@ export function BlogPosts({
 
   if (year > 0) {
     returnBlogs = returnBlogs.filter((post) => getYear(post.metadata.publishedAt) === year)
+    // Count the number of posts in a month
     monthList = monthList.map(month => {
-      return `${month}`
+      const count = returnBlogs.filter(post => getMonth(post.metadata.publishedAt) === Number(month)).length
+      return count > 0 ? `${month}` : ``
     });
     monthList = monthList.filter((month) => month !== ``)
     monthList.unshift('All')
