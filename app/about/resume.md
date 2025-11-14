@@ -40,7 +40,7 @@ tools, and best practices.
 - Language: C/C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, SQL, NoSQL, Bash
 - Frontend: React, Vue, Svelte, NextJS, Tailwind, Bootstrap, SCSS
 - Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel, Ruby on Rails
-- Database: MySQL, Postgres, MongoDB, SQLite, Redis, GraphQL, RabbitMQ, Apache Solr, ElasticSearch
+- Database: MySQL, Postgres, MongoDB, SQLite, Redis, GraphQL, Apache (Kafka, Solr, ElasticSearch)
 - Testing: Jest (unit, integration), Cypress (E2E)
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible, Terraform
 - AI Deployments: llama.cpp, ollama
