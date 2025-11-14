@@ -37,13 +37,15 @@ Ho Chi Minh City, Vietnam
 tools, and best practices.
 
 #### SKILLS
-- Language: C/C++, C#, Python, Go, HTML, CSS, Javascript, Java, PHP, Bash
-- Frontend: React, Vue
-- Backend: .NET, NodeJS, NestJS, ExpressJS, Laravel, Drupal
-- Database: MySQL, MongoDB, SQLite, Redis
-- Tools: Git, Docker, Rancher
-- Virtualization: KVM, VPS
-- Systems: Linux, Windows
+- Language: C/C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, SQL, NoSQL, Bash
+- Frontend: React, Vue, Svelte, NextJS, Tailwind, Bootstrap, SCSS
+- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel
+- Database: MySQL, Postgres, MongoDB, SQLite, Redis, GraphQL, RabbitMQ, Apache Solr, ElasticSearch
+- Testing: Jest (unit, integration), Cypress (E2E)
+- CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible, Terraform
+- AI Deployments: llama.cpp, ollama
+- AI Developer Tools: Copilot, Cursor, Claude Code, ChatGPT
+- Cloud Platforms: AWS
 
 #### EDUCATION
 
