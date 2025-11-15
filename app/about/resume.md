@@ -8,14 +8,13 @@ title: 'Resume'
 Corvallis, Oregon  
 - Maintained and enhanced a research platform supporting
 thousands of daily users, researchers, and conservationists across Oregon.
-- Improved the uploading process, reducing runtime from 2 hour to 2 minute.
+- Optimized ingestion pipeline, reducing processing time from from 2 hour to 2 minute.
+- Collaborated with researchers and developers to practice open collaboration and transparent communication.
 
 **Web Assistant** 9/2024 - 10/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
 Corvallis, Oregon
-- Managed the portal through which school districts and
-teachers can access the application, reports, resources
-for developing outdoor school programs.
+- Maintained the portal for educators and school districts, ensuring seamless access to outdoor education resources and reporting systems.
 - Supported platform migration, contributing to improved platform stability and performance.
 
 **Software Developer** 9/2020 - 11/2022  
@@ -24,7 +23,7 @@ Ho Chi Minh City, Vietnam
 - Maintained and optimized a business-to-business distribution management system,
 focusing on promotions and deal calculation accuracy.
 - Enhanced the activity generation algorithm, reducing runtime from 1 hour to 1 minute.
-- Developed and deployed An Sinh, a large-scale social security relief application
+- Developed and deployed An Sinh, a large-scale mission-critical social security application
 supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
 
 **Internship** 6/2018 - 8/2018  

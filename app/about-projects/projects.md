@@ -6,15 +6,15 @@ title: 'Projects'
 
 **[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
-- Designed and compared performance of two AI algorithms against several games of Reversi, varying in configurations using multithreading.
+- Designed and compared performance of two AI algorithms against several games of Reversi, using multithreading to improve efficiency.
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- Engineered a custom drone for searching, identifying, and following a designated subject
-while transmitting live video feeds to any RTSP-compatible device.
+- Engineered a custom drone for capable of identifying, following, and transmitting live video
+feeds to RTSP-compatible devices.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
