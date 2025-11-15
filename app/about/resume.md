@@ -11,7 +11,7 @@ thousands of daily users, researchers, and conservationists across Oregon.
 - Improved the uploading process, reducing runtime from 2 hour to 2 minute.
 
 **Web Assistant** 9/2024 - 10/2024  
-[*OSU Extension Service Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
+[*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
 Corvallis, Oregon
 - Managed the portal through which school districts and
 teachers can access the application, reports, resources
