@@ -1,14 +1,14 @@
 ---
 title: 'Projects'
 ---
-**[THIS PAGE](https://github.com/bachsofttrick/bachsofttrick.github.io)**
+**[This Page](https://github.com/bachsofttrick/bachsofttrick.github.io)**
 - Built using NextJS, hosted on Github Pages.
 
-**[REVERSI: MINIMAX VS MONTE CARLO](https://github.com/bachsofttrick/reversi-ai531/)**\
+**[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
 - Designed and compared performance of two AI algorithms against several games of Reversi, varying in configurations using multithreading.
 
-**[OBJECT DETECTION AND MONITORING THROUGH UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
+**[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
