@@ -37,4 +37,7 @@ yarn-error.log*
 next-env.d.ts
 
 # docx temp file
-.~lock.resume.docx#
+.~lock.*
+
+# PDF resume
+resume.pdf
