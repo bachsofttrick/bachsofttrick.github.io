@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getBlogPosts } from 'app/blog/utils'
+import { formatDate, getBlogPosts, checkPostIfHidden } from 'app/blog/utils'
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -20,7 +20,7 @@ export function generateMetadata({ params }: { params: { slug: string }}) {
 }
 
 export default function Blog({ params }: { params: { slug: string }}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug && !post.metadata.hidden)
+  let post = getBlogPosts().find((post) => post.slug === params.slug && checkPostIfHidden(post))
 
   if (!post) {
     notFound()

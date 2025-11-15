@@ -15,6 +15,10 @@ export type MDXData = {
   content: string
 }
 
+export function checkPostIfHidden(post: MDXData) {
+  return !post.metadata.hidden || process.env.NODE_ENV === 'development'
+}
+
 function parseFrontmatter(fileContent: string) {
   let frontmatterRegex = /---\s*([\s\S]*?)\s*---/
   let match = frontmatterRegex.exec(fileContent)
@@ -86,7 +90,7 @@ export function getBlogPosts(): MDXData[] {
 
 export function getSortedBlogPosts(): MDXData[] {
   return getBlogPosts()
-  .filter((post) => !post.metadata.hidden)
+  .filter(checkPostIfHidden)
   .sort((a, b) => {
     const dateA = new Date(a.metadata.publishedAt)
     const dateB = new Date(b.metadata.publishedAt)
