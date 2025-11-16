@@ -2,8 +2,6 @@
 Built using NextJS and Markdown.
 
 ## Todo
-- [ ] Implement a script for [resizing image](https://github.com/lovell/sharp), so I don't need a web page
-for [that](https://imageresizer.com/)
 - [ ] Update image gallery component to be a separate one like YoutubeEmbed
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
@@ -33,3 +31,4 @@ for [that](https://imageresizer.com/)
 - A gallery out of md images (241111 Photography)
 - Year/month filter with count of total posts
 - Youtube and Double Youtube embed components
+- Script for resizing images
