@@ -6,7 +6,8 @@
     "deploy": "gh-pages -d build --nojekyll",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "image": "node ./tools/resize-image.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
