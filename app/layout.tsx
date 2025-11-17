@@ -51,6 +51,8 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <meta name="msvalidate.01" content="D1474E050BE527719E98F0704865EEAE" />
+      <GoogleAnalytics gaId="G-N3J3E2ME0X" />
       <body className="antialiased max-w-4xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
@@ -58,7 +60,6 @@ export default function RootLayout({
           <Footer />
         </main>
       </body>
-      <GoogleAnalytics gaId="G-N3J3E2ME0X" />
     </html>
   )
 }
