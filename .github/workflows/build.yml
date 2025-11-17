@@ -9,12 +9,14 @@ on:
     branches: ["main"]
     paths:
       - "app/**"
+      - "public/**"
       - "package.json"
   pull_request:
     branches: ["main"]
     # Keep watch on specific folders and files to build
     paths:
       - "app/**"
+      - "public/**"
       - "package.json"
 
 jobs:
