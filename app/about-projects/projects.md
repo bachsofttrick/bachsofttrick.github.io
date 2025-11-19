@@ -13,7 +13,7 @@ title: 'Projects'
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- Engineered a custom drone for capable of identifying, following, and transmitting live video
+- Engineered a custom drone capable of identifying, following, and transmitting live video
 feeds to RTSP-compatible devices.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
