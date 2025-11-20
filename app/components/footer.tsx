@@ -38,7 +38,7 @@ function FooterPart({ href = '', title, noArrow = false }: { href?: string, titl
     </li>
   )
 }
-// <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io/raw/refs/heads/main/resume.docx"} title={"get resume"} />
+
 export default function Footer() {
   return (
     <footer className="mb-16">
@@ -50,7 +50,7 @@ export default function Footer() {
         <FooterPart href={"https://github.com/bachsofttrick/"} title={"github"} />
         <FooterPart href={"https://www.linkedin.com/in/brphan/"} title={"linkedin"} />
         <FooterPart href={"mailto:xuanbach1307@gmail.com"} title={"email"} />
-        
+        {/* <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io/raw/refs/heads/main/resume.docx"} title={"get resume"} /> */}
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         {new Date().getFullYear()}
