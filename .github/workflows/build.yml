@@ -22,7 +22,6 @@ on:
       - "config.json"
   # Manually running a workflow
   workflow_dispatch:
-    branches: ["main"]
 
 jobs:
   build:
