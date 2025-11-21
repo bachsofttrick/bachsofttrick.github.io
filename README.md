@@ -2,6 +2,8 @@
 Built using NextJS and Markdown.
 
 ## Todo
+- [ ] Create a script that scaffording a markdown template file so I can write blog
+faster without copying a pre-existing post
 - [ ] Update image gallery component to be a separate one like YoutubeEmbed
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
