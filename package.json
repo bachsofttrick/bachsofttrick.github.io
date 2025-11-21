@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "image": "node ./tools/resize-image.mjs"
+    "image": "node ./tools/resize-image.mjs",
+    "newpost": "node ./tools/new-post.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
