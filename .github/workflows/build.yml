@@ -4,15 +4,8 @@
 name: Build page
 
 on:
-  # Which branch to build page on
   push:
-    branches: ["main"]
-    paths:
-      - "app/**"
-      - "public/**"
-      - "package.json"
-      - "config.json"
-  pull_request:
+    # Which branch to build page on
     branches: ["main"]
     # Keep watch on specific folders and files to build
     paths:
@@ -20,6 +13,14 @@ on:
       - "public/**"
       - "package.json"
       - "config.json"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "app/**"
+      - "public/**"
+      - "package.json"
+      - "config.json"
+  workflow_dispatch:
 
 jobs:
   build:
