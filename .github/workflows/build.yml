@@ -20,6 +20,7 @@ on:
       - "public/**"
       - "package.json"
       - "config.json"
+  # Manually running a workflow
   workflow_dispatch:
 
 jobs:
