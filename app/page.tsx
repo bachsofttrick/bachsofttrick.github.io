@@ -3,7 +3,9 @@ import { getSortedBlogPosts } from 'app/blog/utils'
 import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
+import config from 'config.json'
 
+const { app: { highlightedPosts } } = config;
 const allBlogs = getSortedBlogPosts()
 const bulletPoints = [
   'Full stack software developer with experience in designing, deploying,\
@@ -43,10 +45,15 @@ export default function Page() {
         </section>
       </section>
 
-      <article className="prose mb-8">
+      {/* <article className="prose mb-8"> */}
         {/* <CustomMDX source={projects} type='resume' /> */}
-      </article>
+      {/* </article> */}
 
+      <h1 className="mb-4 text-l font-semibold tracking-tighter">
+        Highlighted tech posts
+      </h1>
+      <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} />
+      
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
       </h1>

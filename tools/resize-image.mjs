@@ -1,10 +1,12 @@
 import { existsSync, mkdirSync, readdirSync } from "fs";
 import sharp from "sharp";
+import config from '../config.json' assert { type: 'json' };
 
-const extToLook = ['jpg', 'jpeg'];
-const dirToLook = './temp/';
+const { tools: { resizeImage } } = config;
+const extToLook = resizeImage.extToLook;
+const dirToLook = resizeImage.dirToLook;
 const dirOutput = dirToLook + 'output/';
-const resizedHeight = 720;
+const resizedHeight = resizeImage.resizedHeight;
 
 async function main() {
     let files = readdirSync(dirToLook);

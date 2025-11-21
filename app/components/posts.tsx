@@ -23,11 +23,13 @@ export function BlogPosts({
   itemPerPage = 4,
   addSummary = false,
   pagination = false,
+  highlightedPosts = [],
 }: {
   allBlogs: MDXData[],
   itemPerPage?: number,
   addSummary?: boolean,
-  pagination?: boolean
+  pagination?: boolean,
+  highlightedPosts?: string[]
 }) {
   const [page, setPage] = useState(1)
   const handlePageChange = (event, page) => {
@@ -51,7 +53,19 @@ export function BlogPosts({
     setPage(1)
   }
 
-  let returnBlogs = allBlogs
+  // Getting only highlighted blogs if available
+  let returnBlogs: MDXData[] = [];
+  if (highlightedPosts && highlightedPosts.length > 0) {
+    const len = allBlogs.length;
+    returnBlogs = [];
+    for (let i = 0; i < len; i++) {
+      const post = allBlogs[i];
+      if (highlightedPosts.includes(post.slug)) returnBlogs.push(post);
+    }
+  } else {
+    returnBlogs = allBlogs;
+  }
+  
   // Get unique categories and count the number of posts in a category
   const categories = [...getUniqueValues(allBlogs.map((post) => post.category))].map(category => {
     return `${category}`

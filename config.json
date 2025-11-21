@@ -1,0 +1,14 @@
+{
+    "app": {
+        "highlightedPosts": {
+            "Tech": ["251105", "251109"]
+        }
+    },
+    "tools": {
+        "resizeImage": {
+            "extToLook": ["jpg", "jpeg"],
+            "dirToLook": "./temp/",
+            "resizedHeight": 720
+        }
+    }
+}
