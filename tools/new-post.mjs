@@ -8,7 +8,7 @@
 // create a .js that takes in two args: category, title.
 // Replace {title} with title arg, {date} with today date (example "2025-11-21"), hidden: false
 // with category arg, check in folder "blog/posts" for category folder, find if such a folder exists,
-// If yes, use it, if not, mkdirsync the folder.
+// If yes, use it, if not, mkdir the folder.
 // Check that category folder for file with format {date}.md (251121.md).
 // If yes, rename that 251121.md to 251121-1.md,
 // copy the template.md to blog/posts/[category], the new post file now has "order: 2"
@@ -96,8 +96,13 @@ function createMarkdownFile(title, order) {
         .replace('{order}', order)
         .replace('{hidden}', false);
 
-    fs.writeFileSync(newFilePath, content);
-    console.log(`Created markdown file: ${newFilename}`);
+    fs.writeFile(newFilePath, content, (err) => {
+        if (err) {
+            console.error('Error writing markdown file:', err);
+            return;
+        }
+        console.log(`Created markdown file: ${newFilename}`);
+    });
 }
 
 // Main function
