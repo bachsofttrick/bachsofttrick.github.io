@@ -1,17 +1,17 @@
-import { existsSync, mkdirSync, readdirSync } from "fs";
+import fs from "fs";
 import sharp from "sharp";
-import config from '../config.json' assert { type: 'json' };
-
+import config from '../config.json' with { type: 'json' };
 const { tools: { resizeImage } } = config;
+
 const extToLook = resizeImage.extToLook;
 const dirToLook = resizeImage.dirToLook;
 const dirOutput = dirToLook + 'output/';
 const resizedHeight = resizeImage.resizedHeight;
 
 async function main() {
-    let files = readdirSync(dirToLook);
-    if (!existsSync(dirOutput)) {
-        mkdirSync(dirOutput);
+    let files = fs.readdirSync(dirToLook);
+    if (!fs.existsSync(dirOutput)) {
+        fs.mkdirSync(dirOutput);
     }
     
     files = files.filter(file => {

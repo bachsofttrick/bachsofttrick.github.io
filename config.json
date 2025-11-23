@@ -9,6 +9,13 @@
             "extToLook": ["jpg", "jpeg"],
             "dirToLook": "./temp/",
             "resizedHeight": 720
+        },
+        "newPost": {
+            "t": "Tech",
+            "c": "Cooking",
+            "l": "Life",
+            "p": "Photography",
+            "f": "Film"
         }
     }
 }
