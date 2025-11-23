@@ -49,10 +49,10 @@ export default function Page() {
         {/* <CustomMDX source={projects} type='resume' /> */}
       {/* </article> */}
 
-      <h1 className="mb-4 text-l font-semibold tracking-tighter">
+      {/* <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Highlighted tech posts
       </h1>
-      <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} />
+      <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} /> */}
       
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
