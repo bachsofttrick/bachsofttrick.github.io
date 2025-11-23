@@ -23,7 +23,7 @@ const { tools: { newPost } } = config;
 
 // Entry point
 if (process.argv.length !== 4) {
-    console.error('Usage: node new-post.mjs <category> <title>.');
+    console.error('Usage: node new-post.mjs <category> <title>');
     process.exit(1);
 }
 
@@ -37,7 +37,7 @@ function getValueFromConfig(key) {
     if (newPost.hasOwnProperty(key)) {
         return newPost[key];
     } else {
-        console.error('This category doesn\'t exist in config.json.');
+        console.error('This category doesn\'t exist in config.json');
         process.exit(1);
     }
 }
