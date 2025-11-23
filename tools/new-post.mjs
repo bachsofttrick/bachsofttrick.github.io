@@ -63,7 +63,7 @@ function getNextOrderNumber() {
     const baseFileExists = files.includes(baseFilename);
     let order = 1;
     if (baseFileExists) {
-        fs.renameSync(`${dirPath}/${baseFilename}`, `${dirPath}/${date}-1.md`)
+        // fs.renameSync(`${dirPath}/${baseFilename}`, `${dirPath}/${date}-1.md`)
         return order + 1;
     }
 
