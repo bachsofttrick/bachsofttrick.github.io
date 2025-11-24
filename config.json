@@ -1,4 +1,9 @@
 {
+    "contactInfo": {
+        "github": "https://github.com/bachsofttrick/",
+        "linkedin": "https://linkedin.com/in/brphan/",
+        "email": "xuanbach1307@gmail.com"
+    },
     "app": {
         "highlightedPosts": {
             "Tech": ["251105", "251109", "251120"]

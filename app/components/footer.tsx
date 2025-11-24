@@ -1,3 +1,6 @@
+import config from 'config.json'
+const { contactInfo } = config;
+
 function ArrowIcon({ noArrow }: { noArrow: boolean }) {
   if (noArrow) return
   return (
@@ -47,9 +50,9 @@ export default function Footer() {
         <FooterPart title={"Phone: 541-360-9231"} noArrow />
       </ul>
       <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <FooterPart href={"https://github.com/bachsofttrick/"} title={"github"} />
-        <FooterPart href={"https://www.linkedin.com/in/brphan/"} title={"linkedin"} />
-        <FooterPart href={"mailto:xuanbach1307@gmail.com"} title={"email"} />
+        <FooterPart href={contactInfo.github} title={"github"} />
+        <FooterPart href={contactInfo.linkedin} title={"linkedin"} />
+        <FooterPart href={`mailto:${contactInfo.email}`} title={"email"} />
         {/* <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io/raw/refs/heads/main/resume.docx"} title={"get resume"} /> */}
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">

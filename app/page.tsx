@@ -4,7 +4,7 @@ import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import config from 'config.json'
-const { app: { bulletPoints } } = config;
+const { contactInfo, app: { bulletPoints } } = config;
 
 const allBlogs = getSortedBlogPosts()
 
@@ -34,7 +34,10 @@ export default function Page() {
             ))}
           </ul>
           <u><a href='/about-projects'>Check out my projects here.</a></u><br/>
-          <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153'>Check out my OSU advertisement.</a></u>
+          <u><a href={contactInfo.github} target="_blank">How about my GitHub?</a></u><br/>
+          <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
+            Check out my OSU advertisement.
+          </a></u>
         </section>
       </section>
 
