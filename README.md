@@ -2,6 +2,10 @@
 Built using NextJS and Markdown.
 
 ## Todo
+- [ ] Follow [https://aadi.is-a.dev/](https://aadi.is-a.dev/)
+  - [ ] Implement Dark mode button to switch black and white
+  - [ ] Set White to be the default
+  - [ ] Music button would be nice, though not necessary
 - [ ] From `251024-1` and `251105` in Tech, create a component to render quote
 - [ ] Reorganize images by category, not just date, because posts from different categories
 can have the same date, count
