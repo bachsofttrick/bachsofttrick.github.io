@@ -45,10 +45,13 @@ function getValueFromConfig(key) {
 // Function to get today's date in YYYY-MM-DD or YYMMDD format
 function getTodayDate(fullDate = false) {
     let today = new Date();
+    const day = today.getDate();
+    const month = today.getMonth() + 1;
+    const year = String(today.getFullYear());
     if (fullDate) {
-        return today.toISOString().slice(0, 10);
+        return `${year}-${month}-${day}`;
     }
-    return today.toISOString().slice(2, 10).replace(/-/g, '');
+    return `${year.slice(2)}${month}${day}`;
 }
 
 // Function to get the next available order number
