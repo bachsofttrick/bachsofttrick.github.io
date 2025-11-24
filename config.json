@@ -2,7 +2,13 @@
     "app": {
         "highlightedPosts": {
             "Tech": ["251105", "251109", "251120"]
-        }
+        },
+        "bulletPoints": [
+            "Full stack software developer with experience in designing, deploying, and maintaining web applications.",
+            "Proven ability to deliver reliable solutions on schedule by collaborating across teams and optimizing for performance and user experience.",
+            "A curious learner who is constantly improving through hands-on projects.",
+            "Embrace challenges as opportunities for discoveries."
+        ]
     },
     "tools": {
         "resizeImage": {

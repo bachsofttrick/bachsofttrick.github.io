@@ -4,16 +4,9 @@ import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import config from 'config.json'
+const { app: { bulletPoints } } = config;
 
-const { app: { highlightedPosts } } = config;
 const allBlogs = getSortedBlogPosts()
-const bulletPoints = [
-  'Full stack software developer with experience in designing, deploying,\
-    and maintaining web applications.',
-  'Skilled in .NET, JavaScript, React, MySQL, Docker and Linux systems',
-  'Proven ability to deliver reliable solutions on schedule by collaborating\
-  across teams and optimizing for performance and user experience.'
-]
 
 const post = getAboutPosts();
   if (!post[0]) {
