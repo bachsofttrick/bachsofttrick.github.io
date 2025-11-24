@@ -5,6 +5,8 @@ Built using NextJS and Markdown.
 - [ ] From `251024-1` and `251105` in Tech, create a component to render quote
 - [ ] Reorganize images by category, not just date, because posts from different categories
 can have the same date, count
+- [ ] Find out why when sharing links on Facebook, it shows the main page and title (correct url),
+but not the title of the post
 - [ ] Update image gallery component to be a separate one like YoutubeEmbed
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
