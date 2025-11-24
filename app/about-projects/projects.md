@@ -46,8 +46,8 @@ A Reverse Proxy built using ExpressJS and express-http-proxy for debugging micro
 **COURSE PROJECTS**
 - [Assembly Language](https://github.com/bachsofttrick/comp-arch-cs271)
 
-- [Algorithm Analysis](https://github.com/bachsofttrick/algolysis-cs325)
+- [Algorithm Analysis (Python)](https://github.com/bachsofttrick/algolysis-cs325)
 
-- [Database Management System](https://github.com/bachsofttrick/dbms-cs540)
+- [Database Management System (C++)](https://github.com/bachsofttrick/dbms-cs540)
 
-- [Parallel Programming](https://github.com/bachsofttrick/parallel-cs575)
+- [Parallel Programming (C++)](https://github.com/bachsofttrick/parallel-cs575)
