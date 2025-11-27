@@ -172,9 +172,9 @@ export function BlogPosts({
       {returnBlogs
         .map((post) => (
           <Link
-            key={post.slug}
+            key={post.category + post.slug}
             className="flex flex-col space-y-1 mb-4"
-            href={`/blog/${post.slug}`}
+            href={`/blog/${post.category}/${post.slug}`}
           >
             <p className="text-neutral-600 dark:text-neutral-400 tabular-nums">
               {post.category}

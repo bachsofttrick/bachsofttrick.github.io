@@ -2,16 +2,20 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts, checkPostIfHidden } from 'app/blog/utils'
 
+// What does this do?
 export async function generateStaticParams() {
   let posts = getBlogPosts()
 
   return posts.map((post) => ({
+    category: post.category,
     slug: post.slug,
   }))
 }
 
-export function generateMetadata({ params }: { params: { slug: string }}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug && !post.metadata.hidden)
+// What does this do?
+export function generateMetadata({ params }: { params: { slug: string, category: string }}) {
+  let post = getBlogPosts().find((post) => post.slug === params.slug
+      && post.category === params.category && !post.metadata.hidden)
   if (!post) {
     return
   }
@@ -19,8 +23,9 @@ export function generateMetadata({ params }: { params: { slug: string }}) {
   return post.metadata
 }
 
-export default function Blog({ params }: { params: { slug: string }}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug && checkPostIfHidden(post))
+export default function Blog({ params }: { params: { slug: string, category: string }}) {
+  let post = getBlogPosts().find((post) => post.slug === params.slug 
+      && post.category === params.category && !post.metadata.hidden)
 
   if (!post) {
     notFound()
