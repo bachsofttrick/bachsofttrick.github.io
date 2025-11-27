@@ -2,6 +2,10 @@
 Built using NextJS and Markdown.
 
 ## Todo
+- [ ] Fix bug
+```
+Encountered two children with the same key, `251123`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+```
 - [ ] Follow [https://aadi.is-a.dev/](https://aadi.is-a.dev/)
   - [ ] Implement Dark mode button to switch black and white
   - [ ] Set White to be the default
