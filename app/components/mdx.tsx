@@ -91,6 +91,14 @@ function Image(props = {
   )
 }
 
+function Gallery({imgs = []}) {
+  return (
+    <p className='image-container'>
+      {imgs.map((src) => <img key={src} src={src} />)}
+    </p>
+  )
+}
+
 function Code({ children, ...props }) {
   let codeHTML = highlight(children)
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
@@ -154,6 +162,7 @@ let components = {
   Table,
   YoutubeEmbed,
   DoubleYtEmbed,
+  Gallery,
 }
 
 export function CustomMDX(props: { type?: string, source: string, components?: any }) {
