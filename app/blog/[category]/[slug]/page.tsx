@@ -25,7 +25,7 @@ export function generateMetadata({ params }: { params: { slug: string, category:
 
 export default function Blog({ params }: { params: { slug: string, category: string }}) {
   let post = getBlogPosts().find((post) => post.slug === params.slug 
-      && post.category === params.category && !post.metadata.hidden)
+      && post.category === params.category && checkPostIfHidden(post))
 
   if (!post) {
     notFound()
