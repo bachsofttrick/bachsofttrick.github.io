@@ -69,32 +69,28 @@ function CustomLink(props: { href: string, children: any }) {
   return <a target="_blank" rel="noopener noreferrer" {...props} />
 }
 
+
+function Gallery({imgs}: { imgs: string[] }) {
+  return (
+    <p className='image-container'>
+      {imgs.map((src) => <img key={src} src={src} />)}
+    </p>
+  )
+}
+
 function Image(props = {
   src: '', alt: ''
 }) {
+  // Deprecated, use Gallery component instead
   if (props.alt.includes('gallery')) {
     const imgs = props.src.split(',')
-    const result = (
-      <p className='image-container'>
-        {
-          imgs.map((src) => <img key={src} src={src} />)
-        }
-      </p>
-    )
+    const result = (<Gallery imgs={imgs} />)
     return result
   }
 
   return (
     <p className='flex justify-center'>
       <img {...props} />
-    </p>
-  )
-}
-
-function Gallery({imgs = []}) {
-  return (
-    <p className='image-container'>
-      {imgs.map((src) => <img key={src} src={src} />)}
     </p>
   )
 }

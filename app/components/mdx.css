@@ -1,5 +1,6 @@
 .image-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
   gap: 10px; /* Space between images */
 }
