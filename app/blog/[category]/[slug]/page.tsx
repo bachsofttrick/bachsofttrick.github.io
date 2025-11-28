@@ -1,8 +1,21 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getBlogPosts, checkPostIfHidden } from 'app/blog/utils'
+import { formatDate, getBlogPosts, checkPostIfHidden, MDXData } from 'app/blog/utils'
 
-// What does this do?
+type Params = {
+  slug: string;
+  category: string;
+}
+
+function checkCorrectPost(post: MDXData, params: Params) {
+  return post.slug === params.slug && post.category === params.category
+        && checkPostIfHidden(post)
+}
+
+/*
+https://nextjs.org/docs/app/api-reference/functions/generate-static-params
+
+*/
 export async function generateStaticParams() {
   let posts = getBlogPosts()
 
@@ -12,10 +25,12 @@ export async function generateStaticParams() {
   }))
 }
 
-// What does this do?
-export function generateMetadata({ params }: { params: { slug: string, category: string }}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug
-      && post.category === params.category && !post.metadata.hidden)
+/*
+https://nextjs.org/docs/app/api-reference/functions/generate-metadata
+
+*/
+export function generateMetadata({ params }: { params: Params }) {
+  let post = getBlogPosts().find((post) => checkCorrectPost(post, params))
   if (!post) {
     return
   }
@@ -23,9 +38,8 @@ export function generateMetadata({ params }: { params: { slug: string, category:
   return post.metadata
 }
 
-export default function Blog({ params }: { params: { slug: string, category: string }}) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug 
-      && post.category === params.category && checkPostIfHidden(post))
+export default function Blog({ params }: { params: Params }) {
+  let post = getBlogPosts().find((post) => checkCorrectPost(post, params))
 
   if (!post) {
     notFound()

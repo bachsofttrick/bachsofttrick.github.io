@@ -2,17 +2,16 @@
 Built using NextJS and Markdown.
 
 ## Todo
-- [ ] Find out `generateStaticParams` and `generateMetadata` in page.tsx of blog
+- [ ] Reorganize images by category, not just date, because posts from different categories
+can have the same date, count
+  - [ ] Might as well reorganize posts by year as well. old page ([category]/[id]) to new page ([category]/[year]/[id])
+- [ ] From `251024-1` and `251105` in Tech, create a component to render quote
 - [ ] Follow [https://aadi.is-a.dev/](https://aadi.is-a.dev/)
   - [ ] Implement Dark mode button to switch black and white
   - [ ] Set White to be the default
   - [ ] Music button would be nice, though not necessary
-- [ ] From `251024-1` and `251105` in Tech, create a component to render quote
-- [ ] Reorganize images by category, not just date, because posts from different categories
-can have the same date, count
 - [ ] Find out why when sharing links on Facebook, it shows the main page and title (correct url),
 but not the title of the post
-- [ ] Update image gallery component to be a separate one like YoutubeEmbed
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
@@ -38,8 +37,8 @@ but not the title of the post
 ```
 
 ## Finished features
-- A gallery out of md images (241111 Photography)
+- A gallery out of md images (241111 Photography). There's also a separate gallery component
 - Year/month filter with count of total posts
 - Youtube and Double Youtube embed components
-- Script for resizing images
-- Scaffold a new blog post
+- Command for resizing images
+- Command for scaffolding a new blog post

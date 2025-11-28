@@ -18,6 +18,10 @@ function SplitNumberFromDuplicateCount(number: string) {
   return number !== 'All' ? Number(number.split(' (')[0]) : '0'
 }
 
+function AddSpaceToCategory(category: string) {
+  return category.replace(/-/, ' ');
+}
+
 export function BlogPosts({
   allBlogs,
   itemPerPage = 4,
@@ -127,7 +131,11 @@ export function BlogPosts({
               >
                 {
                   categories.map((category) => (
-                    <MenuItem key={SplitWordFromDuplicateCount(category)} value={SplitWordFromDuplicateCount(category)}>{category ? category : 'All'}</MenuItem>
+                    <MenuItem
+                      key={SplitWordFromDuplicateCount(category)}
+                      value={SplitWordFromDuplicateCount(category)}>
+                        {category ? AddSpaceToCategory(category) : 'All'}
+                      </MenuItem>
                   ))
                 }
               </Select>
@@ -177,7 +185,7 @@ export function BlogPosts({
             href={`/blog/${post.category}/${post.slug}`}
           >
             <p className="text-neutral-600 dark:text-neutral-400 tabular-nums">
-              {post.category}
+              {AddSpaceToCategory(post.category)}
             </p>
             <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2 mt-0">
               <p className="text-neutral-600 dark:text-neutral-400 w-[100px] tabular-nums">
