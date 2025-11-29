@@ -1,5 +1,6 @@
 # Portfolio and blog site
 Built using NextJS and Markdown.
+CI/CD by Github Actions.
 
 ## Todo
 - [ ] Reorganize images by category, not just date, because posts from different categories
