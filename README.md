@@ -10,8 +10,6 @@ can have the same date, count
   - [ ] Implement Dark mode button to switch black and white
   - [ ] Set White to be the default
   - [ ] Music button would be nice, though not necessary
-- [ ] Find out why when sharing links on Facebook, it shows the main page and title (correct url),
-but not the title of the post
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
@@ -42,3 +40,4 @@ but not the title of the post
 - Youtube and Double Youtube embed components
 - Command for resizing images
 - Command for scaffolding a new blog post
+- Support OpenGraph protocol used in Facebook, Messenger, Instagram...
