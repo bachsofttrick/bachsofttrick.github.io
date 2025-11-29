@@ -46,14 +46,14 @@ export default function Footer() {
   return (
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <FooterPart title={"Corvallis, Oregon, USA"} noArrow />
-        <FooterPart title={"Phone: 541-360-9231"} noArrow />
+        <FooterPart title={contactInfo.address} noArrow />
+        <FooterPart title={contactInfo.phone} noArrow />
       </ul>
       <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <FooterPart href={contactInfo.github} title={"github"} />
         <FooterPart href={contactInfo.linkedin} title={"linkedin"} />
         <FooterPart href={`mailto:${contactInfo.email}`} title={"email"} />
-        {/* <FooterPart href={"https://github.com/bachsofttrick/bachsofttrick.github.io/raw/refs/heads/main/resume.docx"} title={"get resume"} /> */}
+        {/* <FooterPart href={contactInfo.resume} title={"get resume"} /> */}
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         {new Date().getFullYear()}

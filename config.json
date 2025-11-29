@@ -1,8 +1,11 @@
 {
     "contactInfo": {
+        "address": "Corvallis, Oregon, USA",
+        "phone": "541-360-9231",
         "github": "https://github.com/bachsofttrick/",
         "linkedin": "https://linkedin.com/in/brphan/",
-        "email": "xuanbach1307@gmail.com"
+        "email": "xuanbach1307@gmail.com",
+        "resume": "https://github.com/bachsofttrick/bachsofttrick.github.io/raw/refs/heads/main/resume.docx"
     },
     "app": {
         "highlightedPosts": {
