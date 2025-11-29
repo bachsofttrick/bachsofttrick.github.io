@@ -1,20 +1,19 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts, checkPostIfHidden, MDXData } from 'app/blog/utils'
+import { baseUrl } from 'app/sitemap'
+import config from '@/config.json' with { type: 'json' };
+const { blog: { maxDescLength } } = config;
 
-type Params = {
-  slug: string;
-  category: string;
-}
-
-function checkCorrectPost(post: MDXData, params: Params) {
+function checkCorrectPost(post: MDXData, params: MDXData) {
   return post.slug === params.slug && post.category === params.category
         && checkPostIfHidden(post)
 }
 
 /*
 https://nextjs.org/docs/app/api-reference/functions/generate-static-params
-
+Used in dynamic routes to tell Next.js which route parameters should be
+pre-rendered at build time.
 */
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -27,18 +26,36 @@ export async function generateStaticParams() {
 
 /*
 https://nextjs.org/docs/app/api-reference/functions/generate-metadata
-
+Dynamically create SEO metadata for each route.
 */
-export function generateMetadata({ params }: { params: Params }) {
+export function generateMetadata({ params }: { params: MDXData }) {
   let post = getBlogPosts().find((post) => checkCorrectPost(post, params))
   if (!post) {
     return
   }
 
-  return post.metadata
+  const { title, publishedAt } = post.metadata;
+  const summary = post.content.slice(0, maxDescLength) + '...'
+
+  return {
+    title,
+    description: summary,
+    openGraph: {
+      title,
+      description: summary,
+      type: 'article',
+      publishedTime: publishedAt,
+      url: `${baseUrl}/blog/${post.category}/${post.slug}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: summary,
+    },
+  }
 }
 
-export default function Blog({ params }: { params: Params }) {
+export default function Blog({ params }: { params: MDXData }) {
   let post = getBlogPosts().find((post) => checkCorrectPost(post, params))
 
   if (!post) {

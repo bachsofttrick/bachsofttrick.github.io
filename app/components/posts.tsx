@@ -9,6 +9,8 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import config from '@/config.json' with { type: 'json' };
+const { blog: { maxDescLength } } = config;
 
 function SplitWordFromDuplicateCount(words: string) {
   return words !== 'All' ? words.split(' (')[0] : words
@@ -199,7 +201,7 @@ export function BlogPosts({
             {
               (addSummary) ? (
                 <p className="text-neutral-500 tracking-tight">
-                  {post.content.slice(0, 200)} [. . .]
+                  {post.content.slice(0, maxDescLength)} [. . .]
                 </p>
               ) : null
             }

@@ -29,5 +29,8 @@
             "f": "Film",
             "j": "Job-Search"
         }
+    },
+    "blog": {
+        "maxDescLength": 200
     }
 }
