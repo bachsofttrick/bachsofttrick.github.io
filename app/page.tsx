@@ -4,6 +4,7 @@ import { getAboutPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import config from 'config.json'
+import { Quote } from './components/extra'
 const { contactInfo, app: { bulletPoints } } = config;
 
 const allBlogs = getSortedBlogPosts()
@@ -25,8 +26,10 @@ export default function Page() {
         </section>
         <section style={{flex: 2, marginLeft: '1rem'}}>
           <p className="mb-4">
-            <span className='italic'>{`”It is possible to commit no mistakes and still lose. That is not a weakness. That is life."`}</span>
-            {` Captain Jean-Luc Picard`}
+            <Quote
+              quote={"It is possible to commit no mistakes and still lose. That is not a weakness. That is life."}
+              author={"Captain Jean-Luc Picard"}
+            />
           </p>
           <ul className="" style={{listStyle: 'initial'}}>
             {bulletPoints.map((text, index) => (

@@ -3,6 +3,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
 import './mdx.css'
+import { Quote } from './extra'
 
 function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   let headers = data.headers.map((header, index) => (
@@ -159,6 +160,7 @@ let components = {
   YoutubeEmbed,
   DoubleYtEmbed,
   Gallery,
+  Quote,
 }
 
 export function CustomMDX(props: { type?: string, source: string, components?: any }) {
