@@ -3,7 +3,7 @@ import { CustomMDX } from 'app/components/mdx'
 import { formatDate, getBlogPosts, checkPostIfHidden, MDXData } from 'app/blog/utils'
 import { baseUrl } from 'app/sitemap'
 import config from '@/config.json' with { type: 'json' };
-import { AddSpaceToCategory } from '@/app/components/posts';
+
 const { blog: { maxDescLength } } = config;
 
 function checkCorrectPost(post: MDXData, params: MDXData) {
@@ -46,7 +46,7 @@ export function generateMetadata({ params }: { params: MDXData }) {
       description: summary,
       type: 'article',
       publishedTime: publishedAt,
-      section: AddSpaceToCategory(post.category),
+      section: post.category.replace(/_/, ' '),
       url: `${baseUrl}/blog/${post.category}/${post.slug}`,
     },
     // twitter: {
