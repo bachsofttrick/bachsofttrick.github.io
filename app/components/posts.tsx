@@ -20,7 +20,7 @@ function SplitNumberFromDuplicateCount(number: string) {
   return number !== 'All' ? Number(number.split(' (')[0]) : '0'
 }
 
-function AddSpaceToCategory(category: string) {
+export function AddSpaceToCategory(category: string) {
   return category.replace(/_/, ' ');
 }
 

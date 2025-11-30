@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'About Me',
     description: 'About me.',
-    type: 'website',
+    type: 'article',
     url: `${baseUrl}/about`,
   }
 }

@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'My Blog',
     description: 'Read my blog.',
-    type: 'website',
+    type: 'article',
     url: `${baseUrl}/blog`,
   }
 }
