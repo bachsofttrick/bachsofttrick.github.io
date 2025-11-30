@@ -21,7 +21,7 @@ function SplitNumberFromDuplicateCount(number: string) {
 }
 
 function AddSpaceToCategory(category: string) {
-  return category.replace(/_/, ' ');
+  return category.replace(/-/, ' ');
 }
 
 export function BlogPosts({

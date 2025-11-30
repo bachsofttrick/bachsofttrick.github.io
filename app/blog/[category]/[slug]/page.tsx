@@ -46,7 +46,7 @@ export function generateMetadata({ params }: { params: MDXData }) {
       description: summary,
       type: 'article',
       publishedTime: publishedAt,
-      section: post.category.replace(/_/, ' '),
+      section: post.category.replace(/-/, ' '),
       url: `${baseUrl}/blog/${post.category}/${post.slug}`,
     },
     // twitter: {
