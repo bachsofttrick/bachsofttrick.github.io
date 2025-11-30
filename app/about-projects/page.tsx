@@ -6,10 +6,10 @@ import { baseUrl } from '@/app/sitemap'
 
 export const metadata = {
   title: 'My Projects',
-  description: 'My Projects.',
+  description: 'Check out my projects.',
   openGraph: {
     title: 'My Projects',
-    description: 'My Projects.',
+    description: 'Check out my projects.',
     type: 'article',
     url: `${baseUrl}/about-projects`,
   }
