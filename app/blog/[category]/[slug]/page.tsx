@@ -45,13 +45,14 @@ export function generateMetadata({ params }: { params: MDXData }) {
       description: summary,
       type: 'article',
       publishedTime: publishedAt,
+      section: post.category,
       url: `${baseUrl}/blog/${post.category}/${post.slug}`,
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description: summary,
-    },
+    // twitter: {
+    //   card: 'summary_large_image',
+    //   title,
+    //   description: summary,
+    // },
   }
 }
 

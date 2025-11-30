@@ -1,9 +1,16 @@
 import { BlogPosts } from 'app/components/posts'
 import { getSortedBlogPosts } from 'app/blog/utils'
+import { baseUrl } from '@/app/sitemap'
 
 export const metadata = {
-  title: 'Blog',
+  title: 'My Blog',
   description: 'Read my blog.',
+  openGraph: {
+    title: 'My Blog',
+    description: 'Read my blog.',
+    type: 'website',
+    url: `${baseUrl}/blog`,
+  }
 }
 
 let allBlogs = getSortedBlogPosts()

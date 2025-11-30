@@ -2,10 +2,17 @@ import { getAboutProjectPosts } from 'app/blog/utils'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { CustomMDX, slugify } from 'app/components/mdx'
+import { baseUrl } from '@/app/sitemap'
 
 export const metadata = {
   title: 'My Projects',
   description: 'My Projects.',
+  openGraph: {
+    title: 'My Projects',
+    description: 'My Projects.',
+    type: 'website',
+    url: `${baseUrl}/about-projects`,
+  }
 }
 
 export default function Page() {
