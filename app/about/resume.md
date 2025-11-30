@@ -9,7 +9,6 @@ Corvallis, Oregon
 - Maintained and enhanced a research platform supporting
 thousands of daily users, researchers, and conservationists across Oregon.
 - Optimized ingestion pipeline, reducing processing time from from 2 hour to 2 minute.
-- Adopted AI models to automate the transcription of specimen label for data import, reducing manual input and increasing data accuracy.
 
 **Web Assistant** 9/2024 - 10/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
@@ -31,7 +30,10 @@ supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
 **Oregon State University** 12/2026  
 *Master of Engineering, Computer Science, GPA 3.8*  
 Corvallis, Oregon
-Courses: Data Structures (C++), Algorithms (C++), [Database (C++)](https://github.com/bachsofttrick/dbms-cs540), [Parallel Programming (C++)](https://github.com/bachsofttrick/parallel-cs575)
+Courses: Data Structures (C++), Algorithms (C++),
+[Database (C++)](https://github.com/bachsofttrick/dbms-cs540),
+[Parallel Programming (C++)](https://github.com/bachsofttrick/parallel-cs575),
+Artificial Intelligence (Python)
 
 **Ho Chi Minh University of Technology**  
 *Bachelor of Science, Electrical Engineering*  
