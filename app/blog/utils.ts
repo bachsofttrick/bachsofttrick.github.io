@@ -69,17 +69,20 @@ function getMDXData(dir: string, enableCate: boolean = true): MDXData[] {
   const categories: string[] = fs.readdirSync(dir)
   const result: MDXData[] = []
   categories.forEach((category) => {
-    let mdxFiles = getMDXFiles(path.join(dir,category))
-    result.push(...mdxFiles.map((file) => {
-      let { metadata, content } = readMDXFile(path.join(dir,category,file))
-      let slug = path.basename(file, path.extname(file))
-      return {
-        metadata,
-        slug,
-        category,
-        content,
-      }
-    }))
+    const years: string[] = fs.readdirSync(path.join(dir,category))
+    years.forEach((year) => {
+      let mdxFiles = getMDXFiles(path.join(dir,category,year))
+      result.push(...mdxFiles.map((file) => {
+        let { metadata, content } = readMDXFile(path.join(dir,category,year,file))
+        let slug = path.basename(file, path.extname(file))
+        return {
+          metadata,
+          slug,
+          category,
+          content,
+        }
+      }))
+    })
   })
   return result
 }

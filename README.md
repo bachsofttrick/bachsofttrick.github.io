@@ -3,9 +3,6 @@ Built using NextJS and Markdown.
 CI/CD by Github Actions.
 
 ## Todo
-- [ ] Reorganize images by category, not just date, because posts from different categories
-can have the same date, count
-  - [ ] Might as well reorganize posts by year as well. old page ([category]/[id]) to new page ([category]/[year]/[id])
 - [ ] Follow [https://aadi.is-a.dev/](https://aadi.is-a.dev/)
   - [ ] Implement Dark mode button to switch black and white
   - [ ] Set White to be the default
