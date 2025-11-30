@@ -30,10 +30,8 @@ supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
 **Oregon State University** 12/2026  
 *Master of Engineering, Computer Science, GPA 3.8*  
 Corvallis, Oregon
-Courses: Data Structures (C++), Algorithms (C++),
-[Database (C++)](https://github.com/bachsofttrick/dbms-cs540),
-[Parallel Programming (C++)](https://github.com/bachsofttrick/parallel-cs575),
-Artificial Intelligence (Python)
+Courses: Data Structures, Algorithms, Database Management System,
+Parallel Programming, Artificial Intelligence
 
 **Ho Chi Minh University of Technology**  
 *Bachelor of Science, Electrical Engineering*  
