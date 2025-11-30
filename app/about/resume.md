@@ -30,7 +30,7 @@ supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
 **Oregon State University** 12/2026  
 *Master of Engineering, Computer Science, GPA 3.8*  
 Corvallis, Oregon
-Courses: Data Structures, Algorithms, Database Management System,
+- Courses: Data Structures, Algorithms, Database Management System,
 Parallel Programming, Artificial Intelligence
 
 **Ho Chi Minh University of Technology**  
