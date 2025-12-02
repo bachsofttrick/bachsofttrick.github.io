@@ -8,7 +8,7 @@ title: 'Resume'
 Corvallis, Oregon  
 - Maintained and enhanced a research platform supporting
 thousands of daily users, researchers, and conservationists across Oregon.
-- Optimized ingestion pipeline, reducing processing time from from 2 hour to 2 minute.
+- Optimized ingestion pipeline, reducing processing time from from 2 hours to 2 minutes.
 
 **Web Assistant** 9/2024 - 10/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
