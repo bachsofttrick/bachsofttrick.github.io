@@ -53,7 +53,7 @@ export default function Footer() {
         <FooterPart href={contactInfo.github} title={"github"} />
         <FooterPart href={contactInfo.linkedin} title={"linkedin"} />
         <FooterPart href={`mailto:${contactInfo.email}`} title={"email"} />
-        {/* <FooterPart href={contactInfo.resume} title={"get resume"} /> */}
+        <FooterPart href={contactInfo.resume} title={"get resume"} />
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         {new Date().getFullYear()}

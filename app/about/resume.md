@@ -16,18 +16,25 @@ Corvallis, Oregon
 - Maintained the portal for educators and school districts, ensuring seamless access to outdoor education resources and reporting systems.
 - Supported platform migration, contributing to improved platform stability and performance.
 
-**Software Developer Intern** 5/2022 - 11/2022  
+**Software Developer** 9/2020 - 11/2022  
 *ICC Innovative Consulting*  
 Ho Chi Minh City, Vietnam
-- Maintained a business-to-business distribution management system,
+- Maintained and optimized a business-to-business distribution management system,
 focusing on promotions and deal calculation accuracy.
 - Enhanced the activity generation algorithm, reducing runtime from 1 hour to 1 minute.
-- Co-developed An Sinh, a large-scale mission-critical social security application
+- Developed and deployed An Sinh, a large-scale mission-critical social security application
 supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
+
+**Internship** 6/2018 - 8/2018  
+*Technological Application and Production Company (TECAPRO)*  
+Ho Chi Minh City, Vietnam
+- Explored embedded programming and Linux systems, building a foundation in low-level development.
+- Gained hands-on experience with professional software development workflows,
+tools, and best practices.
 
 #### EDUCATION
 
-**Oregon State University** 12/2026  
+**Oregon State University** 6/2026  
 *Master of Engineering, Computer Science, GPA 3.8*  
 Corvallis, Oregon
 - Courses: Data Structures, Algorithms, Database Management System,
