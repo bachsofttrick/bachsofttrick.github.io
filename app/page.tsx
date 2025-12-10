@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import config from 'config.json'
 import { Quote } from './components/extra'
-const { contactInfo, app: { bulletPoints, highlightedPosts } } = config;
+const { contactInfo, app: { bulletPoints, highlightedPosts, personalSummary } } = config;
 
 const allBlogs = getSortedBlogPosts()
 
@@ -31,11 +31,14 @@ export default function Page() {
               author={"Captain Jean-Luc Picard"}
             />
           </p>
-          <ul className="" style={{listStyle: 'initial'}}>
+          <p className="mb-4">
+            {personalSummary}
+          </p>
+          {/* <ul className="" style={{listStyle: 'initial'}}>
             {bulletPoints.map((text, index) => (
               <li key={index}>{text}</li>
             ))}
-          </ul>
+          </ul> */}
           <u><a href='/about-projects'>Check out my projects here.</a></u><br/>
           <u><a href={contactInfo.github} target="_blank">How about my GitHub?</a></u><br/>
           <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
