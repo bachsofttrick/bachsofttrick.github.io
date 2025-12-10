@@ -8,6 +8,6 @@ export default function robots() {
         allow: '/'
       },
     ],
-    sitemap: `${baseUrl}/sitemap/sitemap.xml`,
+    sitemap: `${baseUrl}/sitemap.xml`,
   }
 }
