@@ -6,9 +6,10 @@ title: 'Resume'
 **Software Developer** 9/2025 - present  
 [*OregonFlora*](https://oregonflora.org/)  
 Corvallis, Oregon  
-- Maintained and enhanced a research platform supporting
-thousands of daily users, researchers, and conservationists across Oregon.
-- Optimized ingestion pipeline, reducing processing time from from 2 hours to 2 minutes.
+- Improved reliability and performance of a statewide research system
+serving thousands of daily users.
+- Optimized ingestion pipeline, reducing processing time from from 2 hours to 2 minutes
+through optimized database update and caching strategies.
 
 **Web Assistant** 9/2024 - 10/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
@@ -19,8 +20,8 @@ Corvallis, Oregon
 **Software Developer** 9/2020 - 11/2022  
 *ICC Innovative Consulting*  
 Ho Chi Minh City, Vietnam
-- Maintained and optimized a business-to-business distribution management system,
-focusing on promotions and deal calculation accuracy.
+- Maintained a business-to-business distribution management system,
+ensuring accurate calculation for high-volume operations.
 - Enhanced the activity generation algorithm, reducing runtime from 1 hour to 1 minute.
 - Developed and deployed An Sinh, a large-scale mission-critical social security application
 supporting 9 million citizens during COVID-19 in Ho Chi Minh City.
