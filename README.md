@@ -1,6 +1,6 @@
 # Portfolio and blog site
-Built using NextJS and Markdown.
-CI/CD by Github Actions.
+Built using NextJS and Markdown.  
+CI/CD by Github Actions.  
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
