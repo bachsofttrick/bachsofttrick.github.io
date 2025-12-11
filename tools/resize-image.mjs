@@ -25,7 +25,8 @@ async function main() {
             console.log(`Converting ${file}...`);
 
             // Check for EXIF Orientation, if yes, swap resizedHeight to width for bigger picture
-            const resized = !imageMetadata.orientation ? 
+            // Common values include 1 (Normal), 3 (180°), 6 (90° clockwise), and 8 (90° counter-clockwise/270° clockwise).
+            const resized = imageMetadata.orientation === 1 ? 
                 {width: null, height: resizedHeight} :
                 {width: resizedHeight, height: null} ;
             
