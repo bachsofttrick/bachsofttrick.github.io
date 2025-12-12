@@ -3,7 +3,7 @@ title: 'Resume'
 ---
 #### WORK EXPERIENCE
 
-**Software Developer** 9/2025 - present  
+**Software Developer** 10/2025 - present  
 [*OregonFlora*](https://oregonflora.org/)  
 Corvallis, Oregon  
 - Improved reliability and performance of a statewide research system
