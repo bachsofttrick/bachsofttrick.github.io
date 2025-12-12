@@ -42,6 +42,13 @@ function getValueFromConfig(key) {
     }
 }
 
+function checkFolderPath() {
+    if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath);
+        console.log(`Created folder: ${dirPath}`);
+    }
+}
+
 // Function to get today's date in YYYY-MM-DD or YYMMDD format
 function getTodayDate(fullDate = false) {
     let today = new Date();
@@ -91,6 +98,10 @@ function createMarkdownFile(title, order) {
     const templateContent = fs.readFileSync(templatePath, 'utf-8');
 
     const newFilename = `${date}` + (order < 2 ? ``: `-${order}`) + `.md`;
+    dirPath = path.join(dirPath, date.slice(0,2));
+    // Check if year folder exists, if not, create it
+    checkFolderPath();
+    
     const newFilePath = path.join(dirPath, newFilename);
 
     const content = templateContent
@@ -113,11 +124,7 @@ function main(title) {
     category = getValueFromConfig(category);
     dirPath = path.join(process.cwd(), 'app', 'blog', 'posts', category);
     // Check if category folder exists, if not, create it
-    if (!fs.existsSync(dirPath)) {
-        console.log(dirPath);
-        fs.mkdirSync(dirPath);
-        console.log(`Created category folder: ${dirPath}`);
-    }
+    checkFolderPath();
 
     const order = getNextOrderNumber();
     createMarkdownFile(title, order);
