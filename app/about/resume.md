@@ -11,7 +11,7 @@ serving thousands of daily users.
 - Optimized ingestion pipeline, reducing processing time from from 2 hours to 2 minutes
 through optimized database update and caching strategies.
 
-**Web Assistant** 9/2024 - 10/2024  
+**Web Assistant** 8/2024 - 9/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
 Corvallis, Oregon
 - Maintained the portal for educators and school districts, ensuring seamless access to outdoor education resources and reporting systems.
