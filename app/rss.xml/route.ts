@@ -10,6 +10,7 @@ export async function GET() {
       `<item>
         <title>${post.metadata.title}</title>
         <link>${baseUrl}/blog/${post.category}/${post.slug}</link>
+        <guid>${baseUrl}/blog/${post.category}/${post.slug}</guid>
         <description>${post.content.slice(0, 50) + '...'}</description>
         <pubDate>${new Date(
           post.metadata.publishedAt
@@ -19,12 +20,13 @@ export async function GET() {
     ).join('\n')
 
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
-  <rss version="2.0">
+  <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
     <channel>
       <title>Brian Phan</title>
       <link>${baseUrl}</link>
       <description>This is Brian Phan portfolio RSS feed</description>
       ${itemsXml}
+      <atom:link href="${baseUrl}/rss.xml" rel="self" type="application/rss+xml" />
     </channel>
   </rss>`
 
