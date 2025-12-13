@@ -10,7 +10,7 @@ export async function GET() {
       `<item>
         <title>${post.metadata.title}</title>
         <link>${baseUrl}/blog/${post.category}/${post.slug}</link>
-        <description>${post.content.slice(0, maxDescLength) + '...'}</description>
+        <description>${post.content.slice(0, 50) + '...'}</description>
         <pubDate>${new Date(
           post.metadata.publishedAt
         ).toUTCString()}</pubDate>
