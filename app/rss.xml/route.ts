@@ -25,8 +25,8 @@ export async function GET() {
       <title>Brian Phan</title>
       <link>${baseUrl}</link>
       <description>This is Brian Phan portfolio RSS feed</description>
-      ${itemsXml}
       <atom:link href="${baseUrl}/rss.xml" rel="self" type="application/rss+xml" />
+      ${itemsXml}
     </channel>
   </rss>`
 
