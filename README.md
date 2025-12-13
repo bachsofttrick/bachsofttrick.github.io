@@ -13,7 +13,7 @@ Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io
   - Or we can go [sqlite](https://sql.js.org/#/) route
 - [ ] Use Google Indexing API to auto-index all my blog posts, either find a tool online or
 create my own from the API. Look at this Github [repo](https://github.com/goenning/google-indexing-script)
-- Add comment box on blog posts. The steps below is for a DIY solution.
+- [ ] Add comment box on blog posts. The steps below is for a DIY solution.
 Another way is to use headless Wordpress, post with slug -> comment API from post id.
 Add in Akismet + optional reCAPTCHA + rate limiting.
   - [ ] Add login screen (login, password)
