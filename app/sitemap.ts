@@ -5,7 +5,7 @@ export const baseUrl = 'https://bachsofttrick.github.io'
 export default async function sitemap() {
   let blogs = getBlogPosts().map((post) => ({
     url: `${baseUrl}/blog/${post.category}/${post.slug}`,
-    lastModified: post.metadata.publishedAt,
+    lastModified: new Date(post.metadata.publishedAt).toISOString(),
   }))
 
   let routes = ['', '/about', '/about-projects', '/blog'].map((route) => ({
