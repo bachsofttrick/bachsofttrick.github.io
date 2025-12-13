@@ -201,7 +201,7 @@ export function BlogPosts({
             {
               (addSummary) ? (
                 <p className="text-neutral-500 tracking-tight">
-                  {post.content.slice(0, maxDescLength)} [. . .]
+                  {post.content.slice(0, maxDescLength)}...
                 </p>
               ) : null
             }
