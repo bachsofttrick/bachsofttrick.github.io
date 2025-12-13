@@ -11,6 +11,8 @@ Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
+- [ ] Use Google Indexing API to auto-index all my blog posts, either find a tool online or
+create my own from the API. Look at this Github [repo](https://github.com/goenning/google-indexing-script)
 - Add comment box on blog posts. The steps below is for a DIY solution.
 Another way is to use headless Wordpress, post with slug -> comment API from post id.
 Add in Akismet + optional reCAPTCHA + rate limiting.
