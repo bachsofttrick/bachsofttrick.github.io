@@ -34,7 +34,7 @@ export default function Page() {
               return <Link
                   key={route}
                   href={'#'+route}
-                  className="hover:text-neutral-800 dark:hover:text-neutral-200 md:me-8 mb-2"
+                  className="hover:text-neutral-800 md:me-8 mb-2"
                 >
                   {item}
                 </Link>

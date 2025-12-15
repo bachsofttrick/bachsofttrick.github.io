@@ -23,14 +23,14 @@ function FooterPart({ href = '', title, noArrow = false }: { href?: string, titl
   if (!href) return (
     <li>
       <ArrowIcon noArrow={noArrow} />
-      <p className={(noArrow ? "" : "ml-2") + " h-7 flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"}>{title}</p>
+      <p className={(noArrow ? "" : "ml-2") + " h-7 flex items-center transition-all hover:text-neutral-800"}>{title}</p>
     </li>
   )
 
   return (
     <li>
       <a
-        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+        className="flex items-center transition-all hover:text-neutral-800"
         rel="noopener noreferrer"
         target="_blank"
         href={href}
@@ -45,18 +45,18 @@ function FooterPart({ href = '', title, noArrow = false }: { href?: string, titl
 export default function Footer() {
   return (
     <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0">
         <FooterPart title={contactInfo.address} noArrow />
         <FooterPart title={`Phone: ${contactInfo.phone}`} noArrow />
       </ul>
-      <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0">
         <FooterPart href={contactInfo.github} title={"github"} />
         <FooterPart href={contactInfo.linkedin} title={"linkedin"} />
         <FooterPart href={`mailto:${contactInfo.email}`} title={"email"} />
         <FooterPart href={contactInfo.resume} title={"get resume"} />
         <FooterPart href={'/rss.xml'} title={"rss"} />
       </ul>
-      <p className="mt-8 text-neutral-600 dark:text-neutral-300">
+      <p className="mt-8 text-neutral-600">
         {new Date().getFullYear()}
       </p>
     </footer>

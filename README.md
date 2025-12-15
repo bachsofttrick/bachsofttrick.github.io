@@ -4,10 +4,6 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
-- [ ] Follow [https://aadi.is-a.dev/](https://aadi.is-a.dev/)
-  - [ ] Implement Dark mode button to switch black and white
-  - [ ] Set White to be the default
-  - [ ] Music button would be nice, though not necessary
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
@@ -41,3 +37,4 @@ Add in Akismet + optional reCAPTCHA + rate limiting.
 - Command for resizing images
 - Command for scaffolding a new blog post
 - Support OpenGraph protocol used in Facebook, Messenger, Instagram...
+- Music button
