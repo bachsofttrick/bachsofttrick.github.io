@@ -45,25 +45,29 @@ function getMDXFiles(dir: string) {
   return fs.readdirSync(dir).filter((file) => path.extname(file) === '.mdx' || path.extname(file) === '.md')
 }
 
-function readMDXFile(filePath: string) {
-  let rawContent = fs.readFileSync(filePath, 'utf-8')
+function readMDXRawContent(filePath: string) {
+  const rawContent = fs.readFileSync(filePath, 'utf-8')
   return parseFrontmatter(rawContent)
+}
+
+function readMDXFiles(dir: string, category: string = ''): MDXData[] {
+  const mdxFiles = getMDXFiles(dir)
+  return mdxFiles.map((file) => {
+    const { metadata, content } = readMDXRawContent(path.join(dir, file))
+    const slug = path.basename(file, path.extname(file))
+    return {
+      metadata,
+      slug,
+      category,
+      content,
+    }
+  })
 }
 
 function getMDXData(dir: string, enableCate: boolean = true): MDXData[] {
   // Only get MDX files without folders
   if (!enableCate) {
-    let mdxFiles = getMDXFiles(dir)
-    return mdxFiles.map((file) => {
-      let { metadata, content } = readMDXFile(path.join(dir, file))
-      let slug = path.basename(file, path.extname(file))
-      return {
-        metadata,
-        slug,
-        category: '',
-        content,
-      }
-    })
+    return readMDXFiles(dir)
   }
 
   const categories: string[] = fs.readdirSync(dir)
@@ -71,17 +75,7 @@ function getMDXData(dir: string, enableCate: boolean = true): MDXData[] {
   categories.forEach((category) => {
     const years: string[] = fs.readdirSync(path.join(dir,category))
     years.forEach((year) => {
-      let mdxFiles = getMDXFiles(path.join(dir,category,year))
-      result.push(...mdxFiles.map((file) => {
-        let { metadata, content } = readMDXFile(path.join(dir,category,year,file))
-        let slug = path.basename(file, path.extname(file))
-        return {
-          metadata,
-          slug,
-          category,
-          content,
-        }
-      }))
+      result.push(...readMDXFiles(path.join(dir,category,year), category))
     })
   })
   return result
@@ -107,13 +101,15 @@ export function getSortedBlogPosts(): MDXData[] {
 }
 
 export function getAboutPosts(): MDXData[] {
-  let posts = getMDXData(path.join(process.cwd(), 'app', 'about'), false)
-  return posts
+  return getMDXData(path.join(process.cwd(), 'app', 'about'), false)
+}
+
+export function getAboutPostModifiedDate(): number {
+  return fs.statSync(path.join(process.cwd(), 'app', 'about', 'resume.md')).mtimeMs
 }
 
 export function getAboutProjectPosts(): MDXData[] {
-  let posts = getMDXData(path.join(process.cwd(), 'app', 'about-projects'), false)
-  return posts
+  return getMDXData(path.join(process.cwd(), 'app', 'about-projects'), false)
 }
 
 export function extractProjectsFromAbout(input: string): string {
