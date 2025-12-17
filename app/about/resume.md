@@ -11,8 +11,6 @@ Corvallis, Oregon
 serving over 150,000 users with 1.5 million clicks annually.
 - Optimized ingestion pipeline, reducing processing time from from 2 hours to 2 minutes
 through optimized database update and caching strategies.
-- Collaborated with stakeholders to shape the strategic direction,
-scalability of the research portal.
 
 **Web Assistant** 8/2024 - 9/2024  
 [*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
