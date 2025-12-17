@@ -21,7 +21,7 @@ to RTSP-compatible devices.
 **OPEN SOURCE COLLABORATION**
 - [OregonFlora](https://oregonflora.org/)\
 Improved reliability and performance of a statewide research system
-serving thousands of daily users across Oregon.
+serving over 150,000 users with 1.5 million clicks annually.
 
 [![](/images/projects/oregonflora.jpg)](https://oregonflora.org/)
 
