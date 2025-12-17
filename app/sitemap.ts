@@ -1,4 +1,4 @@
-import { getSortedBlogPosts, getAboutPostModifiedDate } from 'app/blog/utils'
+import { getSortedBlogPosts, getAboutPosts } from 'app/blog/utils'
 
 export const baseUrl = 'https://bachsofttrick.github.io'
 
@@ -8,10 +8,12 @@ export default async function sitemap() {
     lastModified: post.metadata.publishedAt,
   }))
 
-  const aboutModifiedMs = getAboutPostModifiedDate();
+  const post = getAboutPosts();
+  const aboutPost = post[0] ?? null;
+
   const routes = ['', '/about', '/about-projects', '/blog'].map((route) => ({
     url: `${baseUrl}${route}`,
-    lastModified: new Date(aboutModifiedMs).toISOString().split('T')[0],
+    lastModified: aboutPost ? aboutPost.metadata.publishedAt : new Date().toISOString().split('T')[0],
   }))
 
   return [...routes, ...blogs]

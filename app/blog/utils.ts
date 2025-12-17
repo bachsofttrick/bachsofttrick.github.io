@@ -104,10 +104,6 @@ export function getAboutPosts(): MDXData[] {
   return getMDXData(path.join(process.cwd(), 'app', 'about'), false)
 }
 
-export function getAboutPostModifiedDate(): number {
-  return fs.statSync(path.join(process.cwd(), 'app', 'about', 'resume.md')).mtimeMs
-}
-
 export function getAboutProjectPosts(): MDXData[] {
   return getMDXData(path.join(process.cwd(), 'app', 'about-projects'), false)
 }

@@ -1,5 +1,6 @@
 ---
 title: 'Resume'
+publishedAt: '2025-12-12'
 ---
 #### WORK EXPERIENCE
 
