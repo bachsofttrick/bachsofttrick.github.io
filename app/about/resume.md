@@ -39,13 +39,13 @@ tools, and best practices.
 #### EDUCATION
 
 **Oregon State University** 6/2026  
-*Master of Engineering, Computer Science, GPA 3.8*  
+*Master's degree, Computer Science, GPA 3.8*  
 Corvallis, Oregon
 - Courses: Data Structures, Algorithms, Database Management System,
 Parallel Programming, Artificial Intelligence
 
 **Ho Chi Minh University of Technology**  
-*Bachelor of Science, Electrical Engineering*  
+*Bachelor's degree, Electrical Engineering*  
 Ho Chi Minh, Viet Nam
 
 #### SKILLS
