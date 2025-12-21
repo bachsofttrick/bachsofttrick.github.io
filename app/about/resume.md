@@ -50,7 +50,7 @@ Ho Chi Minh, Viet Nam
 - Language: C, C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, Bash
 - Frontend: React, Vue, Svelte, NextJS, Tailwind, Bootstrap
 - Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel
-- Database: MySQL, PostgresSQL, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
+- Database: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
 - Testing: Jest (unit, integration), Cypress (E2E)
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
 - AI Deployments: llama.cpp, ollama, Hugging Face
