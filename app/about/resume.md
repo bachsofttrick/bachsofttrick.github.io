@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-publishedAt: '2025-12-17'
+publishedAt: '2025-12-20'
 ---
 #### WORK EXPERIENCE
 
@@ -47,10 +47,10 @@ Parallel Programming, Artificial Intelligence
 Ho Chi Minh, Viet Nam
 
 #### SKILLS
-- Language: C, C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, SQL, NoSQL, Bash
+- Language: C, C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, Bash
 - Frontend: React, Vue, Svelte, NextJS, Tailwind, Bootstrap
-- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel,
-- Database: MySQL, PostgresSQL, MongoDB, GraphQL, Redis, RabbitMQ, Solr
+- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel
+- Database: MySQL, PostgresSQL, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
 - Testing: Jest (unit, integration), Cypress (E2E)
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
 - AI Deployments: llama.cpp, ollama, Hugging Face
