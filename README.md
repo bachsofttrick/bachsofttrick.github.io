@@ -4,6 +4,8 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
+- [ ] Fix newpost won't create a new file after base file, like basefile-2.md after
+basefile.md
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
   - Or we can go [sqlite](https://sql.js.org/#/) route
