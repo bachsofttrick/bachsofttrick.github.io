@@ -42,7 +42,7 @@ function getValueFromConfig(key) {
     }
 }
 
-function checkFolderPath() {
+function checkFolderPath(dirPath) {
     if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath);
         console.log(`Created folder: ${dirPath}`);
@@ -51,9 +51,11 @@ function checkFolderPath() {
 
 // Function to get today's date in YYYY-MM-DD or YYMMDD format
 function getTodayDate(fullDate = false) {
-    let today = new Date();
-    const day = today.getDate();
-    const month = today.getMonth() + 1;
+    const today = new Date();
+    let day = today.getDate();
+    day = day < 10 ? `0${day}` : day;
+    let month = today.getMonth() + 1;
+    month = month < 10 ? `0${month}` : month;
     const year = String(today.getFullYear());
     if (fullDate) {
         return `${year}-${month}-${day}`;
@@ -63,9 +65,14 @@ function getTodayDate(fullDate = false) {
 
 // Function to get the next available order number
 function getNextOrderNumber() {
-    const files = fs.readdirSync(dirPath);
-
     const date = getTodayDate();
+    const yearInTwoLetters = date.slice(0, 2);
+    dirPath = path.join(dirPath, yearInTwoLetters);
+
+    // Check if year folder exists, if not, create it
+    checkFolderPath(dirPath);
+
+    const files = fs.readdirSync(dirPath);
     const baseFilename = `${date}.md`;
 
     // Check if the base file exists. If yes, change it to {date}-1.md,
@@ -98,10 +105,6 @@ function createMarkdownFile(title, order) {
     const templateContent = fs.readFileSync(templatePath, 'utf-8');
 
     const newFilename = `${date}` + (order < 2 ? ``: `-${order}`) + `.md`;
-    dirPath = path.join(dirPath, date.slice(0,2));
-    // Check if year folder exists, if not, create it
-    checkFolderPath();
-    
     const newFilePath = path.join(dirPath, newFilename);
 
     const content = templateContent
@@ -124,7 +127,7 @@ function main(title) {
     category = getValueFromConfig(category);
     dirPath = path.join(process.cwd(), 'app', 'blog', 'posts', category);
     // Check if category folder exists, if not, create it
-    checkFolderPath();
+    checkFolderPath(dirPath);
 
     const order = getNextOrderNumber();
     createMarkdownFile(title, order);
