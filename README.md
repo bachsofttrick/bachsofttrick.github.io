@@ -5,7 +5,8 @@ Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io
 
 ## Todo
 - [ ] Add full-text search engine to blog posts:
-  - It is possible to extract all blog posts to json file, then [index](lunrjs.com) it.
+  - It is possible to extract all blog posts to json file, then index it.
+  - Look into lunrjs or flexsearch.
   - Or we can go [sqlite](https://sql.js.org/#/) route
 - [ ] Add comment box on blog posts. The steps below is for a DIY solution.  
 Another way is to use headless Wordpress, post with slug -> comment API from post id.
