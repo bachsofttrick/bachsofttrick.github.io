@@ -155,7 +155,7 @@ export function formatDate(date: string, includeRelative = false) {
 }
 
 export function getYear(date: string) {
-  return new Date(date).getFullYear()
+  return new Date(date).getUTCFullYear()
 }
 
 export function getMonth(date: string) {
