@@ -44,6 +44,10 @@ Built using NodeJS and Google Calendar API.
 - [http-proxy](https://github.com/bachsofttrick/http-proxy)\
 A Reverse Proxy built using ExpressJS and express-http-proxy for debugging microservice projects. Nodemon is for developing this app with hot reload.
 
+**PYTHON APPS**
+- [Binary2text](https://github.com/bachsofttrick/binary2text)\
+A short script to convert binary to ASCII/UTF-8 string and vice versa.
+
 **COURSE PROJECTS**
 - [Assembly Language](https://github.com/bachsofttrick/comp-arch-cs271)
 
