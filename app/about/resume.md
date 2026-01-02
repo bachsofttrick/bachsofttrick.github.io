@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-publishedAt: '2025-12-20'
+publishedAt: '2026-01-01'
 ---
 #### WORK EXPERIENCE
 
@@ -38,7 +38,7 @@ tools, and best practices.
 #### EDUCATION
 
 **Oregon State University** 6/2026  
-*Master's degree, Computer Science, GPA 3.8*  
+*Master's degree, Computer Science, GPA 3.9*  
 Corvallis, Oregon
 - Courses: Data Structures, Algorithms, Database Management System,
 Parallel Programming, Artificial Intelligence
@@ -55,8 +55,8 @@ Ho Chi Minh, Viet Nam
 - Testing: Jest (unit, integration), Cypress (E2E)
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
 - AI Deployments: llama.cpp, ollama, Hugging Face
-- AI Developer Tools: Copilot, Cursor, Claude Code, ChatGPT
-- Cloud Platforms: AWS
+- AI Developer Tools: Cursor, Claude Code
+- Cloud Platforms: AWS EC2, ECS, Lambda, S3, CloudFront, RDS, DynamoDB
 
 #### OTHER WORK EXPERIENCE
 
