@@ -56,10 +56,10 @@ export default function Page() {
       </h1>
       <BlogPosts allBlogs={allBlogs} itemPerPage={3} />
 
-      <h1 className="mb-4 text-l font-semibold tracking-tighter">
+      {/* <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Highlighted tech posts
       </h1>
-      <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} />
+      <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} /> */}
     </section>
   )
 }
