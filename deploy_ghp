@@ -1,4 +1,18 @@
 #!/bin/sh
 
+# Run a new build
 rm -rf build/
-npm run deploy
+npm run build
+cd ./build
+touch .nojekyll
+
+# Initialize branch and push to replace the old branch on 'origin'
+git init -b gh-pages
+git add -A
+git commit -m 'Updates'
+git remote add origin git@github.com:bachsofttrick/bachsofttrick.github.io.git
+git push -f origin gh-pages
+
+# Remove leftovers
+cd ..
+rm -rf build/
