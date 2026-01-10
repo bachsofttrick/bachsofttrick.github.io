@@ -71,9 +71,9 @@ function CustomLink(props: { href: string, children: any }) {
 }
 
 
-function Gallery({imgs}: { imgs: string[] }) {
+function Gallery({imgs, className}: { imgs: string[], className?: string }) {
   return (
-    <p className='image-container'>
+    <p className={className ?? 'image-container'}>
       {imgs.map((src) => <img key={src} src={src} />)}
     </p>
   )
