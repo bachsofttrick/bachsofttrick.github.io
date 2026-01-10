@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+    <channel>
+      <title>Brian Phan</title>
+      <link>https://bachsofttrick.github.io</link>
+      <description>This is Brian Phan portfolio RSS feed</description>
+      <atom:link href="https://bachsofttrick.github.io/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>OCR web project with Claude Code</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/260104</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/260104</guid>
+        <description>[Link](https://github.com/bachsofttrick/ocr-web) t...</description>
+        <pubDate>Sun, 04 Jan 2026 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>GraphQL is good, within reasons. And also dependency injection</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/260101-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/260101-2</guid>
+        <description>For two weeks, I have been hard at work learning F...</description>
+        <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>mod_wsgi not working with OpenSSL</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/260101</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/260101</guid>
+        <description>A major task I was given this week was to figure o...</description>
+        <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>How to cook rice like an expensive rice cooker</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251225</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251225</guid>
+        <description>It's something I learned while researching my frie...</description>
+        <pubDate>Thu, 25 Dec 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>The effect of frying</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251211</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251211</guid>
+        <description>There is an advantage to living alone. I don't hav...</description>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>I found gold at Goodwill</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251211</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251211</guid>
+        <description>![](/images/blog/Tech/25/251211/radio.jpg)
+
+Did yo...</description>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Some tips I learned from a few hundred applications</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251128</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251128</guid>
+        <description>This economy is hard. I applied to over 200 job ap...</description>
+        <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Trying frozen pizza</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251126</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251126</guid>
+        <description>I have tried frozen pizza before from Walmart. I r...</description>
+        <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>MySQL parseSlowQuery</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251123-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251123-2</guid>
+        <description>I want to give you my new tool. It reads the MySQL...</description>
+        <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Chicken Rice</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251123</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251123</guid>
+        <description>This is my first official recipe on this blog. It ...</description>
+        <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Bypass Websites that Block Copy/Paste in Input Fields</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251123</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251123</guid>
+        <description>Do you find it annoying that some companies put a ...</description>
+        <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Breaking changes on Docker 29 and how to postpone it</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251120</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251120</guid>
+        <description>Recently I got an assignment that needs to use Doc...</description>
+        <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Short tip on importing a large dataset to MySQL</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251116</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251116</guid>
+        <description>As I was working on improving the uploading proces...</description>
+        <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>watch with colors</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251109-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251109-2</guid>
+        <description>After the previous long post, this one is shorter....</description>
+        <pubDate>Sun, 09 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Getting Nvidia GPU to work in Docker container: A Cursed Experience</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251109</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251109</guid>
+        <description>After using ollama to run local LLMs on my compute...</description>
+        <pubDate>Sun, 09 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>DIY GPT</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251105</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251105</guid>
+        <description>I have a dream. That I, one day, shall have my own...</description>
+        <pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Silicone spatula for stainless steel pan</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251103</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251103</guid>
+        <description>I have been using a silicone spatula as a challeng...</description>
+        <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Testing a new way to make glazed or sauced dishes</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251031</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251031</guid>
+        <description>I have been thinking. Let's say there are chicken ...</description>
+        <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Some videos on how Chinese-American dishes are made</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/251025</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/251025</guid>
+        <description>I have been eating a lot of Panda Express for lunc...</description>
+        <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Some tricks for MySQL I learned</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251024-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251024-2</guid>
+        <description>- innodb_buffer_pool_size should be given 50% to 8...</description>
+        <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>PHP: First Steps</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/251024-1</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/251024-1</guid>
+        <description>In recent times, I have a chance to collaborate on...</description>
+        <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Stir fry cheat sheet</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250831</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250831</guid>
+        <description>Source: [https://reddit.com/r/food/comments/425rm7...</description>
+        <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Cánh gà chiên nước mắm</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250822</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250822</guid>
+        <description>This is an article written for a food event I regi...</description>
+        <pubDate>Fri, 22 Aug 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Finally, stainless steel pan worked</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250821</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250821</guid>
+        <description>After two months since the first [post](./Cooking/...</description>
+        <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Right place, right time</title>
+        <link>https://bachsofttrick.github.io/blog/Life/250801</link>
+        <guid>https://bachsofttrick.github.io/blog/Life/250801</guid>
+        <description>I just finished my 1-week job at a vet school. I w...</description>
+        <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+        <category>Life</category>
+      </item>
+<item>
+        <title>How does a 1000W portable burner beat a $600 electric range?</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250712</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250712</guid>
+        <description>As I lived in the US for a while, I noticed that p...</description>
+        <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Dependency Injection I learned from .NET Core</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250707</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250707</guid>
+        <description>Back at my early web dev years, I didn't like .NET...</description>
+        <pubDate>Mon, 07 Jul 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Cooking rice with pot</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250701-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250701-2</guid>
+        <description>Today I'm attempting to cook rice "again" in a pot...</description>
+        <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Update on stainless steel pan and egg</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250701-1</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250701-1</guid>
+        <description>This is an update on my journey towards understand...</description>
+        <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Purge residual config packages on Debian and Ubuntu</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250621</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250621</guid>
+        <description>This article follows this [post](https://kitson-co...</description>
+        <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Vegan cheese</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250620</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250620</guid>
+        <description>Yesterday I was at Grocery Outlets. And catching m...</description>
+        <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Roku TV Secret menu for channel scan</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250613</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250613</guid>
+        <description>This article follows this [post](https://www.avsfo...</description>
+        <pubDate>Fri, 13 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Rant about stainless steel pans</title>
+        <link>https://bachsofttrick.github.io/blog/Cooking/250611</link>
+        <guid>https://bachsofttrick.github.io/blog/Cooking/250611</guid>
+        <description>I have done a lot of cooking for a decade now. And...</description>
+        <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Cooking</category>
+      </item>
+<item>
+        <title>Bypass logging in using Microsoft account in Windows 11</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250610</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250610</guid>
+        <description>This article follows this [article](https://www.wi...</description>
+        <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Switch between multiple Java version</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250609</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250609</guid>
+        <description>This article follows this [article](https://askubu...</description>
+        <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Multiprocessing bug in Python</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250526</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250526</guid>
+        <description>I have been building a program that play Reversi u...</description>
+        <pubDate>Mon, 26 May 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>The younger generation is going backward in tech literacy?</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/250321</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/250321</guid>
+        <description>Lately, between trying to survive error-correcting...</description>
+        <pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Running Windows games on Linux</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241221</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241221</guid>
+        <description>I have been running Linux as my main OS for two ye...</description>
+        <pubDate>Sat, 21 Dec 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Review: The Wild Robot</title>
+        <link>https://bachsofttrick.github.io/blog/Film/241112</link>
+        <guid>https://bachsofttrick.github.io/blog/Film/241112</guid>
+        <description>Rate: 4/5
+
+It's a really good film. Looks like Dre...</description>
+        <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+        <category>Film</category>
+      </item>
+<item>
+        <title>Getting into a new hobby: Taking pictures</title>
+        <link>https://bachsofttrick.github.io/blog/Photography/241111</link>
+        <guid>https://bachsofttrick.github.io/blog/Photography/241111</guid>
+        <description>I recently got into a new hobby, which is photogra...</description>
+        <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+        <category>Photography</category>
+      </item>
+<item>
+        <title>Install Windows 11 without the hassle of TPM</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241022</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241022</guid>
+        <description>These are the little tips I collected from reading...</description>
+        <pubDate>Tue, 22 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Virtualization on my server without reinstalling OS</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241019</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241019</guid>
+        <description>I always want to have a virtualization lab in my h...</description>
+        <pubDate>Sat, 19 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Disable Intel Turbo Boost to cool my laptop</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241018</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241018</guid>
+        <description>One of the most frustrating points of owning Intel...</description>
+        <pubDate>Fri, 18 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Sudo and SMB run slower after changing server name</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241007</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241007</guid>
+        <description>A week ago, I started transitioning from using my ...</description>
+        <pubDate>Mon, 07 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Rant about cloning Windows disk from SATA to NVMe</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/241005</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/241005</guid>
+        <description>Today I got around to upgrade my old Ryzen PC. I g...</description>
+        <pubDate>Sat, 05 Oct 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Why does it take so long to delete in Lubuntu file explorer (PCManQt)?</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240929</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240929</guid>
+        <description>I came across a [Reddit post](https://old.reddit.c...</description>
+        <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>How to clear "Recent Connections" auto-connect-profiles list in Blueman</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240926</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240926</guid>
+        <description>This is one of those shorter posts on my blog. Som...</description>
+        <pubDate>Thu, 26 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>The more things change, ...</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240907</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240907</guid>
+        <description>... the more they stay the same. Right now, it hap...</description>
+        <pubDate>Sat, 07 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>A different mindset</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240906</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240906</guid>
+        <description>I just got a new second job at my college, Oregon ...</description>
+        <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>"Perhaps I treated you too harshly". Reflection on .NET as a back end framework</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240902-3</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240902-3</guid>
+        <description>After not working for a while as a full stack deve...</description>
+        <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Windows S Mode</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240902-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240902-2</guid>
+        <description>To be honest, with all the claims from Microsoft t...</description>
+        <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Remote Server behind CGNAT using Wireguard</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/240902-1</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/240902-1</guid>
+        <description>I keep delaying this post because it's something t...</description>
+        <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>My thought on Chromebook</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/231011</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/231011</guid>
+        <description>It's very nice to have something powerful in a com...</description>
+        <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Convert BIOS to UEFI for Linux (or how to recover GRUB)</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230823-3</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230823-3</guid>
+        <description>For the longest time, I was scared of using UEFI o...</description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Fedora: What I learned</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230823-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230823-2</guid>
+        <description>When I tried out a bunch of distros, Fedora was am...</description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Trying Windows 11 and other OSes</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230823-1</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230823-1</guid>
+        <description>I have just bought a couple of SSDs for cheap on F...</description>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Cross compiling driver for Raspberry Pi</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230722</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230722</guid>
+        <description>After multiple times compiling drivers on multiple...</description>
+        <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Custom resolution for GTX 1060 on Lubuntu</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230721</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230721</guid>
+        <description>I have recently become a permanent resident of the...</description>
+        <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>The times I dealt with phones that have multiple models</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230707</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230707</guid>
+        <description>If you have to do research on cell phones like I d...</description>
+        <pubDate>Fri, 07 Jul 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Patching OpenWrt with a new driver</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230623</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230623</guid>
+        <description>I wrote a post on compiling OpenWrt from source a ...</description>
+        <pubDate>Fri, 23 Jun 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Trying a new kernel and compiling network driver from it</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230614</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230614</guid>
+        <description>In celebration of the release of [Debian
+12](https...</description>
+        <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Getting my blog on Google Search</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230610</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230610</guid>
+        <description>After writing blogs for over a month, I checked to...</description>
+        <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Install Firefox as deb instead of snap on Ubuntu</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230609</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230609</guid>
+        <description>I know that Snap earned a bad reputation among Lin...</description>
+        <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>YouTube: The beginning of the end</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230511</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230511</guid>
+        <description>by The Testing Guy
+
+Last night on Wednesday, May 1...</description>
+        <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Compile OpenWrt for Orange Pi R1 Plus LTS</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230523</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230523</guid>
+        <description>I recently got my hand on a new router to play wit...</description>
+        <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>On the proverb "If it ain't broke don't fix it"</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230506</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230506</guid>
+        <description>This post is supposed to be an update on the 4G-to...</description>
+        <pubDate>Sat, 06 May 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Auto build driver when updating Linux kernel with dkms</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230504</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230504</guid>
+        <description>I am a media consumption enthusiast. Let's just sa...</description>
+        <pubDate>Thu, 04 May 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Data plan investigation: Zero-rating</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230427</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230427</guid>
+        <description>I have a curious habit. When checking out the best...</description>
+        <pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Enhance network performance by bridging my modem to my router</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230415</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230415</guid>
+        <description>After a blog series about using 4G as house Wifi, ...</description>
+        <pubDate>Sat, 15 Apr 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Upgrading Grandparents' Wifi III: Covering the house in new Wifi</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230413</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230413</guid>
+        <description>So. Here we are. The third part of the long-runnin...</description>
+        <pubDate>Thu, 13 Apr 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Modems, routers and converters</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230404</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230404</guid>
+        <description>There seems to be confusions surrounding common de...</description>
+        <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>The 4G Router rabbit hole</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230331</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230331</guid>
+        <description>There is something about the idea of connecting to...</description>
+        <pubDate>Fri, 31 Mar 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Upgrading Grandparents' Wifi II: The slow and the frustrated</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230330-2</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230330-2</guid>
+        <description>Have you ever got a feeling that you would never g...</description>
+        <pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+<item>
+        <title>Upgrading Grandparents' Wifi I</title>
+        <link>https://bachsofttrick.github.io/blog/Tech/230330-1</link>
+        <guid>https://bachsofttrick.github.io/blog/Tech/230330-1</guid>
+        <description>Hi, you may not know me. That's fair, this is my f...</description>
+        <pubDate>Thu, 30 Mar 2023 00:00:00 GMT</pubDate>
+        <category>Tech</category>
+      </item>
+    </channel>
+  </rss>
