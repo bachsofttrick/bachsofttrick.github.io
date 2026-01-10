@@ -4,7 +4,7 @@ title: 'Projects'
 **[This Page](https://github.com/bachsofttrick/bachsofttrick.github.io)**
 - Built using NextJS, hosted on Github Pages.
 
-**AI PROJECTS**
+**===AI PROJECTS===**
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
@@ -26,21 +26,21 @@ className='grid grid-cols-1 md:grid-cols-2 gap-4'/>
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
 - Designed a benchmark of two AI algorithms against several games of Reversi, using multithreading to improve efficiency.
 
-**OPEN SOURCE COLLABORATION**
+**===OPEN SOURCE COLLABORATION===**
 - [OregonFlora](https://oregonflora.org/)\
 Improved reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million clicks annually.
 
 [![](/images/projects/oregonflora.jpg)](https://oregonflora.org/)
 
-**GO APPS** 
+**===GO APPS===** 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)\
 A small backend server that gets my TV schedule. Written in Go. It uses API from tvguide.com as the basis.
 
 - [Get schedule for Star Trek TNG on Pluto TV](https://github.com/bachsofttrick/tng-schedule)\
 A small app to get Star Trek TNG schedule from Pluto TV.
 
-**NODEJS APPS**
+**===NODEJS APPS===**
 - [MySQL parseSlowQuery](https://github.com/bachsofttrick/mysql-parseSlowQuery)\
 A tool that reads mysql slow_query_log, sort queries by query time descending
 and outputs to JSON and CSV for easier view.
@@ -52,11 +52,11 @@ Built using NodeJS and Google Calendar API.
 - [http-proxy](https://github.com/bachsofttrick/http-proxy)\
 A Reverse Proxy built using ExpressJS and express-http-proxy for debugging microservice projects. Nodemon is for developing this app with hot reload.
 
-**PYTHON APPS**
+**===PYTHON APPS===**
 - [Binary2text](https://github.com/bachsofttrick/binary2text)\
 A short script to convert binary to ASCII/UTF-8 string and vice versa.
 
-**COURSE PROJECTS**
+**===COURSE PROJECTS===**
 - [Assembly Language](https://github.com/bachsofttrick/comp-arch-cs271)
 
 - [Algorithm Analysis (Python)](https://github.com/bachsofttrick/algolysis-cs325)
