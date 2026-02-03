@@ -104,8 +104,8 @@ export function getAboutPosts(): MDXData[] {
   return getMDXData(path.join(process.cwd(), 'app', 'about'), false)
 }
 
-export function getAboutProjectPosts(): MDXData[] {
-  return getMDXData(path.join(process.cwd(), 'app', 'about-projects'), false)
+export function getProjectPosts(): MDXData[] {
+  return getMDXData(path.join(process.cwd(), 'app', 'projects'), false)
 }
 
 export function extractProjectsFromAbout(input: string): string {

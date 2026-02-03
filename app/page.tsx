@@ -39,7 +39,7 @@ export default function Page() {
               <li key={index}>{text}</li>
             ))}
           </ul> */}
-          <u><a href='/about-projects'>Check out my projects here.</a></u><br/>
+          <u><a href='/projects'>Check out my projects here.</a></u><br/>
           <u><a href={contactInfo.github} target="_blank">How about my GitHub?</a></u><br/>
           <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
             Check out my OSU advertisement.

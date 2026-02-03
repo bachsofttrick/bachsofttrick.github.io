@@ -11,7 +11,7 @@ export const metadata = {
     title: 'My Projects',
     description: 'Check out my projects.',
     type: 'article',
-    url: `${baseUrl}/about-projects`,
+    url: `${baseUrl}/projects`,
   }
 }
 
