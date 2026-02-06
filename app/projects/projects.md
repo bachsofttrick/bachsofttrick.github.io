@@ -53,6 +53,9 @@ Built using NodeJS and Google Calendar API.
 A Reverse Proxy built using ExpressJS and express-http-proxy for debugging microservice projects. Nodemon is for developing this app with hot reload.
 
 **===PYTHON APPS===**
+- [11labs Audio Transcriber](https://github.com/bachsofttrick/transcribe-with-11labs)\
+A script I wrote to help me transcribe audio, since API free use is longer than UI use from 11labs.
+
 - [Binary2text](https://github.com/bachsofttrick/binary2text)\
 A short script to convert binary to ASCII/UTF-8 string and vice versa.
 
