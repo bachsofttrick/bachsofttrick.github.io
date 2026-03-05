@@ -12,7 +12,7 @@ Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io
 - [ ] Add comment box on blog posts. The steps below is for a DIY solution.  
 Another way is to use headless Wordpress, post with slug -> comment API from post id.
 Add in Akismet + optional reCAPTCHA + rate limiting.  
-Another way is BaaS by ways of Firebase, Supabase.
+Another way is BaaS by ways of Firebase, Supabase, Pocketbase.
   - [ ] Add login screen (login, password)
   - [ ] Add register screen (login, password, name, email)
   - [ ] Add forgot password screen (email)
