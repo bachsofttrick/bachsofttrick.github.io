@@ -49,13 +49,12 @@ Ho Chi Minh, Viet Nam
 
 #### SKILLS
 - Language: C, C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, Bash
-- Frontend: React, Vue, Svelte, NextJS, Tailwind, Bootstrap
-- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Django, Laravel
+- Frontend: React, Vue, Svelte, NextJS, Tailwind
+- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Laravel
 - Database: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
-- Testing: Jest (unit, integration), Cypress (E2E)
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
-- AI Deployments: llama.cpp, ollama, Hugging Face
-- AI Developer Tools: Cursor, Claude Code
+- AI Deployment: llama.cpp, vllm, Hugging Face
+- AI Developer Tools: Claude Code, OpenAI Codex, Gemini CLI
 - Cloud Platforms: AWS EC2, ECS, Lambda, S3, CloudFront, RDS, DynamoDB
 
 #### OTHER WORK EXPERIENCE
