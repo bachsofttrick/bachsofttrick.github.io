@@ -6,13 +6,17 @@ title: 'Projects'
 
 **===AI PROJECTS===**
 
+**[Papersy](https://github.com/lesteuai/papersy)**
+- **Built** an **agentic AI** research assistant with **RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
+
+<Gallery imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} gridColumns={3}/>
+
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- Engineered a custom drone capable of identifying, following targets and transmitting live video
-to RTSP-compatible devices.
+- Engineered a custom drone capable of identifying, following targets and transmitting live video with **OpenCV, Tensorflow**.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
@@ -20,7 +24,7 @@ to RTSP-compatible devices.
 - Designed an AI document scanner that utilize LightOnOCR model to transcribe image to text.
 
 <Gallery imgs={['/images/projects/ocr-web-1.jpg', '/images/projects/ocr-web-2.jpg']} 
-className='grid grid-cols-1 md:grid-cols-2 gap-4'/>
+gridColumns={2}/>
 
 **[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)

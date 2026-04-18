@@ -70,8 +70,20 @@ function CustomLink(props: { href: string, children: any }) {
   return <a target="_blank" rel="noopener noreferrer" {...props} />
 }
 
+type GalleryConfig = {
+  imgs: string[], 
+  className?: string,
+  gridColumns?: number
+};
 
-function Gallery({imgs, className}: { imgs: string[], className?: string }) {
+function Gallery({imgs, className, gridColumns}: GalleryConfig) {
+  if (gridColumns && gridColumns > 0) {
+    return (
+      <p className={`grid grid-cols-1 md:grid-cols-${gridColumns} gap-4`}>
+        {imgs.map((src) => <img key={src} src={src} />)}
+      </p>
+    )
+  }
   return (
     <p className={className ?? 'image-container'}>
       {imgs.map((src) => <img key={src} src={src} />)}
