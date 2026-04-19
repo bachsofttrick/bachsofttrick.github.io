@@ -47,13 +47,13 @@ Parallel Programming, Artificial Intelligence
 Ho Chi Minh, Viet Nam
 
 #### SKILLS
-- Language: C, C++, C#, Python, Go, HTML, CSS, Javascript, Typescript, Bash
-- Frontend: React, Vue, Svelte, NextJS, Tailwind
-- Backend: .NET, NodeJS, NestJS, ExpressJS, FastAPI, Laravel
+- Language: C, C++, C#, Python, Go, HTML, CSS, Typescript, Bash
+- Frontend: React, Vue, Svelte, Next.js, SvelteKit, Tailwind
+- Backend: .NET, Node.js, NestJS, Express.js, FastAPI
 - Database: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
 - CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
 - AI Deployment: llama.cpp, vllm, Hugging Face
-- AI Developer Tools: Claude Code, OpenAI Codex, Gemini CLI
+- AI Developer Tools: Claude Code, OpenAI Codex
 - Cloud Platforms: AWS EC2, ECS, Lambda, S3, CloudFront, RDS, DynamoDB
 
 #### OTHER WORK EXPERIENCE
