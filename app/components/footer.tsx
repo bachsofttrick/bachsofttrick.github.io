@@ -57,7 +57,7 @@ export default function Footer() {
         <FooterPart href={'/rss.xml'} title={"rss"} />
       </ul>
       <p className="mt-8 text-neutral-600">
-        {new Date().getFullYear()}
+        © {new Date().getFullYear()}
       </p>
     </footer>
   )
