@@ -60,6 +60,9 @@ export default function Page() {
         Highlighted tech posts
       </h1>
       <BlogPosts allBlogs={allBlogs} highlightedPosts={highlightedPosts.Tech} /> */}
+
+      {/* Make sure build includes md:grid-cols-3 */}
+      <span className='hidden md:grid-cols-3'></span>
     </section>
   )
 }
