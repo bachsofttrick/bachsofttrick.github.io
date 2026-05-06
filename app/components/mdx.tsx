@@ -32,8 +32,8 @@ function YoutubeEmbed({videoId, link}: {videoId?: string, link?: string}) {
   return (
     <div className="flex justify-center my-4">
       <iframe width="560" height="315" src={href} title="YouTube video player" allow="accelerometer; autoplay;
-      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen;"
-      referrerPolicy="strict-origin-when-cross-origin" />
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"
+      referrerPolicy="strict-origin-when-cross-origin" allowFullScreen/>
     </div>
   )
 }
