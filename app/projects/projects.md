@@ -6,12 +6,12 @@ title: 'Projects'
 
 **===AI PROJECTS===**
 
-**[AuTuber](https://github.com/bachsofttrick/AuTuber)**
-- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools to match the moment.
+**[AuTuber](https://autuber.lesteuai.com/)**
+- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
 
 <Gallery imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} gridColumns={2}/>
 
-**[Papersy](https://github.com/lesteuai/papersy)**
+**[Papersy](https://lesteuai.com/)**
 - **Built** an **agentic AI** research assistant with **RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 
 <Gallery imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} gridColumns={3}/>
