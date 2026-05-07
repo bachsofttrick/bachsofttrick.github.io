@@ -6,6 +6,11 @@ title: 'Projects'
 
 **===AI PROJECTS===**
 
+**[AuTuber](https://github.com/bachsofttrick/AuTuber)**
+- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools to match the moment.
+
+<Gallery imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} gridColumns={2}/>
+
 **[Papersy](https://github.com/lesteuai/papersy)**
 - **Built** an **agentic AI** research assistant with **RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 
@@ -16,23 +21,23 @@ title: 'Projects'
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- Engineered a custom drone capable of identifying, following targets and transmitting live video with **OpenCV, TensorFlow**.
+- **Engineered** a custom drone capable of identifying, following targets and transmitting live video with **OpenCV, TensorFlow**.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
 **[OCR AI Web](https://github.com/bachsofttrick/ocr-web/)**
-- Designed an AI document scanner that utilize LightOnOCR model to transcribe image to text.
+- **Designed** an AI document scanner that utilize LightOnOCR model to transcribe image to text.
 
-<Gallery imgs={['/images/projects/ocr-web-1.jpg', '/images/projects/ocr-web-2.jpg']} 
+<Gallery imgs={['/images/projects/ocr-web/1.jpg', '/images/projects/ocr-web/2.jpg']} 
 gridColumns={2}/>
 
 **[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
-- Designed a benchmark of two AI algorithms against several games of Reversi, using multithreading to improve efficiency.
+- **Designed** a benchmark of two AI algorithms against several games of Reversi, using **multithreading** to improve efficiency.
 
 **===OPEN SOURCE COLLABORATION===**
 - [OregonFlora](https://oregonflora.org/)\
-Improved reliability and performance of a statewide research system
+**Improved** reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million clicks annually.
 
 [![](/images/projects/oregonflora.jpg)](https://oregonflora.org/)
