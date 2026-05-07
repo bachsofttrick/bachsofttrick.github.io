@@ -21,7 +21,7 @@
     },
     "tools": {
         "resizeImage": {
-            "extToLook": ["jpg", "jpeg"],
+            "extToLook": ["jpg", "jpeg", "png"],
             "dirToLook": "./temp/",
             "resizedHeight": 720
         },
