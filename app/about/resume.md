@@ -13,7 +13,7 @@ serving over 150,000 users with 1.5 million requests using **PHP, React, jQuery,
 - **Adopted Claude Code, Docker, GitHub Actions** to automate development, testing and deployment of platform, reducing cost by 70%.
 
 **Web Assistant** 8/2024 - 9/2024  
-[*OSU Extension Service - Outdoor School*](https://extension.oregonstate.edu/outdoor-school)  
+[*OSU Extension Service*](https://extension.oregonstate.edu/)  
 Corvallis, Oregon
 - **Maintained** the portal for educators and school districts using **Drupal (PHP)**, ensuring seamless access to outdoor education resources and reporting systems.
 - **Supported** platform migration, contributing to improved platform stability and performance.
@@ -33,18 +33,6 @@ Ho Chi Minh City, Vietnam
 - **Explored** embedded programming and Linux systems, building a foundation in low-level development.
 - **Gained** hands-on experience with professional software development workflows,
 tools, and best practices.
-
-#### EDUCATION
-
-**Oregon State University** 6/2026  
-*Master's degree, Computer Science, GPA 3.9*  
-Corvallis, Oregon
-- Courses: Data Structures, Algorithms, Database Management System,
-Parallel Programming, Artificial Intelligence
-
-**Ho Chi Minh University of Technology**  
-*Bachelor's degree, Electrical Engineering*  
-Ho Chi Minh, Viet Nam
 
 #### SKILLS
 - Language: C, C++, C#, Python, Go, HTML, CSS, Typescript, Bash
@@ -71,3 +59,13 @@ Corvallis, Oregon
 adhered to FCC and station protocols during live shows.
 - Mastered the DJ system and studio setup, ensuring smooth operations, excellent
 audio quality, and audience engagement.
+
+#### EDUCATION
+
+**Oregon State University** 6/2026  
+*Master's degree, Computer Science, GPA 3.9*  
+Corvallis, Oregon
+
+**Ho Chi Minh University of Technology**  
+*Bachelor's degree, Electrical Engineering*  
+Ho Chi Minh, Viet Nam

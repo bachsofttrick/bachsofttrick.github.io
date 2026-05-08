@@ -12,7 +12,7 @@ title: 'Projects'
 <Gallery imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} gridColumns={2}/>
 
 **[Papersy](https://lesteuai.com/)**
-- **Built** an **agentic AI** research assistant with **RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
+- **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 
 <Gallery imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} gridColumns={3}/>
 
@@ -21,7 +21,7 @@ title: 'Projects'
 [Thesis](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/thesis.pdf) |
 Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/1CBIk2xY5qs) |
 [Test run with DM107s](https://youtu.be/x6QGjoSk1t8)
-- **Engineered** a custom drone capable of identifying, following targets and transmitting live video with **OpenCV, TensorFlow**.
+- **Engineered** a custom drone capable of identifying, following targets and transmitting live video with **Python, OpenCV, TensorFlow**.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
