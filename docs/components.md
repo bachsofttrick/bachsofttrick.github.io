@@ -86,12 +86,13 @@ const togglePlay = () => {
 
 ### BlogPosts Component (`app/components/posts.tsx`)
 
-**Purpose**: Display blog post list with optional filtering, pagination, and summaries.
+**Purpose**: Display blog post list with optional full-text search, filtering, pagination, and summaries.
 
 **Client Component** (`"use client"`):
-- Uses MUI components: `Pagination`, `PaginationItem`, `Select`, `MenuItem`, `FormControl`, `InputLabel`
-- State management: `page`, `category`, `year`, `month`
-- Filtering logic: cascade (category → year → month)
+- Uses MUI components: `Pagination`, `PaginationItem`, `Select`, `MenuItem`, `FormControl`, `InputLabel`, `TextField`
+- Uses FlexSearch: `Document` index over post title + content
+- State management: `page`, `category`, `year`, `month`, `searchQuery`
+- Filtering logic: cascade (category → year → month) OR full-text search (overrides all filters)
 
 **Props**:
 ```typescript
@@ -104,13 +105,29 @@ const togglePlay = () => {
 }
 ```
 
-**Filtering Logic**:
+**Search Implementation**:
+- `searchIndex` built via `useMemo` from all blogs (computed once, memoized on `allBlogs` change)
+- FlexSearch `Document` indexes `['title', 'content']` for each post
+- `searchQuery` state tracks user input from MUI `TextField`
+- When `searchQuery` is not empty: search both title and content indices, merge results, override filter logic
+- When `searchQuery` is empty: category/year/month filters apply normally
+- `useEffect` resets page to 1 when `searchQuery` changes (prevents out-of-range pagination)
+- Filters (category/year/month selects) are hidden when search is active
+
+**Filtering Logic** (when no search is active):
 1. If `highlightedPosts` provided, filter to only those slugs
 2. Filter by selected category (if not 'All')
 3. Build year list from filtered posts, populate dropdown
 4. If year selected, filter by year and build month dropdown
 5. If month selected, filter by month
 6. Calculate total pages based on final filtered count
+
+**Search Logic** (when `searchQuery.trim() !== ''`):
+1. Query FlexSearch title index: returns array of post IDs
+2. Query FlexSearch content index: returns array of post IDs
+3. Merge results via `new Set([...titleIds, ...contentIds])` (deduplicates)
+4. Map IDs back to post objects, filter out any undefined entries
+5. Use merged results as `returnBlogs`, ignoring all category/year/month filters
 
 **Filtering Functions**:
 - `SplitWordFromDuplicateCount` — Extracts word from "Word (count)" format
@@ -119,17 +136,18 @@ const togglePlay = () => {
 
 **Pagination**:
 - MUI `Pagination` component with custom styling
-- Page state resets when category/year/month changes
+- Page state resets when `searchQuery` changes; also resets on filter change
 - Slice rendered posts: `posts.slice(page * itemPerPage - itemPerPage, page * itemPerPage)`
 
 **Post Rendering**:
-- Maps over filtered posts, renders `<Link href={/blog/${category}/${slug}}>`
+- Maps over filtered or search-result posts, renders `<Link href={/blog/${category}/${slug}}>`
 - Displays: category (with spaces), publish date, title, optional summary (first 200 chars)
 - Summary length from `config.blog.maxDescLength`
 
 **Conditional Rendering**:
-- Category/year/month dropdowns only shown if `pagination={true}`
-- Month dropdown only shown if year is selected
+- Search input (`TextField`) always shown if `pagination={true}`
+- Category/year/month dropdowns only shown if `pagination={true}` AND `searchQuery.trim() === ''`
+- Month dropdown only shown if year is selected (and no search is active)
 - Summary only shown if `addSummary={true}`
 - Pagination controls only shown if `pagination={true}`
 - Post count display at bottom
@@ -208,8 +226,9 @@ const togglePlay = () => {
 
 **External**:
 - `next/link` — Next.js Link component for client-side navigation
-- React hooks: `useState`, `useRef`, `useEffect` (via useState/useRef in navbar)
-- MUI: `Pagination`, `PaginationItem`, `Select`, `MenuItem`, `FormControl`, `InputLabel`
+- React hooks: `useState`, `useRef`, `useEffect`, `useMemo`
+- MUI: `Pagination`, `PaginationItem`, `Select`, `MenuItem`, `FormControl`, `InputLabel`, `TextField`
+- FlexSearch: `Document` class for full-text indexing
 
 ## Patterns & Conventions
 
@@ -237,7 +256,18 @@ const togglePlay = () => {
 
 ## Gotchas & Non-Obvious Logic
 
-**Category Cascading**:
+**Search Overrides Filters**:
+- When `searchQuery` is non-empty, **all category/year/month filters are ignored**
+- Search results are merged from title + content indices (union, not intersection)
+- Filters are hidden entirely while search is active (better UX: user doesn't expect cascade)
+- Clearing search query immediately restores filter dropdowns
+
+**Search Index Memoization**:
+- `searchIndex` is built via `useMemo` and recalculated only when `allBlogs` array reference changes
+- Does NOT recalculate when state (page, category, etc.) changes
+- Efficient but means new posts only appear in search after a full component re-mount (or allBlogs prop change)
+
+**Category Cascading** (filters only):
 - When category changes, year and month dropdowns are recalculated
 - Year list calculated from **all posts in category**, not just filtered subset
 - After year selection, month list calculated from **filtered posts (category + year)**
@@ -247,7 +277,7 @@ const togglePlay = () => {
 - If `pagination={true}`, slice uses: `slice(page * itemPerPage - itemPerPage, page * itemPerPage)`
 - Example: page 1, itemPerPage=4 → slice(0, 4); page 2 → slice(4, 8)
 - If user filters down to 2 items but is on page 3, no posts render (graceful)
-- Page count recalculated on every filter, but page state not auto-reset to 1 (potential UX issue)
+- Page is reset to 1 on search query change, but not on category/year/month filter changes
 
 **Music Player Event Listener**:
 - `ended` listener attached in render (no cleanup dependency array)
@@ -257,6 +287,7 @@ const togglePlay = () => {
 **Highlighted Posts**:
 - If `highlightedPosts` array provided, component filters **all posts to only those slugs**
 - Ignores category/year/month filters (highlighted posts take precedence)
+- Search also respects highlighted posts: only searches within the highlighted subset
 - Home page uses this with `highlightedPosts={[]}` (empty array = show all sorted)
 
 **Arrow Icon Rendering**:
@@ -264,7 +295,12 @@ const togglePlay = () => {
 - If `noArrow=true`, returns `undefined` (not `null`), rendered as nothing
 - Conditional spacing: `ml-2` only added if arrow is visible
 
+**Search Index Structure**:
+- FlexSearch Document uses field-based indexing: `{ id: 'id', index: ['title', 'content'], store: false }`
+- Posts added with `{ id: idx, title: post.metadata.title, content: post.content }`
+- Search results returned as array of objects with `result` field containing matched IDs
+- Type-casting to `any` is necessary due to FlexSearch's loose type definitions
+
 **Open Questions**:
 - Why music player is built into nav instead of a separate modal/component
-- Whether year/month dropdowns should be calculated from filtered vs. all posts
-- Whether pagination state should reset on filter changes (current behavior is unclear to users)
+- Should highlighted posts also be searchable, or is the current filter-first approach correct?

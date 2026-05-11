@@ -21,7 +21,7 @@ Showcase Brian Phan's work, projects, and technical writing. The site serves as 
 - Blog posts with `hidden: true` metadata are shown only in dev mode
 - All routes pre-rendered at build time using `generateStaticParams`
 - SEO metadata auto-generated from markdown frontmatter
-- Search/filtering is client-side using React state and MUI components
+- Blog filtering: category/year/month dropdowns or full-text search via FlexSearch (client-side, indexes title + content)
 
 ## Key Entry Points
 
@@ -102,7 +102,8 @@ app/declarations.d.ts          # TypeScript declarations: CSS module type declar
 - **Code Highlighting**: `sugar-high@^0.6.0` (lightweight syntax highlighter)
 - **Fonts**: `geist@1.2.2` (Geist Sans & Geist Mono)
 - **Image Processing**: `sharp@^0.34.5` (CLI tool for resizing)
-- **UI Components**: `@mui/material@^6.0.2`, `@emotion/react@^11.13.3`, `@emotion/styled@^11.13.0` (used for Pagination in blog)
+- **Search**: `flexsearch@^0.8.212` (full-text search indexing title + content for blog posts)
+- **UI Components**: `@mui/material@^6.0.2`, `@emotion/react@^11.13.3`, `@emotion/styled@^11.13.0` (used for Pagination, Select dropdowns, and TextField in blog)
 - **Deployment**: `gh-pages@^6.3.0` (GitHub Pages deployment)
 - **Analytics**: `@next/third-parties@^16.0.0` (Google Analytics)
 - **Build**: TypeScript `5.3.3`
@@ -143,9 +144,13 @@ hidden: false
 **Data Flow for Blog Posts**:
 1. Markdown files at `app/blog/posts/[category]/[year]/[slug].md`
 2. `app/blog/utils.ts` recursively reads all posts, parses frontmatter
-3. Pages call `getSortedBlogPosts()`, `getBlogPosts()`, etc.
-4. Component render loops over posts, builds links to `/blog/[category]/[slug]`
-5. Dynamic route uses `generateStaticParams` to pre-render all combinations at build time
+3. Pages call `getSortedBlogPosts()`, `getBlogPosts()`, etc., pass post array to `<BlogPosts />`
+4. `<BlogPosts />` builds FlexSearch index over title + content (computed once via `useMemo`)
+5. User enters search query or selects category/year/month filters
+6. If search is active: FlexSearch overrides filters, returns matching posts; filters hide
+7. If search is empty: normal filter cascade (category → year → month) applies
+8. Component renders filtered posts with pagination (if enabled); displays post count
+9. Dynamic route uses `generateStaticParams` to pre-render all combinations at build time
 
 **Content Organization**:
 - Blog posts co-located: markdown + images share the slug path
