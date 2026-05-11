@@ -14,6 +14,7 @@ package.json             # Scripts and dependencies
 next.config.js           # Next.js configuration
 postcss.config.js        # Tailwind CSS configuration
 tsconfig.json            # TypeScript configuration
+app/declarations.d.ts    # TypeScript CSS module declarations
 ```
 
 ## Entry Points

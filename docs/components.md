@@ -11,7 +11,12 @@ app/components/
 ├── posts.tsx            # Blog post list with filtering & pagination
 ├── mdx.tsx              # MDX renderer (covered in blog.md)
 ├── extra.tsx            # Quote component
-└── mdx.css              # Prose typography & code block styles
+└── ImageCarousel.tsx    # Interactive image carousel with lightbox
+
+app/styles/
+├── mdx.css              # Prose typography & code block styles (moved from app/components/)
+├── animations.css       # Reusable keyframe animations (slideInLeft, slideInRight, fadeIn)
+└── carousel.css         # Carousel and lightbox CSS classes
 ```
 
 ## Entry Points
@@ -20,6 +25,7 @@ app/components/
 - `app/components/footer.tsx` — Imported in root layout, rendered once per page
 - `app/components/posts.tsx` — Imported in home & blog pages, passed blog post array
 - `app/components/mdx.tsx` — Imported in blog post detail & projects pages
+- `app/components/ImageCarousel.tsx` — Registered as `Carousel` MDX component; used directly in blog posts
 
 ## Architecture / Key Components
 
@@ -127,6 +133,41 @@ const togglePlay = () => {
 - Summary only shown if `addSummary={true}`
 - Pagination controls only shown if `pagination={true}`
 - Post count display at bottom
+
+### ImageCarousel (`app/components/ImageCarousel.tsx`)
+
+**Purpose**: Interactive image carousel with a fullscreen lightbox.
+
+**Client Component** (`"use client"`):
+- Uses `useState` for `idx` (current image index), `dir` (slide direction), and `lightboxOpen`
+- Uses `useEffect` to attach keyboard listeners when lightbox is open (cleaned up on close)
+- Uses `createPortal` to render the lightbox at `document.body` (avoids z-index/overflow clipping)
+
+**Props**:
+```typescript
+{ imgs: string[] }
+```
+
+**Navigation**:
+- Prev/next buttons update `dir` ("left"/"right") then cycle `idx` with wrap-around
+- Dot row lets the user jump directly to any image; `dir` set based on whether target is ahead or behind
+- Keyboard: `ArrowLeft`/`ArrowRight` navigate; `Escape` closes lightbox (only active when lightbox is open)
+
+**Animation**:
+- Slide direction drives CSS class: `slideInRight` or `slideInLeft` (defined in `animations.css`)
+- Lightbox entry uses `fadeIn` animation (also in `animations.css`)
+- `key={idx}` on `<img>` forces React to remount the element on each slide, re-triggering the animation
+
+**Lightbox**:
+- Click on the carousel image opens the lightbox; click outside the content or press Escape to close
+- Lightbox renders the same nav buttons and dot row; `e.stopPropagation()` prevents close when clicking inside content
+
+**CSS**:
+- Imports `animations.css` and `carousel.css` directly
+- All carousel/lightbox classes are BEM-style: `carousel__btn`, `carousel__btn--prev`, `carousel__dot--active`, `lightbox__close`, etc.
+
+**MDX Registration**:
+- Exported as default; registered as `Carousel` in `mdx.tsx` custom components map, so `<Carousel imgs={[...]} />` works in markdown posts
 
 ### Quote Component (`app/components/extra.tsx`)
 

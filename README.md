@@ -4,7 +4,6 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
-- [ ] Add a fullscreen image and blur background when click on the image (lightbox, get it from [AuTuber landing page](https://github.com/bachsofttrick/AuTuber/tree/landing-page))
 - [ ] Add a blog editor in the site when in dev mode. Prod mode disables this editor.
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then index it.

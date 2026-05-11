@@ -51,11 +51,14 @@ app/
 │   ├── nav.tsx                # Navbar with music player (client component)
 │   ├── footer.tsx             # Footer with contact links
 │   ├── posts.tsx              # BlogPosts component: filters, pagination, listings (client)
-│   ├── mdx.tsx                # MDX renderer: custom Link, YoutubeEmbed, Gallery, Code highlighting
-│   ├── extra.tsx              # Quote component
-│   └── mdx.css                # MDX prose styles
+│   ├── mdx.tsx                # MDX renderer: custom Link, YoutubeEmbed, Gallery, Carousel, Code highlighting
+│   ├── ImageCarousel.tsx      # Image carousel with lightbox: slide navigation, dot pagination (client)
+│   └── extra.tsx              # Quote component
 ├── styles/
-│   └── global.css             # Tailwind imports + typography, code, anchor link styles
+│   ├── global.css             # Tailwind imports + typography, code, anchor link styles
+│   ├── mdx.css                # MDX prose styles
+│   ├── animations.css         # Fade-in and slide animations for carousel
+│   └── carousel.css           # Carousel and lightbox component styles
 ├── about/
 │   ├── resume.md              # Resume markdown (WORK EXPERIENCE, SKILLS, OTHER WORK)
 │   └── page.tsx               # About page (home page alias)
@@ -87,28 +90,8 @@ package.json                    # Scripts: dev, build, deploy (gh-pages), image 
 tsconfig.json                   # Strict mode disabled, baseUrl ".", @/* alias
 next.config.js                  # output: 'export' for static build, webpack fallback for fs
 postcss.config.js              # Tailwind CSS plugin
+app/declarations.d.ts          # TypeScript declarations: CSS module type declaration
 ```
-
-## Key Files & Purposes
-
-**Content Infrastructure**:
-- `app/blog/utils.ts` — Parses frontmatter from markdown, recursively reads posts by category/year, filters hidden posts, sorts by date & order
-- `app/components/mdx.tsx` — Wraps `next-mdx-remote` with custom components (Gallery, YoutubeEmbed, DoubleYtEmbed, Code highlighting via sugar-high)
-- `config.json` — Centralized: contactInfo (email, phone, GitHub, LinkedIn), app settings (highlighted posts, personal summary), tool configs (image resize height, new post category shortcuts, max description length)
-
-**Routing & Pages**:
-- `app/page.tsx` — Home: loads config and recent blog posts, displays portrait and personal summary
-- `app/blog/[category]/[slug]/page.tsx` — Post detail with `generateStaticParams` for all combinations, `generateMetadata` for SEO
-- `app/projects/page.tsx` — Renders MDX from `projects.md` with Gallery and YoutubeEmbed components
-- `app/about/page.tsx` — Resume page (alias to home currently; resume.md contains WORK EXPERIENCE, SKILLS)
-
-**Components**:
-- `app/components/nav.tsx` — Client component with music player toggle (plays `Giornos Theme` audio)
-- `app/components/posts.tsx` — Client component with category/year/month dropdowns, pagination (MUI), post summaries
-- `app/components/footer.tsx` — Contact info, social links, year copyright
-
-**Styling**:
-- `app/styles/global.css` — Tailwind import, code block styling (sugar-high colors), prose typography, anchor link styles for headings
 
 ## Key Dependencies & Versions
 
@@ -154,6 +137,8 @@ hidden: false
 - Tailwind utility classes throughout (no component library except MUI for Pagination)
 - Prose typography in global.css for markdown rendering
 - No CSS modules; all styling is inline classNames or global styles
+- Styles organized by scope: global.css (root), mdx.css (content rendering), animations.css (reusable animation keyframes), carousel.css (ImageCarousel component)
+- CSS imported directly in component files (e.g., ImageCarousel imports animations.css and carousel.css)
 
 **Data Flow for Blog Posts**:
 1. Markdown files at `app/blog/posts/[category]/[year]/[slug].md`
@@ -194,29 +179,10 @@ pnpm run image                       # Resizes images in ./temp/ to 720px height
 
 ## Gotchas & Non-Obvious Logic
 
-**Build-Time vs Runtime**:
-- `generateStaticParams` runs at build time and pre-renders all blog posts as static HTML. Add new posts and rebuild.
-- `hidden: true` metadata only hides posts in production; dev mode shows them.
-- Blog filtering and pagination are **client-side only** (React state) — no server-side filtering.
-
 **Route Structure**:
 - Home page (`app/page.tsx`) loads **all recent blog posts** via `getSortedBlogPosts()` and reuses `BlogPosts` component with `itemPerPage={3}`.
 - Blog index page (`app/blog/page.tsx`) loads all posts with **full filtering and pagination**.
 - No nested routes for categories — all categories are flat under `/blog/[category]/[slug]`.
-
-**Music Player**:
-- The navbar has a built-in music player (toggle ▷/||) that plays a hardcoded audio file (`/music/Giornos Theme, but only the best part.m4a`).
-- Client component with `useRef` and `useState` to manage playback state.
-
-**Image Handling**:
-- `sharp` CLI is used for batch resizing; not integrated into the build process.
-- Gallery component uses `grid-cols-1 md:grid-cols-X` classes dynamically based on `gridColumns` prop.
-- Deprecated `Image` component checks `alt.includes('gallery')` to auto-split comma-separated image sources.
-
-**Post Order & Sorting**:
-- Posts sorted by `publishedAt` date descending.
-- If two posts share the same date, `order` field breaks ties (higher order comes first).
-- Year and month dropdowns dynamically generate based on filtered posts.
 
 **Config-Driven Values**:
 - `config.json` drives contact info (displayed in footer), highlighted posts list (home page), personal summary, and tool behaviors.
@@ -227,14 +193,6 @@ pnpm run image                       # Resizes images in ./temp/ to 720px height
 - `robots.txt` and `sitemap.xml` auto-generated from blog posts.
 - OpenGraph metadata set globally in root layout and overridden per-page/post.
 - Google Analytics attached via `@next/third-parties`.
-
-**TypeScript**:
-- `strict: false` in tsconfig, but `strictNullChecks: true`.
-- No strict null checking globally, but selective null handling in utilities.
-
-**Deployment Edge Case**:
-- `gh-pages` library expects `build/` folder and pushes it to `gh-pages` branch.
-- Homepage in package.json is `https://bachsofttrick.github.io/`, so app deploys as a root site (not a subpath).
 
 ## Module Detail Docs
 

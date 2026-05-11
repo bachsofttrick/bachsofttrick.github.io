@@ -14,8 +14,9 @@ app/blog/
 │   ├── page.tsx              # Blog index with filters
 │   └── utils.ts              # Post parsing and indexing
 app/components/
-├── mdx.tsx                   # MDX renderer with custom components
-└── mdx.css                   # Prose typography styles
+└── mdx.tsx                   # MDX renderer with custom components
+app/styles/
+└── mdx.css                   # Prose typography styles (moved from app/components/)
 ```
 
 ## Entry Points
@@ -77,7 +78,7 @@ let components = {
   img: Image,
   a: CustomLink,
   code: Code,
-  Table, YoutubeEmbed, DoubleYtEmbed, Gallery, Quote,
+  Table, YoutubeEmbed, DoubleYtEmbed, Gallery, Carousel, Quote,
 }
 ```
 

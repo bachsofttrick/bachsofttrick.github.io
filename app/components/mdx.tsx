@@ -2,8 +2,9 @@ import Link from 'next/link'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
 import React from 'react'
-import './mdx.css'
+import '@/app/styles/mdx.css'
 import { Quote } from './extra'
+import Carousel from './ImageCarousel'
 
 function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   let headers = data.headers.map((header, index) => (
@@ -173,6 +174,7 @@ let components = {
   DoubleYtEmbed,
   Gallery,
   Quote,
+  Carousel,
 }
 
 export function CustomMDX(props: { type?: string, source: string, components?: any }) {
