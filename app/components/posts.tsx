@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link'
-import {useState} from 'react'
+import {useState, useMemo, useEffect} from 'react'
 import { formatDate, MDXData, getMonth, getYear, getUniqueValues } from 'app/blog/utils'
 import Pagination from '@mui/material/Pagination';
 import PaginationItem from '@mui/material/PaginationItem';
@@ -9,6 +9,8 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import TextField from '@mui/material/TextField';
+import { Document as FlexDocument } from 'flexsearch';
 import config from '@/config.json' with { type: 'json' };
 const { blog: { maxDescLength } } = config;
 
@@ -58,6 +60,34 @@ export function BlogPosts({
     setMonth(Number(event.target.value))
     setPage(1)
   }
+  const [searchQuery, setSearchQuery] = useState('')
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.target.value)
+  }
+
+  // Build FlexSearch index from all blogs
+  const searchIndex = useMemo(() => {
+    const index = new FlexDocument({
+      document: {
+        id: 'id',
+        index: ['title', 'content'],
+        store: false,
+      }
+    })
+    allBlogs.forEach((post, idx) => {
+      index.add({
+        id: idx,
+        title: post.metadata.title,
+        content: post.content,
+      })
+    })
+    return index
+  }, [allBlogs])
+
+  // Reset page to 1 when searchQuery changes
+  useEffect(() => {
+    setPage(1)
+  }, [searchQuery])
 
   // Getting only highlighted blogs if available
   let returnBlogs: MDXData[] = [];
@@ -71,20 +101,38 @@ export function BlogPosts({
   } else {
     returnBlogs = allBlogs;
   }
-  
+
+  // If searchQuery is active, override returnBlogs with search results
+  if (searchQuery.trim() !== '') {
+    const titleResults = searchIndex.search(searchQuery, { index: 'title' }) as unknown
+    const contentResults = searchIndex.search(searchQuery, { index: 'content' }) as unknown
+
+    // Extract ids from search results
+    const titleIds: number[] = (titleResults as any[]).flatMap((r: any) => r.result || [])
+    const contentIds: number[] = (contentResults as any[]).flatMap((r: any) => r.result || [])
+    const mergedIds = Array.from(new Set([...titleIds, ...contentIds]))
+    returnBlogs = mergedIds.map(id => allBlogs[id]).filter(Boolean)
+  } else {
+    // Normal filter logic when no search is active
+    if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
+    if (year > 0) {
+      returnBlogs = returnBlogs.filter((post) => getYear(post.metadata.publishedAt) === year)
+      if (month > 0) returnBlogs = returnBlogs.filter((post) => getMonth(post.metadata.publishedAt) === month)
+    }
+  }
+
   // Get unique categories and count the number of posts in a category
   const categories = [...getUniqueValues(allBlogs.map((post) => post.category))].map(category => {
     return `${category}`
   })
   categories.unshift('All')
-  
+
   // Generate all months
   let monthList = Array.from({ length: 13 }, (_, index) => (index + 1).toString())
   monthList.pop()
 
-  if (category !== 'All') returnBlogs = returnBlogs.filter((post) => post.category === category)
   // Get all years and count the number of posts in a year
-  let yearList = [...getUniqueValues(allBlogs.map(post => 
+  let yearList = [...getUniqueValues(allBlogs.map(post =>
     getYear(post.metadata.publishedAt).toString()
   ))].map(year => {
     const count = returnBlogs.filter(post => getYear(post.metadata.publishedAt) === Number(year)).length
@@ -93,10 +141,7 @@ export function BlogPosts({
   yearList = yearList.filter((year) => year !== ``)
   yearList.unshift('All')
 
-  let totalPages = Math.ceil(returnBlogs.length / itemPerPage)
-
   if (year > 0) {
-    returnBlogs = returnBlogs.filter((post) => getYear(post.metadata.publishedAt) === year)
     // Count the number of posts in a month
     monthList = monthList.map(month => {
       const count = returnBlogs.filter(post => getMonth(post.metadata.publishedAt) === Number(month)).length
@@ -104,10 +149,9 @@ export function BlogPosts({
     });
     monthList = monthList.filter((month) => month !== ``)
     monthList.unshift('All')
-    
-    if (month > 0) returnBlogs = returnBlogs.filter((post) => getMonth(post.metadata.publishedAt) === month)
-    totalPages = Math.ceil(returnBlogs.length / itemPerPage)
   }
+
+  let totalPages = Math.ceil(returnBlogs.length / itemPerPage)
 
   // Count the number of posts
   const count = returnBlogs.length;
@@ -123,57 +167,70 @@ export function BlogPosts({
       {
         pagination ? (
           <div>
-            <FormControl sx={{minWidth: '100px'}}>
-              <InputLabel>Category</InputLabel>
-              <Select
-                value={category as string}
-                label="Category"
-                onChange={handleCategoryChange}
-                className='mr-4 mb-4'
-              >
-                {
-                  categories.map((category) => (
-                    <MenuItem
-                      key={SplitWordFromDuplicateCount(category)}
-                      value={SplitWordFromDuplicateCount(category)}>
-                        {category ? AddSpaceToCategory(category) : 'All'}
-                      </MenuItem>
-                  ))
-                }
-              </Select>
-            </FormControl>
-            <FormControl sx={{minWidth: '100px'}}>
-              <InputLabel>Year</InputLabel>
-              <Select
-                value={year as unknown}
-                label="Year"
-                onChange={handleYearChange}
-                className='mr-4 mb-4'
-              >
-                {
-                  yearList.map((year) => (
-                    <MenuItem key={SplitNumberFromDuplicateCount(year)} value={SplitNumberFromDuplicateCount(year)}>{year ? year : 'All'}</MenuItem>
-                  ))
-                }
-              </Select>
-            </FormControl>
+            <TextField
+              label="Search"
+              value={searchQuery}
+              onChange={handleSearchChange}
+              className='mr-4 mb-4'
+              size="small"
+            />
             {
-              year > 0 ? (
-                <FormControl sx={{minWidth: '100px'}}>
-                  <InputLabel>Month</InputLabel>
-                  <Select
-                    value={month as unknown}
-                    label="Month"
-                    onChange={handleMonthChange}
-                    className='mr-4 mb-4'
-                  >
-                    {
-                      monthList.map((month) => (
-                        <MenuItem key={SplitNumberFromDuplicateCount(month)} value={SplitNumberFromDuplicateCount(month)}>{month !== '0' ? month : 'All'}</MenuItem>
-                      ))
-                    }
-                  </Select>
-                </FormControl>
+              searchQuery.trim() === '' ? (
+                <div>
+                  <FormControl sx={{minWidth: '100px'}}>
+                    <InputLabel>Category</InputLabel>
+                    <Select
+                      value={category as string}
+                      label="Category"
+                      onChange={handleCategoryChange}
+                      className='mr-4 mb-4'
+                    >
+                      {
+                        categories.map((category) => (
+                          <MenuItem
+                            key={SplitWordFromDuplicateCount(category)}
+                            value={SplitWordFromDuplicateCount(category)}>
+                              {category ? AddSpaceToCategory(category) : 'All'}
+                            </MenuItem>
+                        ))
+                      }
+                    </Select>
+                  </FormControl>
+                  <FormControl sx={{minWidth: '100px'}}>
+                    <InputLabel>Year</InputLabel>
+                    <Select
+                      value={year as unknown}
+                      label="Year"
+                      onChange={handleYearChange}
+                      className='mr-4 mb-4'
+                    >
+                      {
+                        yearList.map((year) => (
+                          <MenuItem key={SplitNumberFromDuplicateCount(year)} value={SplitNumberFromDuplicateCount(year)}>{year ? year : 'All'}</MenuItem>
+                        ))
+                      }
+                    </Select>
+                  </FormControl>
+                  {
+                    year > 0 ? (
+                      <FormControl sx={{minWidth: '100px'}}>
+                        <InputLabel>Month</InputLabel>
+                        <Select
+                          value={month as unknown}
+                          label="Month"
+                          onChange={handleMonthChange}
+                          className='mr-4 mb-4'
+                        >
+                          {
+                            monthList.map((month) => (
+                              <MenuItem key={SplitNumberFromDuplicateCount(month)} value={SplitNumberFromDuplicateCount(month)}>{month !== '0' ? month : 'All'}</MenuItem>
+                            ))
+                          }
+                        </Select>
+                      </FormControl>
+                    ) : null
+                  }
+                </div>
               ) : null
             }
           </div>
@@ -226,4 +283,3 @@ export function BlogPosts({
     </div>
   )
 }
-
