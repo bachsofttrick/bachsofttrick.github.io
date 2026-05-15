@@ -39,7 +39,7 @@ export default function ImageCarousel({ imgs }: CarouselConfig) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [lightboxOpen]);
+  }, [lightboxOpen, imgs.length]);
 
   const handlePointerDown = (e: React.PointerEvent) => {
     e.preventDefault();
