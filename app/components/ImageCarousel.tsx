@@ -49,7 +49,7 @@ export default function ImageCarousel({ imgs }: CarouselConfig) {
     e.preventDefault();
     const delta = e.clientX - touchStartX.current;
     if (Math.abs(delta) < 50) return;
-    delta < 0 ? next() : prev();
+    if (delta < 0) next(); else prev();
   };
 
   const slideClass = dir === "right" ? "slideInRight" : "slideInLeft";
