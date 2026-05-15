@@ -6,15 +6,17 @@ import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
 type CarouselConfig = {
+  folder: string
   imgs: string[],
   aspectStandRectangle?: boolean
 };
 
-export default function ImageCarousel({ imgs, aspectStandRectangle }: CarouselConfig) {
+export default function ImageCarousel({ folder, imgs, aspectStandRectangle }: CarouselConfig) {
   const [idx, setIdx] = useState(0);
   const [dir, setDir] = useState<"left" | "right">("right");
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const touchStartX = useRef<number>(0);
+  const actualFolder = '/images/' + folder + '/';
 
   const prev = () => {
     setDir("left");
@@ -92,7 +94,7 @@ export default function ImageCarousel({ imgs, aspectStandRectangle }: CarouselCo
             <img
               draggable={false}
               key={idx}
-              src={imgs[idx]}
+              src={actualFolder + imgs[idx]}
               alt=''
               className={`object-contain w-full h-full ${slideClass}`}
             />
@@ -109,7 +111,7 @@ export default function ImageCarousel({ imgs, aspectStandRectangle }: CarouselCo
             <img
               draggable={false}
               key={`lb-${idx}`}
-              src={imgs[idx]}
+              src={actualFolder + imgs[idx]}
               alt=''
               className={`object-contain w-full h-full ${slideClass}`}
             />

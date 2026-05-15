@@ -9,13 +9,13 @@ title: 'Projects'
 **[AuTuber](https://autuber.lesteuai.com/)**
 - **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
 
-<Carousel imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} />
+<Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
 
 **[Papersy](https://lesteuai.com/)**
 - **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 <br/>
 
-<Carousel imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} aspectStandRectangle/>
+<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} aspectStandRectangle/>
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
@@ -29,7 +29,7 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 **[OCR AI Web](https://github.com/bachsofttrick/ocr-web/)**
 - **Designed** an AI document scanner that utilize LightOnOCR model to transcribe image to text.
 
-<Carousel imgs={['/images/projects/ocr-web/1.jpg', '/images/projects/ocr-web/2.jpg']} />
+<Carousel folder='projects/ocr-web' imgs={['1.jpg', '2.jpg']} />
 
 **[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
@@ -41,7 +41,7 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 serving over 150,000 users with 1.5 million clicks annually.
 <br/>
 
-<Carousel imgs={['/images/projects/oregonflora/p1.jpg', '/images/projects/oregonflora/p2.png']} />
+<Carousel folder='/projects/oregonflora' imgs={['p1.jpg', 'p2.png']} />
 
 **===GO APPS===** 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)\
