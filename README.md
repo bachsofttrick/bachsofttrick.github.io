@@ -4,6 +4,7 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
+- [ ] Create a carousel for Youtube Video component
 - [ ] Add a blog editor in the site when in dev mode. Prod mode disables this editor.
 - [ ] Add full-text search engine to blog posts:
   - It is possible to extract all blog posts to json file, then index it.
@@ -34,10 +35,12 @@ Another way is BaaS by ways of Firebase, Supabase, Pocketbase.
 ```
 
 ## Finished features
-- A gallery out of md images (241111 Photography). There's also a separate gallery component
+- Grid Gallery 
+- Image Carousel
 - Year/month filter with count of total posts
 - Youtube and Double Youtube embed components
-- Command for resizing images
-- Command for scaffolding a new blog post
+- Tool for resizing images
+- Tool for scaffolding a new blog post
+- Tool for generating Grid Gallery component based on the images of the blog post
 - Support OpenGraph protocol used in Facebook, Messenger, Instagram...
 - Music button

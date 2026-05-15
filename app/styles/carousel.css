@@ -72,8 +72,9 @@
 
 .lightbox__content {
   position: relative;
-  width: min(92vw, 1280px);
-  aspect-ratio: 16 / 9;
+  width: 92vw;
+  aspect-ratio: 9 / 16;
+  max-height: 92vh;
 }
 
 .lightbox__close {

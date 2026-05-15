@@ -9,12 +9,13 @@ title: 'Projects'
 **[AuTuber](https://autuber.lesteuai.com/)**
 - **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
 
-<Gallery imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} gridColumns={2}/>
+<Carousel imgs={['/images/projects/autuber/1.png', '/images/projects/autuber/2.png']} />
 
 **[Papersy](https://lesteuai.com/)**
 - **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
+<br/>
 
-<Gallery imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} gridColumns={3}/>
+<Carousel imgs={['/images/projects/papersy/p2.png', '/images/projects/papersy/p4.png', '/images/projects/papersy/p6.png']} aspectStandRectangle/>
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
@@ -28,8 +29,7 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 **[OCR AI Web](https://github.com/bachsofttrick/ocr-web/)**
 - **Designed** an AI document scanner that utilize LightOnOCR model to transcribe image to text.
 
-<Gallery imgs={['/images/projects/ocr-web/1.jpg', '/images/projects/ocr-web/2.jpg']} 
-gridColumns={2}/>
+<Carousel imgs={['/images/projects/ocr-web/1.jpg', '/images/projects/ocr-web/2.jpg']} />
 
 **[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
 [Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
@@ -39,8 +39,9 @@ gridColumns={2}/>
 - [OregonFlora](https://oregonflora.org/)\
 **Improved** reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million clicks annually.
+<br/>
 
-[![](/images/projects/oregonflora.jpg)](https://oregonflora.org/)
+<Carousel imgs={['/images/projects/oregonflora/p1.jpg', '/images/projects/oregonflora/p2.png']} />
 
 **===GO APPS===** 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)\

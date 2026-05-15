@@ -6,10 +6,11 @@ import { useState, useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
 type CarouselConfig = {
-  imgs: string[], 
+  imgs: string[],
+  aspectStandRectangle?: boolean
 };
 
-export default function ImageCarousel({ imgs }: CarouselConfig) {
+export default function ImageCarousel({ imgs, aspectStandRectangle }: CarouselConfig) {
   const [idx, setIdx] = useState(0);
   const [dir, setDir] = useState<"left" | "right">("right");
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -79,7 +80,11 @@ export default function ImageCarousel({ imgs }: CarouselConfig) {
       <div className="w-full max-w-6xl">
         <div className="relative">
           <div
-            className="relative w-full aspect-video rounded-[20px] overflow-hidden bg-(--bg-alt) cursor-zoom-in"
+            className="relative w-full rounded-[20px] overflow-hidden bg-(--bg-alt) cursor-zoom-in"
+            style={{
+              aspectRatio: aspectStandRectangle ? '9/16' : '16/9',
+              maxHeight: aspectStandRectangle ? '92vh' : '100%'
+            }}
             onClick={() => setLightboxOpen(true)}
             onPointerDown={handlePointerDown}
             onPointerUp={handlePointerUp}
