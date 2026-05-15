@@ -72,22 +72,24 @@ function CustomLink(props: { href: string, children: any }) {
 }
 
 type GalleryConfig = {
-  imgs: string[], 
+  folder: string,
+  imgs: string[],
   className?: string,
   gridColumns?: number
 };
 
-function Gallery({imgs, className, gridColumns}: GalleryConfig) {
+function Gallery({folder, imgs, className, gridColumns}: GalleryConfig) {
+  const actualFolder = folder ? '/images/' + folder + '/' : '';
   if (gridColumns && gridColumns > 0) {
     return (
       <p className={`grid grid-cols-1 md:grid-cols-${gridColumns} gap-4`}>
-        {imgs.map((src) => <img key={src} src={src} />)}
+        {imgs.map((src) => <img key={src} src={actualFolder + src} />)}
       </p>
     )
   }
   return (
     <p className={className ?? 'image-container'}>
-      {imgs.map((src) => <img key={src} src={src} />)}
+      {imgs.map((src) => <img key={src} src={actualFolder + src} />)}
     </p>
   )
 }
@@ -96,11 +98,11 @@ function Image(props = {
   src: '', alt: ''
 }) {
   // Deprecated, use Gallery component instead
-  if (props.alt.includes('gallery')) {
-    const imgs = props.src.split(',')
-    const result = (<Gallery imgs={imgs} />)
-    return result
-  }
+  // if (props.alt.includes('gallery')) {
+  //   const imgs = props.src.split(',')
+  //   const result = (<Gallery imgs={imgs} />)
+  //   return result
+  // }
 
   return (
     <p className='flex justify-center'>

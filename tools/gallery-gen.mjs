@@ -3,10 +3,13 @@ import path from 'path';
 import config from '../config.json' with { type: 'json' };
 const { tools: { newPost } } = config;
 
-if (process.argv.length !== 4) {
-    console.error('Usage: node gallery-gen.mjs <category> <date>');
+if (process.argv.length < 4) {
+    console.error('Usage: node gallery-gen.mjs <category> <date> [-c] [-g]');
     process.exit(1);
 }
+
+const useCarousel = process.argv.includes('-c');
+const useGridColumn = process.argv.includes('-g');
 
 const categoryKey = process.argv[2];
 const date = process.argv[3];
@@ -34,9 +37,11 @@ if (files.length === 0) {
     process.exit(1);
 }
 
-const basePath = `/images/blog/${category}/${year}/${date}`;
-const imgList = files.map(f => `'${basePath}/${f}'`).join(', ');
-const galleryTag = `\n<Gallery imgs={[${imgList}]} gridColumns={${files.length}}/>`;
+const folder = `blog/${category}/${year}/${date}`;
+const imgList = files.map(f => `'${f}'`).join(', ');
+const galleryTag = useCarousel
+    ? `\n<Carousel folder='${folder}' imgs={[${imgList}]} />`
+    : `\n<Gallery folder='${folder}' imgs={[${imgList}]} ${useGridColumn ? `gridColumns={${files.length}}` : ''} />`;
 
 const postPath = path.join(process.cwd(), 'app', 'blog', 'posts', category, year, `${date}.md`);
 if (!fs.existsSync(postPath)) {
