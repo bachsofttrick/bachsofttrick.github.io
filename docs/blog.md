@@ -58,7 +58,7 @@ app/styles/
 - `CustomLink` — Handles internal links (Next.js `Link`), external links (`target="_blank"`), and YouTube embeds
 - `YoutubeEmbed` — `<iframe>` for a single video (takes `videoId` or full `link`)
 - `DoubleYtEmbed` — Two YoutubeEmbeds side-by-side via CSS grid
-- `Gallery` — Renders multiple images with optional `gridColumns` (uses Tailwind `grid-cols-X` classes)
+- `Gallery` — Renders multiple images with optional `folder` (path prefix) and `gridColumns` (uses Tailwind `grid-cols-X` classes)
 - `Image` — Wrapper around image rendering; deprecated gallery auto-detect
 - `Code` — Syntax highlighting via `sugar-high` library
 - `Table` — Renders markdown tables
@@ -162,8 +162,9 @@ Content with images, links, embeds...
 - Markdown references: `![alt](/images/blog/Tech/25/251128/screenshot.png)`
 
 **Gallery Shorthand**:
-- JSX in markdown: `<Gallery imgs={['/img1.png', '/img2.png']} gridColumns={2} />`
-- Deprecated: `![gallery](/img1.png,/img2.png)` — Image component auto-detects and splits
+- JSX in markdown: `<Gallery folder='blog/Tech/25/251128' imgs={['img1.png', 'img2.png']} gridColumns={2} />`
+- `folder` is optional; when provided, the component prepends `/images/[folder]/` to each filename
+- Deprecated: `![gallery](/img1.png,/img2.png)` — Image component auto-detects and splits (no folder support)
 
 **Anchor Links**:
 - Headings auto-generate slugs and anchor links (e.g., `## My Section` → `<h2 id="my-section">`)
@@ -198,8 +199,8 @@ Content with images, links, embeds...
 
 **Image Alt Text**:
 - Gallery component checked via `alt.includes('gallery')`
-- Comma-separated image list: `![gallery](/img1,/img2)` → split and rendered
-- Deprecated but still supported; prefer JSX `<Gallery>` component
+- Comma-separated image list: `![gallery](/img1,/img2)` → split and rendered (full paths, no folder prop support)
+- Deprecated but still supported; prefer JSX `<Gallery folder='...' imgs={[...]} />` component
 
 **File System at Build Time**:
 - All `fs` operations happen at build time (Next.js build process)

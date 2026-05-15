@@ -8,6 +8,7 @@ Development tools, CLI utilities, and deployment pipeline.
 tools/
 ├── new-post.mjs          # CLI to scaffold new blog posts
 ├── resize-image.mjs      # CLI to batch resize images
+├── gallery-gen.mjs       # CLI to generate Gallery/Carousel MDX tag from image directory
 └── template.md           # Markdown template for new posts
 
 package.json             # Scripts and dependencies
@@ -22,6 +23,7 @@ app/declarations.d.ts    # TypeScript CSS module declarations
 - `package.json` scripts section (pnpm commands)
 - `tools/new-post.mjs` — Manual invocation: `pnpm run newpost <category> <title>`
 - `tools/resize-image.mjs` — Manual invocation: `pnpm run image`
+- `tools/gallery-gen.mjs` — Manual invocation: `node tools/gallery-gen.mjs <category> <date> [-c] [-g]`
 
 ## Architecture / Key Components
 
@@ -78,6 +80,34 @@ hidden: false
 6. Determine next order number
 7. Create template content with placeholders filled
 8. Write to file
+
+### Gallery Tag Generator (`tools/gallery-gen.mjs`)
+
+**Purpose**: Generate a `<Gallery>` or `<Carousel>` MDX tag from images in a post's public image directory and append it to the post file.
+
+**Invocation**:
+```bash
+node tools/gallery-gen.mjs <category> <date> [-c] [-g]
+# Example (gallery with grid columns): node tools/gallery-gen.mjs t 260508 -g
+# Example (carousel):                  node tools/gallery-gen.mjs c 251126 -c
+```
+
+**Flags**:
+- `-c` — Output a `<Carousel>` tag instead of `<Gallery>`
+- `-g` — Add `gridColumns={N}` to the `<Gallery>` tag (N = number of files found)
+
+**Behavior**:
+1. Resolves category shortcut via `config.json` (same shortcuts as `new-post.mjs`)
+2. Reads image filenames from `public/images/blog/[category]/[year]/[date]/`
+3. Sorts filenames alphabetically, excludes dotfiles
+4. Builds tag using `folder='blog/[category]/[year]/[date]'` and plain filenames in `imgs`
+5. Appends the tag to `app/blog/posts/[category]/[year]/[date].md`
+
+**Output format**:
+```mdx
+<Gallery folder='blog/Tech/26/260508' imgs={['img1.jpg', 'img2.jpg']} gridColumns={2}/>
+<Carousel folder='blog/Cooking/25/251126' imgs={['img1.jpg', 'img2.jpg']}/>
+```
 
 ### Image Resizing (`tools/resize-image.mjs`)
 

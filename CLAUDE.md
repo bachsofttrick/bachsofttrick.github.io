@@ -83,6 +83,7 @@ public/
 tools/
 ├── new-post.mjs               # CLI to scaffold new blog posts (creates folder/year structure)
 ├── resize-image.mjs           # CLI to batch resize images (720px height)
+├── gallery-gen.mjs            # CLI to generate Gallery/Carousel MDX tag from image directory [-c] [-g]
 └── template.md                # Markdown template for new posts
 
 config.json                     # Centralized config: contact info, blog settings, tool options
@@ -175,6 +176,7 @@ pnpm run deploy     # Pushes build/ to gh-pages branch (GitHub Pages)
 ```bash
 pnpm run newpost <category> <title>  # Scaffolds new post with YYMMDD.md in [category]/[year]/
 pnpm run image                       # Resizes images in ./temp/ to 720px height, outputs to ./temp/
+node tools/gallery-gen.mjs <category> <date> [-c] [-g]  # Appends Gallery or Carousel tag to post
 ```
 
 ## Gotchas & Non-Obvious Logic

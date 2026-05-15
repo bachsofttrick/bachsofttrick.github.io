@@ -145,7 +145,7 @@ const togglePlay = () => {
 
 **Props**:
 ```typescript
-{ imgs: string[] }
+{ folder: string, imgs: string[], aspectStandRectangle?: boolean }
 ```
 
 **Navigation**:
@@ -166,8 +166,12 @@ const togglePlay = () => {
 - Imports `animations.css` and `carousel.css` directly
 - All carousel/lightbox classes are BEM-style: `carousel__btn`, `carousel__btn--prev`, `carousel__dot--active`, `lightbox__close`, etc.
 
+**Path Construction**:
+- `folder` prop is required; the component builds the full path internally as `/images/[folder]/[filename]`
+- Call sites pass only filenames in `imgs`, not full paths
+
 **MDX Registration**:
-- Exported as default; registered as `Carousel` in `mdx.tsx` custom components map, so `<Carousel imgs={[...]} />` works in markdown posts
+- Exported as default; registered as `Carousel` in `mdx.tsx` custom components map, so `<Carousel folder='...' imgs={['img.jpg']} />` works in markdown posts
 
 ### Quote Component (`app/components/extra.tsx`)
 
