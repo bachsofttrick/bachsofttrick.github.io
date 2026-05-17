@@ -82,7 +82,7 @@ export default function ImageCarousel({ folder, imgs, aspectStandRectangle }: Ca
       <div className="w-full max-w-6xl">
         <div className="relative">
           <div
-            className="relative w-full rounded-[20px] overflow-hidden bg-(--bg-alt) cursor-zoom-in"
+            className="relative w-full rounded-[20px] overflow-hidden cursor-zoom-in"
             style={{
               aspectRatio: aspectStandRectangle ? '9/16' : '16/9',
               maxHeight: aspectStandRectangle ? '92vh' : '100%'
