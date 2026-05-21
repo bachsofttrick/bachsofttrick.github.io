@@ -4,6 +4,7 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
+- [ ] Carousel needs margin top and bottom
 - [ ] Create a carousel for Youtube Video component
 - [ ] Add a blog editor in the site when in dev mode. Prod mode disables this editor.
 - [ ] Add full-text search engine to blog posts:

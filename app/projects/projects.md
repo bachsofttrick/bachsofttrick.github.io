@@ -5,6 +5,11 @@ title: 'Projects'
 - Built using NextJS, hosted on Github Pages.
 
 **===AI PROJECTS===**
+**[JobbedIn](https://jobbedin.lesteuai.workers.dev/)**
+- An **agentic AI** job hunting partner with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalize cover letters and LinkedIn messages to hiring personnel.
+<br/>
+
+<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />
 
 **[AuTuber](https://autuber.lesteuai.com/)**
 - **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
