@@ -5,6 +5,7 @@ title: 'Projects'
 - Built using NextJS, hosted on Github Pages.
 
 **===AI PROJECTS===**
+
 **[JobbedIn](https://jobbedin.lesteuai.workers.dev/)**
 - An **agentic AI** job hunting partner with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalize cover letters and LinkedIn messages to hiring personnel.
 <br/>
