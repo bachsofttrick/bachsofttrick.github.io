@@ -10,18 +10,24 @@ title: 'Projects'
 - An **agentic AI** job hunting partner with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalize cover letters and LinkedIn messages to hiring personnel.
 <br/>
 
-<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />
-
-**[AuTuber](https://autuber.lesteuai.com/)**
-- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
-
-<Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
+<ElementInTwoCols
+left={<YoutubeEmbed videoId="oAlqXsWRzLc" />}
+right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />}
+/>
 
 **[Papersy](https://lesteuai.com/)**
 - **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 <br/>
 
-<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} aspectStandRectangle/>
+<ElementInTwoCols
+left={<YoutubeEmbed videoId="EUBmdtVBjRU" />} 
+right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} />}
+/>
+
+**[AuTuber](https://autuber.lesteuai.com/)**
+- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
+
+<Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
@@ -32,22 +38,13 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
-**[OCR AI Web](https://github.com/bachsofttrick/ocr-web/)**
-- **Designed** an AI document scanner that utilize LightOnOCR model to transcribe image to text.
-
-<Carousel folder='projects/ocr-web' imgs={['1.jpg', '2.jpg']} />
-
-**[Reversi: Minimax VS Monte Carlo](https://github.com/bachsofttrick/reversi-ai531/)**\
-[Paper](https://drive.google.com/file/d/1OObj9nI0WlzqSMS5g5tBLYP51jCcF6yJ/view?usp=drive_link)
-- **Designed** a benchmark of two AI algorithms against several games of Reversi, using **multithreading** to improve efficiency.
-
 **===OPEN SOURCE COLLABORATION===**
 - [OregonFlora](https://oregonflora.org/)\
 **Improved** reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million clicks annually.
 <br/>
 
-<Carousel folder='/projects/oregonflora' imgs={['p1.jpg', 'p2.png']} />
+<Carousel folder='/projects/oregonflora' imgs={['p2.png', 'p1.jpg']} />
 
 **===GO APPS===** 
 - [TV Guide API](https://github.com/bachsofttrick/tvguide-go)\

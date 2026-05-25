@@ -39,12 +39,24 @@ function YoutubeEmbed({videoId, link}: {videoId?: string, link?: string}) {
   )
 }
 
-function DoubleYtEmbed({vid1, vid2}: {vid1: string, vid2: string}) {
+function ElementInTwoCols({left, right}: {left: React.ReactNode, right: React.ReactNode}) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <YoutubeEmbed videoId={vid1}></YoutubeEmbed>
-      <YoutubeEmbed videoId={vid2}></YoutubeEmbed>
+      <div>{left}</div>
+      <div>{right}</div>
     </div>
+  )
+}
+
+function DoubleYtEmbed({vid1, vid2}: {vid1: string, vid2: string}) {
+  return (
+    <ElementInTwoCols 
+      left={
+        <YoutubeEmbed videoId={vid1} />
+      } right={
+        <YoutubeEmbed videoId={vid2} />
+      }
+    /> 
   )
 }
 
@@ -177,6 +189,7 @@ let components = {
   Gallery,
   Quote,
   Carousel,
+  ElementInTwoCols,
 }
 
 export function CustomMDX(props: { type?: string, source: string, components?: any }) {
