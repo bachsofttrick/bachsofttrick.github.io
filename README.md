@@ -4,6 +4,8 @@ CI/CD by Github Actions.
 Located here: [https://bachsofttrick.github.io/](https://bachsofttrick.github.io/)
 
 ## Todo
+- [ ] Put youtube video and carousel side-by-side
+- [ ] Remove some AI projects. Update them in resume and remove links to the projects, nobody cares to click anyway
 - [ ] Carousel needs margin top and bottom
 - [ ] Create a carousel for Youtube Video component
 - [ ] Add a blog editor in the site when in dev mode. Prod mode disables this editor.
