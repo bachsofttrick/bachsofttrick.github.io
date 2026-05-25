@@ -7,7 +7,7 @@ title: 'Projects'
 **===AI PROJECTS===**
 
 **[JobbedIn](https://jobbedin.lesteuai.workers.dev/)**
-- An **agentic AI** job hunting partner with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalize cover letters and LinkedIn messages to hiring personnel.
+- A **multi-agent** job hunting **operating system** with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalize cover letters and LinkedIn messages to hiring personnel.
 <br/>
 
 <ElementInTwoCols
