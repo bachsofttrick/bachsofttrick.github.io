@@ -6,7 +6,7 @@ title: 'Projects'
 
 **===AI PROJECTS===**
 
-**[JobbedIn](https://jobbedin.lesteuai.workers.dev/)**
+**[JobbedIn](https://github.com/bachsofttrick/jobbedin/)**
 - A **multi-agent** job hunting **operating system** with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalized letters and LinkedIn messages to hiring personnel.
 <br/>
 
@@ -15,7 +15,7 @@ left={<YoutubeEmbed videoId="oAlqXsWRzLc" />}
 right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />}
 />
 
-**[Papersy](https://lesteuai.com/)**
+**[Papersy](https://github.com/lesteuai/papersy/)**
 - **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 <br/>
 
