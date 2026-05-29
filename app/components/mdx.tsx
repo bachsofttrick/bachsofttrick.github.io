@@ -19,7 +19,7 @@ function Table({ data }: { data: { headers: any[], rows: any[] }}) {
   ))
 
   return (
-    <table>
+    <table className='m-4'>
       <thead>
         <tr>{headers}</tr>
       </thead>
