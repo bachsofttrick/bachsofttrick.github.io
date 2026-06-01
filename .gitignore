@@ -39,5 +39,3 @@ next-env.d.ts
 # docx temp file
 .~lock.*
 
-# PDF resume
-resume.pdf
