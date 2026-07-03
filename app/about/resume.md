@@ -3,7 +3,6 @@ title: 'Resume'
 publishedAt: '2026-01-01'
 ---
 #### WORK EXPERIENCE
-
 **Software Engineer** 10/2025 - present  
 [*OregonFlora*](https://oregonflora.org/)  
 Corvallis, Oregon  
@@ -21,11 +20,10 @@ Corvallis, Oregon
 **Software Engineer** 9/2020 - 11/2022  
 *ICC Innovative Consulting*  
 Ho Chi Minh City, Vietnam
-- **Maintained** a B2B distribution management system using **.NET (C#), Vue, Typescript, PostgreSQL, Microservices, Redis, Kubernetes**,
+- **Maintained** a B2B distribution management system using **.NET (C#), Vue, Typescript, Postgres, Microservices, Redis, Kubernetes**,
 ensuring accurate calculation for high-volume operations.
 - **Enhanced** the activity generation algorithm, reducing runtime from **1 hour to 1 minute**.
-- **Developed** An Sinh, a **large-scale mission-critical** social security application
-supporting **9 million citizens** during COVID-19 using **NestJS, MongoDB, React, Typescript**.
+- **Developed** An Sinh, a **large-scale mission-critical** social security application supporting **9 million citizens** during COVID-19 using **NestJS, MongoDB, React, Typescript**.
 
 **Internship** 6/2018 - 8/2018  
 *Technological Application and Production Company (TECAPRO)*  
@@ -35,14 +33,14 @@ Ho Chi Minh City, Vietnam
 tools, and best practices.
 
 #### SKILLS
-- Language: C, C++, C#, Python, Go, HTML, CSS, Typescript, Bash
-- Frontend: React, Vue, Svelte, Next.js, SvelteKit, Tailwind
-- Backend: .NET, Node.js, NestJS, Express.js, FastAPI
-- Database: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
-- CI/CD Tools: Git, Github Actions, Docker, Kubernetes, Ansible
-- AI Deployment: llama.cpp, vllm, Hugging Face
-- AI Developer Tools: Claude Code, OpenAI Codex
-- Cloud Platforms: AWS EC2, ECS, Lambda, S3, CloudFront, RDS, DynamoDB
+- **Language**: C, C++, C#, Python, Go, HTML, CSS, Typescript, Bash
+- **Frontend**: React, Vue, Svelte, Next.js, SvelteKit, Tailwind
+- **Backend**: .NET, Node.js, NestJS, Express.js, FastAPI
+- **Database**: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
+- **CI/CD Tools**: Git, Github Actions, Docker, Kubernetes, Ansible
+- **Agent Framework**: LangChain, LangGraph, OpenAI SDK
+- **Coding Agent**: Claude Code, OpenAI Codex, Cursor, OpenCode, Lovable
+- **Cloud Platforms**: AWS, Vercel, CloudFlare, Postgres (Supabase, Neon)
 
 #### OTHER WORK EXPERIENCE
 

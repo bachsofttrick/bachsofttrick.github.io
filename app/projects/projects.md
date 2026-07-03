@@ -7,7 +7,7 @@ title: 'Projects'
 **===AI PROJECTS===**
 
 **[JobbedIn](https://github.com/lesteuai/jobbedin/)**
-- A **multi-agent** job hunting **operating system** with **LangGraph, Next.js, Tailwind, Postgres**  to study future employers, draft personalized letters and LinkedIn messages to hiring personnel.
+- A **multi-agent** job hunting **operating system** with **LangGraph, OpenAI SDK, Next.js, Postgres (Supabase, Neon), Vercel**  to study future employers, draft personalized letters and LinkedIn messages to hiring personnel.
 <br/>
 
 <ElementInTwoCols
@@ -16,7 +16,7 @@ right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4
 />
 
 **[Papersy](https://github.com/lesteuai/papersy/)**
-- **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI, LangChain, pgvector** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
+- **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres (Supabase, Neon)** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
 <br/>
 
 <ElementInTwoCols
@@ -25,7 +25,7 @@ right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 
 />
 
 **[AuTuber](https://autuber.lesteuai.com/)**
-- **Built** an **agentic AI** stage hand for streamers with **OpenAI, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
+- **Built** an **agentic AI** stage hand for streamers with **OpenAI SDK, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
 
 <Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
 
