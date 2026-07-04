@@ -198,7 +198,6 @@ node tools/gallery-gen.mjs <category> <date> [-c] [-g]  # Appends Gallery or Car
 
 ## Module Detail Docs
 
-
 - [Blog Content & Rendering](agent-docs/blog.md) — Post indexing, markdown parsing, MDX rendering, gallery components
 - [Components & UI](agent-docs/components.md) — Navbar, Footer, BlogPosts filtering/pagination, MDX renderer
 - [Tooling & Build](agent-docs/tooling.md) — New post scaffolding, image resizing, deployment pipeline
