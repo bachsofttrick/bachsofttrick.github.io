@@ -12,12 +12,12 @@
             "Tech": ["251105", "251109", "251120"]
         },
         "bulletPoints": [
-            "AI/Software engineer with experience in designing, deploying, and maintaining web applications.",
-            "Proven ability to deliver reliable solutions on schedule by collaborating across teams and optimizing for performance and user experience.",
-            "A curious learner who is constantly improving through hands-on projects.",
+            "Software engineer with experience in building applications end-to-end.",
+            "One of the lead developers for OregonFlora, the open source botany research platform for Oregon State University. It is used statewide for information on conservation of plant diversity.",
+            "AI projects developed: a multi-agent AI system to help me with job search (JobbedIn), an AI-powered knowledge database to organize my research papers (Papersy). Leveraged Claude Code, Cursor, OpenCode.",
             "Embrace challenges as opportunities for discoveries."
         ],
-        "personalSummary": "I’m an AI/Software engineer who loves turning ideas into web applications that just work. I thrive on collaborating with teams to deliver reliable, high-performance solutions that users enjoy. Curious by nature, I’m always learning and experimenting through hands-on projects, and I see every challenge as a chance to discover something new."
+        "personalSummary": "I am a software engineer with multiple years of experience working on B2B and open source platforms. Currently I am one of the lead developers for OregonFlora, an open source botany research platform for Oregon State University. It is used statewide for information on conservation of plant diversity. I leverage Claude Code, Cursor, OpenCode to work on my app, and I enjoy building a fully working solution and owning a problem. I see every challenge as a chance to discover something new."
     },
     "tools": {
         "resizeImage": {

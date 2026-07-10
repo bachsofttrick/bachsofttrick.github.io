@@ -31,14 +31,14 @@ export default function Page() {
               author={"Captain Jean-Luc Picard"}
             />
           </p>
-          <p className="mb-4">
+          {/* <p className="mb-4">
             {personalSummary}
-          </p>
-          {/* <ul className="" style={{listStyle: 'initial'}}>
+          </p> */}
+          <ul className="" style={{listStyle: 'initial'}}>
             {bulletPoints.map((text, index) => (
               <li key={index}>{text}</li>
             ))}
-          </ul> */}
+          </ul>
           <u><a href='/projects'>Check out my projects here.</a></u><br/>
           <u><a href={contactInfo.github} target="_blank">How about my GitHub?</a></u><br/>
           <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
