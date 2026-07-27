@@ -7,7 +7,7 @@ title: 'Projects'
 **===AI PROJECTS===**
 
 **[JobbedIn](https://github.com/lesteuai/jobbedin/)**
-- A **multi-agent** job hunting **operating system** with **LangGraph, OpenAI SDK, Next.js, Postgres (Supabase, Neon), Vercel**  to study future employers, draft personalized letters and LinkedIn messages to hiring personnel.
+- A **multi-agent** job hunting **operating system** with **LangGraph, OpenAI SDK, Next.js, Postgres (Supabase, Neon), Vercel**  to research company information and generate personalized cover letters and outreach messages to hiring personnel.
 <br/>
 
 <ElementInTwoCols
@@ -16,7 +16,7 @@ right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4
 />
 
 **[Papersy](https://github.com/lesteuai/papersy/)**
-- **Built** an **agentic AI** research assistant with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres (Supabase, Neon)** end-to-end to surface relevant insights from academic papers and interact with them through conversation.
+- **Built** an **agentic AI** workspace with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres (Supabase, Neon)**, enabling multi-session collaboration that grounds its responses in verifiable source documents.
 <br/>
 
 <ElementInTwoCols
