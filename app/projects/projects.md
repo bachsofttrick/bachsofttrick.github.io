@@ -16,7 +16,7 @@ right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4
 />
 
 **[Papersy](https://github.com/lesteuai/papersy/)**
-- **Built** an **agentic AI** workspace with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres**, enabling multi-session collaboration that grounds its responses in verifiable source documents.
+- **Built** an **agentic** cowork platform with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres**, enabling collaboration with **AI** that grounds its responses in verifiable source documents.
 <br/>
 
 <ElementInTwoCols
