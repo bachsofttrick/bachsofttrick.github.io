@@ -9,12 +9,12 @@ Corvallis, Oregon
 - **Improved** reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million requests using **PHP, React, jQuery, Leaflet, MySQL**.
 - **Reduced** ingestion pipeline processing time from **2 hours to 2 minutes** through optimized database update and caching strategies.
-- **Adopted Claude Code, Docker, GitHub Actions** to automate development, testing and deployment of platform, reducing cost by 70%.
+- **Led** the adoption of **Claude Code, Docker, GitHub Actions** to automate development, testing and deployment of platform, reducing cost by 70%.
 
 **Web Assistant** 8/2024 - 9/2024  
 [*OSU Extension Service*](https://extension.oregonstate.edu/)  
 Corvallis, Oregon
-- **Maintained** the portal for educators and school districts using **Drupal (PHP)**, ensuring seamless access to outdoor education resources and reporting systems.
+- **Maintained** the portal for educators and school districts using **Drupal CMS**, ensuring seamless access to outdoor education resources and reporting systems.
 - **Supported** platform migration, contributing to improved platform stability and performance.
 
 **Software Engineer** 9/2020 - 11/2022  
