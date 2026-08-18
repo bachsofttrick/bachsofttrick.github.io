@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Next.js: debug server",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "WATCHPACK_POLLING": "true"
+            },
+            "autoAttachChildProcesses": true,
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "- Local:.+(https?://localhost:[0-9]+)",
+                "uriFormat": "%s"
+            }
+        }
+    ]
+}
