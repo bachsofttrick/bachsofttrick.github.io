@@ -47,7 +47,6 @@ export default function Footer() {
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0">
         <FooterPart title={contactInfo.address} noArrow />
-        <FooterPart title={`Phone: ${contactInfo.phone}`} noArrow />
       </ul>
       <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0">
         <FooterPart href={contactInfo.github} title={"github"} />
