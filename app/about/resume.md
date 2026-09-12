@@ -44,6 +44,13 @@ tools, and best practices.
 
 #### OTHER WORK EXPERIENCE
 
+**Technical Co-founder** 8/2026 - 8/2026
+[*Plucia*](https://www.plucia.com/)
+Dubai, United Arab Emirates
+- Spearheaded the launch of an AI-powered sales agent using **React, Hono, AWS Bedrock, OpenAI SDK, React Query, Zustand**, taking an early-stage prototype to a production-ready online deployment.
+- Improved platform architecture by transitioning from **Neon** database dependencies to generic **PostgreSQL** and eliminating **Redis and MongoDB** libraries, reducing infrastructure coupling and technical overhead.
+- Took ownership of product management, translating ambiguous requirements into actionable tasks, consolidating fragmented project knowledge and workflows into a knowledge base, and coordinating technical and product work toward launch.
+
 **Chaperone** 7/2025 - 8/2025  
 *OSU Carlson College of Veterinary Medicine*  
 Corvallis, Oregon
