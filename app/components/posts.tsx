@@ -216,10 +216,13 @@ export function BlogPosts({
                 count={totalPages}
                 page={page}
                 onChange={handlePageChange}
+                siblingCount={1}
                 renderItem={(item) =>
                   <PaginationItem style={{'color': 'inherit'}} {...item} />}
               />
-              # = {count}
+              <div className='flex'>
+                <div className='ml-auto md:ml-0'># = {count}</div>
+              </div>
             </div>
           ) : null
         }
