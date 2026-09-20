@@ -41,7 +41,7 @@ export default function Page() {
           </ul>
           <u><a href='https://calendly.com/brphan96/30min'>Book an appointment</a></u><br/>
           <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
-            Check out my OSU advertisement.
+            Check out my OSU advertisement
           </a></u>
         </section>
       </section>
