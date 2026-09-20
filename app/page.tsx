@@ -39,8 +39,7 @@ export default function Page() {
               <li key={index}>{text}</li>
             ))}
           </ul>
-          <u><a href='/projects'>Check out my projects here.</a></u><br/>
-          <u><a href={contactInfo.github} target="_blank">How about my GitHub?</a></u><br/>
+          <u><a href='https://calendly.com/brphan96/30min'>Book an appointment</a></u><br/>
           <u><a href='https://youtu.be/cgm2bytuO4g?si=EoEU9nAvUmxESRn1&t=153' target="_blank">
             Check out my OSU advertisement.
           </a></u>
@@ -50,7 +49,7 @@ export default function Page() {
       {/* <article className="prose mb-8"> */}
         {/* <CustomMDX source={projects} type='resume' /> */}
       {/* </article> */}
-      
+
       <h1 className="mb-4 text-l font-semibold tracking-tighter">
         Recent blog posts
       </h1>
