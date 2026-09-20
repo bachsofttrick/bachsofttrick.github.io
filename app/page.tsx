@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
 import config from 'config.json'
 import { Quote } from './components/extra'
-const { contactInfo, app: { bulletPoints, highlightedPosts, personalSummary } } = config;
+const { contactInfo, app: { bulletPoints } } = config;
 
 const allBlogs = getSortedBlogPosts()
 
