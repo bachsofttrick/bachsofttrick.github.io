@@ -20,7 +20,7 @@ right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4
 <br/>
 
 <ElementInTwoCols
-left={<YoutubeEmbed videoId="EUBmdtVBjRU" />} 
+left={<YoutubeEmbed videoId="VRYUXKw5Qmw" />} 
 right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} />}
 />
 
