@@ -48,7 +48,7 @@ tools, and best practices.
 [*Plucia*](https://www.plucia.com/)  
 Dubai, United Arab Emirates
 - Restored an undocumented AI-powered sales agent using **React, Hono, AWS Bedrock, OpenAI SDK, React Query, Zustand** to a production-ready state.
-- Improved platform architecture by transitioning from **Neon** database dependencies to generic **PostgreSQL** and eliminating redundant libraries, reducing infrastructure coupling and technical overhead.
+- Improved platform architecture by transitioning from **Neon** database to generic **PostgreSQL** and eliminating redundant libraries, reducing infrastructure coupling and technical overhead.
 - Took ownership of product management, translating ambiguous requirements into actionable tasks, consolidating fragmented project knowledge and workflows into a knowledge base, and coordinating technical and product work.
 
 **Chaperone** 7/2025 - 8/2025  
