@@ -1,6 +1,5 @@
 ---
 title: 'Resume'
-publishedAt: '2026-01-01'
 ---
 #### WORK EXPERIENCE
 **Software Engineer** 10/2025 - present  
@@ -9,7 +8,14 @@ Corvallis, Oregon
 - **Improved** reliability and performance of a statewide research system
 serving over 150,000 users with 1.5 million requests using **PHP, React, jQuery, Leaflet, MySQL**.
 - **Reduced** ingestion pipeline processing time from **2 hours to 2 minutes** through optimized database update and caching strategies.
-- **Led** the adoption of **Claude Code, Docker, GitHub Actions** to automate development, testing and deployment of platform, reducing cost by 70%.
+- **Led** the adoption of **Claude Code, Docker, GitHub Actions, CI/CD** to automate development, testing and deployment of platform, reducing cost by 70%.
+
+**Technical Advisor** 9/2026  
+[*Plucia*](https://www.plucia.com/)  
+Dubai, United Arab Emirates
+- Restored an undocumented AI-powered sales agent using **React, Hono, AWS Bedrock, OpenAI SDK, React Query, Zustand** to a production-ready state.
+- Improved platform architecture by transitioning from **Neon** database to generic **Postgres** and eliminating redundant libraries, reducing infrastructure coupling and technical overhead.
+- Took ownership of product management, translating ambiguous requirements into actionable tasks, consolidating fragmented project knowledge and workflows into a knowledge base, and coordinating technical and product work.
 
 **Web Assistant** 8/2024 - 9/2024  
 [*OSU Extension Service*](https://extension.oregonstate.edu/)  
@@ -35,21 +41,14 @@ tools, and best practices.
 #### SKILLS
 - **Language**: C, C++, C#, Python, Go, HTML, CSS, Typescript, Bash
 - **Frontend**: React, Vue, Svelte, Next.js, SvelteKit, Tailwind
-- **Backend**: .NET, Node.js, NestJS, Express.js, FastAPI
-- **Database**: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, ElasticSearch
+- **Backend**: .NET, Node.js, NestJS, Express.js, FastAPI, Hono
+- **Database**: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, Solr
 - **CI/CD Tools**: Git, Github Actions, Docker, Kubernetes, Ansible
 - **AI Agent Framework**: LangChain, LangGraph, OpenAI SDK
 - **Coding Agent**: Claude Code, OpenAI Codex, Cursor, OpenCode, Lovable
 - **Cloud Platforms**: AWS, Vercel, CloudFlare, Postgres (Supabase, Neon)
 
 #### OTHER WORK EXPERIENCE
-
-**Temporary CTO** 9/2026  
-[*Plucia*](https://www.plucia.com/)  
-Dubai, United Arab Emirates
-- Restored an undocumented AI-powered sales agent using **React, Hono, AWS Bedrock, OpenAI SDK, React Query, Zustand** to a production-ready state.
-- Improved platform architecture by transitioning from **Neon** database to generic **PostgreSQL** and eliminating redundant libraries, reducing infrastructure coupling and technical overhead.
-- Took ownership of product management, translating ambiguous requirements into actionable tasks, consolidating fragmented project knowledge and workflows into a knowledge base, and coordinating technical and product work.
 
 **Chaperone** 7/2025 - 8/2025  
 *OSU Carlson College of Veterinary Medicine*  
