@@ -24,7 +24,7 @@ left={<YoutubeEmbed videoId="VRYUXKw5Qmw" />}
 right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} />}
 />
 
-**[AuTuber](https://autuber.lesteuai.com/)**
+**[AuTuber](https://github.com/bachsofttrick/AuTuber) - [Demo](https://autuber.lesteuai.com/)**
 - **Built** an **agentic AI** stage hand for streamers with **OpenAI SDK, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
 
 <Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
