@@ -38,6 +38,9 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
 
+**[Robin Talks](https://github.com/bachsofttrick/robin-talks)**\
+- A voice-first app for non-English speakers who want to speak English, not study it, using **React Native, Expo, Typescript, OpenAI SDK, Postgres**. Each practice session drops you into a short, realistic scenario with an **AI agent**.
+
 **===OPEN SOURCE COLLABORATION===**
 - [OregonFlora](https://oregonflora.org/)\
 **Improved** reliability and performance of a statewide research system
