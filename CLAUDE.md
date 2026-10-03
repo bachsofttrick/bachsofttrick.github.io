@@ -73,12 +73,12 @@ Frontmatter, post data flow, and content organization are documented in blog.md.
 ## Build & Deployment
 
 ```bash
-pnpm install
-pnpm run dev        # http://localhost:3000
-pnpm run build      # Static output to build/
-pnpm run predeploy && pnpm run deploy   # Build, then push build/ to gh-pages
-pnpm run newpost <category> <title>     # Scaffold a post (see tooling.md)
-pnpm run image                          # Resize ./temp/ images to 720px height
+bun install
+bun run dev        # http://localhost:3000
+bun run build      # Static output to build/
+bun run predeploy && bun run deploy   # Build, then push build/ to gh-pages
+bun run newpost <category> <title>     # Scaffold a post (see tooling.md)
+bun run image                          # Resize ./temp/ images to 720px height
 node tools/gallery-gen.mjs <category> <date> [-c] [-g]
 ```
 

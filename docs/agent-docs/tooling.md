@@ -20,9 +20,9 @@ app/declarations.d.ts    # TypeScript CSS module declarations
 
 ## Entry Points
 
-- `package.json` scripts section (pnpm commands)
-- `tools/new-post.mjs` — Manual invocation: `pnpm run newpost <category> <title>`
-- `tools/resize-image.mjs` — Manual invocation: `pnpm run image`
+- `package.json` scripts section (bun commands)
+- `tools/new-post.mjs` — Manual invocation: `bun run newpost <category> <title>`
+- `tools/resize-image.mjs` — Manual invocation: `bun run image`
 - `tools/gallery-gen.mjs` — Manual invocation: `node tools/gallery-gen.mjs <category> <date> [-c] [-g]`
 
 ## Architecture / Key Components
@@ -33,8 +33,8 @@ app/declarations.d.ts    # TypeScript CSS module declarations
 
 **Invocation**:
 ```bash
-pnpm run newpost <category> <title>
-# Example: pnpm run newpost t "My Tech Post"
+bun run newpost <category> <title>
+# Example: bun run newpost t "My Tech Post"
 ```
 
 **Category Shortcuts** (from `config.json`):
@@ -115,7 +115,7 @@ node tools/gallery-gen.mjs <category> <date> [-c] [-g]
 
 **Invocation**:
 ```bash
-pnpm run image
+bun run image
 ```
 
 **Configuration** (from `config.json`):
@@ -132,7 +132,7 @@ pnpm run image
 **Use Case**:
 - Download/export images from phone or camera
 - Drop in `./temp/` folder
-- Run `pnpm run image` to batch resize
+- Run `bun run image` to batch resize
 - Move resized images to `public/images/blog/[category]/[year]/[slug]/`
 
 ### Configuration Files
@@ -143,7 +143,7 @@ pnpm run image
   "private": true,
   "homepage": "https://bachsofttrick.github.io/",
   "scripts": {
-    "predeploy": "pnpm run build",
+    "predeploy": "bun run build",
     "deploy": "gh-pages -d build --nojekyll",
     "dev": "next dev",
     "build": "next build",
@@ -211,13 +211,13 @@ module.exports = {
 ## Data Flow
 
 **Development Workflow**:
-1. `pnpm install` — Install dependencies
-2. `pnpm run dev` — Start dev server with hot reload
+1. `bun install` — Install dependencies
+2. `bun run dev` — Start dev server with hot reload
 3. Edit markdown files, components, styles
 4. Changes visible immediately in browser
 
 **New Post Creation**:
-1. `pnpm run newpost t "My Title"` — Scaffolds file at correct path
+1. `bun run newpost t "My Title"` — Scaffolds file at correct path
 2. Edit `app/blog/posts/Tech/25/YYMMDD.md`
 3. Add images to `public/images/blog/Tech/25/YYMMDD/`
 4. Commit and push
@@ -225,15 +225,15 @@ module.exports = {
 **Image Preparation**:
 1. Export/download images from phone, camera, screenshot tools
 2. Drop in `./temp/` folder
-3. `pnpm run image` — Batch resize to 720px height
+3. `bun run image` — Batch resize to 720px height
 4. Move from `./temp/` to `public/images/blog/[category]/[year]/[slug]/`
 5. Reference in markdown: `![alt](/images/blog/.../image.jpg)`
 
 **Build & Deployment**:
-1. `pnpm run predeploy` → `pnpm run build` (if run directly, else automatic)
+1. `bun run predeploy` → `bun run build` (if run directly, else automatic)
 2. Next.js reads all markdown files, pre-renders routes via `generateStaticParams`
 3. Output: `build/` folder with static HTML, CSS, JS
-4. `pnpm run deploy` → `gh-pages -d build` pushes to GitHub Pages branch
+4. `bun run deploy` → `gh-pages -d build` pushes to GitHub Pages branch
 5. GitHub Pages serves from `https://bachsofttrick.github.io/`
 
 ## Dependencies
