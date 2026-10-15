@@ -9,6 +9,7 @@ tools/
 ├── new-post.mjs          # CLI to scaffold new blog posts
 ├── resize-image.mjs      # CLI to batch resize images
 ├── gallery-gen.mjs       # CLI to generate Gallery/Carousel MDX tag from image directory
+├── llms-gen.mjs          # CLI to generate llms.txt / llms-full.txt for AI discovery
 └── template.md           # Markdown template for new posts
 
 package.json             # Scripts and dependencies
@@ -24,6 +25,7 @@ app/declarations.d.ts    # TypeScript CSS module declarations
 - `tools/new-post.mjs` — Manual invocation: `bun run newpost <category> <title>`
 - `tools/resize-image.mjs` — Manual invocation: `bun run image`
 - `tools/gallery-gen.mjs` — Manual invocation: `node tools/gallery-gen.mjs <category> <date> [-c] [-g]`
+- `tools/llms-gen.mjs` — Manual invocation: `bun run llms [--full]`
 
 ## Architecture / Key Components
 
@@ -109,8 +111,29 @@ node tools/gallery-gen.mjs <category> <date> [-c] [-g]
 <Carousel folder='blog/Cooking/25/251126' imgs={['img1.jpg', 'img2.jpg']}/>
 ```
 
-### Image Resizing (`tools/resize-image.mjs`)
+### LLMs.txt Generator (`tools/llms-gen.mjs`)
 
+**Purpose**: Generate `public/llms.txt` (curated: recent N posts per category) and `public/llms-full.txt` (exhaustive, behind `--full` flag) so AI assistants can discover and cite the site. Both files deploy automatically since Next.js copies `public/` to `build/`.
+
+**Invocation**:
+```bash
+bun run llms           # curated public/llms.txt
+bun run llms -- --full # also writes exhaustive public/llms-full.txt
+```
+
+**Configuration** (from `config.json` `tools.llms`):
+- `output`: `"public/llms.txt"` — curated file path
+- `fullOutput`: `"public/llms-full.txt"` — exhaustive file path
+- `descLength`: 160 — one-line summary length per post
+- `postsPerCategory`: 10 — recent posts shown per category in curated file
+
+**Behavior**:
+1. Reads `baseUrl` from `app/sitemap.ts` (single source of truth, regex-parsed)
+2. Walks `app/blog/posts/[Category]/[YY]/[slug].md`, parses frontmatter, skips `hidden: true`
+3. Sorts by `publishedAt` descending, strips markdown to one-line summaries
+4. Emits header from `config.json` (`personalSummary`, `contactInfo`), one section per category, footer pointing to `sitemap.xml` and `rss.xml`
+
+### Image Resizing (`tools/resize-image.mjs`)
 **Purpose**: Batch resize images to standard height (720px) for blog posts.
 
 **Invocation**:
@@ -162,6 +185,7 @@ bun run image
 - `deploy` — Push `build/` folder to `gh-pages` branch via `gh-pages` library
 - `image` — Run image resize tool
 - `newpost` — Run new post scaffolding tool
+- `llms` — Run llms.txt generator tool
 
 **next.config.js**:
 ```javascript

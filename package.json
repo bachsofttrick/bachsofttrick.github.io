@@ -9,6 +9,7 @@
     "start": "next start",
     "image": "node ./tools/resize-image.mjs",
     "newpost": "node ./tools/new-post.mjs",
+    "llms": "node ./tools/llms-gen.mjs",
     "galleryg": "node ./tools/gallery-gen.mjs",
     "spell": "cspell"
   },

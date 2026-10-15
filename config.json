@@ -30,6 +30,12 @@
             "l": "Life",
             "p": "Photography",
             "f": "Film"
+        },
+        "llms": {
+            "output": "public/llms.txt",
+            "fullOutput": "public/llms-full.txt",
+            "descLength": 160,
+            "postsPerCategory": 10
         }
     },
     "blog": {

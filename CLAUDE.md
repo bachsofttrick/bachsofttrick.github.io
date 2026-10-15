@@ -97,3 +97,5 @@ Pipeline, config files, and dependency versions: see tooling.md.
 - [Blog Content & Rendering](docs/agent-docs/blog.md) — Post indexing, markdown parsing, MDX rendering, gallery components
 - [Components & UI](docs/agent-docs/components.md) — Navbar, Footer, BlogPosts filtering/pagination, MDX renderer
 - [Tooling & Build](docs/agent-docs/tooling.md) — New post scaffolding, image resizing, deployment pipeline
+
+<!-- docs-baseline: b1342a40c7078e06e286a5fa204ea15f2df13784 -->

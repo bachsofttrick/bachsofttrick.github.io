@@ -1,0 +1,55 @@
+# Brian Phan
+
+> I am a software engineer with multiple years of experience working on B2B and open source platforms. Currently I am one of the lead developers for OregonFlora, an open source botany research platform for Oregon State University. It is used statewide for information on conservation of plant diversity. I leverage Claude Code, Cursor, OpenCode to work on my app, and I enjoy building a fully working solution and owning a problem. I see every challenge as a chance to discover something new. Blog covers software engineering and AI projects, cooking, life, photography, and film (103 posts).
+
+## About
+
+- [About Me](https://bachsofttrick.github.io/about): work experience, skills, education.
+- [Projects](https://bachsofttrick.github.io/projects): AI and software projects.
+- [Blog index](https://bachsofttrick.github.io/blog): all posts with category and date filtering.
+- Contact: xuanbach1307@gmail.com, https://linkedin.com/in/brphan/, https://github.com/bachsofttrick/
+
+## Cooking (15 posts, recent 10 shown)
+
+- [How to cook rice like an expensive rice cooker](https://bachsofttrick.github.io/blog/Cooking/251225): It's something I learned while researching my friend's luxury rice cooker. It was a Zojirushi NS-ZCC10 5-1/2-Cup Neuro Fuzzy Rice Cooker. He got it cheap, I thi... (2025-12-25)
+- [The effect of frying](https://bachsofttrick.github.io/blog/Cooking/251211): There is an advantage to living alone. I don't have to cook for anyone else to I can test new skill, new recipe. But it is sad that nobody gets to enjoy my cook... (2025-12-11)
+- [Trying frozen pizza](https://bachsofttrick.github.io/blog/Cooking/251126): I have tried frozen pizza before from Walmart. I remembered it was like 5 bucks. And it was super salty. I wondered if I threw at pizza away after first bite, o... (2025-11-26)
+- [Chicken Rice](https://bachsofttrick.github.io/blog/Cooking/251123): This is my first official recipe on this blog. It is a request from a good friend of mine. He loves the chicken rice because it is rich, fragment. This is a dis... (2025-11-23)
+- [Silicone spatula for stainless steel pan](https://bachsofttrick.github.io/blog/Cooking/251103): I have been using a silicone spatula as a challenge for my frying pan. Normally when I cook, I use a stainless spatula, because stainless steel pans can general... (2025-11-03)
+- [Testing a new way to make glazed or sauced dishes](https://bachsofttrick.github.io/blog/Cooking/251031): I have been thinking. Let's say there are chicken drumsticks: If I marinate an entire drumstick, it will only penetrate the outer layer of the meat. The inside... (2025-10-31)
+- [Some videos on how Chinese-American dishes are made](https://bachsofttrick.github.io/blog/Cooking/251025): I have been eating a lot of Panda Express for lunch because it's cheap. $10, 1 chicken breast, 1 something saucy, rice, vegetables. I also enjoy the Beijing bee... (2025-10-25)
+- [Stir fry cheat sheet](https://bachsofttrick.github.io/blog/Cooking/250831): Source: https://reddit.com/r/food/comments/425rm7/stirfrycheatsheet/ (2025-08-31)
+- [Cánh gà chiên nước mắm](https://bachsofttrick.github.io/blog/Cooking/250822): This is an article written for a food event I registered for OSU Global Food and Culture Celebration. Ingredients Chicken wings. If you are a vegetarian, use ha... (2025-08-22)
+- [Finally, stainless steel pan worked](https://bachsofttrick.github.io/blog/Cooking/250821): After two months since the first post, I managed to "tame" the beast that is the stainless steel pan. Through buying a new 8 inch one, I have been frying sunny... (2025-08-21)
+
+## Film (1 posts, recent 1 shown)
+
+- [Review: The Wild Robot](https://bachsofttrick.github.io/blog/Film/241112): Rate: 4/5 It's a really good film. Looks like Dreamwork has cooked it again. After Puss in Boot 2, I thought there is no way they can top that. And then they qu... (2024-11-12)
+
+## Life (3 posts, recent 3 shown)
+
+- [Tản mạn về AI và hành trình tìm việc](https://bachsofttrick.github.io/blog/Life/260722): Đây là "Musings on AI and the job-hunting journey" được dịch lại bằng Google Gemini Translate Chào mọi người, lại là mình đây. Chia sẻ này có lẽ hơi lan man một... (2026-07-22)
+- [Musings on AI and the job-hunting journey](https://bachsofttrick.github.io/blog/Life/260721): Hi. It's me again. This is going to be more of a tangent than anything. Nothing deep, serious here. I've been job hunting for almost a year. During that time, I... (2026-07-21)
+- [Right place, right time](https://bachsofttrick.github.io/blog/Life/250801): I just finished my 1-week job at a vet school. I was to guide and supervise the next generation of would-be veterinarians,let's call them "ensigns" like in TNG.... (2025-08-01)
+
+## Photography (1 posts, recent 1 shown)
+
+- [Getting into a new hobby: Taking pictures](https://bachsofttrick.github.io/blog/Photography/241111): I recently got into a new hobby, which is photography. At first, I wasn't sure I would like it. Everyone seems to like taking so many photos nowadays, while I'm... (2024-11-11)
+
+## Tech (83 posts, recent 10 shown)
+
+- [Chasing the goose](https://bachsofttrick.github.io/blog/Tech/261012): It is a wild day today. I got good news and bad news. The good news is that I fixed a nagging problem on my Robin Talks backend. Bad news is I got rejected for... (2026-10-12)
+- [Comparing PaaS: Vercel, Cloudflare, Wasmer.io, Render](https://bachsofttrick.github.io/blog/Tech/261010): For the past two weeks, I have been working on a small app of mine: Robin Talks, an AI agent that talks to you, helps you improve your English speaking skill by... (2026-10-10)
+- [Zed Editor experiment](https://bachsofttrick.github.io/blog/Tech/260922): After a week of trying out Zed Editor, I'm officially uninstalling it. I must admit, it is fast. Faster than VS Code in terms of boot time. It was written in Ru... (2026-09-22)
+- [How to actually disable F11 global fullscreen on Lubuntu?](https://bachsofttrick.github.io/blog/Tech/260916): 1. Open your file manager, go to and open with a text editor. 2. Find the line, or tag with in the value. For example: 3. Comment out . 4. Log out or restart th... (2026-09-16)
+- [Nhìn tôi này! Giờ tôi là technical co-founder rồi... được khoảng một tuần (AI-translated)](https://bachsofttrick.github.io/blog/Tech/260912-2): Tôi có một ước mơ từ tháng 3 năm 2026. Đó là tạo ra hoặc gia nhập một startup. Trong suốt 6 tháng qua, tôi đã làm nhiều thứ để học hỏi từ thế giới startup. Tạo... (2026-09-12)
+- [Look at me! I'm a technical co-founder now... for like a week](https://bachsofttrick.github.io/blog/Tech/260912): I have a dream since March 2026. It's to create or join a startup. Over the course of 6 months, I have done many things to learn from the startup world. Create... (2026-09-12)
+- [How to make VS Code go back to the old UI?](https://bachsofttrick.github.io/blog/Tech/260904): Repost from [Xe Isao] If you hate the new UI from Visual Studio Code, you can revert the design change by setting to unchecked, or in your settings.json. (2026-09-04)
+- [Free AI coding agent era](https://bachsofttrick.github.io/blog/Tech/260901): I think we are living in some of the best time for AI coding agents. Recently, I ditched Claude Code to see if I could make it with OpenCode and I was pleasantl... (2026-09-01)
+- [AI software factory and how everything is a chatbot](https://bachsofttrick.github.io/blog/Tech/260825): These past few days, I've been on a reading spree. I read many articles related to "AI software factory". It is an interesting concept where we treat creating s... (2026-08-25)
+- [Feedback on my digital twin post](https://bachsofttrick.github.io/blog/Tech/260823): After posting and now, reading the last post, I have come to the conclusion that, while GPT 5.6 Luna did a good job of writing it using my perspective, my voice... (2026-08-23)
+
+## Machine-readable indexes
+
+- Full URL list: https://bachsofttrick.github.io/sitemap.xml
+- Feed: https://bachsofttrick.github.io/rss.xml

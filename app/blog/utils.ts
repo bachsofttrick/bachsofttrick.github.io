@@ -176,6 +176,7 @@ export function stripMarkdownForSeo(input: string): string {
     .replace(/<[^>]*>/g, ' ')
     .replace(/^[#>*-]+\s?/gm, ' ')
     .replace(/[{}\[\]]/g, ' ')
+    .replace(/[*_~]+/g, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
