@@ -166,3 +166,42 @@ export function getUniqueValues(arr: any[]) {
   return [...new Set(arr)];
 }
 
+// Strip markdown/MDX syntax to produce clean plain-text for meta descriptions
+export function stripMarkdownForSeo(input: string): string {
+  return input
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]*`/g, ' ')
+    .replace(/!\[.*?\]\(.*?\)/g, ' ')
+    .replace(/\[([^\]]*)\]\(.*?\)/g, '$1')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/^[#>*-]+\s?/gm, ' ')
+    .replace(/[{}\[\]]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+export function getPostDescription(content: string, maxLength: number): string {
+  const plain = stripMarkdownForSeo(content)
+  if (plain.length <= maxLength) return plain
+  return plain.slice(0, maxLength).trimEnd() + '...'
+}
+
+// Extract absolute image URLs from markdown content for sitemap images / OG tags
+export function extractPostImages(content: string, baseUrl: string): string[] {
+  const urls: string[] = []
+  const mdRegex = /!\[.*?\]\((.*?)\)/g
+  let match: RegExpExecArray | null
+  while ((match = mdRegex.exec(content)) !== null) {
+    let src = match[1].trim().split(/\s+/)[0].replace(/^['"]|['"]$/g, '')
+    if (!src || src.startsWith('http')) {
+      if (src) urls.push(src)
+      continue
+    }
+    if (!src.startsWith('/')) src = `/${src}`
+    urls.push(`${baseUrl}${encodeURI(src)}`)
+  }
+  // Gallery / Carousel component usages are resolved at render time,
+  // markdown ![]() covers indexed images today
+  return [...new Set(urls)]
+}
+

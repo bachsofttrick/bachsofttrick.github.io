@@ -1,10 +1,11 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getBlogPosts, checkPostIfHidden, MDXData } from 'app/blog/utils'
+import { formatDate, getBlogPosts, checkPostIfHidden, MDXData, getPostDescription, extractPostImages } from 'app/blog/utils'
 import { baseUrl } from 'app/sitemap'
 import config from '@/config.json' with { type: 'json' };
 
 const { blog: { maxDescLength } } = config;
+const defaultOgImage = `${baseUrl}/images/about/portrait.jpg`
 
 function checkCorrectPost(post: MDXData, params: MDXData) {
   return post.slug === params.slug && post.category === params.category
@@ -36,24 +37,36 @@ export function generateMetadata({ params }: { params: MDXData }) {
   }
 
   const { title, publishedAt } = post.metadata;
-  const summary = post.content.slice(0, maxDescLength) + '...'
+  const description = getPostDescription(post.content, maxDescLength)
+  const url = `${baseUrl}/blog/${post.category}/${post.slug}`
+  const images = extractPostImages(post.content, baseUrl)
+  const ogImages = images.length > 0 ? images.slice(0, 4) : [defaultOgImage]
+  const keywords = [post.category, 'Brian Phan', 'blog', title]
 
   return {
     title,
-    description: summary,
+    description,
+    keywords,
+    authors: [{ name: 'Brian Phan' }],
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title,
-      description: summary,
+      description,
       type: 'article',
       publishedTime: publishedAt,
       section: post.category.replace(/-/, ' '),
-      url: `${baseUrl}/blog/${post.category}/${post.slug}`,
+      url,
+      siteName: 'Brian Phan',
+      images: ogImages.map((image) => ({ url: image })),
     },
-    // twitter: {
-    //   card: 'summary_large_image',
-    //   title,
-    //   description: summary,
-    // },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImages[0]],
+    },
   }
 }
 
@@ -64,8 +77,30 @@ export default function Blog({ params }: { params: MDXData }) {
     notFound()
   }
 
+  const description = getPostDescription(post.content, maxDescLength)
+  const url = `${baseUrl}/blog/${post.category}/${post.slug}`
+  const images = extractPostImages(post.content, baseUrl)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.metadata.title,
+    description,
+    datePublished: post.metadata.publishedAt,
+    author: {
+      '@type': 'Person',
+      name: 'Brian Phan',
+      url: baseUrl,
+    },
+    mainEntityOfPage: url,
+    ...(images.length > 0 ? { image: images.slice(0, 4) } : {}),
+  }
+
   return (
     <section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="title font-semibold text-2xl tracking-tighter">
         {post.metadata.title}
       </h1>
