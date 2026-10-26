@@ -44,7 +44,7 @@ tools, and best practices.
 - **Backend**: .NET, Node.js, NestJS, Express.js, FastAPI, Hono
 - **Database**: MySQL, Postgres, MongoDB, GraphQL, Redis, RabbitMQ, Solr
 - **CI/CD Tools**: Git, Github Actions, Docker, Kubernetes, Ansible
-- **AI Agent Framework**: LangChain, LangGraph, OpenAI SDK
+- **AI Agent Framework**: LangChain, LangGraph, OpenRouter, Vercel AI SDK
 - **Coding Agent**: Claude Code, OpenAI Codex, Cursor, OpenCode, Lovable
 - **Cloud Platforms**: AWS, Vercel, CloudFlare, Postgres (Supabase, Neon)
 
