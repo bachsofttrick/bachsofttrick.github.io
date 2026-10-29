@@ -10,12 +10,11 @@ title: 'Projects'
 - **Built** an **AI agent** that helps people with health challenges adapt recipes to their dietary profiles, with **SvelteKit, FastAPI, Vercel AI SDK, Vercel, Cloudflare R2, Postgres**.
 - **Integrated** Themealdb, Spoonacular with **RAG** for AI-powered recipe, ingredient search engine.
 <br/>
-<Carousel folder='projects/deardish' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />
+<Carousel folder='projects/deardish' imgs={['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']} />
 
 **[JobbedIn](https://github.com/lesteuai/jobbedin/) - [Demo](https://jobbedin.lesteuai.com/)**
 - A **multi-agent** job hunting **operating system** with **LangGraph, OpenAI SDK, Next.js, Postgres**  to research company information and generate personalized cover letters and outreach messages to hiring personnel.
 <br/>
-
 <ElementInTwoCols
 left={<YoutubeEmbed videoId="oAlqXsWRzLc" />}
 right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4.png', '5.png']} />}
@@ -24,7 +23,6 @@ right={<Carousel folder='projects/jobbedin' imgs={['1.png', '2.png', '3.png', '4
 **[Papersy](https://github.com/lesteuai/papersy/) - [Demo](https://papersy.lesteuai.com/)**
 - **Built** an **agentic** cowork platform with **SvelteKit, RAG, OpenAI SDK, LangChain, Postgres**, enabling collaboration with **AI** that grounds its responses in verifiable source documents.
 <br/>
-
 <ElementInTwoCols
 left={<YoutubeEmbed videoId="VRYUXKw5Qmw" />} 
 right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 'p4.png', 'p5.png', 'p6.png']} />}
@@ -32,8 +30,12 @@ right={<Carousel folder='projects/papersy' imgs={['p1.png', 'p2.png', 'p3.png', 
 
 **[AuTuber](https://github.com/bachsofttrick/AuTuber) - [Demo](https://autuber.lesteuai.com/)**
 - **Built** an **agentic AI** stage hand for streamers with **OpenAI SDK, React, Nemotron 3, OBS** end-to-end to control your streaming tools and match the moment.
-
 <Carousel folder='projects/autuber' imgs={['1.png', '2.png', '3.png']} />
+
+**[Robin Talks](https://github.com/bachsofttrick/robin-talks)**
+- A voice-first app for non-English speakers who want to speak English, not study it, using **React Native, Expo, Typescript, OpenAI SDK, Postgres**. Each practice session drops you into a short, realistic scenario with an **AI agent**.
+<br/>
+<Carousel folder='projects/robin-talks' imgs={['1.png', '2.png', '3.png']} />
 
 **[Object Detection and Monitoring through UAV](https://github.com/bachsofttrick/dronectrl-with-tracking)**\
 [Paper](https://github.com/bachsofttrick/dronectrl-with-tracking/blob/master/paper.pdf) |
@@ -43,9 +45,6 @@ Test run with Naza Drone [1](https://youtu.be/x6uBbzRVm_o) [2](https://youtu.be/
 - **Engineered** a custom drone capable of identifying, following targets and transmitting live video with **Python, OpenCV, TensorFlow**.
 
 <DoubleYtEmbed vid1="x6uBbzRVm_o" vid2="x6QGjoSk1t8"></DoubleYtEmbed>
-
-**[Robin Talks](https://github.com/bachsofttrick/robin-talks)**\
-- A voice-first app for non-English speakers who want to speak English, not study it, using **React Native, Expo, Typescript, OpenAI SDK, Postgres**. Each practice session drops you into a short, realistic scenario with an **AI agent**.
 
 **===OPEN SOURCE COLLABORATION===**
 - [OregonFlora](https://oregonflora.org/)\
