@@ -6,11 +6,11 @@ title: 'Projects'
 
 **===AI PROJECTS===**
 
-**[DearDish](https://github.com/lesteuai/deardish-fastapi) - [Live](https://deardish.lesteuai.com/)**
+**[Tasty AI](https://github.com/lesteuai/deardish-fastapi) - [Live](https://tastyai.lesteuai.com/)**
 - **Built** an **AI agent** that helps people with health challenges adapt recipes to their dietary profiles, with **SvelteKit, FastAPI, Vercel AI SDK, Vercel, Cloudflare R2, Postgres**.
-- **Integrated** Themealdb, Spoonacular with **RAG** for AI-powered recipe, ingredient search engine.
+- **Integrated** Themealdb with **RAG** for AI-powered recipe, ingredient search engine, optional AI image generation with **Qwen Image** for generated meal illustrations.
 <br/>
-<Carousel folder='projects/deardish' imgs={['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']} />
+<Carousel folder='projects/tasty-ai' imgs={['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']} />
 
 **[JobbedIn](https://github.com/lesteuai/jobbedin/) - [Demo](https://jobbedin.lesteuai.com/)**
 - A **multi-agent** job hunting **operating system** with **LangGraph, OpenAI SDK, Next.js, Postgres**  to research company information and generate personalized cover letters and outreach messages to hiring personnel.
