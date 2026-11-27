@@ -7,7 +7,7 @@ title: 'Projects'
 **===AI PROJECTS===**
 
 **[Tasty AI](https://github.com/lesteuai/deardish-fastapi) - [Live](https://tastyai.lesteuai.com/)**
-- **Built** an **AI agent** that helps people with health challenges adapt recipes to their dietary profiles, with **SvelteKit, FastAPI, Vercel AI SDK, Vercel, Cloudflare R2, Postgres**.
+- **Built** an **AI agent** that helps people with health challenges adapt recipes to their dietary profiles, with **SvelteKit, Vercel AI SDK, Vercel, Cloudflare R2, Postgres**.
 - **Integrated** Themealdb with **RAG** for AI-powered recipe, ingredient search engine, optional AI image generation with **Qwen Image** for generated meal illustrations.
 <br/>
 <Carousel folder='projects/tasty-ai' imgs={['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png']} />
